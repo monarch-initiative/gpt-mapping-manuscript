@@ -1,0 +1,212 @@
+ZFA:0009396	FBbt:00048032	0.81	skos:exactMatch	glycinergic neuron	glycinergic neuron
+ZFA:0009073	FBbt:00005144	0.74	skos:exactMatch	glial cell	glial cell
+ZFA:0009075	FBbt:00100505	0.63	skos:exactMatch	astrocyte	astrocyte-like glial cell
+ZFA:0005957	FBbt:00007014	0.72	skos:exactMatch	stem cell	stem cell
+ZFA:0005956	FBbt:00004861	0.84	skos:exactMatch	germline stem cell	germline stem cell
+ZFA:0005663	FBbt:00004094	0.62	skos:exactMatch	dorsal spinal nerve	adult dorsal metathoracic nerve
+ZFA:0005663	FBbt:00004055	0.66	skos:exactMatch	dorsal spinal nerve	adult dorsal prothoracic nerve
+ZFA:0005663	FBbt:00002597	0.57	skos:exactMatch	dorsal spinal nerve	larval abdominal median nerve
+ZFA:0000560	FBbt:00004911	0.59	skos:exactMatch	oviduct	oviduct
+ZFA:0000435	FBbt:00001956	0.78	skos:exactMatch	cranial nerve II	optic nerve
+ZFA:0009090	FBbt:00048537	0.64	skos:exactMatch	pigment cell	posterior escort cell
+ZFA:0009090	FBbt:00004230	0.73	skos:exactMatch	pigment cell	pigment cell
+ZFA:0001120	FBbt:00001061	0.81	skos:exactMatch	neuroectoderm	ventral neurectoderm
+ZFA:0009386	FBbt:00100318	0.7	skos:exactMatch	somatic cell	somatic cell
+ZFA:0000428	FBbt:00004179	0.77	skos:exactMatch	saccule	sacculus
+ZFA:0007006	FBbt:00111204	0.57	skos:exactMatch	lip	embryonic/larval superior clamp
+ZFA:0000425	FBbt:00007390	0.52	skos:exactMatch	anterior lateral line nerve	local interneuron of adult antennal lobe
+ZFA:0001178	FBbt:00005558	0.57	skos:exactMatch	non neural ectoderm	ventral ectoderm
+ZFA:0001114	FBbt:00000004	0.8	skos:exactMatch	head	head
+ZFA:0009082	FBbt:00046052	0.59	skos:exactMatch	fat cell	fat cell
+ZFA:0000413	FBbt:00004858	0.84	skos:exactMatch	gonad	gonad
+ZFA:0009096	FBbt:00007294	0.86	skos:exactMatch	endocrine cell	endocrine cell
+ZFA:0009097	FBbt:00007038	0.77	skos:exactMatch	enteroendocrine cell	enteroendocrine cell
+ZFA:0009098	FBbt:00005130	0.54	skos:exactMatch	neuroendocrine cell	neurosecretory neuron
+ZFA:0009115	FBbt:00005073	0.73	skos:exactMatch	skeletal muscle cell	somatic muscle cell
+ZFA:0001108	FBbt:00001105	0.58	skos:exactMatch	anterior commissure	larval anterior commissure
+ZFA:0001108	FBbt:00052197	0.64	skos:exactMatch	anterior commissure	anterior dorsal commissure
+ZFA:0009088	FBbt:00047548	0.53	skos:exactMatch	professional antigen presenting cell	adult mesothoracic anterior anterior ventral commissure
+ZFA:0005907	FBbt:00040005	0.8	skos:exactMatch	tectal neuropile	synaptic neuropil
+ZFA:0005031	FBbt:00047541	0.57	skos:exactMatch	dorsal longitudinal vein	dorsal lateral tract of ventral cervical fasciculus
+ZFA:0000403	FBbt:00004865	0.81	skos:exactMatch	ovary	ovary
+ZFA:0000640	FBbt:00004191	0.8	skos:exactMatch	cornea	cornea
+ZFA:0009022	FBbt:00045001	0.57	skos:exactMatch	megakaryocyte erythroid progenitor cell	plexiform medulla
+ZFA:0009021	FBbt:00040072	0.57	skos:exactMatch	common myeloid progenitor	posterior slope
+ZFA:0009016	FBbt:00004860	0.75	skos:exactMatch	germ line cell	germline cell
+ZFA:0009014	FBbt:00005062	0.59	skos:exactMatch	hematopoietic stem cell	prohemocyte
+ZFA:0009011	FBbt:00001408	0.83	skos:exactMatch	neuroblast	neuroblast X
+ZFA:0009010	FBbt:00005145	0.79	skos:exactMatch	glioblast	glioblast
+ZFA:0009007	FBbt:00004935	0.83	skos:exactMatch	spermatogonium	spermatogonium
+ZFA:0009006	FBbt:00004954	0.84	skos:exactMatch	sperm	spermatozoon
+ZFA:0009005	FBbt:00004936	0.77	skos:exactMatch	spermatocyte	spermatocyte
+ZFA:0000320	FBbt:00000275	0.61	skos:exactMatch	caudal commissure	embryonic/larval dorsal tracheal branch 10
+ZFA:0005171	FBbt:00100314	0.78	skos:exactMatch	duct	duct
+ZFA:0000547	FBbt:00001843	0.51	skos:exactMatch	mouth	embryonic/larval mouth
+ZFA:0000547	FBbt:00003126	0.54	skos:exactMatch	mouth	adult mouth
+ZFA:0000706	FBbt:00003144	0.81	skos:exactMatch	posterior intestine	adult posterior hindgut
+ZFA:0005775	FBbt:00052149	0.76	skos:exactMatch	enteric neuron	enteric neuron
+ZFA:0001290	FBbt:00000439	0.8	skos:exactMatch	stomodeum	stomodeum
+ZFA:0005769	FBbt:00004942	0.78	skos:exactMatch	spermatid	spermatid
+ZFA:0009242	FBbt:00047097	0.77	skos:exactMatch	primary neuron	primary neuron
+ZFA:0009400	FBbt:00058280	0.72	skos:exactMatch	epithelial cell of esophagus	adult esophagus epithelial cell
+ZFA:0009244	FBbt:00052518	0.73	skos:exactMatch	primary motor neuron	primary motor neuron
+ZFA:0009245	FBbt:00052517	0.75	skos:exactMatch	primary interneuron	primary interneuron
+ZFA:0009246	FBbt:00047096	0.55	skos:exactMatch	secondary neuron	secondary neuron
+ZFA:0000190	FBbt:00005137	0.82	skos:exactMatch	ganglion	ganglion
+ZFA:0000190	FBbt:00100393	0.58	skos:exactMatch	ganglion	terminal organ ganglion
+ZFA:0000598	FBbt:00004928	0.81	skos:exactMatch	testis	testis
+ZFA:0009327	FBbt:00048500	0.55	skos:exactMatch	neutrophil	larval antennal-pharyngeal nerve motor neuron
+ZFA:0001287	FBbt:00005786	0.75	skos:exactMatch	renal tubule	Malpighian tubule
+ZFA:0009255	FBbt:00005127	0.75	skos:exactMatch	amacrine cell	optic lobe amacrine neuron
+ZFA:0005145	FBbt:00058893	0.77	skos:exactMatch	muscle	tergosternal muscle
+ZFA:0009142	FBbt:00004772	0.57	skos:exactMatch	B cell	submarginal cell
+ZFA:0005820	FBbt:00004086	0.54	skos:exactMatch	ventral caudal adductor	campaniform sensillum of anterior crossvein
+ZFA:0009307	FBbt:00007344	0.72	skos:exactMatch	somatic stem cell	somatic stem cell
+ZFA:0009260	FBbt:00004774	0.57	skos:exactMatch	parafollicular cell	1st posterior cell
+ZFA:0001268	FBbt:00004957	0.49	skos:exactMatch	sperm duct	testicular duct
+ZFA:0005123	FBbt:00047166	0.85	skos:exactMatch	gut epithelium	gut epithelium
+ZFA:0009276	FBbt:00007228	0.72	skos:exactMatch	GABAergic neuron	GABAergic neuron
+ZFA:0009285	FBbt:00001685	0.65	skos:exactMatch	podocyte	embryonic/larval plasmatocyte
+ZFA:0009288	FBbt:00000092	0.67	skos:exactMatch	primordial germ cell	primordial germ cell
+ZFA:0005708	FBbt:00000377	0.61	skos:exactMatch	lg6	larval lateral G tracheal branch 6
+ZFA:0005706	FBbt:00000376	0.61	skos:exactMatch	lg5	larval lateral G tracheal branch 5
+ZFA:0005705	FBbt:00000375	0.61	skos:exactMatch	lG4	larval lateral G tracheal branch 4
+ZFA:0009291	FBbt:00003232	0.57	skos:exactMatch	muscle precursor cell	embryonic precursor cell of adult muscle
+ZFA:0009293	FBbt:00003764	0.54	skos:exactMatch	M cell	s-LNv Pdf neuron
+ZFA:0000228	FBbt:00110628	0.58	skos:exactMatch	lateral line primordium	pars lateralis primordium
+ZFA:0000534	FBbt:00015899	0.57	skos:exactMatch	lateral longitudinal fasciculus	lateral longitudinal fascicle
+ZFA:0000533	FBbt:00004515	0.56	skos:exactMatch	lateral funiculus	third segment of antenna
+ZFA:0000204	FBbt:00005381	0.79	skos:exactMatch	esophagus	esophagus
+ZFA:0000202	FBbt:00007553	0.58	skos:exactMatch	efferent branchial artery	ellipsoid body inner central domain
+ZFA:0000202	FBbt:00047034	0.58	skos:exactMatch	efferent branchial artery	ellipsoid body anterior domain
+ZFA:0000201	FBbt:00058304	0.62	skos:exactMatch	dorsal transverse	dorsal transverse muscle
+ZFA:0000012	FBbt:00005094	0.81	skos:exactMatch	central nervous system	central nervous system
+ZFA:0009316	FBbt:00007319	0.77	skos:exactMatch	cardiac muscle cell	cardial cell
+ZFA:0000510	FBbt:00058848	0.27	skos:exactMatch	external levatores	levator muscle
+ZFA:0009141	FBbt:00001685	0.6	skos:exactMatch	macrophage	embryonic/larval plasmatocyte
+ZFA:0005270	FBbt:00058842	0.72	skos:exactMatch	depressor muscle	depressor muscle
+ZFA:0000503	FBbt:00058890	0.52	skos:exactMatch	dorsal oblique branchial muscle	lateral oblique dorsal muscle
+ZFA:0000501	FBbt:00004515	0.61	skos:exactMatch	dorsal funiculus	third segment of antenna
+ZFA:0005269	FBbt:00058901	0.61	skos:exactMatch	abductor muscle	basalar muscle 49
+ZFA:0005268	FBbt:00058840	0.75	skos:exactMatch	adductor muscle	adductor muscle
+ZFA:0000556	FBbt:00003921	0.79	skos:exactMatch	optic chiasm	optic chiasma
+ZFA:0009129	FBbt:00047177	0.56	skos:exactMatch	absorptive cell	midgut enterocyte
+ZFA:0009129	FBbt:00007042	0.55	skos:exactMatch	absorptive cell	enterocyte
+ZFA:0009127	FBbt:00004211	0.62	skos:exactMatch	photoreceptor cell	photoreceptor neuron
+ZFA:0001094	FBbt:00000001	0.54	skos:exactMatch	whole organism	organism
+ZFA:0009114	FBbt:00005074	0.52	skos:exactMatch	muscle cell	muscle cell
+ZFA:0009114	FBbt:00005812	0.52	skos:exactMatch	muscle cell	myotube
+ZFA:0005702	FBbt:00000381	0.65	skos:exactMatch	lg1	larval lateral G tracheal branch 10
+ZFA:0000092	FBbt:00111739	0.78	skos:exactMatch	axis	midline
+ZFA:0001570	FBbt:00000034	0.59	skos:exactMatch	unfertilized egg	egg
+ZFA:0001570	FBbt:00015288	0.82	skos:exactMatch	unfertilized egg	unfertilized egg
+ZFA:0000088	FBbt:00005376	0.81	skos:exactMatch	yolk syncytial layer	yolk sac
+ZFA:0000084	FBbt:00000035	0.8	skos:exactMatch	yolk	yolk
+ZFA:0005031	FBbt:00047212	0.58	skos:exactMatch	dorsal longitudinal vein	longitudinal vein
+ZFA:0000423	FBbt:00100120	0.53	skos:exactMatch	anterior cardinal vein	campaniform sensillum anterior crossvein neuron
+ZFA:0009125	FBbt:00005926	0.67	skos:exactMatch	olfactory receptor cell	olfactory receptor neuron
+ZFA:0005579	FBbt:00049645	0.5	skos:exactMatch	NCC ionocyte	nervus corporis cardiaci
+ZFA:0009108	FBbt:00004930	0.6	skos:exactMatch	Leydig cell	hub cell
+ZFA:0001149	FBbt:00007688	0.84	skos:exactMatch	olfactory system	olfactory system
+ZFA:0009025	FBbt:00005083	0.74	skos:exactMatch	myoblast	myoblast
+ZFA:0000068	FBbt:00001135	0.77	skos:exactMatch	proneural cluster	proneural cluster
+ZFA:0000066	FBbt:00000440	0.79	skos:exactMatch	proctodeum	proctodeum
+ZFA:0000066	FBbt:00047153	0.57	skos:exactMatch	proctodeum	anus
+ZFA:0001076	FBbt:00007035	0.61	skos:exactMatch	intestinal bulb	adult anterior hindgut
+ZFA:0001076	FBbt:00005379	0.6	skos:exactMatch	intestinal bulb	foregut
+ZFA:0000063	FBbt:00001061	0.6	skos:exactMatch	presumptive neural plate	ventral neurectoderm
+ZFA:0005720	FBbt:00000375	0.58	skos:exactMatch	lateral protoglomerulus 4	larval lateral G tracheal branch 4
+ZFA:0000056	FBbt:00005380	0.8	skos:exactMatch	pharynx	pharynx
+ZFA:0005239	FBbt:00000043	0.57	skos:exactMatch	micropylar cell	micropyle
+ZFA:0000054	FBbt:00005058	0.56	skos:exactMatch	pericardium	pericardial cell
+ZFA:0005234	FBbt:00003874	0.63	skos:exactMatch	CoLA	lobula columnar neuron LC4
+ZFA:0009269	FBbt:00007042	0.77	skos:exactMatch	enterocyte	enterocyte
+ZFA:0001064	FBbt:00005140	0.52	skos:exactMatch	rhombomere	neuromere
+ZFA:0000041	FBbt:00000126	0.87	skos:exactMatch	mesoderm	mesoderm
+ZFA:0000282	FBbt:00007692	0.84	skos:exactMatch	sensory system	sensory system
+ZFA:0009301	FBbt:00005131	0.54	skos:exactMatch	dopaminergic neuron	dopaminergic neuron
+ZFA:0000242	FBbt:00007004	0.84	skos:exactMatch	male organism	male organism
+ZFA:0009154	FBbt:00006009	0.76	skos:exactMatch	eye photoreceptor cell	eye photoreceptor cell
+ZFA:0009156	FBbt:00005412	0.85	skos:exactMatch	gamete	gamete
+ZFA:0000688	FBbt:00005173	0.63	skos:exactMatch	olfactory support cell	thecogen cell
+ZFA:0000038	FBbt:00005378	0.79	skos:exactMatch	margin	wing margin
+ZFA:0000038	FBbt:00085378	0.57	skos:exactMatch	margin	section of wing margin
+ZFA:0009400	FBbt:00058279	0.51	skos:exactMatch	epithelial cell of esophagus	adult esophagus epithelium
+ZFA:0000035	FBbt:00004199	0.79	skos:exactMatch	lens	lens
+ZFA:0005892	FBbt:00004499	0.74	skos:exactMatch	lateral occipital foramen	occipital foramen
+ZFA:0005219	FBbt:00004019	0.6	skos:exactMatch	choroid plexus vascular circuit	adult cervical connective
+ZFA:0000029	FBbt:00100138	0.62	skos:exactMatch	hindbrain	larval gnathal ganglion
+ZFA:0000028	FBbt:00005684	0.67	skos:exactMatch	heart primordium	heart primordium
+ZFA:0000059	FBbt:00004506	0.56	skos:exactMatch	postoptic commissure	lateral ocellus
+ZFA:0000019	FBbt:00007281	0.57	skos:exactMatch	epiphysis	epiphysis
+ZFA:0000017	FBbt:00000125	0.82	skos:exactMatch	endoderm	endoderm
+ZFA:0000016	FBbt:00000111	0.81	skos:exactMatch	ectoderm	ectoderm
+ZFA:0005878	FBbt:00004873	0.85	skos:exactMatch	oogonia	female germline stem cell
+ZFA:0001356	FBbt:00005112	0.88	skos:exactMatch	terminal nerve	nerve terminal
+ZFA:0009290	FBbt:00100291	0.73	skos:exactMatch	glutamatergic neuron	glutamatergic neuron
+ZFA:0009183	FBbt:00007325	0.8	skos:exactMatch	epidermal cell	epidermal cell
+ZFA:0000008	FBbt:00110636	0.57	skos:exactMatch	brain	adult cerebral ganglion
+ZFA:0000008	FBbt:00005095	0.76	skos:exactMatch	brain	brain
+ZFA:0000007	FBbt:00005061	0.59	skos:exactMatch	blood	hemolymph
+ZFA:0009185	FBbt:00007693	0.47	skos:exactMatch	sensory processing neuron	sensory system neuron
+ZFA:0000339	FBbt:00005055	0.82	skos:exactMatch	digestive system	digestive system
+ZFA:0009189	FBbt:00005090	0.59	skos:exactMatch	tendon cell	tendon cell
+ZFA:0005772	FBbt:00005288	0.77	skos:exactMatch	fertilized egg	fertilized egg
+ZFA:0000329	FBbt:00000038	0.8	skos:exactMatch	chorion	chorion
+ZFA:0000649	FBbt:00007164	0.57	skos:exactMatch	dorsal horn spinal cord	dorsal arm of pharyngeal sclerite
+ZFA:0001689	FBbt:00111202	0.74	skos:exactMatch	anatomical line	anatomical line
+ZFA:0009186	FBbt:00005130	0.84	skos:exactMatch	neurosecretory neuron	neurosecretory neuron
+ZFA:0000632	FBbt:00004857	0.82	skos:exactMatch	reproductive system	reproductive system
+ZFA:0001675	FBbt:00001040	0.87	skos:exactMatch	ligament	embryonic/larval alary muscle cell
+ZFA:0001328	FBbt:00005140	0.52	skos:exactMatch	neuromere	neuromere
+ZFA:0001327	FBbt:00058979	0.52	skos:exactMatch	abdominal musculature	abdominal dorsal muscle
+ZFA:0001327	FBbt:00058996	0.51	skos:exactMatch	abdominal musculature	abdominal ventral muscle
+ZFA:0000303	FBbt:00007011	0.84	skos:exactMatch	female organism	female organism
+ZFA:0000423	FBbt:00004767	0.6	skos:exactMatch	anterior cardinal vein	anterior crossvein
+ZFA:0005816	FBbt:00059084	0.56	skos:exactMatch	dorsal fin protractor	dorsal protractor muscle
+ZFA:0000608	FBbt:00058306	0.6	skos:exactMatch	ventral transverse	ventral transverse muscle
+ZFA:0009048	FBbt:00001685	0.57	skos:exactMatch	granulocyte	embryonic/larval plasmatocyte
+ZFA:0000605	FBbt:00004515	0.56	skos:exactMatch	ventral funiculus	third segment of antenna
+ZFA:0001101	FBbt:00007690	0.84	skos:exactMatch	gustatory system	gustatory system
+ZFA:0001643	FBbt:00007017	0.84	skos:exactMatch	anatomical space	anatomical space
+ZFA:0001109	FBbt:00004886	0.81	skos:exactMatch	oocyte	oocyte
+ZFA:0009239	FBbt:00051963	0.76	skos:exactMatch	efferent neuron	efferent neuron
+ZFA:0009066	FBbt:00005128	0.8	skos:exactMatch	pioneer neuron	pioneer neuron
+ZFA:0009066	FBbt:00049543	0.63	skos:exactMatch	pioneer neuron	small undifferentiated primary neuron
+ZFA:0009234	FBbt:00001666	0.59	skos:exactMatch	cardiac muscle myoblast	cardioblast
+ZFA:0000059	FBbt:00007427	0.57	skos:exactMatch	postoptic commissure	posterior optic commissure
+ZFA:0001127	FBbt:00047735	0.85	skos:exactMatch	visual system	visual system
+ZFA:0009052	FBbt:00048500	0.87	skos:exactMatch	motor neuron	larval antennal-pharyngeal nerve motor neuron
+ZFA:0009052	FBbt:00005123	0.56	skos:exactMatch	motor neuron	motor neuron
+ZFA:0005054	FBbt:00004495	0.61	skos:exactMatch	inner optic circle	ocellar triangle
+ZFA:0001136	FBbt:00004993	0.57	skos:exactMatch	hypodermis	epidermis
+ZFA:0001486	FBbt:00007005	0.8	skos:exactMatch	epithelium	epithelium
+ZFA:0009209	FBbt:00005110	0.52	skos:exactMatch	dendritic cell	dendrite
+ZFA:0001487	FBbt:00007019	0.61	skos:exactMatch	portion of organism substance	portion of organism substance
+ZFA:0005034	FBbt:00047136	0.55	skos:exactMatch	parachordal vessel	adult posterior anterior ventral commissure
+ZFA:0005386	FBbt:00004478	0.89	skos:exactMatch	foramen	foramen
+ZFA:0005685	FBbt:00000286	0.6	skos:exactMatch	dG1	larval dorsal group tracheal branch 1
+ZFA:0001158	FBbt:00005068	0.81	skos:exactMatch	endocrine system	endocrine system
+ZFA:0009060	FBbt:00007173	0.72	skos:exactMatch	cholinergic neuron	cholinergic neuron
+ZFA:0000142	FBbt:00005098	0.81	skos:exactMatch	peripheral nervous system	peripheral nervous system
+ZFA:0000137	FBbt:00001931	0.54	skos:exactMatch	optic stalk	embryonic/larval optic stalk
+ZFA:0000152	FBbt:00004200	0.82	skos:exactMatch	retina	retina
+ZFA:0009062	FBbt:00004101	0.73	skos:exactMatch	peptidergic neuron	peptidergic neuron
+ZFA:0000128	FBbt:00047887	0.63	skos:exactMatch	midbrain	adult central brain
+ZFA:0000496	FBbt:00002684	0.74	skos:exactMatch	compound organ	associated organ
+ZFA:0009051	FBbt:00005125	0.74	skos:exactMatch	interneuron	interneuron
+ZFA:0000121	FBbt:00004842	0.56	skos:exactMatch	lateral plate mesoderm	epandrial ventral lobe
+ZFA:0000118	FBbt:00002719	0.58	skos:exactMatch	hypophysis	hypophysis
+ZFA:0005647	FBbt:00005090	0.63	skos:exactMatch	tendon	tendon cell
+ZFA:0000114	FBbt:00001675	0.5	skos:exactMatch	heart	embryonic/larval heart
+ZFA:0000114	FBbt:00003154	0.51	skos:exactMatch	heart	adult heart
+ZFA:0000112	FBbt:00003125	0.61	skos:exactMatch	gut	alimentary canal
+ZFA:0000112	FBbt:00047143	0.81	skos:exactMatch	gut	gut
+ZFA:0001478	FBbt:00007277	0.73	skos:exactMatch	anatomical cluster	anatomical cluster
+ZFA:0009361	FBbt:00005133	0.55	skos:exactMatch	serotonergic neuron	serotonergic neuron
+ZFA:0009361	FBbt:00100359	0.77	skos:exactMatch	serotonergic neuron	serotonergic SP neuron
+ZFA:0009366	FBbt:00004979	0.73	skos:exactMatch	hair cell	trichome
+ZFA:0000107	FBbt:00004508	0.8	skos:exactMatch	eye	eye
+ZFA:0000105	FBbt:00004993	0.79	skos:exactMatch	epidermis	epidermis
+ZFA:0000477	FBbt:00004768	0.6	skos:exactMatch	posterior cardinal vein	posterior crossvein
+ZFA:0009049	FBbt:00048500	0.56	skos:exactMatch	mature neutrophil	larval antennal-pharyngeal nerve motor neuron

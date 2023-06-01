@@ -1,0 +1,15 @@
+minimum_confidence: 0.9
+rules:
+
+  - description: xref match via trusted intermediate ontology
+    preconditions:
+      subject_match_field_one_of:
+        - oio:hasDbXref
+        - oio:hasDbXref-INVERSE
+      object_match_field_one_of:
+        - oio:hasDbXref
+        - oio:hasDbXref-INVERSE
+    postconditions:
+      predicate_id: skos:exactMatch
+      weight: 4.0
+
