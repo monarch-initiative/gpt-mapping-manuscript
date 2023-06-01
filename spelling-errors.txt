@@ -2,7 +2,7 @@ BoomerGPT
 cmungall
 FBbt
 fruitfly
-GPT
+gpt
 Harshad
 img
 johndoe
