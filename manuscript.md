@@ -26,8 +26,8 @@ header-includes: |
   <meta name="dc.date" content="2023-06-01" />
   <meta name="citation_publication_date" content="2023-06-01" />
   <meta property="article:published_time" content="2023-06-01" />
-  <meta name="dc.modified" content="2023-06-01T01:24:11+00:00" />
-  <meta property="article:modified_time" content="2023-06-01T01:24:11+00:00" />
+  <meta name="dc.modified" content="2023-06-01T01:30:59+00:00" />
+  <meta property="article:modified_time" content="2023-06-01T01:30:59+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -47,9 +47,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://cmungall.github.io/gpt-mapping-manuscript/" />
   <meta name="citation_pdf_url" content="https://cmungall.github.io/gpt-mapping-manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://cmungall.github.io/gpt-mapping-manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://cmungall.github.io/gpt-mapping-manuscript/v/debfdd352867772136975ef34d929b6d77f2b9e1/" />
-  <meta name="manubot_html_url_versioned" content="https://cmungall.github.io/gpt-mapping-manuscript/v/debfdd352867772136975ef34d929b6d77f2b9e1/" />
-  <meta name="manubot_pdf_url_versioned" content="https://cmungall.github.io/gpt-mapping-manuscript/v/debfdd352867772136975ef34d929b6d77f2b9e1/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://cmungall.github.io/gpt-mapping-manuscript/v/c53dda2d7f0cba0adaaa3fc4f692c04d4a39750e/" />
+  <meta name="manubot_html_url_versioned" content="https://cmungall.github.io/gpt-mapping-manuscript/v/c53dda2d7f0cba0adaaa3fc4f692c04d4a39750e/" />
+  <meta name="manubot_pdf_url_versioned" content="https://cmungall.github.io/gpt-mapping-manuscript/v/c53dda2d7f0cba0adaaa3fc4f692c04d4a39750e/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -71,9 +71,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://cmungall.github.io/gpt-mapping-manuscript/v/debfdd352867772136975ef34d929b6d77f2b9e1/))
+([permalink](https://cmungall.github.io/gpt-mapping-manuscript/v/c53dda2d7f0cba0adaaa3fc4f692c04d4a39750e/))
 was automatically generated
-from [cmungall/gpt-mapping-manuscript@debfdd3](https://github.com/cmungall/gpt-mapping-manuscript/tree/debfdd352867772136975ef34d929b6d77f2b9e1)
+from [cmungall/gpt-mapping-manuscript@c53dda2](https://github.com/cmungall/gpt-mapping-manuscript/tree/c53dda2d7f0cba0adaaa3fc4f692c04d4a39750e)
 on June 1, 2023.
 </em></small>
 
@@ -257,16 +257,26 @@ the overall framework is implemented in OntoGPT.
 
 We evaluate against LogMap, which is one of the top-performing mappers in the OAEI.
 
-We convert LogMap results to SSSOM [doi@10.1093/database/baac035].
+We convert LogMap results to SSSOM [doi@10.1093/database/baac035]. (Harshad to write)
 
-We apply a cutoff filter...
+To generate anatomy test sets, we generated pairwise mappings between species-specific anatomy ontologies,
+using the Uberon and CL mappings as the gold standard. i.e. if a pair of concepts are transitively linked
+via Uberon or CL, then they are considered a match.
+
+To evaluate against the gold standard we only considered "best" mappings from each method
+
+LogMap produces a score with each mapping, so we scanned all scores to determine the optimal score threshold
+in terms of accuracy (F1) (note this gives LogMap an advantage over our method, which does not produce a score).
+
+For the MapperGPT method, we filtered any mapping that is not predicted to be EXACT.
+
 
 
 ## Results
 
 ### Task
 
-We generated 325 candidate lexical matches between ZFA and FBbt.
+We generated 325 candidate lexical matches between FBbt and ZFA (see methods).
 
 We ran these through MapperGPT.
 
@@ -275,6 +285,8 @@ We also ran LogMap over these two ontologies.
 We treat entities linked via Uberon and CL as the Gold Standard.
 
 ### Core Results
+
+![img.png](img.png)
 
 
 
