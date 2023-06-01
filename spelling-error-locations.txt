@@ -37,7 +37,10 @@ content/04.results.md:7:MapperGPT
 content/04.results.md:9:LogMap
 content/04.results.md:9:ontologies
 content/04.results.md:11:Uberon
-content/04.results.md:15:img
-content/04.results.md:15:img
-content/04.results.md:15:png
-content/04.results.md:15:png
+content/04.results.md:17:lexmatch
+content/04.results.md:18:logmap
+content/05.discussion.md:3:MapperGPT
+content/05.discussion.md:8:BoomerGPT
+content/05.discussion.md:8:MapperGPT
+content/05.discussion.md:9:neurosymbolic
+content/05.discussion.md:10:LLMs

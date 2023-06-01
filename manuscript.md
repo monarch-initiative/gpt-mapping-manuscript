@@ -26,8 +26,8 @@ header-includes: |
   <meta name="dc.date" content="2023-06-01" />
   <meta name="citation_publication_date" content="2023-06-01" />
   <meta property="article:published_time" content="2023-06-01" />
-  <meta name="dc.modified" content="2023-06-01T01:30:59+00:00" />
-  <meta property="article:modified_time" content="2023-06-01T01:30:59+00:00" />
+  <meta name="dc.modified" content="2023-06-01T01:44:31+00:00" />
+  <meta property="article:modified_time" content="2023-06-01T01:44:31+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -47,9 +47,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://cmungall.github.io/gpt-mapping-manuscript/" />
   <meta name="citation_pdf_url" content="https://cmungall.github.io/gpt-mapping-manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://cmungall.github.io/gpt-mapping-manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://cmungall.github.io/gpt-mapping-manuscript/v/c53dda2d7f0cba0adaaa3fc4f692c04d4a39750e/" />
-  <meta name="manubot_html_url_versioned" content="https://cmungall.github.io/gpt-mapping-manuscript/v/c53dda2d7f0cba0adaaa3fc4f692c04d4a39750e/" />
-  <meta name="manubot_pdf_url_versioned" content="https://cmungall.github.io/gpt-mapping-manuscript/v/c53dda2d7f0cba0adaaa3fc4f692c04d4a39750e/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://cmungall.github.io/gpt-mapping-manuscript/v/c745e466f01f508dce4c64f7959fe78cb14c9d55/" />
+  <meta name="manubot_html_url_versioned" content="https://cmungall.github.io/gpt-mapping-manuscript/v/c745e466f01f508dce4c64f7959fe78cb14c9d55/" />
+  <meta name="manubot_pdf_url_versioned" content="https://cmungall.github.io/gpt-mapping-manuscript/v/c745e466f01f508dce4c64f7959fe78cb14c9d55/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -71,9 +71,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://cmungall.github.io/gpt-mapping-manuscript/v/c53dda2d7f0cba0adaaa3fc4f692c04d4a39750e/))
+([permalink](https://cmungall.github.io/gpt-mapping-manuscript/v/c745e466f01f508dce4c64f7959fe78cb14c9d55/))
 was automatically generated
-from [cmungall/gpt-mapping-manuscript@c53dda2](https://github.com/cmungall/gpt-mapping-manuscript/tree/c53dda2d7f0cba0adaaa3fc4f692c04d4a39750e)
+from [cmungall/gpt-mapping-manuscript@c745e46](https://github.com/cmungall/gpt-mapping-manuscript/tree/c745e466f01f508dce4c64f7959fe78cb14c9d55)
 on June 1, 2023.
 </em></small>
 
@@ -286,13 +286,25 @@ We treat entities linked via Uberon and CL as the Gold Standard.
 
 ### Core Results
 
-![img.png](img.png)
+|    | method   |           f1 |        P |            R |
+|---:|:---------|-------------:|---------:|-------------:|
+|  0 | lexmatch |      0.34957 | 0.220217 | **0.847222** |
+|  1 | logmap   |      0.48913 | 0.401786 |        0.625 |
+|  2 | gpt3     |     0.435484 | 0.519231 |        0.375 |
+|  3 | gpt4     | **0.651163** | **0.56** |     0.777778 |
 
 
 
 ## Discussion
 
-blah
+Unlike traditional ontology mapping tools, MapperGPT can provide narrative explanations
+of why two concepts are predicted to be related in a certain way.
+
+### Future Work
+
+We are planning to integrate MapperGPT into our Boomer pipeline to make BoomerGPT,
+a hybrid neurosymbolic mapping tool that integrates probabilistic inference, description logic
+reasoning, lexical methods, rule-based methods, and LLMs.
 
 
 ## Conclusions
