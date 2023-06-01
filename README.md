@@ -1,7 +1,7 @@
 # Output directory containing the formatted manuscript
 
 The [`gh-pages`](https://github.com/cmungall/gpt-mapping-manuscript/tree/gh-pages) branch hosts the contents of this directory at <https://cmungall.github.io/gpt-mapping-manuscript/>.
-The permalink for this webpage version is <https://cmungall.github.io/gpt-mapping-manuscript/v/debfdd352867772136975ef34d929b6d77f2b9e1/>.
+The permalink for this webpage version is <https://cmungall.github.io/gpt-mapping-manuscript/v/c53dda2d7f0cba0adaaa3fc4f692c04d4a39750e/>.
 To redirect to the permalink for the latest manuscript version at anytime, use the link <https://cmungall.github.io/gpt-mapping-manuscript/v/freeze/>.
 
 ## Files
@@ -35,4 +35,4 @@ Verifying timestamps with the `ots verify` command requires running a local bitc
 ## Source
 
 The manuscripts in this directory were built from
-[`debfdd352867772136975ef34d929b6d77f2b9e1`](https://github.com/cmungall/gpt-mapping-manuscript/commit/debfdd352867772136975ef34d929b6d77f2b9e1).
+[`c53dda2d7f0cba0adaaa3fc4f692c04d4a39750e`](https://github.com/cmungall/gpt-mapping-manuscript/commit/c53dda2d7f0cba0adaaa3fc4f692c04d4a39750e).
