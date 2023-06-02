@@ -1,0 +1,741 @@
+# curie_map:
+#   FBbt: http://purl.obolibrary.org/obo/FBbt_
+#   WBbt: http://purl.obolibrary.org/obo/WBbt_
+#   oio: http://www.geneontology.org/formats/oboInOwl#
+#   owl: http://www.w3.org/2002/07/owl#
+#   rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#
+#   rdfs: http://www.w3.org/2000/01/rdf-schema#
+#   semapv: https://w3id.org/semapv/
+#   skos: http://www.w3.org/2004/02/skos/core#
+#   sssom: https://w3id.org/sssom/
+# license: https://w3id.org/sssom/license/unspecified
+# mapping_set_id: https://w3id.org/sssom/mappings/1ece04ad-5e25-4979-9f70-2d64003ea84a
+subject_id	subject_label	predicate_id	object_id	object_label	mapping_justification	mapping_tool	confidence	subject_match_field	object_match_field	match_string
+FBbt:00000001	organism	skos:exactMatch	WBbt:0007833	organism	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref	oio:hasDbXref-INVERSE	uberon:0000468
+FBbt:00000001	organism	skos:exactMatch	WBbt:0007833	organism	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref	oio:hasDbXref-INVERSE	uberon:0000468
+FBbt:00000001	organism	skos:exactMatch	WBbt:0007833	organism	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref	oio:hasDbXref-INVERSE	uberon:0000468
+FBbt:00000001	organism	skos:exactMatch	WBbt:0007833	organism	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref	oio:hasDbXref-INVERSE	uberon:0000468
+FBbt:00000001	organism	skos:exactMatch	WBbt:0007833	organism	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0000468
+FBbt:00000001	organism	skos:exactMatch	WBbt:0007833	organism	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0000468
+FBbt:00000001	organism	skos:exactMatch	WBbt:0007833	organism	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0000468
+FBbt:00000001	organism	skos:exactMatch	WBbt:0007833	organism	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0000468
+FBbt:00000001	organism	skos:exactMatch	WBbt:0007833	organism	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0000468
+FBbt:00000001	organism	skos:exactMatch	WBbt:0007833	organism	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0000468
+FBbt:00000001	organism	skos:exactMatch	WBbt:0007833	organism	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0000468
+FBbt:00000001	organism	skos:exactMatch	WBbt:0007833	organism	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0000468
+FBbt:00000001	organism	skos:exactMatch	WBbt:0007833	organism	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0000468
+FBbt:00000001	organism	skos:exactMatch	WBbt:0007833	organism	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0000468
+FBbt:00000001	organism	skos:exactMatch	WBbt:0007833	organism	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0000468
+FBbt:00000001	organism	skos:exactMatch	WBbt:0007833	organism	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0000468
+FBbt:00000001	organism	skos:exactMatch	WBbt:0007833	organism	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0000468
+FBbt:00000001	organism	skos:exactMatch	WBbt:0007833	organism	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0000468
+FBbt:00000001	organism	skos:exactMatch	WBbt:0007833	organism	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0000468
+FBbt:00000001	organism	skos:exactMatch	WBbt:0007833	organism	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0000468
+FBbt:00000004	head	skos:exactMatch	WBbt:0005739	head	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref	oio:hasDbXref-INVERSE	uberon:0000033
+FBbt:00000004	head	skos:exactMatch	WBbt:0005739	head	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref	oio:hasDbXref-INVERSE	uberon:0000033
+FBbt:00000004	head	skos:exactMatch	WBbt:0005739	head	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref	oio:hasDbXref-INVERSE	uberon:0000033
+FBbt:00000004	head	skos:exactMatch	WBbt:0005739	head	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref	oio:hasDbXref-INVERSE	uberon:0000033
+FBbt:00000004	head	skos:exactMatch	WBbt:0005739	head	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0000033
+FBbt:00000004	head	skos:exactMatch	WBbt:0005739	head	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0000033
+FBbt:00000004	head	skos:exactMatch	WBbt:0005739	head	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0000033
+FBbt:00000004	head	skos:exactMatch	WBbt:0005739	head	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0000033
+FBbt:00000004	head	skos:exactMatch	WBbt:0005739	head	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0000033
+FBbt:00000004	head	skos:exactMatch	WBbt:0005739	head	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0000033
+FBbt:00000004	head	skos:exactMatch	WBbt:0005739	head	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0000033
+FBbt:00000004	head	skos:exactMatch	WBbt:0005739	head	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0000033
+FBbt:00000004	head	skos:exactMatch	WBbt:0005739	head	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0000033
+FBbt:00000004	head	skos:exactMatch	WBbt:0005739	head	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0000033
+FBbt:00000004	head	skos:exactMatch	WBbt:0005739	head	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0000033
+FBbt:00000004	head	skos:exactMatch	WBbt:0005739	head	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0000033
+FBbt:00000004	head	skos:exactMatch	WBbt:0005739	head	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0000033
+FBbt:00000004	head	skos:exactMatch	WBbt:0005739	head	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0000033
+FBbt:00000004	head	skos:exactMatch	WBbt:0005739	head	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0000033
+FBbt:00000004	head	skos:exactMatch	WBbt:0005739	head	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0000033
+FBbt:00000124	epithelial cell	skos:exactMatch	WBbt:0003672	epithelial cell	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref	oio:hasDbXref-INVERSE	cl:0000066
+FBbt:00000124	epithelial cell	skos:exactMatch	WBbt:0003672	epithelial cell	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref	oio:hasDbXref-INVERSE	cl:0000066
+FBbt:00000124	epithelial cell	skos:exactMatch	WBbt:0003672	epithelial cell	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref	oio:hasDbXref-INVERSE	cl:0000066
+FBbt:00000124	epithelial cell	skos:exactMatch	WBbt:0003672	epithelial cell	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref	oio:hasDbXref-INVERSE	cl:0000066
+FBbt:00000124	epithelial cell	skos:exactMatch	WBbt:0003672	epithelial cell	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	cl:0000066
+FBbt:00000124	epithelial cell	skos:exactMatch	WBbt:0003672	epithelial cell	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	cl:0000066
+FBbt:00000124	epithelial cell	skos:exactMatch	WBbt:0003672	epithelial cell	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	cl:0000066
+FBbt:00000124	epithelial cell	skos:exactMatch	WBbt:0003672	epithelial cell	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	cl:0000066
+FBbt:00000124	epithelial cell	skos:exactMatch	WBbt:0003672	epithelial cell	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	cl:0000066
+FBbt:00000124	epithelial cell	skos:exactMatch	WBbt:0003672	epithelial cell	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	cl:0000066
+FBbt:00000124	epithelial cell	skos:exactMatch	WBbt:0003672	epithelial cell	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	cl:0000066
+FBbt:00000124	epithelial cell	skos:exactMatch	WBbt:0003672	epithelial cell	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	cl:0000066
+FBbt:00000124	epithelial cell	skos:exactMatch	WBbt:0003672	epithelial cell	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	cl:0000066
+FBbt:00000124	epithelial cell	skos:exactMatch	WBbt:0003672	epithelial cell	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	cl:0000066
+FBbt:00000124	epithelial cell	skos:exactMatch	WBbt:0003672	epithelial cell	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	cl:0000066
+FBbt:00000124	epithelial cell	skos:exactMatch	WBbt:0003672	epithelial cell	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	cl:0000066
+FBbt:00000124	epithelial cell	skos:exactMatch	WBbt:0003672	epithelial cell	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	cl:0000066
+FBbt:00000124	epithelial cell	skos:exactMatch	WBbt:0003672	epithelial cell	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	cl:0000066
+FBbt:00000124	epithelial cell	skos:exactMatch	WBbt:0003672	epithelial cell	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	cl:0000066
+FBbt:00000124	epithelial cell	skos:exactMatch	WBbt:0003672	epithelial cell	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	cl:0000066
+FBbt:00003125	alimentary canal	skos:exactMatch	WBbt:0005743	digestive tract	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref	oio:hasDbXref-INVERSE	uberon:0001555
+FBbt:00003125	alimentary canal	skos:exactMatch	WBbt:0005743	digestive tract	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref	oio:hasDbXref-INVERSE	uberon:0001555
+FBbt:00003125	alimentary canal	skos:exactMatch	WBbt:0005743	digestive tract	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref	oio:hasDbXref-INVERSE	uberon:0001555
+FBbt:00003125	alimentary canal	skos:exactMatch	WBbt:0005743	digestive tract	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref	oio:hasDbXref-INVERSE	uberon:0001555
+FBbt:00003125	alimentary canal	skos:exactMatch	WBbt:0005743	digestive tract	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0001555
+FBbt:00003125	alimentary canal	skos:exactMatch	WBbt:0005743	digestive tract	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0001555
+FBbt:00003125	alimentary canal	skos:exactMatch	WBbt:0005743	digestive tract	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0001555
+FBbt:00003125	alimentary canal	skos:exactMatch	WBbt:0005743	digestive tract	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0001555
+FBbt:00003125	alimentary canal	skos:exactMatch	WBbt:0005743	digestive tract	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0001555
+FBbt:00003125	alimentary canal	skos:exactMatch	WBbt:0005743	digestive tract	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0001555
+FBbt:00003125	alimentary canal	skos:exactMatch	WBbt:0005743	digestive tract	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0001555
+FBbt:00003125	alimentary canal	skos:exactMatch	WBbt:0005743	digestive tract	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0001555
+FBbt:00003125	alimentary canal	skos:exactMatch	WBbt:0005743	digestive tract	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0001555
+FBbt:00003125	alimentary canal	skos:exactMatch	WBbt:0005743	digestive tract	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0001555
+FBbt:00003125	alimentary canal	skos:exactMatch	WBbt:0005743	digestive tract	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0001555
+FBbt:00003125	alimentary canal	skos:exactMatch	WBbt:0005743	digestive tract	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0001555
+FBbt:00003125	alimentary canal	skos:exactMatch	WBbt:0005743	digestive tract	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0001555
+FBbt:00003125	alimentary canal	skos:exactMatch	WBbt:0005743	digestive tract	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0001555
+FBbt:00003125	alimentary canal	skos:exactMatch	WBbt:0005743	digestive tract	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0001555
+FBbt:00003125	alimentary canal	skos:exactMatch	WBbt:0005743	digestive tract	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0001555
+FBbt:00004856	organ system	skos:exactMatch	WBbt:0005746	Organ system	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref	oio:hasDbXref-INVERSE	uberon:0000467
+FBbt:00004856	organ system	skos:exactMatch	WBbt:0005746	Organ system	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref	oio:hasDbXref-INVERSE	uberon:0000467
+FBbt:00004856	organ system	skos:exactMatch	WBbt:0005746	Organ system	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref	oio:hasDbXref-INVERSE	uberon:0000467
+FBbt:00004856	organ system	skos:exactMatch	WBbt:0005746	Organ system	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref	oio:hasDbXref-INVERSE	uberon:0000467
+FBbt:00004856	organ system	skos:exactMatch	WBbt:0005746	Organ system	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0000467
+FBbt:00004856	organ system	skos:exactMatch	WBbt:0005746	Organ system	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0000467
+FBbt:00004856	organ system	skos:exactMatch	WBbt:0005746	Organ system	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0000467
+FBbt:00004856	organ system	skos:exactMatch	WBbt:0005746	Organ system	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0000467
+FBbt:00004856	organ system	skos:exactMatch	WBbt:0005746	Organ system	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0000467
+FBbt:00004856	organ system	skos:exactMatch	WBbt:0005746	Organ system	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0000467
+FBbt:00004856	organ system	skos:exactMatch	WBbt:0005746	Organ system	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0000467
+FBbt:00004856	organ system	skos:exactMatch	WBbt:0005746	Organ system	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0000467
+FBbt:00004856	organ system	skos:exactMatch	WBbt:0005746	Organ system	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0000467
+FBbt:00004856	organ system	skos:exactMatch	WBbt:0005746	Organ system	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0000467
+FBbt:00004856	organ system	skos:exactMatch	WBbt:0005746	Organ system	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0000467
+FBbt:00004856	organ system	skos:exactMatch	WBbt:0005746	Organ system	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0000467
+FBbt:00004856	organ system	skos:exactMatch	WBbt:0005746	Organ system	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0000467
+FBbt:00004856	organ system	skos:exactMatch	WBbt:0005746	Organ system	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0000467
+FBbt:00004856	organ system	skos:exactMatch	WBbt:0005746	Organ system	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0000467
+FBbt:00004856	organ system	skos:exactMatch	WBbt:0005746	Organ system	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0000467
+FBbt:00004856	organ system	skos:exactMatch	WBbt:0005763	Functional system	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref	oio:hasDbXref-INVERSE	uberon:0000467
+FBbt:00004856	organ system	skos:exactMatch	WBbt:0005763	Functional system	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref	oio:hasDbXref-INVERSE	uberon:0000467
+FBbt:00004856	organ system	skos:exactMatch	WBbt:0005763	Functional system	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref	oio:hasDbXref-INVERSE	uberon:0000467
+FBbt:00004856	organ system	skos:exactMatch	WBbt:0005763	Functional system	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref	oio:hasDbXref-INVERSE	uberon:0000467
+FBbt:00004856	organ system	skos:exactMatch	WBbt:0005763	Functional system	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0000467
+FBbt:00004856	organ system	skos:exactMatch	WBbt:0005763	Functional system	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0000467
+FBbt:00004856	organ system	skos:exactMatch	WBbt:0005763	Functional system	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0000467
+FBbt:00004856	organ system	skos:exactMatch	WBbt:0005763	Functional system	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0000467
+FBbt:00004856	organ system	skos:exactMatch	WBbt:0005763	Functional system	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0000467
+FBbt:00004856	organ system	skos:exactMatch	WBbt:0005763	Functional system	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0000467
+FBbt:00004856	organ system	skos:exactMatch	WBbt:0005763	Functional system	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0000467
+FBbt:00004856	organ system	skos:exactMatch	WBbt:0005763	Functional system	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0000467
+FBbt:00004856	organ system	skos:exactMatch	WBbt:0005763	Functional system	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0000467
+FBbt:00004856	organ system	skos:exactMatch	WBbt:0005763	Functional system	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0000467
+FBbt:00004856	organ system	skos:exactMatch	WBbt:0005763	Functional system	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0000467
+FBbt:00004856	organ system	skos:exactMatch	WBbt:0005763	Functional system	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0000467
+FBbt:00004856	organ system	skos:exactMatch	WBbt:0005763	Functional system	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0000467
+FBbt:00004856	organ system	skos:exactMatch	WBbt:0005763	Functional system	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0000467
+FBbt:00004856	organ system	skos:exactMatch	WBbt:0005763	Functional system	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0000467
+FBbt:00004856	organ system	skos:exactMatch	WBbt:0005763	Functional system	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0000467
+FBbt:00004857	reproductive system	skos:exactMatch	WBbt:0005747	reproductive system	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref	oio:hasDbXref-INVERSE	uberon:0000990
+FBbt:00004857	reproductive system	skos:exactMatch	WBbt:0005747	reproductive system	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref	oio:hasDbXref-INVERSE	uberon:0000990
+FBbt:00004857	reproductive system	skos:exactMatch	WBbt:0005747	reproductive system	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref	oio:hasDbXref-INVERSE	uberon:0000990
+FBbt:00004857	reproductive system	skos:exactMatch	WBbt:0005747	reproductive system	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref	oio:hasDbXref-INVERSE	uberon:0000990
+FBbt:00004857	reproductive system	skos:exactMatch	WBbt:0005747	reproductive system	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0000990
+FBbt:00004857	reproductive system	skos:exactMatch	WBbt:0005747	reproductive system	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0000990
+FBbt:00004857	reproductive system	skos:exactMatch	WBbt:0005747	reproductive system	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0000990
+FBbt:00004857	reproductive system	skos:exactMatch	WBbt:0005747	reproductive system	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0000990
+FBbt:00004857	reproductive system	skos:exactMatch	WBbt:0005747	reproductive system	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0000990
+FBbt:00004857	reproductive system	skos:exactMatch	WBbt:0005747	reproductive system	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0000990
+FBbt:00004857	reproductive system	skos:exactMatch	WBbt:0005747	reproductive system	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0000990
+FBbt:00004857	reproductive system	skos:exactMatch	WBbt:0005747	reproductive system	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0000990
+FBbt:00004857	reproductive system	skos:exactMatch	WBbt:0005747	reproductive system	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0000990
+FBbt:00004857	reproductive system	skos:exactMatch	WBbt:0005747	reproductive system	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0000990
+FBbt:00004857	reproductive system	skos:exactMatch	WBbt:0005747	reproductive system	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0000990
+FBbt:00004857	reproductive system	skos:exactMatch	WBbt:0005747	reproductive system	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0000990
+FBbt:00004857	reproductive system	skos:exactMatch	WBbt:0005747	reproductive system	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0000990
+FBbt:00004857	reproductive system	skos:exactMatch	WBbt:0005747	reproductive system	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0000990
+FBbt:00004857	reproductive system	skos:exactMatch	WBbt:0005747	reproductive system	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0000990
+FBbt:00004857	reproductive system	skos:exactMatch	WBbt:0005747	reproductive system	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0000990
+FBbt:00004858	gonad	skos:exactMatch	WBbt:0005175	gonad	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref	oio:hasDbXref-INVERSE	uberon:0000991
+FBbt:00004858	gonad	skos:exactMatch	WBbt:0005175	gonad	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref	oio:hasDbXref-INVERSE	uberon:0000991
+FBbt:00004858	gonad	skos:exactMatch	WBbt:0005175	gonad	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref	oio:hasDbXref-INVERSE	uberon:0000991
+FBbt:00004858	gonad	skos:exactMatch	WBbt:0005175	gonad	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref	oio:hasDbXref-INVERSE	uberon:0000991
+FBbt:00004858	gonad	skos:exactMatch	WBbt:0005175	gonad	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0000991
+FBbt:00004858	gonad	skos:exactMatch	WBbt:0005175	gonad	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0000991
+FBbt:00004858	gonad	skos:exactMatch	WBbt:0005175	gonad	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0000991
+FBbt:00004858	gonad	skos:exactMatch	WBbt:0005175	gonad	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0000991
+FBbt:00004858	gonad	skos:exactMatch	WBbt:0005175	gonad	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0000991
+FBbt:00004858	gonad	skos:exactMatch	WBbt:0005175	gonad	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0000991
+FBbt:00004858	gonad	skos:exactMatch	WBbt:0005175	gonad	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0000991
+FBbt:00004858	gonad	skos:exactMatch	WBbt:0005175	gonad	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0000991
+FBbt:00004858	gonad	skos:exactMatch	WBbt:0005175	gonad	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0000991
+FBbt:00004858	gonad	skos:exactMatch	WBbt:0005175	gonad	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0000991
+FBbt:00004858	gonad	skos:exactMatch	WBbt:0005175	gonad	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0000991
+FBbt:00004858	gonad	skos:exactMatch	WBbt:0005175	gonad	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0000991
+FBbt:00004858	gonad	skos:exactMatch	WBbt:0005175	gonad	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0000991
+FBbt:00004858	gonad	skos:exactMatch	WBbt:0005175	gonad	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0000991
+FBbt:00004858	gonad	skos:exactMatch	WBbt:0005175	gonad	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0000991
+FBbt:00004858	gonad	skos:exactMatch	WBbt:0005175	gonad	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0000991
+FBbt:00004886	oocyte	skos:exactMatch	WBbt:0006797	oocyte	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref	oio:hasDbXref-INVERSE	cl:0000023
+FBbt:00004886	oocyte	skos:exactMatch	WBbt:0006797	oocyte	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref	oio:hasDbXref-INVERSE	cl:0000023
+FBbt:00004886	oocyte	skos:exactMatch	WBbt:0006797	oocyte	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref	oio:hasDbXref-INVERSE	cl:0000023
+FBbt:00004886	oocyte	skos:exactMatch	WBbt:0006797	oocyte	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref	oio:hasDbXref-INVERSE	cl:0000023
+FBbt:00004886	oocyte	skos:exactMatch	WBbt:0006797	oocyte	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	cl:0000023
+FBbt:00004886	oocyte	skos:exactMatch	WBbt:0006797	oocyte	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	cl:0000023
+FBbt:00004886	oocyte	skos:exactMatch	WBbt:0006797	oocyte	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	cl:0000023
+FBbt:00004886	oocyte	skos:exactMatch	WBbt:0006797	oocyte	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	cl:0000023
+FBbt:00004886	oocyte	skos:exactMatch	WBbt:0006797	oocyte	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	cl:0000023
+FBbt:00004886	oocyte	skos:exactMatch	WBbt:0006797	oocyte	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	cl:0000023
+FBbt:00004886	oocyte	skos:exactMatch	WBbt:0006797	oocyte	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	cl:0000023
+FBbt:00004886	oocyte	skos:exactMatch	WBbt:0006797	oocyte	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	cl:0000023
+FBbt:00004886	oocyte	skos:exactMatch	WBbt:0006797	oocyte	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	cl:0000023
+FBbt:00004886	oocyte	skos:exactMatch	WBbt:0006797	oocyte	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	cl:0000023
+FBbt:00004886	oocyte	skos:exactMatch	WBbt:0006797	oocyte	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	cl:0000023
+FBbt:00004886	oocyte	skos:exactMatch	WBbt:0006797	oocyte	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	cl:0000023
+FBbt:00004886	oocyte	skos:exactMatch	WBbt:0006797	oocyte	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	cl:0000023
+FBbt:00004886	oocyte	skos:exactMatch	WBbt:0006797	oocyte	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	cl:0000023
+FBbt:00004886	oocyte	skos:exactMatch	WBbt:0006797	oocyte	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	cl:0000023
+FBbt:00004886	oocyte	skos:exactMatch	WBbt:0006797	oocyte	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	cl:0000023
+FBbt:00004921	spermatheca	skos:exactMatch	WBbt:0005319	spermatheca	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref	oio:hasDbXref-INVERSE	uberon:0000994
+FBbt:00004921	spermatheca	skos:exactMatch	WBbt:0005319	spermatheca	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0000994
+FBbt:00004924	uterus	skos:exactMatch	WBbt:0006760	uterus	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0006834
+FBbt:00004924	uterus	skos:exactMatch	WBbt:0006760	uterus	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0006834
+FBbt:00004924	uterus	skos:exactMatch	WBbt:0006760	uterus	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0006834
+FBbt:00004924	uterus	skos:exactMatch	WBbt:0006760	uterus	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0006834
+FBbt:00004924	uterus	skos:exactMatch	WBbt:0006760	uterus	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0006834
+FBbt:00004924	uterus	skos:exactMatch	WBbt:0006760	uterus	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0006834
+FBbt:00004924	uterus	skos:exactMatch	WBbt:0006760	uterus	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0006834
+FBbt:00004924	uterus	skos:exactMatch	WBbt:0006760	uterus	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0006834
+FBbt:00004924	uterus	skos:exactMatch	WBbt:0006760	uterus	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0006834
+FBbt:00004924	uterus	skos:exactMatch	WBbt:0006760	uterus	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0006834
+FBbt:00004924	uterus	skos:exactMatch	WBbt:0006760	uterus	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0006834
+FBbt:00004924	uterus	skos:exactMatch	WBbt:0006760	uterus	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0006834
+FBbt:00004924	uterus	skos:exactMatch	WBbt:0006760	uterus	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0006834
+FBbt:00004924	uterus	skos:exactMatch	WBbt:0006760	uterus	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0006834
+FBbt:00004924	uterus	skos:exactMatch	WBbt:0006760	uterus	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0006834
+FBbt:00004924	uterus	skos:exactMatch	WBbt:0006760	uterus	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0006834
+FBbt:00004928	testis	skos:exactMatch	WBbt:0006794	male gonad	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref	oio:hasDbXref-INVERSE	uberon:0000473
+FBbt:00004928	testis	skos:exactMatch	WBbt:0006794	male gonad	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref	oio:hasDbXref-INVERSE	uberon:0000473
+FBbt:00004928	testis	skos:exactMatch	WBbt:0006794	male gonad	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref	oio:hasDbXref-INVERSE	uberon:0000473
+FBbt:00004928	testis	skos:exactMatch	WBbt:0006794	male gonad	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref	oio:hasDbXref-INVERSE	uberon:0000473
+FBbt:00004928	testis	skos:exactMatch	WBbt:0006794	male gonad	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0000473
+FBbt:00004928	testis	skos:exactMatch	WBbt:0006794	male gonad	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0000473
+FBbt:00004928	testis	skos:exactMatch	WBbt:0006794	male gonad	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0000473
+FBbt:00004928	testis	skos:exactMatch	WBbt:0006794	male gonad	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0000473
+FBbt:00004928	testis	skos:exactMatch	WBbt:0006794	male gonad	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0000473
+FBbt:00004928	testis	skos:exactMatch	WBbt:0006794	male gonad	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0000473
+FBbt:00004928	testis	skos:exactMatch	WBbt:0006794	male gonad	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0000473
+FBbt:00004928	testis	skos:exactMatch	WBbt:0006794	male gonad	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0000473
+FBbt:00004928	testis	skos:exactMatch	WBbt:0006794	male gonad	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0000473
+FBbt:00004928	testis	skos:exactMatch	WBbt:0006794	male gonad	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0000473
+FBbt:00004928	testis	skos:exactMatch	WBbt:0006794	male gonad	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0000473
+FBbt:00004928	testis	skos:exactMatch	WBbt:0006794	male gonad	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0000473
+FBbt:00004928	testis	skos:exactMatch	WBbt:0006794	male gonad	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0000473
+FBbt:00004928	testis	skos:exactMatch	WBbt:0006794	male gonad	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0000473
+FBbt:00004928	testis	skos:exactMatch	WBbt:0006794	male gonad	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0000473
+FBbt:00004928	testis	skos:exactMatch	WBbt:0006794	male gonad	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0000473
+FBbt:00004936	spermatocyte	skos:exactMatch	WBbt:0006799	spermatocyte	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref	oio:hasDbXref-INVERSE	cl:0000017
+FBbt:00004936	spermatocyte	skos:exactMatch	WBbt:0006799	spermatocyte	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref	oio:hasDbXref-INVERSE	cl:0000017
+FBbt:00004936	spermatocyte	skos:exactMatch	WBbt:0006799	spermatocyte	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref	oio:hasDbXref-INVERSE	cl:0000017
+FBbt:00004936	spermatocyte	skos:exactMatch	WBbt:0006799	spermatocyte	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref	oio:hasDbXref-INVERSE	cl:0000017
+FBbt:00004936	spermatocyte	skos:exactMatch	WBbt:0006799	spermatocyte	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	cl:0000017
+FBbt:00004936	spermatocyte	skos:exactMatch	WBbt:0006799	spermatocyte	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	cl:0000017
+FBbt:00004936	spermatocyte	skos:exactMatch	WBbt:0006799	spermatocyte	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	cl:0000017
+FBbt:00004936	spermatocyte	skos:exactMatch	WBbt:0006799	spermatocyte	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	cl:0000017
+FBbt:00004936	spermatocyte	skos:exactMatch	WBbt:0006799	spermatocyte	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	cl:0000017
+FBbt:00004936	spermatocyte	skos:exactMatch	WBbt:0006799	spermatocyte	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	cl:0000017
+FBbt:00004936	spermatocyte	skos:exactMatch	WBbt:0006799	spermatocyte	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	cl:0000017
+FBbt:00004936	spermatocyte	skos:exactMatch	WBbt:0006799	spermatocyte	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	cl:0000017
+FBbt:00004936	spermatocyte	skos:exactMatch	WBbt:0006799	spermatocyte	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	cl:0000017
+FBbt:00004936	spermatocyte	skos:exactMatch	WBbt:0006799	spermatocyte	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	cl:0000017
+FBbt:00004936	spermatocyte	skos:exactMatch	WBbt:0006799	spermatocyte	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	cl:0000017
+FBbt:00004936	spermatocyte	skos:exactMatch	WBbt:0006799	spermatocyte	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	cl:0000017
+FBbt:00004936	spermatocyte	skos:exactMatch	WBbt:0006799	spermatocyte	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	cl:0000017
+FBbt:00004936	spermatocyte	skos:exactMatch	WBbt:0006799	spermatocyte	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	cl:0000017
+FBbt:00004936	spermatocyte	skos:exactMatch	WBbt:0006799	spermatocyte	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	cl:0000017
+FBbt:00004936	spermatocyte	skos:exactMatch	WBbt:0006799	spermatocyte	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	cl:0000017
+FBbt:00004942	spermatid	skos:exactMatch	WBbt:0006800	spermatid	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref	oio:hasDbXref-INVERSE	cl:0000018
+FBbt:00004942	spermatid	skos:exactMatch	WBbt:0006800	spermatid	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref	oio:hasDbXref-INVERSE	cl:0000018
+FBbt:00004942	spermatid	skos:exactMatch	WBbt:0006800	spermatid	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref	oio:hasDbXref-INVERSE	cl:0000018
+FBbt:00004942	spermatid	skos:exactMatch	WBbt:0006800	spermatid	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref	oio:hasDbXref-INVERSE	cl:0000018
+FBbt:00004942	spermatid	skos:exactMatch	WBbt:0006800	spermatid	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	cl:0000018
+FBbt:00004942	spermatid	skos:exactMatch	WBbt:0006800	spermatid	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	cl:0000018
+FBbt:00004942	spermatid	skos:exactMatch	WBbt:0006800	spermatid	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	cl:0000018
+FBbt:00004942	spermatid	skos:exactMatch	WBbt:0006800	spermatid	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	cl:0000018
+FBbt:00004942	spermatid	skos:exactMatch	WBbt:0006800	spermatid	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	cl:0000018
+FBbt:00004942	spermatid	skos:exactMatch	WBbt:0006800	spermatid	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	cl:0000018
+FBbt:00004942	spermatid	skos:exactMatch	WBbt:0006800	spermatid	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	cl:0000018
+FBbt:00004942	spermatid	skos:exactMatch	WBbt:0006800	spermatid	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	cl:0000018
+FBbt:00004942	spermatid	skos:exactMatch	WBbt:0006800	spermatid	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	cl:0000018
+FBbt:00004942	spermatid	skos:exactMatch	WBbt:0006800	spermatid	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	cl:0000018
+FBbt:00004942	spermatid	skos:exactMatch	WBbt:0006800	spermatid	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	cl:0000018
+FBbt:00004942	spermatid	skos:exactMatch	WBbt:0006800	spermatid	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	cl:0000018
+FBbt:00004942	spermatid	skos:exactMatch	WBbt:0006800	spermatid	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	cl:0000018
+FBbt:00004942	spermatid	skos:exactMatch	WBbt:0006800	spermatid	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	cl:0000018
+FBbt:00004942	spermatid	skos:exactMatch	WBbt:0006800	spermatid	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	cl:0000018
+FBbt:00004942	spermatid	skos:exactMatch	WBbt:0006800	spermatid	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	cl:0000018
+FBbt:00004954	spermatozoon	skos:exactMatch	WBbt:0006798	sperm	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref	oio:hasDbXref-INVERSE	cl:0000019
+FBbt:00004954	spermatozoon	skos:exactMatch	WBbt:0006798	sperm	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref	oio:hasDbXref-INVERSE	cl:0000019
+FBbt:00004954	spermatozoon	skos:exactMatch	WBbt:0006798	sperm	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref	oio:hasDbXref-INVERSE	cl:0000019
+FBbt:00004954	spermatozoon	skos:exactMatch	WBbt:0006798	sperm	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref	oio:hasDbXref-INVERSE	cl:0000019
+FBbt:00004954	spermatozoon	skos:exactMatch	WBbt:0006798	sperm	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	cl:0000019
+FBbt:00004954	spermatozoon	skos:exactMatch	WBbt:0006798	sperm	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	cl:0000019
+FBbt:00004954	spermatozoon	skos:exactMatch	WBbt:0006798	sperm	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	cl:0000019
+FBbt:00004954	spermatozoon	skos:exactMatch	WBbt:0006798	sperm	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	cl:0000019
+FBbt:00004954	spermatozoon	skos:exactMatch	WBbt:0006798	sperm	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	cl:0000019
+FBbt:00004954	spermatozoon	skos:exactMatch	WBbt:0006798	sperm	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	cl:0000019
+FBbt:00004954	spermatozoon	skos:exactMatch	WBbt:0006798	sperm	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	cl:0000019
+FBbt:00004954	spermatozoon	skos:exactMatch	WBbt:0006798	sperm	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	cl:0000019
+FBbt:00004954	spermatozoon	skos:exactMatch	WBbt:0006798	sperm	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	cl:0000019
+FBbt:00004954	spermatozoon	skos:exactMatch	WBbt:0006798	sperm	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	cl:0000019
+FBbt:00004954	spermatozoon	skos:exactMatch	WBbt:0006798	sperm	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	cl:0000019
+FBbt:00004954	spermatozoon	skos:exactMatch	WBbt:0006798	sperm	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	cl:0000019
+FBbt:00004954	spermatozoon	skos:exactMatch	WBbt:0006798	sperm	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	cl:0000019
+FBbt:00004954	spermatozoon	skos:exactMatch	WBbt:0006798	sperm	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	cl:0000019
+FBbt:00004954	spermatozoon	skos:exactMatch	WBbt:0006798	sperm	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	cl:0000019
+FBbt:00004954	spermatozoon	skos:exactMatch	WBbt:0006798	sperm	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	cl:0000019
+FBbt:00004958	seminal vesicle	skos:exactMatch	WBbt:0006870	seminal vesicle	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref	oio:hasDbXref-INVERSE	uberon:0006868
+FBbt:00004958	seminal vesicle	skos:exactMatch	WBbt:0006870	seminal vesicle	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref	oio:hasDbXref-INVERSE	uberon:0006868
+FBbt:00004958	seminal vesicle	skos:exactMatch	WBbt:0006870	seminal vesicle	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref	oio:hasDbXref-INVERSE	uberon:0006868
+FBbt:00004958	seminal vesicle	skos:exactMatch	WBbt:0006870	seminal vesicle	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref	oio:hasDbXref-INVERSE	uberon:0006868
+FBbt:00004958	seminal vesicle	skos:exactMatch	WBbt:0006870	seminal vesicle	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0006868
+FBbt:00004958	seminal vesicle	skos:exactMatch	WBbt:0006870	seminal vesicle	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0006868
+FBbt:00004958	seminal vesicle	skos:exactMatch	WBbt:0006870	seminal vesicle	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0006868
+FBbt:00004958	seminal vesicle	skos:exactMatch	WBbt:0006870	seminal vesicle	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0006868
+FBbt:00004958	seminal vesicle	skos:exactMatch	WBbt:0006870	seminal vesicle	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0006868
+FBbt:00004958	seminal vesicle	skos:exactMatch	WBbt:0006870	seminal vesicle	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0006868
+FBbt:00004958	seminal vesicle	skos:exactMatch	WBbt:0006870	seminal vesicle	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0006868
+FBbt:00004958	seminal vesicle	skos:exactMatch	WBbt:0006870	seminal vesicle	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0006868
+FBbt:00004958	seminal vesicle	skos:exactMatch	WBbt:0006870	seminal vesicle	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0006868
+FBbt:00004958	seminal vesicle	skos:exactMatch	WBbt:0006870	seminal vesicle	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0006868
+FBbt:00004958	seminal vesicle	skos:exactMatch	WBbt:0006870	seminal vesicle	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0006868
+FBbt:00004958	seminal vesicle	skos:exactMatch	WBbt:0006870	seminal vesicle	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0006868
+FBbt:00004958	seminal vesicle	skos:exactMatch	WBbt:0006870	seminal vesicle	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0006868
+FBbt:00004958	seminal vesicle	skos:exactMatch	WBbt:0006870	seminal vesicle	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0006868
+FBbt:00004958	seminal vesicle	skos:exactMatch	WBbt:0006870	seminal vesicle	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0006868
+FBbt:00004958	seminal vesicle	skos:exactMatch	WBbt:0006870	seminal vesicle	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0006868
+FBbt:00004993	epidermis	skos:exactMatch	WBbt:0005733	hypodermis	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref	oio:hasDbXref-INVERSE	uberon:0007376
+FBbt:00004993	epidermis	skos:exactMatch	WBbt:0005733	hypodermis	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref	oio:hasDbXref-INVERSE	uberon:0007376
+FBbt:00004993	epidermis	skos:exactMatch	WBbt:0005733	hypodermis	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref	oio:hasDbXref-INVERSE	uberon:0007376
+FBbt:00004993	epidermis	skos:exactMatch	WBbt:0005733	hypodermis	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref	oio:hasDbXref-INVERSE	uberon:0007376
+FBbt:00004993	epidermis	skos:exactMatch	WBbt:0005733	hypodermis	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0007376
+FBbt:00004993	epidermis	skos:exactMatch	WBbt:0005733	hypodermis	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0007376
+FBbt:00004993	epidermis	skos:exactMatch	WBbt:0005733	hypodermis	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0007376
+FBbt:00004993	epidermis	skos:exactMatch	WBbt:0005733	hypodermis	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0007376
+FBbt:00004993	epidermis	skos:exactMatch	WBbt:0005733	hypodermis	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0007376
+FBbt:00004993	epidermis	skos:exactMatch	WBbt:0005733	hypodermis	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0007376
+FBbt:00004993	epidermis	skos:exactMatch	WBbt:0005733	hypodermis	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0007376
+FBbt:00004993	epidermis	skos:exactMatch	WBbt:0005733	hypodermis	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0007376
+FBbt:00004993	epidermis	skos:exactMatch	WBbt:0005733	hypodermis	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0007376
+FBbt:00004993	epidermis	skos:exactMatch	WBbt:0005733	hypodermis	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0007376
+FBbt:00004993	epidermis	skos:exactMatch	WBbt:0005733	hypodermis	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0007376
+FBbt:00004993	epidermis	skos:exactMatch	WBbt:0005733	hypodermis	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0007376
+FBbt:00004993	epidermis	skos:exactMatch	WBbt:0005733	hypodermis	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0007376
+FBbt:00004993	epidermis	skos:exactMatch	WBbt:0005733	hypodermis	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0007376
+FBbt:00004993	epidermis	skos:exactMatch	WBbt:0005733	hypodermis	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0007376
+FBbt:00004993	epidermis	skos:exactMatch	WBbt:0005733	hypodermis	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0007376
+FBbt:00005055	digestive system	skos:exactMatch	WBbt:0005748	alimentary system	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref	oio:hasDbXref-INVERSE	uberon:0001007
+FBbt:00005055	digestive system	skos:exactMatch	WBbt:0005748	alimentary system	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref	oio:hasDbXref-INVERSE	uberon:0001007
+FBbt:00005055	digestive system	skos:exactMatch	WBbt:0005748	alimentary system	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref	oio:hasDbXref-INVERSE	uberon:0001007
+FBbt:00005055	digestive system	skos:exactMatch	WBbt:0005748	alimentary system	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref	oio:hasDbXref-INVERSE	uberon:0001007
+FBbt:00005055	digestive system	skos:exactMatch	WBbt:0005748	alimentary system	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0001007
+FBbt:00005055	digestive system	skos:exactMatch	WBbt:0005748	alimentary system	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0001007
+FBbt:00005055	digestive system	skos:exactMatch	WBbt:0005748	alimentary system	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0001007
+FBbt:00005055	digestive system	skos:exactMatch	WBbt:0005748	alimentary system	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0001007
+FBbt:00005055	digestive system	skos:exactMatch	WBbt:0005748	alimentary system	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0001007
+FBbt:00005055	digestive system	skos:exactMatch	WBbt:0005748	alimentary system	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0001007
+FBbt:00005055	digestive system	skos:exactMatch	WBbt:0005748	alimentary system	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0001007
+FBbt:00005055	digestive system	skos:exactMatch	WBbt:0005748	alimentary system	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0001007
+FBbt:00005055	digestive system	skos:exactMatch	WBbt:0005748	alimentary system	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0001007
+FBbt:00005055	digestive system	skos:exactMatch	WBbt:0005748	alimentary system	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0001007
+FBbt:00005055	digestive system	skos:exactMatch	WBbt:0005748	alimentary system	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0001007
+FBbt:00005055	digestive system	skos:exactMatch	WBbt:0005748	alimentary system	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0001007
+FBbt:00005055	digestive system	skos:exactMatch	WBbt:0005748	alimentary system	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0001007
+FBbt:00005055	digestive system	skos:exactMatch	WBbt:0005748	alimentary system	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0001007
+FBbt:00005055	digestive system	skos:exactMatch	WBbt:0005748	alimentary system	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0001007
+FBbt:00005055	digestive system	skos:exactMatch	WBbt:0005748	alimentary system	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0001007
+FBbt:00005056	excretory system	skos:exactMatch	WBbt:0005736	excretory system	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref	oio:hasDbXref-INVERSE	uberon:0001008
+FBbt:00005056	excretory system	skos:exactMatch	WBbt:0005736	excretory system	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref	oio:hasDbXref-INVERSE	uberon:0001008
+FBbt:00005056	excretory system	skos:exactMatch	WBbt:0005736	excretory system	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref	oio:hasDbXref-INVERSE	uberon:0001008
+FBbt:00005056	excretory system	skos:exactMatch	WBbt:0005736	excretory system	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref	oio:hasDbXref-INVERSE	uberon:0001008
+FBbt:00005056	excretory system	skos:exactMatch	WBbt:0005736	excretory system	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0001008
+FBbt:00005056	excretory system	skos:exactMatch	WBbt:0005736	excretory system	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0001008
+FBbt:00005056	excretory system	skos:exactMatch	WBbt:0005736	excretory system	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0001008
+FBbt:00005056	excretory system	skos:exactMatch	WBbt:0005736	excretory system	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0001008
+FBbt:00005056	excretory system	skos:exactMatch	WBbt:0005736	excretory system	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0001008
+FBbt:00005056	excretory system	skos:exactMatch	WBbt:0005736	excretory system	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0001008
+FBbt:00005056	excretory system	skos:exactMatch	WBbt:0005736	excretory system	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0001008
+FBbt:00005056	excretory system	skos:exactMatch	WBbt:0005736	excretory system	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0001008
+FBbt:00005056	excretory system	skos:exactMatch	WBbt:0005736	excretory system	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0001008
+FBbt:00005056	excretory system	skos:exactMatch	WBbt:0005736	excretory system	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0001008
+FBbt:00005056	excretory system	skos:exactMatch	WBbt:0005736	excretory system	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0001008
+FBbt:00005056	excretory system	skos:exactMatch	WBbt:0005736	excretory system	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0001008
+FBbt:00005056	excretory system	skos:exactMatch	WBbt:0005736	excretory system	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0001008
+FBbt:00005056	excretory system	skos:exactMatch	WBbt:0005736	excretory system	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0001008
+FBbt:00005056	excretory system	skos:exactMatch	WBbt:0005736	excretory system	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0001008
+FBbt:00005056	excretory system	skos:exactMatch	WBbt:0005736	excretory system	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0001008
+FBbt:00005074	muscle cell	skos:exactMatch	WBbt:0003675	muscle cell	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref	oio:hasDbXref-INVERSE	cl:0000187
+FBbt:00005074	muscle cell	skos:exactMatch	WBbt:0003675	muscle cell	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref	oio:hasDbXref-INVERSE	cl:0000187
+FBbt:00005074	muscle cell	skos:exactMatch	WBbt:0003675	muscle cell	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref	oio:hasDbXref-INVERSE	cl:0000187
+FBbt:00005074	muscle cell	skos:exactMatch	WBbt:0003675	muscle cell	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref	oio:hasDbXref-INVERSE	cl:0000187
+FBbt:00005074	muscle cell	skos:exactMatch	WBbt:0003675	muscle cell	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	cl:0000187
+FBbt:00005074	muscle cell	skos:exactMatch	WBbt:0003675	muscle cell	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	cl:0000187
+FBbt:00005074	muscle cell	skos:exactMatch	WBbt:0003675	muscle cell	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	cl:0000187
+FBbt:00005074	muscle cell	skos:exactMatch	WBbt:0003675	muscle cell	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	cl:0000187
+FBbt:00005074	muscle cell	skos:exactMatch	WBbt:0003675	muscle cell	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	cl:0000187
+FBbt:00005074	muscle cell	skos:exactMatch	WBbt:0003675	muscle cell	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	cl:0000187
+FBbt:00005074	muscle cell	skos:exactMatch	WBbt:0003675	muscle cell	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	cl:0000187
+FBbt:00005074	muscle cell	skos:exactMatch	WBbt:0003675	muscle cell	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	cl:0000187
+FBbt:00005074	muscle cell	skos:exactMatch	WBbt:0003675	muscle cell	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	cl:0000187
+FBbt:00005074	muscle cell	skos:exactMatch	WBbt:0003675	muscle cell	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	cl:0000187
+FBbt:00005074	muscle cell	skos:exactMatch	WBbt:0003675	muscle cell	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	cl:0000187
+FBbt:00005074	muscle cell	skos:exactMatch	WBbt:0003675	muscle cell	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	cl:0000187
+FBbt:00005074	muscle cell	skos:exactMatch	WBbt:0003675	muscle cell	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	cl:0000187
+FBbt:00005074	muscle cell	skos:exactMatch	WBbt:0003675	muscle cell	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	cl:0000187
+FBbt:00005074	muscle cell	skos:exactMatch	WBbt:0003675	muscle cell	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	cl:0000187
+FBbt:00005074	muscle cell	skos:exactMatch	WBbt:0003675	muscle cell	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	cl:0000187
+FBbt:00005093	nervous system	skos:exactMatch	WBbt:0005735	nervous system	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref	oio:hasDbXref-INVERSE	uberon:0001016
+FBbt:00005093	nervous system	skos:exactMatch	WBbt:0005735	nervous system	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref	oio:hasDbXref-INVERSE	uberon:0001016
+FBbt:00005093	nervous system	skos:exactMatch	WBbt:0005735	nervous system	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref	oio:hasDbXref-INVERSE	uberon:0001016
+FBbt:00005093	nervous system	skos:exactMatch	WBbt:0005735	nervous system	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref	oio:hasDbXref-INVERSE	uberon:0001016
+FBbt:00005093	nervous system	skos:exactMatch	WBbt:0005735	nervous system	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0001016
+FBbt:00005093	nervous system	skos:exactMatch	WBbt:0005735	nervous system	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0001016
+FBbt:00005093	nervous system	skos:exactMatch	WBbt:0005735	nervous system	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0001016
+FBbt:00005093	nervous system	skos:exactMatch	WBbt:0005735	nervous system	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0001016
+FBbt:00005093	nervous system	skos:exactMatch	WBbt:0005735	nervous system	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0001016
+FBbt:00005093	nervous system	skos:exactMatch	WBbt:0005735	nervous system	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0001016
+FBbt:00005093	nervous system	skos:exactMatch	WBbt:0005735	nervous system	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0001016
+FBbt:00005093	nervous system	skos:exactMatch	WBbt:0005735	nervous system	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0001016
+FBbt:00005093	nervous system	skos:exactMatch	WBbt:0005735	nervous system	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0001016
+FBbt:00005093	nervous system	skos:exactMatch	WBbt:0005735	nervous system	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0001016
+FBbt:00005093	nervous system	skos:exactMatch	WBbt:0005735	nervous system	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0001016
+FBbt:00005093	nervous system	skos:exactMatch	WBbt:0005735	nervous system	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0001016
+FBbt:00005093	nervous system	skos:exactMatch	WBbt:0005735	nervous system	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0001016
+FBbt:00005093	nervous system	skos:exactMatch	WBbt:0005735	nervous system	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0001016
+FBbt:00005093	nervous system	skos:exactMatch	WBbt:0005735	nervous system	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0001016
+FBbt:00005093	nervous system	skos:exactMatch	WBbt:0005735	nervous system	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0001016
+FBbt:00005097	ventral nerve cord	skos:exactMatch	WBbt:0005829	ventral nerve cord	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref	oio:hasDbXref-INVERSE	uberon:0000934
+FBbt:00005097	ventral nerve cord	skos:exactMatch	WBbt:0005829	ventral nerve cord	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0000934
+FBbt:00005106	neuron	skos:exactMatch	WBbt:0003679	neuron	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref	oio:hasDbXref-INVERSE	cl:0000540
+FBbt:00005106	neuron	skos:exactMatch	WBbt:0003679	neuron	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref	oio:hasDbXref-INVERSE	cl:0000540
+FBbt:00005106	neuron	skos:exactMatch	WBbt:0003679	neuron	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref	oio:hasDbXref-INVERSE	cl:0000540
+FBbt:00005106	neuron	skos:exactMatch	WBbt:0003679	neuron	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref	oio:hasDbXref-INVERSE	cl:0000540
+FBbt:00005106	neuron	skos:exactMatch	WBbt:0003679	neuron	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref	oio:hasDbXref-INVERSE	cl:0000540
+FBbt:00005106	neuron	skos:exactMatch	WBbt:0003679	neuron	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref	oio:hasDbXref-INVERSE	cl:0000540
+FBbt:00005106	neuron	skos:exactMatch	WBbt:0003679	neuron	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	cl:0000540
+FBbt:00005106	neuron	skos:exactMatch	WBbt:0003679	neuron	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	cl:0000540
+FBbt:00005106	neuron	skos:exactMatch	WBbt:0003679	neuron	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	cl:0000540
+FBbt:00005106	neuron	skos:exactMatch	WBbt:0003679	neuron	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	cl:0000540
+FBbt:00005106	neuron	skos:exactMatch	WBbt:0003679	neuron	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	cl:0000540
+FBbt:00005106	neuron	skos:exactMatch	WBbt:0003679	neuron	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	cl:0000540
+FBbt:00005106	neuron	skos:exactMatch	WBbt:0003679	neuron	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	cl:0000540
+FBbt:00005106	neuron	skos:exactMatch	WBbt:0003679	neuron	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	cl:0000540
+FBbt:00005106	neuron	skos:exactMatch	WBbt:0003679	neuron	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	cl:0000540
+FBbt:00005106	neuron	skos:exactMatch	WBbt:0003679	neuron	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	cl:0000540
+FBbt:00005106	neuron	skos:exactMatch	WBbt:0003679	neuron	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	cl:0000540
+FBbt:00005106	neuron	skos:exactMatch	WBbt:0003679	neuron	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	cl:0000540
+FBbt:00005106	neuron	skos:exactMatch	WBbt:0003679	neuron	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	cl:0000540
+FBbt:00005106	neuron	skos:exactMatch	WBbt:0003679	neuron	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	cl:0000540
+FBbt:00005106	neuron	skos:exactMatch	WBbt:0003679	neuron	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	cl:0000540
+FBbt:00005106	neuron	skos:exactMatch	WBbt:0003679	neuron	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	cl:0000540
+FBbt:00005106	neuron	skos:exactMatch	WBbt:0003679	neuron	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	cl:0000540
+FBbt:00005106	neuron	skos:exactMatch	WBbt:0003679	neuron	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	cl:0000540
+FBbt:00005106	neuron	skos:exactMatch	WBbt:0003679	neuron	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	cl:0000540
+FBbt:00005106	neuron	skos:exactMatch	WBbt:0003679	neuron	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	cl:0000540
+FBbt:00005106	neuron	skos:exactMatch	WBbt:0003679	neuron	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	cl:0000540
+FBbt:00005106	neuron	skos:exactMatch	WBbt:0003679	neuron	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	cl:0000540
+FBbt:00005106	neuron	skos:exactMatch	WBbt:0003679	neuron	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	cl:0000540
+FBbt:00005106	neuron	skos:exactMatch	WBbt:0003679	neuron	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	cl:0000540
+FBbt:00005106	neuron	skos:exactMatch	WBbt:0003679	neuron	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	cl:0000540
+FBbt:00005106	neuron	skos:exactMatch	WBbt:0003679	neuron	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	cl:0000540
+FBbt:00005106	neuron	skos:exactMatch	WBbt:0003679	neuron	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	cl:0000540
+FBbt:00005106	neuron	skos:exactMatch	WBbt:0003679	neuron	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	cl:0000540
+FBbt:00005106	neuron	skos:exactMatch	WBbt:0003679	neuron	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	cl:0000540
+FBbt:00005106	neuron	skos:exactMatch	WBbt:0003679	neuron	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	cl:0000540
+FBbt:00005106	neuron	skos:exactMatch	WBbt:0003679	neuron	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	cl:0000540
+FBbt:00005106	neuron	skos:exactMatch	WBbt:0003679	neuron	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	cl:0000540
+FBbt:00005106	neuron	skos:exactMatch	WBbt:0003679	neuron	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	cl:0000540
+FBbt:00005106	neuron	skos:exactMatch	WBbt:0003679	neuron	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	cl:0000540
+FBbt:00005106	neuron	skos:exactMatch	WBbt:0003679	neuron	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	cl:0000540
+FBbt:00005106	neuron	skos:exactMatch	WBbt:0003679	neuron	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	cl:0000540
+FBbt:00005123	motor neuron	skos:exactMatch	WBbt:0005409	motor neuron	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref	oio:hasDbXref-INVERSE	cl:0000100
+FBbt:00005123	motor neuron	skos:exactMatch	WBbt:0005409	motor neuron	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref	oio:hasDbXref-INVERSE	cl:0000100
+FBbt:00005123	motor neuron	skos:exactMatch	WBbt:0005409	motor neuron	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref	oio:hasDbXref-INVERSE	cl:0000100
+FBbt:00005123	motor neuron	skos:exactMatch	WBbt:0005409	motor neuron	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref	oio:hasDbXref-INVERSE	cl:0000100
+FBbt:00005123	motor neuron	skos:exactMatch	WBbt:0005409	motor neuron	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	cl:0000100
+FBbt:00005123	motor neuron	skos:exactMatch	WBbt:0005409	motor neuron	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	cl:0000100
+FBbt:00005123	motor neuron	skos:exactMatch	WBbt:0005409	motor neuron	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	cl:0000100
+FBbt:00005123	motor neuron	skos:exactMatch	WBbt:0005409	motor neuron	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	cl:0000100
+FBbt:00005123	motor neuron	skos:exactMatch	WBbt:0005409	motor neuron	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	cl:0000100
+FBbt:00005123	motor neuron	skos:exactMatch	WBbt:0005409	motor neuron	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	cl:0000100
+FBbt:00005123	motor neuron	skos:exactMatch	WBbt:0005409	motor neuron	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	cl:0000100
+FBbt:00005123	motor neuron	skos:exactMatch	WBbt:0005409	motor neuron	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	cl:0000100
+FBbt:00005123	motor neuron	skos:exactMatch	WBbt:0005409	motor neuron	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	cl:0000100
+FBbt:00005123	motor neuron	skos:exactMatch	WBbt:0005409	motor neuron	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	cl:0000100
+FBbt:00005123	motor neuron	skos:exactMatch	WBbt:0005409	motor neuron	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	cl:0000100
+FBbt:00005123	motor neuron	skos:exactMatch	WBbt:0005409	motor neuron	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	cl:0000100
+FBbt:00005123	motor neuron	skos:exactMatch	WBbt:0005409	motor neuron	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	cl:0000100
+FBbt:00005123	motor neuron	skos:exactMatch	WBbt:0005409	motor neuron	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	cl:0000100
+FBbt:00005123	motor neuron	skos:exactMatch	WBbt:0005409	motor neuron	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	cl:0000100
+FBbt:00005123	motor neuron	skos:exactMatch	WBbt:0005409	motor neuron	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	cl:0000100
+FBbt:00005124	sensory neuron	skos:exactMatch	WBbt:0005759	sensory neuron	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref	oio:hasDbXref-INVERSE	cl:0000101
+FBbt:00005124	sensory neuron	skos:exactMatch	WBbt:0005759	sensory neuron	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref	oio:hasDbXref-INVERSE	cl:0000101
+FBbt:00005124	sensory neuron	skos:exactMatch	WBbt:0005759	sensory neuron	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref	oio:hasDbXref-INVERSE	cl:0000101
+FBbt:00005124	sensory neuron	skos:exactMatch	WBbt:0005759	sensory neuron	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref	oio:hasDbXref-INVERSE	cl:0000101
+FBbt:00005124	sensory neuron	skos:exactMatch	WBbt:0005759	sensory neuron	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref	oio:hasDbXref-INVERSE	cl:0000101
+FBbt:00005124	sensory neuron	skos:exactMatch	WBbt:0005759	sensory neuron	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref	oio:hasDbXref-INVERSE	cl:0000101
+FBbt:00005124	sensory neuron	skos:exactMatch	WBbt:0005759	sensory neuron	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	cl:0000101
+FBbt:00005124	sensory neuron	skos:exactMatch	WBbt:0005759	sensory neuron	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	cl:0000101
+FBbt:00005124	sensory neuron	skos:exactMatch	WBbt:0005759	sensory neuron	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	cl:0000101
+FBbt:00005124	sensory neuron	skos:exactMatch	WBbt:0005759	sensory neuron	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	cl:0000101
+FBbt:00005124	sensory neuron	skos:exactMatch	WBbt:0005759	sensory neuron	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	cl:0000101
+FBbt:00005124	sensory neuron	skos:exactMatch	WBbt:0005759	sensory neuron	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	cl:0000101
+FBbt:00005124	sensory neuron	skos:exactMatch	WBbt:0005759	sensory neuron	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	cl:0000101
+FBbt:00005124	sensory neuron	skos:exactMatch	WBbt:0005759	sensory neuron	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	cl:0000101
+FBbt:00005124	sensory neuron	skos:exactMatch	WBbt:0005759	sensory neuron	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	cl:0000101
+FBbt:00005124	sensory neuron	skos:exactMatch	WBbt:0005759	sensory neuron	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	cl:0000101
+FBbt:00005124	sensory neuron	skos:exactMatch	WBbt:0005759	sensory neuron	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	cl:0000101
+FBbt:00005124	sensory neuron	skos:exactMatch	WBbt:0005759	sensory neuron	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	cl:0000101
+FBbt:00005124	sensory neuron	skos:exactMatch	WBbt:0005759	sensory neuron	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	cl:0000101
+FBbt:00005124	sensory neuron	skos:exactMatch	WBbt:0005759	sensory neuron	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	cl:0000101
+FBbt:00005124	sensory neuron	skos:exactMatch	WBbt:0005759	sensory neuron	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	cl:0000101
+FBbt:00005124	sensory neuron	skos:exactMatch	WBbt:0005759	sensory neuron	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	cl:0000101
+FBbt:00005124	sensory neuron	skos:exactMatch	WBbt:0005759	sensory neuron	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	cl:0000101
+FBbt:00005124	sensory neuron	skos:exactMatch	WBbt:0005759	sensory neuron	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	cl:0000101
+FBbt:00005124	sensory neuron	skos:exactMatch	WBbt:0005759	sensory neuron	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	cl:0000101
+FBbt:00005124	sensory neuron	skos:exactMatch	WBbt:0005759	sensory neuron	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	cl:0000101
+FBbt:00005124	sensory neuron	skos:exactMatch	WBbt:0005759	sensory neuron	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	cl:0000101
+FBbt:00005124	sensory neuron	skos:exactMatch	WBbt:0005759	sensory neuron	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	cl:0000101
+FBbt:00005124	sensory neuron	skos:exactMatch	WBbt:0005759	sensory neuron	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	cl:0000101
+FBbt:00005124	sensory neuron	skos:exactMatch	WBbt:0005759	sensory neuron	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	cl:0000101
+FBbt:00005124	sensory neuron	skos:exactMatch	WBbt:0005759	sensory neuron	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	cl:0000101
+FBbt:00005124	sensory neuron	skos:exactMatch	WBbt:0005759	sensory neuron	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	cl:0000101
+FBbt:00005124	sensory neuron	skos:exactMatch	WBbt:0005759	sensory neuron	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	cl:0000101
+FBbt:00005124	sensory neuron	skos:exactMatch	WBbt:0005759	sensory neuron	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	cl:0000101
+FBbt:00005124	sensory neuron	skos:exactMatch	WBbt:0005759	sensory neuron	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	cl:0000101
+FBbt:00005124	sensory neuron	skos:exactMatch	WBbt:0005759	sensory neuron	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	cl:0000101
+FBbt:00005124	sensory neuron	skos:exactMatch	WBbt:0005759	sensory neuron	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	cl:0000101
+FBbt:00005124	sensory neuron	skos:exactMatch	WBbt:0005759	sensory neuron	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	cl:0000101
+FBbt:00005124	sensory neuron	skos:exactMatch	WBbt:0005759	sensory neuron	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	cl:0000101
+FBbt:00005124	sensory neuron	skos:exactMatch	WBbt:0005759	sensory neuron	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	cl:0000101
+FBbt:00005124	sensory neuron	skos:exactMatch	WBbt:0005759	sensory neuron	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	cl:0000101
+FBbt:00005124	sensory neuron	skos:exactMatch	WBbt:0005759	sensory neuron	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	cl:0000101
+FBbt:00005125	interneuron	skos:exactMatch	WBbt:0005113	interneuron	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref	oio:hasDbXref-INVERSE	cl:0000099
+FBbt:00005125	interneuron	skos:exactMatch	WBbt:0005113	interneuron	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref	oio:hasDbXref-INVERSE	cl:0000099
+FBbt:00005125	interneuron	skos:exactMatch	WBbt:0005113	interneuron	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref	oio:hasDbXref-INVERSE	cl:0000099
+FBbt:00005125	interneuron	skos:exactMatch	WBbt:0005113	interneuron	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref	oio:hasDbXref-INVERSE	cl:0000099
+FBbt:00005125	interneuron	skos:exactMatch	WBbt:0005113	interneuron	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	cl:0000099
+FBbt:00005125	interneuron	skos:exactMatch	WBbt:0005113	interneuron	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	cl:0000099
+FBbt:00005125	interneuron	skos:exactMatch	WBbt:0005113	interneuron	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	cl:0000099
+FBbt:00005125	interneuron	skos:exactMatch	WBbt:0005113	interneuron	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	cl:0000099
+FBbt:00005125	interneuron	skos:exactMatch	WBbt:0005113	interneuron	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	cl:0000099
+FBbt:00005125	interneuron	skos:exactMatch	WBbt:0005113	interneuron	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	cl:0000099
+FBbt:00005125	interneuron	skos:exactMatch	WBbt:0005113	interneuron	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	cl:0000099
+FBbt:00005125	interneuron	skos:exactMatch	WBbt:0005113	interneuron	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	cl:0000099
+FBbt:00005125	interneuron	skos:exactMatch	WBbt:0005113	interneuron	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	cl:0000099
+FBbt:00005125	interneuron	skos:exactMatch	WBbt:0005113	interneuron	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	cl:0000099
+FBbt:00005125	interneuron	skos:exactMatch	WBbt:0005113	interneuron	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	cl:0000099
+FBbt:00005125	interneuron	skos:exactMatch	WBbt:0005113	interneuron	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	cl:0000099
+FBbt:00005125	interneuron	skos:exactMatch	WBbt:0005113	interneuron	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	cl:0000099
+FBbt:00005125	interneuron	skos:exactMatch	WBbt:0005113	interneuron	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	cl:0000099
+FBbt:00005125	interneuron	skos:exactMatch	WBbt:0005113	interneuron	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	cl:0000099
+FBbt:00005125	interneuron	skos:exactMatch	WBbt:0005113	interneuron	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	cl:0000099
+FBbt:00005131	dopaminergic neuron	skos:exactMatch	WBbt:0006746	dopaminergic neuron	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref	oio:hasDbXref-INVERSE	cl:0000700
+FBbt:00005131	dopaminergic neuron	skos:exactMatch	WBbt:0006746	dopaminergic neuron	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref	oio:hasDbXref-INVERSE	cl:0000700
+FBbt:00005131	dopaminergic neuron	skos:exactMatch	WBbt:0006746	dopaminergic neuron	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref	oio:hasDbXref-INVERSE	cl:0000700
+FBbt:00005131	dopaminergic neuron	skos:exactMatch	WBbt:0006746	dopaminergic neuron	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref	oio:hasDbXref-INVERSE	cl:0000700
+FBbt:00005133	serotonergic neuron	skos:exactMatch	WBbt:0006837	serotonergic neuron	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref	oio:hasDbXref-INVERSE	cl:0000850
+FBbt:00005133	serotonergic neuron	skos:exactMatch	WBbt:0006837	serotonergic neuron	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref	oio:hasDbXref-INVERSE	cl:0000850
+FBbt:00005133	serotonergic neuron	skos:exactMatch	WBbt:0006837	serotonergic neuron	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref	oio:hasDbXref-INVERSE	cl:0000850
+FBbt:00005133	serotonergic neuron	skos:exactMatch	WBbt:0006837	serotonergic neuron	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref	oio:hasDbXref-INVERSE	cl:0000850
+FBbt:00005133	serotonergic neuron	skos:exactMatch	WBbt:0006837	serotonergic neuron	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	cl:0000850
+FBbt:00005133	serotonergic neuron	skos:exactMatch	WBbt:0006837	serotonergic neuron	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	cl:0000850
+FBbt:00005133	serotonergic neuron	skos:exactMatch	WBbt:0006837	serotonergic neuron	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	cl:0000850
+FBbt:00005133	serotonergic neuron	skos:exactMatch	WBbt:0006837	serotonergic neuron	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	cl:0000850
+FBbt:00005133	serotonergic neuron	skos:exactMatch	WBbt:0006837	serotonergic neuron	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	cl:0000850
+FBbt:00005133	serotonergic neuron	skos:exactMatch	WBbt:0006837	serotonergic neuron	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	cl:0000850
+FBbt:00005133	serotonergic neuron	skos:exactMatch	WBbt:0006837	serotonergic neuron	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	cl:0000850
+FBbt:00005133	serotonergic neuron	skos:exactMatch	WBbt:0006837	serotonergic neuron	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	cl:0000850
+FBbt:00005155	sense organ	skos:exactMatch	WBbt:0006929	sensillum	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref	oio:hasDbXref-INVERSE	uberon:0000020
+FBbt:00005155	sense organ	skos:exactMatch	WBbt:0006929	sensillum	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref	oio:hasDbXref-INVERSE	uberon:0000020
+FBbt:00005155	sense organ	skos:exactMatch	WBbt:0006929	sensillum	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref	oio:hasDbXref-INVERSE	uberon:0000020
+FBbt:00005155	sense organ	skos:exactMatch	WBbt:0006929	sensillum	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref	oio:hasDbXref-INVERSE	uberon:0000020
+FBbt:00005155	sense organ	skos:exactMatch	WBbt:0006929	sensillum	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0000020
+FBbt:00005155	sense organ	skos:exactMatch	WBbt:0006929	sensillum	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0000020
+FBbt:00005155	sense organ	skos:exactMatch	WBbt:0006929	sensillum	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0000020
+FBbt:00005155	sense organ	skos:exactMatch	WBbt:0006929	sensillum	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0000020
+FBbt:00005155	sense organ	skos:exactMatch	WBbt:0006929	sensillum	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0000020
+FBbt:00005155	sense organ	skos:exactMatch	WBbt:0006929	sensillum	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0000020
+FBbt:00005155	sense organ	skos:exactMatch	WBbt:0006929	sensillum	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0000020
+FBbt:00005155	sense organ	skos:exactMatch	WBbt:0006929	sensillum	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0000020
+FBbt:00005155	sense organ	skos:exactMatch	WBbt:0006929	sensillum	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0000020
+FBbt:00005155	sense organ	skos:exactMatch	WBbt:0006929	sensillum	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0000020
+FBbt:00005155	sense organ	skos:exactMatch	WBbt:0006929	sensillum	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0000020
+FBbt:00005155	sense organ	skos:exactMatch	WBbt:0006929	sensillum	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0000020
+FBbt:00005155	sense organ	skos:exactMatch	WBbt:0006929	sensillum	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0000020
+FBbt:00005155	sense organ	skos:exactMatch	WBbt:0006929	sensillum	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0000020
+FBbt:00005155	sense organ	skos:exactMatch	WBbt:0006929	sensillum	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0000020
+FBbt:00005155	sense organ	skos:exactMatch	WBbt:0006929	sensillum	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0000020
+FBbt:00005756	rectum	skos:exactMatch	WBbt:0005773	rectum	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref	oio:hasDbXref-INVERSE	uberon:0006866
+FBbt:00005756	rectum	skos:exactMatch	WBbt:0005773	rectum	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref	oio:hasDbXref-INVERSE	uberon:0006866
+FBbt:00005756	rectum	skos:exactMatch	WBbt:0005773	rectum	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref	oio:hasDbXref-INVERSE	uberon:0006866
+FBbt:00005756	rectum	skos:exactMatch	WBbt:0005773	rectum	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref	oio:hasDbXref-INVERSE	uberon:0006866
+FBbt:00005756	rectum	skos:exactMatch	WBbt:0005773	rectum	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0006866
+FBbt:00005756	rectum	skos:exactMatch	WBbt:0005773	rectum	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0006866
+FBbt:00005756	rectum	skos:exactMatch	WBbt:0005773	rectum	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0006866
+FBbt:00005756	rectum	skos:exactMatch	WBbt:0005773	rectum	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0006866
+FBbt:00005756	rectum	skos:exactMatch	WBbt:0005773	rectum	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0006866
+FBbt:00005756	rectum	skos:exactMatch	WBbt:0005773	rectum	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0006866
+FBbt:00005756	rectum	skos:exactMatch	WBbt:0005773	rectum	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0006866
+FBbt:00005756	rectum	skos:exactMatch	WBbt:0005773	rectum	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0006866
+FBbt:00005756	rectum	skos:exactMatch	WBbt:0005773	rectum	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0006866
+FBbt:00005756	rectum	skos:exactMatch	WBbt:0005773	rectum	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0006866
+FBbt:00005756	rectum	skos:exactMatch	WBbt:0005773	rectum	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0006866
+FBbt:00005756	rectum	skos:exactMatch	WBbt:0005773	rectum	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0006866
+FBbt:00005756	rectum	skos:exactMatch	WBbt:0005773	rectum	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0006866
+FBbt:00005756	rectum	skos:exactMatch	WBbt:0005773	rectum	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0006866
+FBbt:00005756	rectum	skos:exactMatch	WBbt:0005773	rectum	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0006866
+FBbt:00005756	rectum	skos:exactMatch	WBbt:0005773	rectum	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0006866
+FBbt:00007002	cell	skos:exactMatch	WBbt:0004017	Cell	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref	oio:hasDbXref	cl:0000000
+FBbt:00007002	cell	skos:exactMatch	WBbt:0004017	Cell	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref	oio:hasDbXref-INVERSE	cl:0000000
+FBbt:00007002	cell	skos:exactMatch	WBbt:0004017	Cell	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref	oio:hasDbXref-INVERSE	cl:0000000
+FBbt:00007002	cell	skos:exactMatch	WBbt:0004017	Cell	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref	oio:hasDbXref-INVERSE	cl:0000000
+FBbt:00007002	cell	skos:exactMatch	WBbt:0004017	Cell	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref	oio:hasDbXref-INVERSE	cl:0000000
+FBbt:00007002	cell	skos:exactMatch	WBbt:0004017	Cell	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref	oio:hasDbXref-INVERSE	cl:0000000
+FBbt:00007002	cell	skos:exactMatch	WBbt:0004017	Cell	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref	oio:hasDbXref-INVERSE	cl:0000000
+FBbt:00007002	cell	skos:exactMatch	WBbt:0004017	Cell	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref	cl:0000000
+FBbt:00007002	cell	skos:exactMatch	WBbt:0004017	Cell	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref	cl:0000000
+FBbt:00007002	cell	skos:exactMatch	WBbt:0004017	Cell	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref	cl:0000000
+FBbt:00007002	cell	skos:exactMatch	WBbt:0004017	Cell	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref	cl:0000000
+FBbt:00007002	cell	skos:exactMatch	WBbt:0004017	Cell	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref	cl:0000000
+FBbt:00007002	cell	skos:exactMatch	WBbt:0004017	Cell	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref	cl:0000000
+FBbt:00007002	cell	skos:exactMatch	WBbt:0004017	Cell	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	cl:0000000
+FBbt:00007002	cell	skos:exactMatch	WBbt:0004017	Cell	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	cl:0000000
+FBbt:00007002	cell	skos:exactMatch	WBbt:0004017	Cell	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	cl:0000000
+FBbt:00007002	cell	skos:exactMatch	WBbt:0004017	Cell	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	cl:0000000
+FBbt:00007002	cell	skos:exactMatch	WBbt:0004017	Cell	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	cl:0000000
+FBbt:00007002	cell	skos:exactMatch	WBbt:0004017	Cell	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	cl:0000000
+FBbt:00007002	cell	skos:exactMatch	WBbt:0004017	Cell	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	cl:0000000
+FBbt:00007002	cell	skos:exactMatch	WBbt:0004017	Cell	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	cl:0000000
+FBbt:00007002	cell	skos:exactMatch	WBbt:0004017	Cell	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	cl:0000000
+FBbt:00007002	cell	skos:exactMatch	WBbt:0004017	Cell	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	cl:0000000
+FBbt:00007002	cell	skos:exactMatch	WBbt:0004017	Cell	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	cl:0000000
+FBbt:00007002	cell	skos:exactMatch	WBbt:0004017	Cell	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	cl:0000000
+FBbt:00007002	cell	skos:exactMatch	WBbt:0004017	Cell	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	cl:0000000
+FBbt:00007002	cell	skos:exactMatch	WBbt:0004017	Cell	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	cl:0000000
+FBbt:00007002	cell	skos:exactMatch	WBbt:0004017	Cell	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	cl:0000000
+FBbt:00007002	cell	skos:exactMatch	WBbt:0004017	Cell	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	cl:0000000
+FBbt:00007002	cell	skos:exactMatch	WBbt:0004017	Cell	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	cl:0000000
+FBbt:00007002	cell	skos:exactMatch	WBbt:0004017	Cell	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	cl:0000000
+FBbt:00007002	cell	skos:exactMatch	WBbt:0004017	Cell	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	cl:0000000
+FBbt:00007002	cell	skos:exactMatch	WBbt:0004017	Cell	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	cl:0000000
+FBbt:00007002	cell	skos:exactMatch	WBbt:0004017	Cell	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	cl:0000000
+FBbt:00007002	cell	skos:exactMatch	WBbt:0004017	Cell	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	cl:0000000
+FBbt:00007002	cell	skos:exactMatch	WBbt:0004017	Cell	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	cl:0000000
+FBbt:00007002	cell	skos:exactMatch	WBbt:0004017	Cell	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	cl:0000000
+FBbt:00007002	cell	skos:exactMatch	WBbt:0004017	Cell	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	cl:0000000
+FBbt:00007002	cell	skos:exactMatch	WBbt:0004017	Cell	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	cl:0000000
+FBbt:00007002	cell	skos:exactMatch	WBbt:0004017	Cell	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	cl:0000000
+FBbt:00007002	cell	skos:exactMatch	WBbt:0004017	Cell	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	cl:0000000
+FBbt:00007002	cell	skos:exactMatch	WBbt:0004017	Cell	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	cl:0000000
+FBbt:00007002	cell	skos:exactMatch	WBbt:0004017	Cell	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	cl:0000000
+FBbt:00007002	cell	skos:exactMatch	WBbt:0004017	Cell	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	cl:0000000
+FBbt:00007002	cell	skos:exactMatch	WBbt:0004017	Cell	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	cl:0000000
+FBbt:00007002	cell	skos:exactMatch	WBbt:0004017	Cell	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	cl:0000000
+FBbt:00007002	cell	skos:exactMatch	WBbt:0004017	Cell	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	cl:0000000
+FBbt:00007002	cell	skos:exactMatch	WBbt:0004017	Cell	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	cl:0000000
+FBbt:00007002	cell	skos:exactMatch	WBbt:0004017	Cell	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	cl:0000000
+FBbt:00007003	portion of tissue	skos:exactMatch	WBbt:0005729	Tissue	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref	oio:hasDbXref	caro:0000043
+FBbt:00007003	portion of tissue	skos:exactMatch	WBbt:0005729	Tissue	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref	oio:hasDbXref-INVERSE	uberon:0000479
+FBbt:00007003	portion of tissue	skos:exactMatch	WBbt:0005729	Tissue	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref	oio:hasDbXref-INVERSE	uberon:0000479
+FBbt:00007003	portion of tissue	skos:exactMatch	WBbt:0005729	Tissue	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref	oio:hasDbXref-INVERSE	uberon:0000479
+FBbt:00007003	portion of tissue	skos:exactMatch	WBbt:0005729	Tissue	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref	oio:hasDbXref-INVERSE	uberon:0000479
+FBbt:00007003	portion of tissue	skos:exactMatch	WBbt:0005729	Tissue	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0000479
+FBbt:00007003	portion of tissue	skos:exactMatch	WBbt:0005729	Tissue	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0000479
+FBbt:00007003	portion of tissue	skos:exactMatch	WBbt:0005729	Tissue	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0000479
+FBbt:00007003	portion of tissue	skos:exactMatch	WBbt:0005729	Tissue	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0000479
+FBbt:00007003	portion of tissue	skos:exactMatch	WBbt:0005729	Tissue	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0000479
+FBbt:00007003	portion of tissue	skos:exactMatch	WBbt:0005729	Tissue	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0000479
+FBbt:00007003	portion of tissue	skos:exactMatch	WBbt:0005729	Tissue	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0000479
+FBbt:00007003	portion of tissue	skos:exactMatch	WBbt:0005729	Tissue	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0000479
+FBbt:00007003	portion of tissue	skos:exactMatch	WBbt:0005729	Tissue	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0000479
+FBbt:00007003	portion of tissue	skos:exactMatch	WBbt:0005729	Tissue	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0000479
+FBbt:00007003	portion of tissue	skos:exactMatch	WBbt:0005729	Tissue	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0000479
+FBbt:00007003	portion of tissue	skos:exactMatch	WBbt:0005729	Tissue	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0000479
+FBbt:00007003	portion of tissue	skos:exactMatch	WBbt:0005729	Tissue	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0000479
+FBbt:00007003	portion of tissue	skos:exactMatch	WBbt:0005729	Tissue	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0000479
+FBbt:00007003	portion of tissue	skos:exactMatch	WBbt:0005729	Tissue	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0000479
+FBbt:00007003	portion of tissue	skos:exactMatch	WBbt:0005729	Tissue	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0000479
+FBbt:00007004	male organism	skos:exactMatch	WBbt:0007850	male	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref	oio:hasDbXref	caro:0000027
+FBbt:00007004	male organism	skos:exactMatch	WBbt:0007850	male	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref	oio:hasDbXref-INVERSE	uberon:0003101
+FBbt:00007004	male organism	skos:exactMatch	WBbt:0007850	male	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref	oio:hasDbXref-INVERSE	uberon:0003101
+FBbt:00007004	male organism	skos:exactMatch	WBbt:0007850	male	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref	oio:hasDbXref-INVERSE	uberon:0003101
+FBbt:00007004	male organism	skos:exactMatch	WBbt:0007850	male	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref	oio:hasDbXref-INVERSE	uberon:0003101
+FBbt:00007004	male organism	skos:exactMatch	WBbt:0007850	male	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0003101
+FBbt:00007004	male organism	skos:exactMatch	WBbt:0007850	male	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0003101
+FBbt:00007004	male organism	skos:exactMatch	WBbt:0007850	male	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0003101
+FBbt:00007004	male organism	skos:exactMatch	WBbt:0007850	male	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0003101
+FBbt:00007004	male organism	skos:exactMatch	WBbt:0007850	male	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0003101
+FBbt:00007004	male organism	skos:exactMatch	WBbt:0007850	male	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0003101
+FBbt:00007004	male organism	skos:exactMatch	WBbt:0007850	male	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0003101
+FBbt:00007004	male organism	skos:exactMatch	WBbt:0007850	male	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0003101
+FBbt:00007004	male organism	skos:exactMatch	WBbt:0007850	male	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0003101
+FBbt:00007004	male organism	skos:exactMatch	WBbt:0007850	male	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0003101
+FBbt:00007004	male organism	skos:exactMatch	WBbt:0007850	male	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0003101
+FBbt:00007004	male organism	skos:exactMatch	WBbt:0007850	male	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0003101
+FBbt:00007004	male organism	skos:exactMatch	WBbt:0007850	male	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0003101
+FBbt:00007004	male organism	skos:exactMatch	WBbt:0007850	male	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0003101
+FBbt:00007004	male organism	skos:exactMatch	WBbt:0007850	male	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0003101
+FBbt:00007004	male organism	skos:exactMatch	WBbt:0007850	male	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0003101
+FBbt:00007005	epithelium	skos:exactMatch	WBbt:0005733	hypodermis	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref	oio:hasDbXref	caro:0000066
+FBbt:00007011	female organism	skos:exactMatch	WBbt:0008595	female	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref	oio:hasDbXref	caro:0000028
+FBbt:00007012	cell component	skos:exactMatch	WBbt:0008628	cell component	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref	oio:hasDbXref	caro:0000014
+FBbt:00007013	acellular anatomical structure	skos:exactMatch	WBbt:0005732	extracellular component	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref	oio:hasDbXref	caro:0000040
+FBbt:00007173	cholinergic neuron	skos:exactMatch	WBbt:0006840	cholinergic neuron	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref	oio:hasDbXref-INVERSE	cl:0000108
+FBbt:00007173	cholinergic neuron	skos:exactMatch	WBbt:0006840	cholinergic neuron	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref	oio:hasDbXref-INVERSE	cl:0000108
+FBbt:00007173	cholinergic neuron	skos:exactMatch	WBbt:0006840	cholinergic neuron	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref	oio:hasDbXref-INVERSE	cl:0000108
+FBbt:00007173	cholinergic neuron	skos:exactMatch	WBbt:0006840	cholinergic neuron	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref	oio:hasDbXref-INVERSE	cl:0000108
+FBbt:00007228	GABAergic neuron	skos:exactMatch	WBbt:0005190	GABAergic neuron	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref	oio:hasDbXref-INVERSE	cl:0000617
+FBbt:00007228	GABAergic neuron	skos:exactMatch	WBbt:0005190	GABAergic neuron	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref	oio:hasDbXref-INVERSE	cl:0000617
+FBbt:00007228	GABAergic neuron	skos:exactMatch	WBbt:0005190	GABAergic neuron	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref	oio:hasDbXref-INVERSE	cl:0000617
+FBbt:00007228	GABAergic neuron	skos:exactMatch	WBbt:0005190	GABAergic neuron	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref	oio:hasDbXref-INVERSE	cl:0000617
+FBbt:00047153	anus	skos:exactMatch	WBbt:0005364	anus	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref	oio:hasDbXref-INVERSE	uberon:0001245
+FBbt:00047153	anus	skos:exactMatch	WBbt:0005364	anus	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref	oio:hasDbXref-INVERSE	uberon:0001245
+FBbt:00047153	anus	skos:exactMatch	WBbt:0005364	anus	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref	oio:hasDbXref-INVERSE	uberon:0001245
+FBbt:00047153	anus	skos:exactMatch	WBbt:0005364	anus	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref	oio:hasDbXref-INVERSE	uberon:0001245
+FBbt:00047153	anus	skos:exactMatch	WBbt:0005364	anus	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0001245
+FBbt:00047153	anus	skos:exactMatch	WBbt:0005364	anus	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0001245
+FBbt:00047153	anus	skos:exactMatch	WBbt:0005364	anus	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0001245
+FBbt:00047153	anus	skos:exactMatch	WBbt:0005364	anus	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0001245
+FBbt:00047153	anus	skos:exactMatch	WBbt:0005364	anus	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0001245
+FBbt:00047153	anus	skos:exactMatch	WBbt:0005364	anus	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0001245
+FBbt:00047153	anus	skos:exactMatch	WBbt:0005364	anus	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0001245
+FBbt:00047153	anus	skos:exactMatch	WBbt:0005364	anus	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0001245
+FBbt:00047153	anus	skos:exactMatch	WBbt:0005364	anus	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0001245
+FBbt:00047153	anus	skos:exactMatch	WBbt:0005364	anus	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0001245
+FBbt:00047153	anus	skos:exactMatch	WBbt:0005364	anus	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0001245
+FBbt:00047153	anus	skos:exactMatch	WBbt:0005364	anus	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0001245
+FBbt:00047153	anus	skos:exactMatch	WBbt:0005364	anus	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0001245
+FBbt:00047153	anus	skos:exactMatch	WBbt:0005364	anus	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0001245
+FBbt:00047153	anus	skos:exactMatch	WBbt:0005364	anus	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0001245
+FBbt:00047153	anus	skos:exactMatch	WBbt:0005364	anus	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0001245
+FBbt:00100291	glutamatergic neuron	skos:exactMatch	WBbt:0006829	glutamatergic neuron	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref	oio:hasDbXref-INVERSE	cl:0000679
+FBbt:00100291	glutamatergic neuron	skos:exactMatch	WBbt:0006829	glutamatergic neuron	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref	oio:hasDbXref-INVERSE	cl:0000679
+FBbt:00100291	glutamatergic neuron	skos:exactMatch	WBbt:0006829	glutamatergic neuron	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref	oio:hasDbXref-INVERSE	cl:0000679
+FBbt:00100291	glutamatergic neuron	skos:exactMatch	WBbt:0006829	glutamatergic neuron	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref	oio:hasDbXref-INVERSE	cl:0000679
+FBbt:10000000	anatomical entity	skos:exactMatch	WBbt:0000100	C. elegans anatomical entity	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref	oio:hasDbXref-INVERSE	uberon:0001062
+FBbt:10000000	anatomical entity	skos:exactMatch	WBbt:0000100	C. elegans anatomical entity	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref	oio:hasDbXref-INVERSE	uberon:0001062
+FBbt:10000000	anatomical entity	skos:exactMatch	WBbt:0000100	C. elegans anatomical entity	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref	oio:hasDbXref-INVERSE	uberon:0001062
+FBbt:10000000	anatomical entity	skos:exactMatch	WBbt:0000100	C. elegans anatomical entity	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref	oio:hasDbXref-INVERSE	uberon:0001062
+FBbt:10000000	anatomical entity	skos:exactMatch	WBbt:0000100	C. elegans anatomical entity	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0001062
+FBbt:10000000	anatomical entity	skos:exactMatch	WBbt:0000100	C. elegans anatomical entity	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0001062
+FBbt:10000000	anatomical entity	skos:exactMatch	WBbt:0000100	C. elegans anatomical entity	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0001062
+FBbt:10000000	anatomical entity	skos:exactMatch	WBbt:0000100	C. elegans anatomical entity	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0001062
+FBbt:10000000	anatomical entity	skos:exactMatch	WBbt:0000100	C. elegans anatomical entity	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0001062
+FBbt:10000000	anatomical entity	skos:exactMatch	WBbt:0000100	C. elegans anatomical entity	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0001062
+FBbt:10000000	anatomical entity	skos:exactMatch	WBbt:0000100	C. elegans anatomical entity	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0001062
+FBbt:10000000	anatomical entity	skos:exactMatch	WBbt:0000100	C. elegans anatomical entity	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0001062
+FBbt:10000000	anatomical entity	skos:exactMatch	WBbt:0000100	C. elegans anatomical entity	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0001062
+FBbt:10000000	anatomical entity	skos:exactMatch	WBbt:0000100	C. elegans anatomical entity	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0001062
+FBbt:10000000	anatomical entity	skos:exactMatch	WBbt:0000100	C. elegans anatomical entity	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0001062
+FBbt:10000000	anatomical entity	skos:exactMatch	WBbt:0000100	C. elegans anatomical entity	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0001062
+FBbt:10000000	anatomical entity	skos:exactMatch	WBbt:0000100	C. elegans anatomical entity	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0001062
+FBbt:10000000	anatomical entity	skos:exactMatch	WBbt:0000100	C. elegans anatomical entity	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0001062
+FBbt:10000000	anatomical entity	skos:exactMatch	WBbt:0000100	C. elegans anatomical entity	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0001062
+FBbt:10000000	anatomical entity	skos:exactMatch	WBbt:0000100	C. elegans anatomical entity	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0001062
+

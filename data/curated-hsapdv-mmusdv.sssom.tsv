@@ -1,0 +1,231 @@
+# curie_map:
+#   HsapDv: http://purl.obolibrary.org/obo/HsapDv_
+#   MmusDv: http://purl.obolibrary.org/obo/MmusDv_
+#   oio: http://www.geneontology.org/formats/oboInOwl#
+#   owl: http://www.w3.org/2002/07/owl#
+#   rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#
+#   rdfs: http://www.w3.org/2000/01/rdf-schema#
+#   semapv: https://w3id.org/semapv/
+#   skos: http://www.w3.org/2004/02/skos/core#
+#   sssom: https://w3id.org/sssom/
+# license: https://w3id.org/sssom/license/unspecified
+# mapping_set_id: https://w3id.org/sssom/mappings/be25b899-ddb3-474c-b56a-5e1984d105ca
+subject_id	subject_label	predicate_id	object_id	object_label	mapping_justification	mapping_tool	confidence	subject_match_field	object_match_field	match_string
+HsapDv:0000000	human life cycle stage	skos:exactMatch	MmusDv:0000000	mouse life cycle stage	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref	oio:hasDbXref	uberon:0000105
+HsapDv:0000000	human life cycle stage	skos:exactMatch	MmusDv:0000000	mouse life cycle stage	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref	oio:hasDbXref-INVERSE	uberon:0000105
+HsapDv:0000000	human life cycle stage	skos:exactMatch	MmusDv:0000000	mouse life cycle stage	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref	oio:hasDbXref-INVERSE	uberon:0000105
+HsapDv:0000000	human life cycle stage	skos:exactMatch	MmusDv:0000000	mouse life cycle stage	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref	oio:hasDbXref-INVERSE	uberon:0000105
+HsapDv:0000000	human life cycle stage	skos:exactMatch	MmusDv:0000000	mouse life cycle stage	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref	oio:hasDbXref-INVERSE	uberon:0000105
+HsapDv:0000000	human life cycle stage	skos:exactMatch	MmusDv:0000000	mouse life cycle stage	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref	oio:hasDbXref-INVERSE	uberon:0000105
+HsapDv:0000000	human life cycle stage	skos:exactMatch	MmusDv:0000000	mouse life cycle stage	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref	oio:hasDbXref-INVERSE	uberon:0000105
+HsapDv:0000000	human life cycle stage	skos:exactMatch	MmusDv:0000000	mouse life cycle stage	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref	uberon:0000105
+HsapDv:0000000	human life cycle stage	skos:exactMatch	MmusDv:0000000	mouse life cycle stage	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref	uberon:0000105
+HsapDv:0000000	human life cycle stage	skos:exactMatch	MmusDv:0000000	mouse life cycle stage	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref	uberon:0000105
+HsapDv:0000000	human life cycle stage	skos:exactMatch	MmusDv:0000000	mouse life cycle stage	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref	uberon:0000105
+HsapDv:0000000	human life cycle stage	skos:exactMatch	MmusDv:0000000	mouse life cycle stage	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref	uberon:0000105
+HsapDv:0000000	human life cycle stage	skos:exactMatch	MmusDv:0000000	mouse life cycle stage	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref	uberon:0000105
+HsapDv:0000000	human life cycle stage	skos:exactMatch	MmusDv:0000000	mouse life cycle stage	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0000105
+HsapDv:0000000	human life cycle stage	skos:exactMatch	MmusDv:0000000	mouse life cycle stage	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0000105
+HsapDv:0000000	human life cycle stage	skos:exactMatch	MmusDv:0000000	mouse life cycle stage	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0000105
+HsapDv:0000000	human life cycle stage	skos:exactMatch	MmusDv:0000000	mouse life cycle stage	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0000105
+HsapDv:0000000	human life cycle stage	skos:exactMatch	MmusDv:0000000	mouse life cycle stage	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0000105
+HsapDv:0000000	human life cycle stage	skos:exactMatch	MmusDv:0000000	mouse life cycle stage	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0000105
+HsapDv:0000000	human life cycle stage	skos:exactMatch	MmusDv:0000000	mouse life cycle stage	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0000105
+HsapDv:0000000	human life cycle stage	skos:exactMatch	MmusDv:0000000	mouse life cycle stage	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0000105
+HsapDv:0000000	human life cycle stage	skos:exactMatch	MmusDv:0000000	mouse life cycle stage	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0000105
+HsapDv:0000000	human life cycle stage	skos:exactMatch	MmusDv:0000000	mouse life cycle stage	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0000105
+HsapDv:0000000	human life cycle stage	skos:exactMatch	MmusDv:0000000	mouse life cycle stage	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0000105
+HsapDv:0000000	human life cycle stage	skos:exactMatch	MmusDv:0000000	mouse life cycle stage	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0000105
+HsapDv:0000000	human life cycle stage	skos:exactMatch	MmusDv:0000000	mouse life cycle stage	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0000105
+HsapDv:0000000	human life cycle stage	skos:exactMatch	MmusDv:0000000	mouse life cycle stage	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0000105
+HsapDv:0000000	human life cycle stage	skos:exactMatch	MmusDv:0000000	mouse life cycle stage	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0000105
+HsapDv:0000000	human life cycle stage	skos:exactMatch	MmusDv:0000000	mouse life cycle stage	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0000105
+HsapDv:0000000	human life cycle stage	skos:exactMatch	MmusDv:0000000	mouse life cycle stage	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0000105
+HsapDv:0000000	human life cycle stage	skos:exactMatch	MmusDv:0000000	mouse life cycle stage	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0000105
+HsapDv:0000000	human life cycle stage	skos:exactMatch	MmusDv:0000000	mouse life cycle stage	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0000105
+HsapDv:0000000	human life cycle stage	skos:exactMatch	MmusDv:0000000	mouse life cycle stage	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0000105
+HsapDv:0000000	human life cycle stage	skos:exactMatch	MmusDv:0000000	mouse life cycle stage	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0000105
+HsapDv:0000000	human life cycle stage	skos:exactMatch	MmusDv:0000000	mouse life cycle stage	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0000105
+HsapDv:0000000	human life cycle stage	skos:exactMatch	MmusDv:0000000	mouse life cycle stage	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0000105
+HsapDv:0000000	human life cycle stage	skos:exactMatch	MmusDv:0000000	mouse life cycle stage	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0000105
+HsapDv:0000000	human life cycle stage	skos:exactMatch	MmusDv:0000000	mouse life cycle stage	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0000105
+HsapDv:0000000	human life cycle stage	skos:exactMatch	MmusDv:0000000	mouse life cycle stage	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0000105
+HsapDv:0000000	human life cycle stage	skos:exactMatch	MmusDv:0000000	mouse life cycle stage	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0000105
+HsapDv:0000000	human life cycle stage	skos:exactMatch	MmusDv:0000000	mouse life cycle stage	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0000105
+HsapDv:0000000	human life cycle stage	skos:exactMatch	MmusDv:0000000	mouse life cycle stage	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0000105
+HsapDv:0000000	human life cycle stage	skos:exactMatch	MmusDv:0000000	mouse life cycle stage	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0000105
+HsapDv:0000000	human life cycle stage	skos:exactMatch	MmusDv:0000000	mouse life cycle stage	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0000105
+HsapDv:0000000	human life cycle stage	skos:exactMatch	MmusDv:0000000	mouse life cycle stage	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0000105
+HsapDv:0000000	human life cycle stage	skos:exactMatch	MmusDv:0000000	mouse life cycle stage	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0000105
+HsapDv:0000000	human life cycle stage	skos:exactMatch	MmusDv:0000000	mouse life cycle stage	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0000105
+HsapDv:0000000	human life cycle stage	skos:exactMatch	MmusDv:0000000	mouse life cycle stage	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0000105
+HsapDv:0000000	human life cycle stage	skos:exactMatch	MmusDv:0000000	mouse life cycle stage	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0000105
+HsapDv:0000001	human life cycle	skos:exactMatch	MmusDv:0000001	mouse life cycle	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref	oio:hasDbXref	uberon:0000104
+HsapDv:0000001	human life cycle	skos:exactMatch	MmusDv:0000001	mouse life cycle	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref	oio:hasDbXref-INVERSE	uberon:0000104
+HsapDv:0000001	human life cycle	skos:exactMatch	MmusDv:0000001	mouse life cycle	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref	oio:hasDbXref-INVERSE	uberon:0000104
+HsapDv:0000001	human life cycle	skos:exactMatch	MmusDv:0000001	mouse life cycle	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref	oio:hasDbXref-INVERSE	uberon:0000104
+HsapDv:0000001	human life cycle	skos:exactMatch	MmusDv:0000001	mouse life cycle	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref	oio:hasDbXref-INVERSE	uberon:0000104
+HsapDv:0000001	human life cycle	skos:exactMatch	MmusDv:0000001	mouse life cycle	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref	uberon:0000104
+HsapDv:0000001	human life cycle	skos:exactMatch	MmusDv:0000001	mouse life cycle	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref	uberon:0000104
+HsapDv:0000001	human life cycle	skos:exactMatch	MmusDv:0000001	mouse life cycle	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref	uberon:0000104
+HsapDv:0000001	human life cycle	skos:exactMatch	MmusDv:0000001	mouse life cycle	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref	uberon:0000104
+HsapDv:0000001	human life cycle	skos:exactMatch	MmusDv:0000001	mouse life cycle	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0000104
+HsapDv:0000001	human life cycle	skos:exactMatch	MmusDv:0000001	mouse life cycle	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0000104
+HsapDv:0000001	human life cycle	skos:exactMatch	MmusDv:0000001	mouse life cycle	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0000104
+HsapDv:0000001	human life cycle	skos:exactMatch	MmusDv:0000001	mouse life cycle	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0000104
+HsapDv:0000001	human life cycle	skos:exactMatch	MmusDv:0000001	mouse life cycle	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0000104
+HsapDv:0000001	human life cycle	skos:exactMatch	MmusDv:0000001	mouse life cycle	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0000104
+HsapDv:0000001	human life cycle	skos:exactMatch	MmusDv:0000001	mouse life cycle	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0000104
+HsapDv:0000001	human life cycle	skos:exactMatch	MmusDv:0000001	mouse life cycle	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0000104
+HsapDv:0000001	human life cycle	skos:exactMatch	MmusDv:0000001	mouse life cycle	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0000104
+HsapDv:0000001	human life cycle	skos:exactMatch	MmusDv:0000001	mouse life cycle	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0000104
+HsapDv:0000001	human life cycle	skos:exactMatch	MmusDv:0000001	mouse life cycle	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0000104
+HsapDv:0000001	human life cycle	skos:exactMatch	MmusDv:0000001	mouse life cycle	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0000104
+HsapDv:0000001	human life cycle	skos:exactMatch	MmusDv:0000001	mouse life cycle	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0000104
+HsapDv:0000001	human life cycle	skos:exactMatch	MmusDv:0000001	mouse life cycle	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0000104
+HsapDv:0000001	human life cycle	skos:exactMatch	MmusDv:0000001	mouse life cycle	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0000104
+HsapDv:0000001	human life cycle	skos:exactMatch	MmusDv:0000001	mouse life cycle	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0000104
+HsapDv:0000002	embryonic human stage	skos:exactMatch	MmusDv:0000002	embryonic mouse stage	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0000068
+HsapDv:0000002	embryonic human stage	skos:exactMatch	MmusDv:0000002	embryonic mouse stage	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0000068
+HsapDv:0000002	embryonic human stage	skos:exactMatch	MmusDv:0000002	embryonic mouse stage	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0000068
+HsapDv:0000002	embryonic human stage	skos:exactMatch	MmusDv:0000002	embryonic mouse stage	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0000068
+HsapDv:0000002	embryonic human stage	skos:exactMatch	MmusDv:0000002	embryonic mouse stage	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0000068
+HsapDv:0000002	embryonic human stage	skos:exactMatch	MmusDv:0000002	embryonic mouse stage	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0000068
+HsapDv:0000002	embryonic human stage	skos:exactMatch	MmusDv:0000002	embryonic mouse stage	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0000068
+HsapDv:0000002	embryonic human stage	skos:exactMatch	MmusDv:0000002	embryonic mouse stage	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0000068
+HsapDv:0000002	embryonic human stage	skos:exactMatch	MmusDv:0000002	embryonic mouse stage	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0000068
+HsapDv:0000002	embryonic human stage	skos:exactMatch	MmusDv:0000002	embryonic mouse stage	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0000068
+HsapDv:0000002	embryonic human stage	skos:exactMatch	MmusDv:0000002	embryonic mouse stage	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0000068
+HsapDv:0000002	embryonic human stage	skos:exactMatch	MmusDv:0000002	embryonic mouse stage	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0000068
+HsapDv:0000002	embryonic human stage	skos:exactMatch	MmusDv:0000002	embryonic mouse stage	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0000068
+HsapDv:0000002	embryonic human stage	skos:exactMatch	MmusDv:0000002	embryonic mouse stage	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0000068
+HsapDv:0000002	embryonic human stage	skos:exactMatch	MmusDv:0000002	embryonic mouse stage	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0000068
+HsapDv:0000002	embryonic human stage	skos:exactMatch	MmusDv:0000002	embryonic mouse stage	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0000068
+HsapDv:0000002	embryonic human stage	skos:exactMatch	MmusDv:0000042	prenatal stage	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref	uberon:0000068
+HsapDv:0000002	embryonic human stage	skos:exactMatch	MmusDv:0000042	prenatal stage	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref	uberon:0000068
+HsapDv:0000002	embryonic human stage	skos:exactMatch	MmusDv:0000042	prenatal stage	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref	uberon:0000068
+HsapDv:0000002	embryonic human stage	skos:exactMatch	MmusDv:0000042	prenatal stage	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref	uberon:0000068
+HsapDv:0000003	Carnegie stage 01	skos:exactMatch	MmusDv:0000003	Theiler stage 01	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref	oio:hasDbXref	uberon:0000106
+HsapDv:0000004	cleavage stage	skos:exactMatch	MmusDv:0000004	cleavage stage	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref	oio:hasDbXref	uberon:0000107
+HsapDv:0000004	cleavage stage	skos:exactMatch	MmusDv:0000004	cleavage stage	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref	oio:hasDbXref-INVERSE	uberon:0000107
+HsapDv:0000004	cleavage stage	skos:exactMatch	MmusDv:0000004	cleavage stage	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref	oio:hasDbXref-INVERSE	uberon:0000107
+HsapDv:0000004	cleavage stage	skos:exactMatch	MmusDv:0000004	cleavage stage	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref	oio:hasDbXref-INVERSE	uberon:0000107
+HsapDv:0000004	cleavage stage	skos:exactMatch	MmusDv:0000004	cleavage stage	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref	oio:hasDbXref-INVERSE	uberon:0000107
+HsapDv:0000006	blastula stage	skos:exactMatch	MmusDv:0000007	blastula stage	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref	oio:hasDbXref-INVERSE	uberon:0000108
+HsapDv:0000006	blastula stage	skos:exactMatch	MmusDv:0000007	blastula stage	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref	oio:hasDbXref-INVERSE	uberon:0000108
+HsapDv:0000006	blastula stage	skos:exactMatch	MmusDv:0000007	blastula stage	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref	oio:hasDbXref-INVERSE	uberon:0000108
+HsapDv:0000006	blastula stage	skos:exactMatch	MmusDv:0000007	blastula stage	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref	oio:hasDbXref-INVERSE	uberon:0000108
+HsapDv:0000006	blastula stage	skos:exactMatch	MmusDv:0000007	blastula stage	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0000108
+HsapDv:0000006	blastula stage	skos:exactMatch	MmusDv:0000007	blastula stage	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0000108
+HsapDv:0000006	blastula stage	skos:exactMatch	MmusDv:0000007	blastula stage	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0000108
+HsapDv:0000006	blastula stage	skos:exactMatch	MmusDv:0000007	blastula stage	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0000108
+HsapDv:0000006	blastula stage	skos:exactMatch	MmusDv:0000007	blastula stage	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0000108
+HsapDv:0000006	blastula stage	skos:exactMatch	MmusDv:0000007	blastula stage	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0000108
+HsapDv:0000006	blastula stage	skos:exactMatch	MmusDv:0000007	blastula stage	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0000108
+HsapDv:0000006	blastula stage	skos:exactMatch	MmusDv:0000007	blastula stage	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0000108
+HsapDv:0000006	blastula stage	skos:exactMatch	MmusDv:0000007	blastula stage	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0000108
+HsapDv:0000006	blastula stage	skos:exactMatch	MmusDv:0000007	blastula stage	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0000108
+HsapDv:0000006	blastula stage	skos:exactMatch	MmusDv:0000007	blastula stage	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0000108
+HsapDv:0000006	blastula stage	skos:exactMatch	MmusDv:0000007	blastula stage	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0000108
+HsapDv:0000006	blastula stage	skos:exactMatch	MmusDv:0000007	blastula stage	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0000108
+HsapDv:0000006	blastula stage	skos:exactMatch	MmusDv:0000007	blastula stage	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0000108
+HsapDv:0000006	blastula stage	skos:exactMatch	MmusDv:0000007	blastula stage	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0000108
+HsapDv:0000006	blastula stage	skos:exactMatch	MmusDv:0000007	blastula stage	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0000108
+HsapDv:0000010	gastrula stage	skos:exactMatch	MmusDv:0000013	gastrula stage	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref	oio:hasDbXref	uberon:0000109
+HsapDv:0000010	gastrula stage	skos:exactMatch	MmusDv:0000013	gastrula stage	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref	oio:hasDbXref-INVERSE	uberon:0000109
+HsapDv:0000010	gastrula stage	skos:exactMatch	MmusDv:0000013	gastrula stage	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref	oio:hasDbXref-INVERSE	uberon:0000109
+HsapDv:0000010	gastrula stage	skos:exactMatch	MmusDv:0000013	gastrula stage	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref	oio:hasDbXref-INVERSE	uberon:0000109
+HsapDv:0000010	gastrula stage	skos:exactMatch	MmusDv:0000013	gastrula stage	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref	oio:hasDbXref-INVERSE	uberon:0000109
+HsapDv:0000010	gastrula stage	skos:exactMatch	MmusDv:0000013	gastrula stage	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref	uberon:0000109
+HsapDv:0000010	gastrula stage	skos:exactMatch	MmusDv:0000013	gastrula stage	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref	uberon:0000109
+HsapDv:0000010	gastrula stage	skos:exactMatch	MmusDv:0000013	gastrula stage	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref	uberon:0000109
+HsapDv:0000010	gastrula stage	skos:exactMatch	MmusDv:0000013	gastrula stage	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref	uberon:0000109
+HsapDv:0000010	gastrula stage	skos:exactMatch	MmusDv:0000013	gastrula stage	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0000109
+HsapDv:0000010	gastrula stage	skos:exactMatch	MmusDv:0000013	gastrula stage	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0000109
+HsapDv:0000010	gastrula stage	skos:exactMatch	MmusDv:0000013	gastrula stage	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0000109
+HsapDv:0000010	gastrula stage	skos:exactMatch	MmusDv:0000013	gastrula stage	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0000109
+HsapDv:0000010	gastrula stage	skos:exactMatch	MmusDv:0000013	gastrula stage	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0000109
+HsapDv:0000010	gastrula stage	skos:exactMatch	MmusDv:0000013	gastrula stage	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0000109
+HsapDv:0000010	gastrula stage	skos:exactMatch	MmusDv:0000013	gastrula stage	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0000109
+HsapDv:0000010	gastrula stage	skos:exactMatch	MmusDv:0000013	gastrula stage	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0000109
+HsapDv:0000010	gastrula stage	skos:exactMatch	MmusDv:0000013	gastrula stage	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0000109
+HsapDv:0000010	gastrula stage	skos:exactMatch	MmusDv:0000013	gastrula stage	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0000109
+HsapDv:0000010	gastrula stage	skos:exactMatch	MmusDv:0000013	gastrula stage	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0000109
+HsapDv:0000010	gastrula stage	skos:exactMatch	MmusDv:0000013	gastrula stage	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0000109
+HsapDv:0000010	gastrula stage	skos:exactMatch	MmusDv:0000013	gastrula stage	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0000109
+HsapDv:0000010	gastrula stage	skos:exactMatch	MmusDv:0000013	gastrula stage	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0000109
+HsapDv:0000010	gastrula stage	skos:exactMatch	MmusDv:0000013	gastrula stage	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0000109
+HsapDv:0000010	gastrula stage	skos:exactMatch	MmusDv:0000013	gastrula stage	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0000109
+HsapDv:0000012	neurula stage	skos:exactMatch	MmusDv:0000017	Theiler stage 11	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref	oio:hasDbXref	uberon:0000110
+HsapDv:0000012	neurula stage	skos:exactMatch	MmusDv:0000017	Theiler stage 11	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref	oio:hasDbXref-INVERSE	uberon:0000110
+HsapDv:0000012	neurula stage	skos:exactMatch	MmusDv:0000017	Theiler stage 11	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref	oio:hasDbXref-INVERSE	uberon:0000110
+HsapDv:0000012	neurula stage	skos:exactMatch	MmusDv:0000017	Theiler stage 11	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref	oio:hasDbXref-INVERSE	uberon:0000110
+HsapDv:0000012	neurula stage	skos:exactMatch	MmusDv:0000017	Theiler stage 11	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref	oio:hasDbXref-INVERSE	uberon:0000110
+HsapDv:0000012	neurula stage	skos:exactMatch	MmusDv:0000017	Theiler stage 11	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref	uberon:0000110
+HsapDv:0000012	neurula stage	skos:exactMatch	MmusDv:0000017	Theiler stage 11	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref	uberon:0000110
+HsapDv:0000012	neurula stage	skos:exactMatch	MmusDv:0000017	Theiler stage 11	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref	uberon:0000110
+HsapDv:0000012	neurula stage	skos:exactMatch	MmusDv:0000017	Theiler stage 11	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref	uberon:0000110
+HsapDv:0000012	neurula stage	skos:exactMatch	MmusDv:0000017	Theiler stage 11	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0000110
+HsapDv:0000012	neurula stage	skos:exactMatch	MmusDv:0000017	Theiler stage 11	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0000110
+HsapDv:0000012	neurula stage	skos:exactMatch	MmusDv:0000017	Theiler stage 11	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0000110
+HsapDv:0000012	neurula stage	skos:exactMatch	MmusDv:0000017	Theiler stage 11	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0000110
+HsapDv:0000012	neurula stage	skos:exactMatch	MmusDv:0000017	Theiler stage 11	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0000110
+HsapDv:0000012	neurula stage	skos:exactMatch	MmusDv:0000017	Theiler stage 11	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0000110
+HsapDv:0000012	neurula stage	skos:exactMatch	MmusDv:0000017	Theiler stage 11	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0000110
+HsapDv:0000012	neurula stage	skos:exactMatch	MmusDv:0000017	Theiler stage 11	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0000110
+HsapDv:0000012	neurula stage	skos:exactMatch	MmusDv:0000017	Theiler stage 11	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0000110
+HsapDv:0000012	neurula stage	skos:exactMatch	MmusDv:0000017	Theiler stage 11	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0000110
+HsapDv:0000012	neurula stage	skos:exactMatch	MmusDv:0000017	Theiler stage 11	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0000110
+HsapDv:0000012	neurula stage	skos:exactMatch	MmusDv:0000017	Theiler stage 11	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0000110
+HsapDv:0000012	neurula stage	skos:exactMatch	MmusDv:0000017	Theiler stage 11	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0000110
+HsapDv:0000012	neurula stage	skos:exactMatch	MmusDv:0000017	Theiler stage 11	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0000110
+HsapDv:0000012	neurula stage	skos:exactMatch	MmusDv:0000017	Theiler stage 11	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0000110
+HsapDv:0000012	neurula stage	skos:exactMatch	MmusDv:0000017	Theiler stage 11	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0000110
+HsapDv:0000015	organogenesis stage	skos:exactMatch	MmusDv:0000018	organogenesis stage	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref	oio:hasDbXref	uberon:0000111
+HsapDv:0000015	organogenesis stage	skos:exactMatch	MmusDv:0000018	organogenesis stage	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref	oio:hasDbXref-INVERSE	uberon:0000111
+HsapDv:0000015	organogenesis stage	skos:exactMatch	MmusDv:0000018	organogenesis stage	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref	oio:hasDbXref-INVERSE	uberon:0000111
+HsapDv:0000015	organogenesis stage	skos:exactMatch	MmusDv:0000018	organogenesis stage	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref	oio:hasDbXref-INVERSE	uberon:0000111
+HsapDv:0000015	organogenesis stage	skos:exactMatch	MmusDv:0000018	organogenesis stage	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref	oio:hasDbXref-INVERSE	uberon:0000111
+HsapDv:0000015	organogenesis stage	skos:exactMatch	MmusDv:0000018	organogenesis stage	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref	uberon:0000111
+HsapDv:0000015	organogenesis stage	skos:exactMatch	MmusDv:0000018	organogenesis stage	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref	uberon:0000111
+HsapDv:0000015	organogenesis stage	skos:exactMatch	MmusDv:0000018	organogenesis stage	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref	uberon:0000111
+HsapDv:0000015	organogenesis stage	skos:exactMatch	MmusDv:0000018	organogenesis stage	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref	uberon:0000111
+HsapDv:0000015	organogenesis stage	skos:exactMatch	MmusDv:0000018	organogenesis stage	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0000111
+HsapDv:0000015	organogenesis stage	skos:exactMatch	MmusDv:0000018	organogenesis stage	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0000111
+HsapDv:0000015	organogenesis stage	skos:exactMatch	MmusDv:0000018	organogenesis stage	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0000111
+HsapDv:0000015	organogenesis stage	skos:exactMatch	MmusDv:0000018	organogenesis stage	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0000111
+HsapDv:0000015	organogenesis stage	skos:exactMatch	MmusDv:0000018	organogenesis stage	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0000111
+HsapDv:0000015	organogenesis stage	skos:exactMatch	MmusDv:0000018	organogenesis stage	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0000111
+HsapDv:0000015	organogenesis stage	skos:exactMatch	MmusDv:0000018	organogenesis stage	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0000111
+HsapDv:0000015	organogenesis stage	skos:exactMatch	MmusDv:0000018	organogenesis stage	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0000111
+HsapDv:0000015	organogenesis stage	skos:exactMatch	MmusDv:0000018	organogenesis stage	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0000111
+HsapDv:0000015	organogenesis stage	skos:exactMatch	MmusDv:0000018	organogenesis stage	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0000111
+HsapDv:0000015	organogenesis stage	skos:exactMatch	MmusDv:0000018	organogenesis stage	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0000111
+HsapDv:0000015	organogenesis stage	skos:exactMatch	MmusDv:0000018	organogenesis stage	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0000111
+HsapDv:0000015	organogenesis stage	skos:exactMatch	MmusDv:0000018	organogenesis stage	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0000111
+HsapDv:0000015	organogenesis stage	skos:exactMatch	MmusDv:0000018	organogenesis stage	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0000111
+HsapDv:0000015	organogenesis stage	skos:exactMatch	MmusDv:0000018	organogenesis stage	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0000111
+HsapDv:0000015	organogenesis stage	skos:exactMatch	MmusDv:0000018	organogenesis stage	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref-INVERSE	uberon:0000111
+HsapDv:0000037	fetal stage	skos:exactMatch	MmusDv:0000031	fetal stage	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref	oio:hasDbXref	uberon:0007220
+HsapDv:0000037	fetal stage	skos:exactMatch	MmusDv:0000031	fetal stage	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref	oio:hasDbXref-INVERSE	uberon:0007220
+HsapDv:0000037	fetal stage	skos:exactMatch	MmusDv:0000031	fetal stage	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref	oio:hasDbXref-INVERSE	uberon:0007220
+HsapDv:0000037	fetal stage	skos:exactMatch	MmusDv:0000031	fetal stage	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref	oio:hasDbXref-INVERSE	uberon:0007220
+HsapDv:0000037	fetal stage	skos:exactMatch	MmusDv:0000031	fetal stage	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref	oio:hasDbXref-INVERSE	uberon:0007220
+HsapDv:0000045	prenatal stage	skos:exactMatch	MmusDv:0000002	embryonic mouse stage	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref	oio:hasDbXref-INVERSE	uberon:0000068
+HsapDv:0000045	prenatal stage	skos:exactMatch	MmusDv:0000002	embryonic mouse stage	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref	oio:hasDbXref-INVERSE	uberon:0000068
+HsapDv:0000045	prenatal stage	skos:exactMatch	MmusDv:0000002	embryonic mouse stage	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref	oio:hasDbXref-INVERSE	uberon:0000068
+HsapDv:0000045	prenatal stage	skos:exactMatch	MmusDv:0000002	embryonic mouse stage	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref	oio:hasDbXref-INVERSE	uberon:0000068
+HsapDv:0000045	prenatal stage	skos:exactMatch	MmusDv:0000042	prenatal stage	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref	oio:hasDbXref	uberon:0000068
+HsapDv:0000080	immature stage	skos:exactMatch	MmusDv:0000112	premature stage	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref	oio:hasDbXref	uberon:0000112
+HsapDv:0000082	newborn human stage	skos:exactMatch	MmusDv:0000036	Theiler stage 27	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref	uberon:0007221
+HsapDv:0000082	newborn human stage	skos:exactMatch	MmusDv:0000036	Theiler stage 27	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref	uberon:0007221
+HsapDv:0000082	newborn human stage	skos:exactMatch	MmusDv:0000036	Theiler stage 27	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref	uberon:0007221
+HsapDv:0000082	newborn human stage	skos:exactMatch	MmusDv:0000036	Theiler stage 27	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref	uberon:0007221
+HsapDv:0000093	human aged stage	skos:exactMatch	MmusDv:0000097	late adult stage	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref	oio:hasDbXref	uberon:0007222
+HsapDv:0000093	human aged stage	skos:exactMatch	MmusDv:0000097	late adult stage	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref-INVERSE	oio:hasDbXref	uberon:0007222
+HsapDv:0000204	mature stage	skos:exactMatch	MmusDv:0000110	mature stage	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref	oio:hasDbXref	uberon:0000113
+HsapDv:0000204	mature stage	skos:exactMatch	MmusDv:0000110	mature stage	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref	oio:hasDbXref-INVERSE	uberon:0000113
+HsapDv:0000204	mature stage	skos:exactMatch	MmusDv:0000110	mature stage	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref	oio:hasDbXref-INVERSE	uberon:0000113
+HsapDv:0000204	mature stage	skos:exactMatch	MmusDv:0000110	mature stage	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref	oio:hasDbXref-INVERSE	uberon:0000113
+HsapDv:0000204	mature stage	skos:exactMatch	MmusDv:0000110	mature stage	semapv:LexicalMatching	oaklib	0.9411764705882353	oio:hasDbXref	oio:hasDbXref-INVERSE	uberon:0000113
+

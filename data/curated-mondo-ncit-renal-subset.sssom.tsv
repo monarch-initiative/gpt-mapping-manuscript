@@ -1,0 +1,186 @@
+# curie_map:
+#   MONDO: http://purl.obolibrary.org/obo/MONDO_
+#   NCIT: http://purl.obolibrary.org/obo/NCIT_
+#   oio: http://www.geneontology.org/formats/oboInOwl#
+#   owl: http://www.w3.org/2002/07/owl#
+#   rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#
+#   rdfs: http://www.w3.org/2000/01/rdf-schema#
+#   semapv: https://w3id.org/semapv/
+#   skos: http://www.w3.org/2004/02/skos/core#
+#   sssom: https://w3id.org/sssom/
+# license: https://w3id.org/sssom/license/unspecified
+# mapping_set_id: https://w3id.org/sssom/mappings/351c0ece-06d3-4a85-80b1-8ffeed664ecb
+subject_id	subject_label	predicate_id	object_id	object_label	mapping_justification	mapping_tool	confidence	subject_match_field	object_match_field	match_string
+MONDO:0002350	familial nephrotic syndrome	skos:exactMatch	NCIT:C35337	Congenital Nephrotic Syndrome	semapv:LexicalMatching	oaklib	0.9411764705882353	rdf:ID	oio:hasDbXref-INVERSE	mondo:0002350
+MONDO:0002350	familial nephrotic syndrome	skos:exactMatch	NCIT:C35337	Congenital Nephrotic Syndrome	semapv:LexicalMatching	oaklib	0.9411764705882353	rdf:ID	oio:hasDbXref-INVERSE	mondo:0002350
+MONDO:0002350	familial nephrotic syndrome	skos:exactMatch	NCIT:C35337	Congenital Nephrotic Syndrome	semapv:LexicalMatching	oaklib	0.9411764705882353	rdf:ID	oio:hasDbXref-INVERSE	mondo:0002350
+MONDO:0002350	familial nephrotic syndrome	skos:exactMatch	NCIT:C35337	Congenital Nephrotic Syndrome	semapv:LexicalMatching	oaklib	0.9411764705882353	rdf:ID	oio:hasDbXref-INVERSE	mondo:0002350
+MONDO:0002350	familial nephrotic syndrome	skos:exactMatch	NCIT:C35337	Congenital Nephrotic Syndrome	semapv:LexicalMatching	oaklib	0.9411764705882353	rdf:ID	oio:hasDbXref-INVERSE	mondo:0002350
+MONDO:0002350	familial nephrotic syndrome	skos:exactMatch	NCIT:C35337	Congenital Nephrotic Syndrome	semapv:LexicalMatching	oaklib	0.9411764705882353	rdf:ID	oio:hasDbXref-INVERSE	mondo:0002350
+MONDO:0003008	hereditary renal cell carcinoma	skos:exactMatch	NCIT:C39789	Hereditary Renal Cell Carcinoma	semapv:LexicalMatching	oaklib	0.9411764705882353	rdf:ID	oio:hasDbXref-INVERSE	mondo:0003008
+MONDO:0003008	hereditary renal cell carcinoma	skos:exactMatch	NCIT:C39789	Hereditary Renal Cell Carcinoma	semapv:LexicalMatching	oaklib	0.9411764705882353	rdf:ID	oio:hasDbXref-INVERSE	mondo:0003008
+MONDO:0003008	hereditary renal cell carcinoma	skos:exactMatch	NCIT:C39789	Hereditary Renal Cell Carcinoma	semapv:LexicalMatching	oaklib	0.9411764705882353	rdf:ID	oio:hasDbXref-INVERSE	mondo:0003008
+MONDO:0003008	hereditary renal cell carcinoma	skos:exactMatch	NCIT:C39789	Hereditary Renal Cell Carcinoma	semapv:LexicalMatching	oaklib	0.9411764705882353	rdf:ID	oio:hasDbXref-INVERSE	mondo:0003008
+MONDO:0003008	hereditary renal cell carcinoma	skos:exactMatch	NCIT:C39789	Hereditary Renal Cell Carcinoma	semapv:LexicalMatching	oaklib	0.9411764705882353	rdf:ID	oio:hasDbXref-INVERSE	mondo:0003008
+MONDO:0003321	hereditary Wilms tumor	skos:exactMatch	NCIT:C8496	Hereditary Kidney Wilms Tumor	semapv:LexicalMatching	oaklib	0.9411764705882353	rdf:ID	oio:hasDbXref-INVERSE	mondo:0003321
+MONDO:0003321	hereditary Wilms tumor	skos:exactMatch	NCIT:C8496	Hereditary Kidney Wilms Tumor	semapv:LexicalMatching	oaklib	0.9411764705882353	rdf:ID	oio:hasDbXref-INVERSE	mondo:0003321
+MONDO:0003321	hereditary Wilms tumor	skos:exactMatch	NCIT:C8496	Hereditary Kidney Wilms Tumor	semapv:LexicalMatching	oaklib	0.9411764705882353	rdf:ID	oio:hasDbXref-INVERSE	mondo:0003321
+MONDO:0003321	hereditary Wilms tumor	skos:exactMatch	NCIT:C8496	Hereditary Kidney Wilms Tumor	semapv:LexicalMatching	oaklib	0.9411764705882353	rdf:ID	oio:hasDbXref-INVERSE	mondo:0003321
+MONDO:0003789	hereditary papillary renal cell carcinoma	skos:exactMatch	NCIT:C9222	Hereditary Papillary Renal Cell Carcinoma	semapv:LexicalMatching	oaklib	0.9411764705882353	rdf:ID	oio:hasDbXref-INVERSE	mondo:0003789
+MONDO:0003789	hereditary papillary renal cell carcinoma	skos:exactMatch	NCIT:C9222	Hereditary Papillary Renal Cell Carcinoma	semapv:LexicalMatching	oaklib	0.9411764705882353	rdf:ID	oio:hasDbXref-INVERSE	mondo:0003789
+MONDO:0003789	hereditary papillary renal cell carcinoma	skos:exactMatch	NCIT:C9222	Hereditary Papillary Renal Cell Carcinoma	semapv:LexicalMatching	oaklib	0.9411764705882353	rdf:ID	oio:hasDbXref-INVERSE	mondo:0003789
+MONDO:0003789	hereditary papillary renal cell carcinoma	skos:exactMatch	NCIT:C9222	Hereditary Papillary Renal Cell Carcinoma	semapv:LexicalMatching	oaklib	0.9411764705882353	rdf:ID	oio:hasDbXref-INVERSE	mondo:0003789
+MONDO:0003789	hereditary papillary renal cell carcinoma	skos:exactMatch	NCIT:C9222	Hereditary Papillary Renal Cell Carcinoma	semapv:LexicalMatching	oaklib	0.9411764705882353	rdf:ID	oio:hasDbXref-INVERSE	mondo:0003789
+MONDO:0003789	hereditary papillary renal cell carcinoma	skos:exactMatch	NCIT:C9222	Hereditary Papillary Renal Cell Carcinoma	semapv:LexicalMatching	oaklib	0.9411764705882353	rdf:ID	oio:hasDbXref-INVERSE	mondo:0003789
+MONDO:0003824	hereditary kidney oncocytoma	skos:exactMatch	NCIT:C8960	Hereditary Kidney Oncocytoma	semapv:LexicalMatching	oaklib	0.9411764705882353	rdf:ID	oio:hasDbXref-INVERSE	mondo:0003824
+MONDO:0003824	hereditary kidney oncocytoma	skos:exactMatch	NCIT:C8960	Hereditary Kidney Oncocytoma	semapv:LexicalMatching	oaklib	0.9411764705882353	rdf:ID	oio:hasDbXref-INVERSE	mondo:0003824
+MONDO:0003824	hereditary kidney oncocytoma	skos:exactMatch	NCIT:C8960	Hereditary Kidney Oncocytoma	semapv:LexicalMatching	oaklib	0.9411764705882353	rdf:ID	oio:hasDbXref-INVERSE	mondo:0003824
+MONDO:0004691	autosomal dominant polycystic kidney disease	skos:exactMatch	NCIT:C84578	Autosomal Dominant Polycystic Kidney Disease	semapv:LexicalMatching	oaklib	0.9411764705882353	rdf:ID	oio:hasDbXref-INVERSE	mondo:0004691
+MONDO:0004691	autosomal dominant polycystic kidney disease	skos:exactMatch	NCIT:C84578	Autosomal Dominant Polycystic Kidney Disease	semapv:LexicalMatching	oaklib	0.9411764705882353	rdf:ID	oio:hasDbXref-INVERSE	mondo:0004691
+MONDO:0004691	autosomal dominant polycystic kidney disease	skos:exactMatch	NCIT:C84578	Autosomal Dominant Polycystic Kidney Disease	semapv:LexicalMatching	oaklib	0.9411764705882353	rdf:ID	oio:hasDbXref-INVERSE	mondo:0004691
+MONDO:0004691	autosomal dominant polycystic kidney disease	skos:exactMatch	NCIT:C84578	Autosomal Dominant Polycystic Kidney Disease	semapv:LexicalMatching	oaklib	0.9411764705882353	rdf:ID	oio:hasDbXref-INVERSE	mondo:0004691
+MONDO:0004691	autosomal dominant polycystic kidney disease	skos:exactMatch	NCIT:C84578	Autosomal Dominant Polycystic Kidney Disease	semapv:LexicalMatching	oaklib	0.9411764705882353	rdf:ID	oio:hasDbXref-INVERSE	mondo:0004691
+MONDO:0004691	autosomal dominant polycystic kidney disease	skos:exactMatch	NCIT:C84578	Autosomal Dominant Polycystic Kidney Disease	semapv:LexicalMatching	oaklib	0.9411764705882353	rdf:ID	oio:hasDbXref-INVERSE	mondo:0004691
+MONDO:0004691	autosomal dominant polycystic kidney disease	skos:exactMatch	NCIT:C84578	Autosomal Dominant Polycystic Kidney Disease	semapv:LexicalMatching	oaklib	0.9411764705882353	rdf:ID	oio:hasDbXref-INVERSE	mondo:0004691
+MONDO:0004691	autosomal dominant polycystic kidney disease	skos:exactMatch	NCIT:C84578	Autosomal Dominant Polycystic Kidney Disease	semapv:LexicalMatching	oaklib	0.9411764705882353	rdf:ID	oio:hasDbXref-INVERSE	mondo:0004691
+MONDO:0004691	autosomal dominant polycystic kidney disease	skos:exactMatch	NCIT:C84578	Autosomal Dominant Polycystic Kidney Disease	semapv:LexicalMatching	oaklib	0.9411764705882353	rdf:ID	oio:hasDbXref-INVERSE	mondo:0004691
+MONDO:0004691	autosomal dominant polycystic kidney disease	skos:exactMatch	NCIT:C84578	Autosomal Dominant Polycystic Kidney Disease	semapv:LexicalMatching	oaklib	0.9411764705882353	rdf:ID	oio:hasDbXref-INVERSE	mondo:0004691
+MONDO:0004691	autosomal dominant polycystic kidney disease	skos:exactMatch	NCIT:C84578	Autosomal Dominant Polycystic Kidney Disease	semapv:LexicalMatching	oaklib	0.9411764705882353	rdf:ID	oio:hasDbXref-INVERSE	mondo:0004691
+MONDO:0005342	IgA glomerulonephritis	skos:exactMatch	NCIT:C34643	IgA Nephropathy	semapv:LexicalMatching	oaklib	0.9411764705882353	rdf:ID	oio:hasDbXref-INVERSE	mondo:0005342
+MONDO:0005342	IgA glomerulonephritis	skos:exactMatch	NCIT:C34643	IgA Nephropathy	semapv:LexicalMatching	oaklib	0.9411764705882353	rdf:ID	oio:hasDbXref-INVERSE	mondo:0005342
+MONDO:0005342	IgA glomerulonephritis	skos:exactMatch	NCIT:C34643	IgA Nephropathy	semapv:LexicalMatching	oaklib	0.9411764705882353	rdf:ID	oio:hasDbXref-INVERSE	mondo:0005342
+MONDO:0005342	IgA glomerulonephritis	skos:exactMatch	NCIT:C34643	IgA Nephropathy	semapv:LexicalMatching	oaklib	0.9411764705882353	rdf:ID	oio:hasDbXref-INVERSE	mondo:0005342
+MONDO:0005342	IgA glomerulonephritis	skos:exactMatch	NCIT:C34643	IgA Nephropathy	semapv:LexicalMatching	oaklib	0.9411764705882353	rdf:ID	oio:hasDbXref-INVERSE	mondo:0005342
+MONDO:0005342	IgA glomerulonephritis	skos:exactMatch	NCIT:C34643	IgA Nephropathy	semapv:LexicalMatching	oaklib	0.9411764705882353	rdf:ID	oio:hasDbXref-INVERSE	mondo:0005342
+MONDO:0005342	IgA glomerulonephritis	skos:exactMatch	NCIT:C34643	IgA Nephropathy	semapv:LexicalMatching	oaklib	0.9411764705882353	rdf:ID	oio:hasDbXref-INVERSE	mondo:0005342
+MONDO:0005342	IgA glomerulonephritis	skos:exactMatch	NCIT:C34643	IgA Nephropathy	semapv:LexicalMatching	oaklib	0.9411764705882353	rdf:ID	oio:hasDbXref-INVERSE	mondo:0005342
+MONDO:0005342	IgA glomerulonephritis	skos:exactMatch	NCIT:C34643	IgA Nephropathy	semapv:LexicalMatching	oaklib	0.9411764705882353	rdf:ID	oio:hasDbXref-INVERSE	mondo:0005342
+MONDO:0005798	HIV-associated nephropathy	skos:exactMatch	NCIT:C26918	HIV-Associated Nephropathy	semapv:LexicalMatching	oaklib	0.9411764705882353	rdf:ID	oio:hasDbXref-INVERSE	mondo:0005798
+MONDO:0005798	HIV-associated nephropathy	skos:exactMatch	NCIT:C26918	HIV-Associated Nephropathy	semapv:LexicalMatching	oaklib	0.9411764705882353	rdf:ID	oio:hasDbXref-INVERSE	mondo:0005798
+MONDO:0005798	HIV-associated nephropathy	skos:exactMatch	NCIT:C26918	HIV-Associated Nephropathy	semapv:LexicalMatching	oaklib	0.9411764705882353	rdf:ID	oio:hasDbXref-INVERSE	mondo:0005798
+MONDO:0005798	HIV-associated nephropathy	skos:exactMatch	NCIT:C26918	HIV-Associated Nephropathy	semapv:LexicalMatching	oaklib	0.9411764705882353	rdf:ID	oio:hasDbXref-INVERSE	mondo:0005798
+MONDO:0007416	Balkan nephropathy	skos:exactMatch	NCIT:C123025	Aristolochic Acid Nephropathy	semapv:LexicalMatching	oaklib	0.9411764705882353	rdf:ID	oio:hasDbXref-INVERSE	mondo:0007416
+MONDO:0007416	Balkan nephropathy	skos:exactMatch	NCIT:C123025	Aristolochic Acid Nephropathy	semapv:LexicalMatching	oaklib	0.9411764705882353	rdf:ID	oio:hasDbXref-INVERSE	mondo:0007416
+MONDO:0007416	Balkan nephropathy	skos:exactMatch	NCIT:C123025	Aristolochic Acid Nephropathy	semapv:LexicalMatching	oaklib	0.9411764705882353	rdf:ID	oio:hasDbXref-INVERSE	mondo:0007416
+MONDO:0007416	Balkan nephropathy	skos:exactMatch	NCIT:C123025	Aristolochic Acid Nephropathy	semapv:LexicalMatching	oaklib	0.9411764705882353	rdf:ID	oio:hasDbXref-INVERSE	mondo:0007416
+MONDO:0007416	Balkan nephropathy	skos:exactMatch	NCIT:C123025	Aristolochic Acid Nephropathy	semapv:LexicalMatching	oaklib	0.9411764705882353	rdf:ID	oio:hasDbXref-INVERSE	mondo:0007416
+MONDO:0007416	Balkan nephropathy	skos:exactMatch	NCIT:C123025	Aristolochic Acid Nephropathy	semapv:LexicalMatching	oaklib	0.9411764705882353	rdf:ID	oio:hasDbXref-INVERSE	mondo:0007416
+MONDO:0007416	Balkan nephropathy	skos:exactMatch	NCIT:C123025	Aristolochic Acid Nephropathy	semapv:LexicalMatching	oaklib	0.9411764705882353	rdf:ID	oio:hasDbXref-INVERSE	mondo:0007416
+MONDO:0007416	Balkan nephropathy	skos:exactMatch	NCIT:C123025	Aristolochic Acid Nephropathy	semapv:LexicalMatching	oaklib	0.9411764705882353	rdf:ID	oio:hasDbXref-INVERSE	mondo:0007416
+MONDO:0007416	Balkan nephropathy	skos:exactMatch	NCIT:C123025	Aristolochic Acid Nephropathy	semapv:LexicalMatching	oaklib	0.9411764705882353	rdf:ID	oio:hasDbXref-INVERSE	mondo:0007416
+MONDO:0007416	Balkan nephropathy	skos:exactMatch	NCIT:C123025	Aristolochic Acid Nephropathy	semapv:LexicalMatching	oaklib	0.9411764705882353	rdf:ID	oio:hasDbXref-INVERSE	mondo:0007416
+MONDO:0007416	Balkan nephropathy	skos:exactMatch	NCIT:C123025	Aristolochic Acid Nephropathy	semapv:LexicalMatching	oaklib	0.9411764705882353	rdf:ID	oio:hasDbXref-INVERSE	mondo:0007416
+MONDO:0007888	hereditary leiomyomatosis and renal cell cancer	skos:exactMatch	NCIT:C51302	Hereditary Leiomyomatosis and Renal Cell Carcinoma	semapv:LexicalMatching	oaklib	0.9411764705882353	rdf:ID	oio:hasDbXref-INVERSE	mondo:0007888
+MONDO:0007888	hereditary leiomyomatosis and renal cell cancer	skos:exactMatch	NCIT:C51302	Hereditary Leiomyomatosis and Renal Cell Carcinoma	semapv:LexicalMatching	oaklib	0.9411764705882353	rdf:ID	oio:hasDbXref-INVERSE	mondo:0007888
+MONDO:0007888	hereditary leiomyomatosis and renal cell cancer	skos:exactMatch	NCIT:C51302	Hereditary Leiomyomatosis and Renal Cell Carcinoma	semapv:LexicalMatching	oaklib	0.9411764705882353	rdf:ID	oio:hasDbXref-INVERSE	mondo:0007888
+MONDO:0007888	hereditary leiomyomatosis and renal cell cancer	skos:exactMatch	NCIT:C51302	Hereditary Leiomyomatosis and Renal Cell Carcinoma	semapv:LexicalMatching	oaklib	0.9411764705882353	rdf:ID	oio:hasDbXref-INVERSE	mondo:0007888
+MONDO:0007888	hereditary leiomyomatosis and renal cell cancer	skos:exactMatch	NCIT:C51302	Hereditary Leiomyomatosis and Renal Cell Carcinoma	semapv:LexicalMatching	oaklib	0.9411764705882353	rdf:ID	oio:hasDbXref-INVERSE	mondo:0007888
+MONDO:0007888	hereditary leiomyomatosis and renal cell cancer	skos:exactMatch	NCIT:C51302	Hereditary Leiomyomatosis and Renal Cell Carcinoma	semapv:LexicalMatching	oaklib	0.9411764705882353	rdf:ID	oio:hasDbXref-INVERSE	mondo:0007888
+MONDO:0007888	hereditary leiomyomatosis and renal cell cancer	skos:exactMatch	NCIT:C51302	Hereditary Leiomyomatosis and Renal Cell Carcinoma	semapv:LexicalMatching	oaklib	0.9411764705882353	rdf:ID	oio:hasDbXref-INVERSE	mondo:0007888
+MONDO:0007888	hereditary leiomyomatosis and renal cell cancer	skos:exactMatch	NCIT:C51302	Hereditary Leiomyomatosis and Renal Cell Carcinoma	semapv:LexicalMatching	oaklib	0.9411764705882353	rdf:ID	oio:hasDbXref-INVERSE	mondo:0007888
+MONDO:0007888	hereditary leiomyomatosis and renal cell cancer	skos:exactMatch	NCIT:C51302	Hereditary Leiomyomatosis and Renal Cell Carcinoma	semapv:LexicalMatching	oaklib	0.9411764705882353	rdf:ID	oio:hasDbXref-INVERSE	mondo:0007888
+MONDO:0008073	familial juvenile hyperuricemic nephropathy type 1	skos:exactMatch	NCIT:C123172	Medullary Cystic Kidney Disease Type II	semapv:LexicalMatching	oaklib	0.9411764705882353	rdf:ID	oio:hasDbXref-INVERSE	mondo:0008073
+MONDO:0008073	familial juvenile hyperuricemic nephropathy type 1	skos:exactMatch	NCIT:C123172	Medullary Cystic Kidney Disease Type II	semapv:LexicalMatching	oaklib	0.9411764705882353	rdf:ID	oio:hasDbXref-INVERSE	mondo:0008073
+MONDO:0008073	familial juvenile hyperuricemic nephropathy type 1	skos:exactMatch	NCIT:C123172	Medullary Cystic Kidney Disease Type II	semapv:LexicalMatching	oaklib	0.9411764705882353	rdf:ID	oio:hasDbXref-INVERSE	mondo:0008073
+MONDO:0008073	familial juvenile hyperuricemic nephropathy type 1	skos:exactMatch	NCIT:C123172	Medullary Cystic Kidney Disease Type II	semapv:LexicalMatching	oaklib	0.9411764705882353	rdf:ID	oio:hasDbXref-INVERSE	mondo:0008073
+MONDO:0008073	familial juvenile hyperuricemic nephropathy type 1	skos:exactMatch	NCIT:C123172	Medullary Cystic Kidney Disease Type II	semapv:LexicalMatching	oaklib	0.9411764705882353	rdf:ID	oio:hasDbXref-INVERSE	mondo:0008073
+MONDO:0008073	familial juvenile hyperuricemic nephropathy type 1	skos:exactMatch	NCIT:C123172	Medullary Cystic Kidney Disease Type II	semapv:LexicalMatching	oaklib	0.9411764705882353	rdf:ID	oio:hasDbXref-INVERSE	mondo:0008073
+MONDO:0008073	familial juvenile hyperuricemic nephropathy type 1	skos:exactMatch	NCIT:C123172	Medullary Cystic Kidney Disease Type II	semapv:LexicalMatching	oaklib	0.9411764705882353	rdf:ID	oio:hasDbXref-INVERSE	mondo:0008073
+MONDO:0008073	familial juvenile hyperuricemic nephropathy type 1	skos:exactMatch	NCIT:C123172	Medullary Cystic Kidney Disease Type II	semapv:LexicalMatching	oaklib	0.9411764705882353	rdf:ID	oio:hasDbXref-INVERSE	mondo:0008073
+MONDO:0008073	familial juvenile hyperuricemic nephropathy type 1	skos:exactMatch	NCIT:C123172	Medullary Cystic Kidney Disease Type II	semapv:LexicalMatching	oaklib	0.9411764705882353	rdf:ID	oio:hasDbXref-INVERSE	mondo:0008073
+MONDO:0008073	familial juvenile hyperuricemic nephropathy type 1	skos:exactMatch	NCIT:C123172	Medullary Cystic Kidney Disease Type II	semapv:LexicalMatching	oaklib	0.9411764705882353	rdf:ID	oio:hasDbXref-INVERSE	mondo:0008073
+MONDO:0008073	familial juvenile hyperuricemic nephropathy type 1	skos:exactMatch	NCIT:C123172	Medullary Cystic Kidney Disease Type II	semapv:LexicalMatching	oaklib	0.9411764705882353	rdf:ID	oio:hasDbXref-INVERSE	mondo:0008073
+MONDO:0008073	familial juvenile hyperuricemic nephropathy type 1	skos:exactMatch	NCIT:C123172	Medullary Cystic Kidney Disease Type II	semapv:LexicalMatching	oaklib	0.9411764705882353	rdf:ID	oio:hasDbXref-INVERSE	mondo:0008073
+MONDO:0008073	familial juvenile hyperuricemic nephropathy type 1	skos:exactMatch	NCIT:C123172	Medullary Cystic Kidney Disease Type II	semapv:LexicalMatching	oaklib	0.9411764705882353	rdf:ID	oio:hasDbXref-INVERSE	mondo:0008073
+MONDO:0008073	familial juvenile hyperuricemic nephropathy type 1	skos:exactMatch	NCIT:C123172	Medullary Cystic Kidney Disease Type II	semapv:LexicalMatching	oaklib	0.9411764705882353	rdf:ID	oio:hasDbXref-INVERSE	mondo:0008073
+MONDO:0008073	familial juvenile hyperuricemic nephropathy type 1	skos:exactMatch	NCIT:C123172	Medullary Cystic Kidney Disease Type II	semapv:LexicalMatching	oaklib	0.9411764705882353	rdf:ID	oio:hasDbXref-INVERSE	mondo:0008073
+MONDO:0008073	familial juvenile hyperuricemic nephropathy type 1	skos:exactMatch	NCIT:C123172	Medullary Cystic Kidney Disease Type II	semapv:LexicalMatching	oaklib	0.9411764705882353	rdf:ID	oio:hasDbXref-INVERSE	mondo:0008073
+MONDO:0008679	Wilms tumor 1	skos:exactMatch	NCIT:C27730	Childhood Kidney Wilms Tumor	semapv:LexicalMatching	oaklib	0.9411764705882353	rdf:ID	oio:hasDbXref-INVERSE	mondo:0008679
+MONDO:0008679	Wilms tumor 1	skos:exactMatch	NCIT:C27730	Childhood Kidney Wilms Tumor	semapv:LexicalMatching	oaklib	0.9411764705882353	rdf:ID	oio:hasDbXref-INVERSE	mondo:0008679
+MONDO:0008679	Wilms tumor 1	skos:exactMatch	NCIT:C27730	Childhood Kidney Wilms Tumor	semapv:LexicalMatching	oaklib	0.9411764705882353	rdf:ID	oio:hasDbXref-INVERSE	mondo:0008679
+MONDO:0008679	Wilms tumor 1	skos:exactMatch	NCIT:C27730	Childhood Kidney Wilms Tumor	semapv:LexicalMatching	oaklib	0.9411764705882353	rdf:ID	oio:hasDbXref-INVERSE	mondo:0008679
+MONDO:0008679	Wilms tumor 1	skos:exactMatch	NCIT:C27730	Childhood Kidney Wilms Tumor	semapv:LexicalMatching	oaklib	0.9411764705882353	rdf:ID	oio:hasDbXref-INVERSE	mondo:0008679
+MONDO:0008679	Wilms tumor 1	skos:exactMatch	NCIT:C27730	Childhood Kidney Wilms Tumor	semapv:LexicalMatching	oaklib	0.9411764705882353	rdf:ID	oio:hasDbXref-INVERSE	mondo:0008679
+MONDO:0008679	Wilms tumor 1	skos:exactMatch	NCIT:C6180	Adult Kidney Wilms Tumor	semapv:LexicalMatching	oaklib	0.9411764705882353	rdf:ID	oio:hasDbXref-INVERSE	mondo:0008679
+MONDO:0008679	Wilms tumor 1	skos:exactMatch	NCIT:C6180	Adult Kidney Wilms Tumor	semapv:LexicalMatching	oaklib	0.9411764705882353	rdf:ID	oio:hasDbXref-INVERSE	mondo:0008679
+MONDO:0008679	Wilms tumor 1	skos:exactMatch	NCIT:C6180	Adult Kidney Wilms Tumor	semapv:LexicalMatching	oaklib	0.9411764705882353	rdf:ID	oio:hasDbXref-INVERSE	mondo:0008679
+MONDO:0008679	Wilms tumor 1	skos:exactMatch	NCIT:C6180	Adult Kidney Wilms Tumor	semapv:LexicalMatching	oaklib	0.9411764705882353	rdf:ID	oio:hasDbXref-INVERSE	mondo:0008679
+MONDO:0008679	Wilms tumor 1	skos:exactMatch	NCIT:C6180	Adult Kidney Wilms Tumor	semapv:LexicalMatching	oaklib	0.9411764705882353	rdf:ID	oio:hasDbXref-INVERSE	mondo:0008679
+MONDO:0008679	Wilms tumor 1	skos:exactMatch	NCIT:C6180	Adult Kidney Wilms Tumor	semapv:LexicalMatching	oaklib	0.9411764705882353	rdf:ID	oio:hasDbXref-INVERSE	mondo:0008679
+MONDO:0009728	nephronophthisis 1	skos:exactMatch	NCIT:C74998	Nephronophthisis 1	semapv:LexicalMatching	oaklib	0.9411764705882353	rdf:ID	oio:hasDbXref-INVERSE	mondo:0009728
+MONDO:0009728	nephronophthisis 1	skos:exactMatch	NCIT:C74998	Nephronophthisis 1	semapv:LexicalMatching	oaklib	0.9411764705882353	rdf:ID	oio:hasDbXref-INVERSE	mondo:0009728
+MONDO:0009728	nephronophthisis 1	skos:exactMatch	NCIT:C74998	Nephronophthisis 1	semapv:LexicalMatching	oaklib	0.9411764705882353	rdf:ID	oio:hasDbXref-INVERSE	mondo:0009728
+MONDO:0009728	nephronophthisis 1	skos:exactMatch	NCIT:C74998	Nephronophthisis 1	semapv:LexicalMatching	oaklib	0.9411764705882353	rdf:ID	oio:hasDbXref-INVERSE	mondo:0009728
+MONDO:0009728	nephronophthisis 1	skos:exactMatch	NCIT:C74998	Nephronophthisis 1	semapv:LexicalMatching	oaklib	0.9411764705882353	rdf:ID	oio:hasDbXref-INVERSE	mondo:0009728
+MONDO:0009728	nephronophthisis 1	skos:exactMatch	NCIT:C74998	Nephronophthisis 1	semapv:LexicalMatching	oaklib	0.9411764705882353	rdf:ID	oio:hasDbXref-INVERSE	mondo:0009728
+MONDO:0009728	nephronophthisis 1	skos:exactMatch	NCIT:C74998	Nephronophthisis 1	semapv:LexicalMatching	oaklib	0.9411764705882353	rdf:ID	oio:hasDbXref-INVERSE	mondo:0009728
+MONDO:0009728	nephronophthisis 1	skos:exactMatch	NCIT:C74998	Nephronophthisis 1	semapv:LexicalMatching	oaklib	0.9411764705882353	rdf:ID	oio:hasDbXref-INVERSE	mondo:0009728
+MONDO:0009732	congenital nephrotic syndrome, Finnish type	skos:exactMatch	NCIT:C122795	Nephrotic Syndrome - NPHS1 Associated	semapv:LexicalMatching	oaklib	0.9411764705882353	rdf:ID	oio:hasDbXref-INVERSE	mondo:0009732
+MONDO:0009732	congenital nephrotic syndrome, Finnish type	skos:exactMatch	NCIT:C122795	Nephrotic Syndrome - NPHS1 Associated	semapv:LexicalMatching	oaklib	0.9411764705882353	rdf:ID	oio:hasDbXref-INVERSE	mondo:0009732
+MONDO:0009732	congenital nephrotic syndrome, Finnish type	skos:exactMatch	NCIT:C122795	Nephrotic Syndrome - NPHS1 Associated	semapv:LexicalMatching	oaklib	0.9411764705882353	rdf:ID	oio:hasDbXref-INVERSE	mondo:0009732
+MONDO:0009732	congenital nephrotic syndrome, Finnish type	skos:exactMatch	NCIT:C122795	Nephrotic Syndrome - NPHS1 Associated	semapv:LexicalMatching	oaklib	0.9411764705882353	rdf:ID	oio:hasDbXref-INVERSE	mondo:0009732
+MONDO:0009732	congenital nephrotic syndrome, Finnish type	skos:exactMatch	NCIT:C122795	Nephrotic Syndrome - NPHS1 Associated	semapv:LexicalMatching	oaklib	0.9411764705882353	rdf:ID	oio:hasDbXref-INVERSE	mondo:0009732
+MONDO:0009732	congenital nephrotic syndrome, Finnish type	skos:exactMatch	NCIT:C122795	Nephrotic Syndrome - NPHS1 Associated	semapv:LexicalMatching	oaklib	0.9411764705882353	rdf:ID	oio:hasDbXref-INVERSE	mondo:0009732
+MONDO:0009732	congenital nephrotic syndrome, Finnish type	skos:exactMatch	NCIT:C122795	Nephrotic Syndrome - NPHS1 Associated	semapv:LexicalMatching	oaklib	0.9411764705882353	rdf:ID	oio:hasDbXref-INVERSE	mondo:0009732
+MONDO:0009732	congenital nephrotic syndrome, Finnish type	skos:exactMatch	NCIT:C122795	Nephrotic Syndrome - NPHS1 Associated	semapv:LexicalMatching	oaklib	0.9411764705882353	rdf:ID	oio:hasDbXref-INVERSE	mondo:0009732
+MONDO:0009733	nephrotic syndrome, type 4	skos:exactMatch	NCIT:C121198	Congenital Nephrotic Syndrome - Diffuse Mesangial Sclerosis	semapv:LexicalMatching	oaklib	0.9411764705882353	rdf:ID	oio:hasDbXref-INVERSE	mondo:0009733
+MONDO:0009733	nephrotic syndrome, type 4	skos:exactMatch	NCIT:C121198	Congenital Nephrotic Syndrome - Diffuse Mesangial Sclerosis	semapv:LexicalMatching	oaklib	0.9411764705882353	rdf:ID	oio:hasDbXref-INVERSE	mondo:0009733
+MONDO:0009733	nephrotic syndrome, type 4	skos:exactMatch	NCIT:C121198	Congenital Nephrotic Syndrome - Diffuse Mesangial Sclerosis	semapv:LexicalMatching	oaklib	0.9411764705882353	rdf:ID	oio:hasDbXref-INVERSE	mondo:0009733
+MONDO:0009733	nephrotic syndrome, type 4	skos:exactMatch	NCIT:C121198	Congenital Nephrotic Syndrome - Diffuse Mesangial Sclerosis	semapv:LexicalMatching	oaklib	0.9411764705882353	rdf:ID	oio:hasDbXref-INVERSE	mondo:0009733
+MONDO:0009733	nephrotic syndrome, type 4	skos:exactMatch	NCIT:C121198	Congenital Nephrotic Syndrome - Diffuse Mesangial Sclerosis	semapv:LexicalMatching	oaklib	0.9411764705882353	rdf:ID	oio:hasDbXref-INVERSE	mondo:0009733
+MONDO:0009889	autosomal recessive polycystic kidney disease	skos:exactMatch	NCIT:C84579	Autosomal Recessive Polycystic Kidney Disease	semapv:LexicalMatching	oaklib	0.9411764705882353	rdf:ID	oio:hasDbXref-INVERSE	mondo:0009889
+MONDO:0009889	autosomal recessive polycystic kidney disease	skos:exactMatch	NCIT:C84579	Autosomal Recessive Polycystic Kidney Disease	semapv:LexicalMatching	oaklib	0.9411764705882353	rdf:ID	oio:hasDbXref-INVERSE	mondo:0009889
+MONDO:0009889	autosomal recessive polycystic kidney disease	skos:exactMatch	NCIT:C84579	Autosomal Recessive Polycystic Kidney Disease	semapv:LexicalMatching	oaklib	0.9411764705882353	rdf:ID	oio:hasDbXref-INVERSE	mondo:0009889
+MONDO:0009889	autosomal recessive polycystic kidney disease	skos:exactMatch	NCIT:C84579	Autosomal Recessive Polycystic Kidney Disease	semapv:LexicalMatching	oaklib	0.9411764705882353	rdf:ID	oio:hasDbXref-INVERSE	mondo:0009889
+MONDO:0009889	autosomal recessive polycystic kidney disease	skos:exactMatch	NCIT:C84579	Autosomal Recessive Polycystic Kidney Disease	semapv:LexicalMatching	oaklib	0.9411764705882353	rdf:ID	oio:hasDbXref-INVERSE	mondo:0009889
+MONDO:0009889	autosomal recessive polycystic kidney disease	skos:exactMatch	NCIT:C84579	Autosomal Recessive Polycystic Kidney Disease	semapv:LexicalMatching	oaklib	0.9411764705882353	rdf:ID	oio:hasDbXref-INVERSE	mondo:0009889
+MONDO:0009889	autosomal recessive polycystic kidney disease	skos:exactMatch	NCIT:C84579	Autosomal Recessive Polycystic Kidney Disease	semapv:LexicalMatching	oaklib	0.9411764705882353	rdf:ID	oio:hasDbXref-INVERSE	mondo:0009889
+MONDO:0009889	autosomal recessive polycystic kidney disease	skos:exactMatch	NCIT:C84579	Autosomal Recessive Polycystic Kidney Disease	semapv:LexicalMatching	oaklib	0.9411764705882353	rdf:ID	oio:hasDbXref-INVERSE	mondo:0009889
+MONDO:0012184	Pierson syndrome	skos:exactMatch	NCIT:C128145	Pierson Syndrome	semapv:LexicalMatching	oaklib	0.9411764705882353	rdf:ID	oio:hasDbXref-INVERSE	mondo:0012184
+MONDO:0012184	Pierson syndrome	skos:exactMatch	NCIT:C128145	Pierson Syndrome	semapv:LexicalMatching	oaklib	0.9411764705882353	rdf:ID	oio:hasDbXref-INVERSE	mondo:0012184
+MONDO:0012184	Pierson syndrome	skos:exactMatch	NCIT:C128145	Pierson Syndrome	semapv:LexicalMatching	oaklib	0.9411764705882353	rdf:ID	oio:hasDbXref-INVERSE	mondo:0012184
+MONDO:0012184	Pierson syndrome	skos:exactMatch	NCIT:C128145	Pierson Syndrome	semapv:LexicalMatching	oaklib	0.9411764705882353	rdf:ID	oio:hasDbXref-INVERSE	mondo:0012184
+MONDO:0012184	Pierson syndrome	skos:exactMatch	NCIT:C128145	Pierson Syndrome	semapv:LexicalMatching	oaklib	0.9411764705882353	rdf:ID	oio:hasDbXref-INVERSE	mondo:0012184
+MONDO:0012184	Pierson syndrome	skos:exactMatch	NCIT:C128145	Pierson Syndrome	semapv:LexicalMatching	oaklib	0.9411764705882353	rdf:ID	oio:hasDbXref-INVERSE	mondo:0012184
+MONDO:0012184	Pierson syndrome	skos:exactMatch	NCIT:C128145	Pierson Syndrome	semapv:LexicalMatching	oaklib	0.9411764705882353	rdf:ID	oio:hasDbXref-INVERSE	mondo:0012184
+MONDO:0012184	Pierson syndrome	skos:exactMatch	NCIT:C128145	Pierson Syndrome	semapv:LexicalMatching	oaklib	0.9411764705882353	rdf:ID	oio:hasDbXref-INVERSE	mondo:0012184
+MONDO:0012184	Pierson syndrome	skos:exactMatch	NCIT:C128145	Pierson Syndrome	semapv:LexicalMatching	oaklib	0.9411764705882353	rdf:ID	oio:hasDbXref-INVERSE	mondo:0012184
+MONDO:0013131	polycystic kidney disease 2	skos:exactMatch	NCIT:C123166	Autosomal Dominant Polycystic Kidney Disease Type 2	semapv:LexicalMatching	oaklib	0.9411764705882353	rdf:ID	oio:hasDbXref-INVERSE	mondo:0013131
+MONDO:0013131	polycystic kidney disease 2	skos:exactMatch	NCIT:C123166	Autosomal Dominant Polycystic Kidney Disease Type 2	semapv:LexicalMatching	oaklib	0.9411764705882353	rdf:ID	oio:hasDbXref-INVERSE	mondo:0013131
+MONDO:0013131	polycystic kidney disease 2	skos:exactMatch	NCIT:C123166	Autosomal Dominant Polycystic Kidney Disease Type 2	semapv:LexicalMatching	oaklib	0.9411764705882353	rdf:ID	oio:hasDbXref-INVERSE	mondo:0013131
+MONDO:0013131	polycystic kidney disease 2	skos:exactMatch	NCIT:C123166	Autosomal Dominant Polycystic Kidney Disease Type 2	semapv:LexicalMatching	oaklib	0.9411764705882353	rdf:ID	oio:hasDbXref-INVERSE	mondo:0013131
+MONDO:0013131	polycystic kidney disease 2	skos:exactMatch	NCIT:C123166	Autosomal Dominant Polycystic Kidney Disease Type 2	semapv:LexicalMatching	oaklib	0.9411764705882353	rdf:ID	oio:hasDbXref-INVERSE	mondo:0013131
+MONDO:0014005	immunoglobulin-mediated membranoproliferative glomerulonephritis	skos:exactMatch	NCIT:C123055	Immune Complex Mediated Membranoproliferative Glomerulonephritis	semapv:LexicalMatching	oaklib	0.9411764705882353	rdf:ID	oio:hasDbXref-INVERSE	mondo:0014005
+MONDO:0014005	immunoglobulin-mediated membranoproliferative glomerulonephritis	skos:exactMatch	NCIT:C123055	Immune Complex Mediated Membranoproliferative Glomerulonephritis	semapv:LexicalMatching	oaklib	0.9411764705882353	rdf:ID	oio:hasDbXref-INVERSE	mondo:0014005
+MONDO:0014005	immunoglobulin-mediated membranoproliferative glomerulonephritis	skos:exactMatch	NCIT:C123055	Immune Complex Mediated Membranoproliferative Glomerulonephritis	semapv:LexicalMatching	oaklib	0.9411764705882353	rdf:ID	oio:hasDbXref-INVERSE	mondo:0014005
+MONDO:0018492	hereditary clear cell renal cell carcinoma	skos:exactMatch	NCIT:C36260	Hereditary Clear Cell Renal Cell Carcinoma	semapv:LexicalMatching	oaklib	0.9411764705882353	rdf:ID	oio:hasDbXref-INVERSE	mondo:0018492
+MONDO:0018492	hereditary clear cell renal cell carcinoma	skos:exactMatch	NCIT:C36260	Hereditary Clear Cell Renal Cell Carcinoma	semapv:LexicalMatching	oaklib	0.9411764705882353	rdf:ID	oio:hasDbXref-INVERSE	mondo:0018492
+MONDO:0018492	hereditary clear cell renal cell carcinoma	skos:exactMatch	NCIT:C36260	Hereditary Clear Cell Renal Cell Carcinoma	semapv:LexicalMatching	oaklib	0.9411764705882353	rdf:ID	oio:hasDbXref-INVERSE	mondo:0018492
+MONDO:0018492	hereditary clear cell renal cell carcinoma	skos:exactMatch	NCIT:C36260	Hereditary Clear Cell Renal Cell Carcinoma	semapv:LexicalMatching	oaklib	0.9411764705882353	rdf:ID	oio:hasDbXref-INVERSE	mondo:0018492
+MONDO:0018492	hereditary clear cell renal cell carcinoma	skos:exactMatch	NCIT:C36260	Hereditary Clear Cell Renal Cell Carcinoma	semapv:LexicalMatching	oaklib	0.9411764705882353	rdf:ID	oio:hasDbXref-INVERSE	mondo:0018492
+MONDO:0019005	nephronophthisis	skos:exactMatch	NCIT:C123200	Nephronophthisis	semapv:LexicalMatching	oaklib	0.9411764705882353	rdf:ID	oio:hasDbXref-INVERSE	mondo:0019005
+MONDO:0019005	nephronophthisis	skos:exactMatch	NCIT:C123200	Nephronophthisis	semapv:LexicalMatching	oaklib	0.9411764705882353	rdf:ID	oio:hasDbXref-INVERSE	mondo:0019005
+MONDO:0019005	nephronophthisis	skos:exactMatch	NCIT:C123200	Nephronophthisis	semapv:LexicalMatching	oaklib	0.9411764705882353	rdf:ID	oio:hasDbXref-INVERSE	mondo:0019005
+MONDO:0019005	nephronophthisis	skos:exactMatch	NCIT:C123200	Nephronophthisis	semapv:LexicalMatching	oaklib	0.9411764705882353	rdf:ID	oio:hasDbXref-INVERSE	mondo:0019005
+MONDO:0019005	nephronophthisis	skos:exactMatch	NCIT:C123200	Nephronophthisis	semapv:LexicalMatching	oaklib	0.9411764705882353	rdf:ID	oio:hasDbXref-INVERSE	mondo:0019005
+MONDO:0019005	nephronophthisis	skos:exactMatch	NCIT:C123200	Nephronophthisis	semapv:LexicalMatching	oaklib	0.9411764705882353	rdf:ID	oio:hasDbXref-INVERSE	mondo:0019005
+MONDO:0019005	nephronophthisis	skos:exactMatch	NCIT:C123200	Nephronophthisis	semapv:LexicalMatching	oaklib	0.9411764705882353	rdf:ID	oio:hasDbXref-INVERSE	mondo:0019005
+MONDO:0019005	nephronophthisis	skos:exactMatch	NCIT:C123200	Nephronophthisis	semapv:LexicalMatching	oaklib	0.9411764705882353	rdf:ID	oio:hasDbXref-INVERSE	mondo:0019005
+MONDO:0020642	polycystic kidney disease	skos:exactMatch	NCIT:C75464	Polycystic Kidney Disease	semapv:LexicalMatching	oaklib	0.9411764705882353	rdf:ID	oio:hasDbXref-INVERSE	mondo:0020642
+MONDO:0020642	polycystic kidney disease	skos:exactMatch	NCIT:C75464	Polycystic Kidney Disease	semapv:LexicalMatching	oaklib	0.9411764705882353	rdf:ID	oio:hasDbXref-INVERSE	mondo:0020642
+MONDO:0020642	polycystic kidney disease	skos:exactMatch	NCIT:C75464	Polycystic Kidney Disease	semapv:LexicalMatching	oaklib	0.9411764705882353	rdf:ID	oio:hasDbXref-INVERSE	mondo:0020642
+MONDO:0020642	polycystic kidney disease	skos:exactMatch	NCIT:C75464	Polycystic Kidney Disease	semapv:LexicalMatching	oaklib	0.9411764705882353	rdf:ID	oio:hasDbXref-INVERSE	mondo:0020642
+MONDO:0020642	polycystic kidney disease	skos:exactMatch	NCIT:C75464	Polycystic Kidney Disease	semapv:LexicalMatching	oaklib	0.9411764705882353	rdf:ID	oio:hasDbXref-INVERSE	mondo:0020642
+MONDO:0020726	tubulointerstitial kidney disease, autosomal dominant, 2	skos:exactMatch	NCIT:C123171	Medullary Cystic Kidney Disease Type I	semapv:LexicalMatching	oaklib	0.9411764705882353	rdf:ID	oio:hasDbXref-INVERSE	mondo:0020726
+MONDO:0020726	tubulointerstitial kidney disease, autosomal dominant, 2	skos:exactMatch	NCIT:C123171	Medullary Cystic Kidney Disease Type I	semapv:LexicalMatching	oaklib	0.9411764705882353	rdf:ID	oio:hasDbXref-INVERSE	mondo:0020726
+MONDO:0020726	tubulointerstitial kidney disease, autosomal dominant, 2	skos:exactMatch	NCIT:C123171	Medullary Cystic Kidney Disease Type I	semapv:LexicalMatching	oaklib	0.9411764705882353	rdf:ID	oio:hasDbXref-INVERSE	mondo:0020726
+MONDO:0020726	tubulointerstitial kidney disease, autosomal dominant, 2	skos:exactMatch	NCIT:C123171	Medullary Cystic Kidney Disease Type I	semapv:LexicalMatching	oaklib	0.9411764705882353	rdf:ID	oio:hasDbXref-INVERSE	mondo:0020726
+MONDO:0020726	tubulointerstitial kidney disease, autosomal dominant, 2	skos:exactMatch	NCIT:C123171	Medullary Cystic Kidney Disease Type I	semapv:LexicalMatching	oaklib	0.9411764705882353	rdf:ID	oio:hasDbXref-INVERSE	mondo:0020726
+MONDO:0020726	tubulointerstitial kidney disease, autosomal dominant, 2	skos:exactMatch	NCIT:C123171	Medullary Cystic Kidney Disease Type I	semapv:LexicalMatching	oaklib	0.9411764705882353	rdf:ID	oio:hasDbXref-INVERSE	mondo:0020726
+MONDO:0024633	hypertensive nephropathy	skos:exactMatch	NCIT:C4757	Hypertensive Nephropathy	semapv:LexicalMatching	oaklib	0.9411764705882353	rdf:ID	oio:hasDbXref-INVERSE	mondo:0024633
+MONDO:0024633	hypertensive nephropathy	skos:exactMatch	NCIT:C4757	Hypertensive Nephropathy	semapv:LexicalMatching	oaklib	0.9411764705882353	rdf:ID	oio:hasDbXref-INVERSE	mondo:0024633
+MONDO:0024633	hypertensive nephropathy	skos:exactMatch	NCIT:C4757	Hypertensive Nephropathy	semapv:LexicalMatching	oaklib	0.9411764705882353	rdf:ID	oio:hasDbXref-INVERSE	mondo:0024633
+MONDO:0024633	hypertensive nephropathy	skos:exactMatch	NCIT:C4757	Hypertensive Nephropathy	semapv:LexicalMatching	oaklib	0.9411764705882353	rdf:ID	oio:hasDbXref-INVERSE	mondo:0024633
+MONDO:0024633	hypertensive nephropathy	skos:exactMatch	NCIT:C4757	Hypertensive Nephropathy	semapv:LexicalMatching	oaklib	0.9411764705882353	rdf:ID	oio:hasDbXref-INVERSE	mondo:0024633
+MONDO:0024633	hypertensive nephropathy	skos:exactMatch	NCIT:C4757	Hypertensive Nephropathy	semapv:LexicalMatching	oaklib	0.9411764705882353	rdf:ID	oio:hasDbXref-INVERSE	mondo:0024633
+
