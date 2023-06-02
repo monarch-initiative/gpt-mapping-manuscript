@@ -8,7 +8,7 @@ keywords:
 - Ontologies
 - SSSOM
 lang: en-US
-date-meta: '2023-06-01'
+date-meta: '2023-06-02'
 author-meta:
 - John Doe
 - Chris Mungall
@@ -23,11 +23,11 @@ header-includes: |
   <meta name="citation_title" content="MapperGPT: Large Language Models for Linking and Mapping Entities" />
   <meta property="og:title" content="MapperGPT: Large Language Models for Linking and Mapping Entities" />
   <meta property="twitter:title" content="MapperGPT: Large Language Models for Linking and Mapping Entities" />
-  <meta name="dc.date" content="2023-06-01" />
-  <meta name="citation_publication_date" content="2023-06-01" />
-  <meta property="article:published_time" content="2023-06-01" />
-  <meta name="dc.modified" content="2023-06-01T01:55:03+00:00" />
-  <meta property="article:modified_time" content="2023-06-01T01:55:03+00:00" />
+  <meta name="dc.date" content="2023-06-02" />
+  <meta name="citation_publication_date" content="2023-06-02" />
+  <meta property="article:published_time" content="2023-06-02" />
+  <meta name="dc.modified" content="2023-06-02T02:43:15+00:00" />
+  <meta property="article:modified_time" content="2023-06-02T02:43:15+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -47,9 +47,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://cmungall.github.io/gpt-mapping-manuscript/" />
   <meta name="citation_pdf_url" content="https://cmungall.github.io/gpt-mapping-manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://cmungall.github.io/gpt-mapping-manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://cmungall.github.io/gpt-mapping-manuscript/v/ed03cbf92522b4a8ffdb5d09279905699af3d80d/" />
-  <meta name="manubot_html_url_versioned" content="https://cmungall.github.io/gpt-mapping-manuscript/v/ed03cbf92522b4a8ffdb5d09279905699af3d80d/" />
-  <meta name="manubot_pdf_url_versioned" content="https://cmungall.github.io/gpt-mapping-manuscript/v/ed03cbf92522b4a8ffdb5d09279905699af3d80d/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://cmungall.github.io/gpt-mapping-manuscript/v/96207850ecdc6da17d513588e469ee7e6463dc1a/" />
+  <meta name="manubot_html_url_versioned" content="https://cmungall.github.io/gpt-mapping-manuscript/v/96207850ecdc6da17d513588e469ee7e6463dc1a/" />
+  <meta name="manubot_pdf_url_versioned" content="https://cmungall.github.io/gpt-mapping-manuscript/v/96207850ecdc6da17d513588e469ee7e6463dc1a/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -71,10 +71,10 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://cmungall.github.io/gpt-mapping-manuscript/v/ed03cbf92522b4a8ffdb5d09279905699af3d80d/))
+([permalink](https://cmungall.github.io/gpt-mapping-manuscript/v/96207850ecdc6da17d513588e469ee7e6463dc1a/))
 was automatically generated
-from [cmungall/gpt-mapping-manuscript@ed03cbf](https://github.com/cmungall/gpt-mapping-manuscript/tree/ed03cbf92522b4a8ffdb5d09279905699af3d80d)
-on June 1, 2023.
+from [cmungall/gpt-mapping-manuscript@9620785](https://github.com/cmungall/gpt-mapping-manuscript/tree/96207850ecdc6da17d513588e469ee7e6463dc1a)
+on June 2, 2023.
 </em></small>
 
 
@@ -127,23 +127,93 @@ Mapping...
 
 ## Introduction
 
-The unification of diverse knowledge bases, lexicons, and ontologies necessitates the interrelation or mapping of entities. An instance of this process can be seen when merging multiple disease terminologies, where it's crucial to ascertain the equivalence of a disease concept across different vocabularies. This challenge is commonly referred to as the ontology matching problem.
-
-The procedure of ontology matching generally employs a combination of automated processes and human intervention. The automated part usually comprises lexical matches of labels, synonyms, or other vocabulary components. This strategy can yield high recall; however, due to lexical ambiguities and homonyms, its precision may suffer depending on the sources. Consequently, a manual filtration step, usually undertaken by a domain expert, is often mandated. Nonetheless, this final filtration phase can prove laborious, as lexical methods typically generate an abundance of potential mappings.
-
-Our team has developed a method that conducts automatic filtration and categorization of prospective mappings using large language models. We approach this as an in-context learning challenge where the model is presented with assorted concept pairs, accompanied by the correct elucidation of their relationship.
-
-We subsequently put this methodology to the test on an anatomy ontology matching task.
+When do two identifiers indicate the same thing? Linking the same or related entities at scale is crucial
+for knowledge base and ontology integration. For example, if two different disease databases, one with
+information about disease genes and the other with information about disease symptoms, are to be merged,
+then it is important to precisely know which disease in one database corresponds to which disease in the other.
 
 
-The method....
+A common method to automate ontology matching is to use lexical methods, in particular matching
+on primary or alternative labels that have been assigned to concepts, sometimes in combination with
+lexical normalization. These can often provide very high recall, but low precision, due to lexical ambiguity.
+Examples are provided in @tbl:example-matches, including a false match between an aeroplane part and an
+insect part due to sharing the same name (wing) based on analogous function.
+
+
+| Resource A       | Concept A | Resource B          | Concept B       | Predicted    | True Predicate |
+|------------------|-----------|---------------------|-----------------|--------------|---------------|
+| UK Auto Ontology | Car       | Industrial Ontology | Automobile      | n/a          | `exactMatch`  |
+| Train Ontology   | Car       | Industrial Ontology | RailwayCarriage | n/a          | `closeMatch` |
+| Fly ontology     | Wing      | Industrial ontology | Wing            | `exactMatch` | `differentFrom` |
+
+Table: Example of entity matching problem
+{#tbl:example-matches}
+
+An example of this approach is the LOOM algorithm used in the Bioportal ontology
+resource, which provides very high recall, including NNN mappings across over a thousand vocabularies.
+
+A number of approaches can give higher precision mappings, many of these make use of other relationships
+or properties in the ontology. The Ontology Alignment Evaluation Initiative (OAEI) provides a yearly
+evaluation of different methods for ontology matching. One of the top-performing methods in OAEI is the LogMap
+tool, which makes use of logical axioms in the ontology to assist in mapping.
+
+A number of tools such as LogMap been used to build or link ontologies and knowledge bases. However,
+these approaches are usually used in conjunction with manual curation of mappings, which can be
+resource intensive.
+
+Deep learning approaches and in particular Language Models (LMs) have been applied to ontology matching tasks.
+Some methods make use of embedding distance OntoEmma, e.g [Wang
+et al., 2018], DeepAlignment [Kolyvakis et al., 2018],
+VeeAlign [Iyer et al., 2020]. More recently the Truveta Mapper [@doi:10.48550/arXiv.2301.09767] 
+treats matching as a Translation task and involves pre-training on ontology structures.
+
+The most recent development in LMs are so-called Large Language Models (LLMs), exemplified by ChatGPT,
+which involved billions of parameters and pre-training on instruction-prompting tasks. The resulting
+models have generalizable abilities to perform a wide range of tasks, including question answering,
+information extraction. However, one challenge with LLMs is the problem of *hallucination*.
+
+One possibility is using GPT to generate mappings de-novo. However, the problem of hallucination makes this
+highly unreliable, in particular, due to the propensity for LLMs to hallucinate database or ontology identifiers
+when these are requested.
+
+We devised an alternative approach called *MapperGPT* that does not use GPT to generate mappings de-novo, but instead works in
+concert with existing high-recall methods such as LOOM. We use GPT to refine and predict relationships
+(predicates) as a post-processing step. We use an in-context knowledge-driven semantic approach, in
+which examples of different mapping categories are provided, and information about the two concepts in a mapping
+is provided.
+
+We evaluated this on a series of alignment tasks from different domains, including anatomy, developmental
+biology, and renal diseases. We devised a collection of tasks that are designed to be particularly challenging
+for lexical methods. We show that when used in combination with high-recall methods such as LOOM or LexMatch,
+MapperGPT can provide a substantial improvement in accuracy beating SOTA methods such as LogMap.
+
+Our contributions are as follows:
+
+- creation of a series of new matching tasks expressed using the SSSOM standard
+- An algorithm and tool MapperGPT that uses GPT to predict relationships between concepts
+
 
 
 ## Methods
 
-### GPT-based mapping agent
+### Algorithm
 
-We generate a prompt according to the following template:
+Our method MapperGPT takes as input two ontologies *O1* and *O2* and a set of candidate mappings *M*.
+These mappings are assumed to be have been generated from an existing high-recall method such as LOOM.
+
+```
+M' = {}
+For m in M:
+  prompt = GeneratePrompt(m.a, m.b, O1, O2)
+  response = CompletePrompt(prompt, model)
+  m' = Parse(response)
+  add m' to M'
+return M'
+```
+
+### Prompt generation
+
+The method `GeneratePrompt` generates a prompt according to the following template:
     
 
 ```
@@ -164,12 +234,14 @@ Examples:
 
 Here are the two concepts:
 
-{{ describe(conceptA) }}
-{{ describe(conceptB) }}
+{{ Describe(conceptA) }}
+{{ Describe(conceptB) }}
 ```
 
 
-We use a few-shot learning approach. Examples are provided in-context in the following form:
+The use of examples makes this a few-shot learning approach.
+
+Examples are provided in-context in the following form:
 
 ```
 [Concept A]
@@ -194,13 +266,34 @@ differences: A is an anatomical part; B is a part of a vehicle
 For each candidate mapping between concepts A and B, we generate a description of each concept,
 incorporating key elements: name, synonyms, definition, relationships. 
 
-The prompt is then passed to a GPT model, which generates a response. The response is parsed to retrieve
+The `Describe` function will generate a textual description of an ontology or database concept, showing the
+following properties:
+
+- name
+- synonyms
+- definition
+- parents (superclasses)
+- other relationships
+
+### Prompt Completion
+
+The prompt is then passed to a GPT model, which generates a response.
+In principle the method should work with any instruction-based model, either
+local or remotely accessed via an API. In practice we have only
+evaluated this against the OpenAI API and the two leading instruction-based
+models, `gpt-3.5-turbo` and `gpt-4`.
+
+### Response Parsing
+
+The response is parsed to retrieve
 the key data model elements: category, confidence, similarities, differences.
+
+The result object can be exported to SSSOM format.
 
 ### Example
 
-As an example, two concepts from the fruitfly and zebrafish anatomy ontologies are candidate matches
-due to sharing a lexical element (abbreviation). This is a false positive match in reality,
+As an example, two concepts from the fruitfly and zebra fish anatomy ontologies are candidate matches
+due to sharing a lexical element (the "PC" abbreviation). This is a false positive match in reality,
 as the concept are entirely different.
 
 The two concept descriptions are generated from respective ontologies as follows:
@@ -247,77 +340,173 @@ differences:
   - B is a diencephalic tract in the zebrafish brain.
 ```
 
+The consumer may typically only make use of the *predicate* slot, but the list of
+similarities and differences may prove informative.
+
 ### Implementation
 
-We use the OAK library to binding to ontologies.
+We use the OAK library to connect to a variety of ontologies in OBO and Bioportal.
+The overall framework is implemented in OntoGPT.
 
-the overall framework is implemented in OntoGPT.
-
-The input is an SSSOM file. The output is SSSOM with predicate_id filled with predicted value.
+The input is an SSSOM file. The output is SSSOM with predicate_id filled with predicted value:
 
 ```bash
 ontogpt categorize-mappings --model gpt-4 -i foo.sssom.tsv -o bar.sssom.tsv
 ```
 
-### Evaluation
+### Generation of test sets
 
-We evaluate against LogMap, which is one of the top-performing mappers in the OAEI.
-
-We convert LogMap results to SSSOM [doi@10.1093/database/baac035]. (Harshad to write)
+To evaluate the method, we created a collection of test sets from biological domains.
+We chose to devise new test sets as we wanted to base these on up-to-date, precise,
+validated mappings derived from ontologies such as Mondo, CL, and Uberon.
 
 To generate anatomy test sets, we generated pairwise mappings between species-specific anatomy ontologies,
 using the Uberon and CL mappings as the gold standard. i.e. if a pair of concepts are transitively linked
-via Uberon or CL, then they are considered a match.
+via Uberon or CL, then they are considered a match. We used the same method for developmental stages.
 
-To evaluate against the gold standard we only considered "best" mappings from each method
+We also generated a renal disease test set by taking all heritable renal diseases from Mondo, all
+renal diseases from NCIT, and generating a test set based on validated curated mappings between
+Mondo and NCIT.
+
+TODO: more test sets
+
+TODO: table showing sizes
+
+### Tool evaluation
+
+We evaluate MapperGPT with two models: gpt-3.5-turbo and gpt-4. MapperGPT is capable of providing
+refined predicates from SKOS but for this task we only take exactMatch as a predicted mapping,
+and discard all others.
+
+We also evaluated against the OAK lexmatch tool, as a high-recall baseline. Although lexmatch
+allows for customizable rules, we ran this without any prior knowledge of the domains, and
+considered any lexical match to be a predicted match.
+
+We selected LogMap, which is one of the top-performing mappers in the OAEI. 
+We convert LogMap results to SSSOM [doi@10.1093/database/baac035]. (Harshad to write)
 
 LogMap produces a score with each mapping, so we scanned all scores to determine the optimal score threshold
 in terms of accuracy (F1) (note this gives LogMap an advantage over our method, which does not produce a score).
-
-For the MapperGPT method, we filtered any mapping that is not predicted to be EXACT.
 
 
 
 ## Results
 
-### Task
+### MapperGPT with GPT4 improves on state of the art across all tasks
 
-We generated 325 candidate lexical matches between FBbt and ZFA (see methods).
+On all tasks combined, summarized in @tbl:combined-results, MapperGPT with GPT4 has an accuracy of 0.647, which is a considerable
+improvement over the SOTA, demonstrating the validity of the approach.
 
-We ran these through MapperGPT.
+ | method     | f1         | P          | R          | 
+ | ---        | ---        | ---        | ---        | 
+ | lexmatch   | 0.012      | 0.006      | **0.865**  | 
+ | logmap     | 0.538      | 0.463      | 0.641      | 
+ | gpt3       | 0.473      | **0.598**  | 0.391      | 
+ | gpt4       | **0.647**  | 0.594      | 0.712      | 
 
-We also ran LogMap over these two ontologies.
 
-We treat entities linked via Uberon and CL as the Gold Standard.
-
-### Core Results
-
-|    | method   |           f1 |        P |            R |
-|---:|:---------|-------------:|---------:|-------------:|
-|  0 | lexmatch |      0.34957 | 0.220217 | **0.847222** |
-|  1 | logmap   |      0.48913 | 0.401786 |        0.625 |
-|  2 | gpt3     |     0.435484 | 0.519231 |        0.375 |
-|  3 | gpt4     | **0.651163** | **0.56** |     0.777778 |
-
-### LogMap
+Table: Combined results over all tasks
+{#tbl:combined-results}
 
 LogMap returns a score rather than a binary answer - we took
-the best performing cutoff:
+the best performing cutoff. The distribution of F1 scores with
+different thresholds are show in @fig:logmap-scatter-plot-combined.
 
-![img](logmap-scatter-plot.pdf)
+![**LogMap Results**](images/logmap-scatter-plot-combined.pdf){#fig:logmap-scatter-plot-combined height=3in}
+
+### Anatomy Task Results
+
+We assessed methods against an anatomy ontology matching task
+containing all vetted mappings between the Fly anatomy ontology (FBbt) and the Zebra fish anatomy ontology (ZFA).
+
+ | method     | f1         | P          | R          | 
+ | ---        | ---        | ---        | ---        | 
+ | lexmatch   | 0.350      | 0.220      | **0.847**  | 
+ | logmap     | 0.489      | 0.402      | 0.625      | 
+ | gpt3       | 0.435      | 0.519      | 0.375      | 
+ | gpt4       | **0.651**  | **0.560**  | 0.778      | 
+
+Table: Results of *Drosophila* to *Danio rerio* anatomy matching
+{#tbl:main_results_fbbt_zfa}
+
+In this task, GPT-4 scored highest in both accuracy and precision.
+
+![**LogMap Results**](images/logmap-scatter-plot-fbbt-zfa.pdf){#fig:logmap-scatter-plot-fbbt-zfa height=3in}
+
+We also assessed Fly to Worm:
+
+ | method     | f1         | P          | R          | 
+ | ---        | ---        | ---        | ---        | 
+ | lexmatch   | 0.264      | 0.156      | **0.857**  | 
+ | logmap     | 0.589      | 0.528      | 0.667      | 
+ | gpt3       | 0.345      | **0.625**  | 0.238      | 
+ | gpt4       | **0.630**  | 0.580      | 0.690      | 
+
+Table: Results of *Drosophila* to *C elegans* anatomy matching
+{#tbl:main_results_fbbt_wbbt}
+
+![**LogMap Results**](images/logmap-scatter-plot-fbbt-wbbt.pdf){#fig:logmap-scatter-plot-fbbt-wbbt height=3in}
+
+### Developmental Stage ontology task results
+
+ | method     | f1         | P          | R          | 
+ | ---        | ---        | ---        | ---        | 
+ | lexmatch   | **0.839**  | 0.929      | **0.765**  | 
+ | logmap     | 0.643      | 0.818      | 0.529      | 
+ | gpt3       | 0.522      | **1.000**  | 0.353      | 
+ | gpt4       | 0.381      | **1.000**  | 0.235      | 
+
+Table: Results of human developmental stages (HsapDv) vs mouse developmental stages (MmusDv)
+{#tbl:main_results_hsapdv_mmusdv}
+
+![**LogMap Results**](images/logmap-scatter-plot-hsapdv-mmusdv.pdf){#fig:logmap-scatter-plot-hsapdv-mmusdv height=3in}
+
+### Disease matching task results
+
+We evaluated methods against a disease ontology matching task, which was to match
+all heritable renal diseases from Mondo to all renal diseases from NCIT.
+
+ | method     | f1         | P          | R          | 
+ | ---        | ---        | ---        | ---        | 
+ | lexmatch   | 0.003      | 0.002      | **1.000**  | 
+ | logmap     | 0.680      | **0.680**  | 0.680      | 
+ | gpt3       | 0.679      | 0.643      | 0.720      | 
+ | gpt4       | **0.759**  | 0.667      | 0.880      | 
+
+Table: Results of MONDO vs NCIT (renal subset)
+{#tbl:main_results_mondo_ncit_renal_subset}
+
+![**LogMap Results**](images/logmap-scatter-plot-mondo-ncit-renal-subset.pdf){#fig:logmap-scatter-plot-mondo-ncit-renal-subset height=3in}
+
+In this task, the previous SOTA achieves slight gain in precision over GPT based methods.
+
 
 ## Discussion
+
+### Study limitations
+
+The anatomy task is particularly challenging for traditional methods as the curated mappings
+are quite conservative - e.g
+
+Malpighian tubule <-> renal tubule
+
+### Narrative explanations of results
 
 Unlike traditional ontology mapping tools, MapperGPT can provide narrative explanations
 of why two concepts are predicted to be related in a certain way.
 
-### Future Work
+We did not perform a qualitative evaluation of the explanations
 
-MapperGPT is expensive to run with GPT-4. We recommend its use in cases where simpler lexical methods
+### Limitations of the method
+
+Our best results were achieved using GPT-4. However, at this time, GPT-4 is expensive to run,
+so we do recommend its use in cases where simpler lexical methods
 should suffice. We are exploring use of open models that can be executed locally.
 
+### Future Work
+
 We are planning to integrate MapperGPT into our Boomer pipeline to make BoomerGPT,
-a hybrid neurosymbolic mapping tool that integrates probabilistic inference, description logic
+a hybrid neuro-symbolic mapping tool that integrates probabilistic inference, description logic
 reasoning, lexical methods, rule-based methods, and LLMs.
 
 
