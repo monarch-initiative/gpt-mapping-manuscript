@@ -9,7 +9,7 @@ DeepAlignment
 Drosophila
 elegans
 exactMatch
-FBbt
+fbbt
 fruitfly
 generalizable
 GPT
@@ -18,13 +18,13 @@ HsapDv
 Iyer
 johndoe
 Kolyvakis
-lexmatch
+LexMatch
 LLMs
 LMs
 LogMap
 Malpighian
 MapperGPT
-MmusDv
+mmusdv
 mondo
 Mungall
 ncit
@@ -52,4 +52,4 @@ wbbt
 XXXX
 XXXXXXXX
 YAML
-ZFA
+zfa

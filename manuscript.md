@@ -8,7 +8,7 @@ keywords:
 - Ontologies
 - SSSOM
 lang: en-US
-date-meta: '2023-06-02'
+date-meta: '2023-08-07'
 author-meta:
 - John Doe
 - Chris Mungall
@@ -23,11 +23,11 @@ header-includes: |
   <meta name="citation_title" content="MapperGPT: Large Language Models for Linking and Mapping Entities" />
   <meta property="og:title" content="MapperGPT: Large Language Models for Linking and Mapping Entities" />
   <meta property="twitter:title" content="MapperGPT: Large Language Models for Linking and Mapping Entities" />
-  <meta name="dc.date" content="2023-06-02" />
-  <meta name="citation_publication_date" content="2023-06-02" />
-  <meta property="article:published_time" content="2023-06-02" />
-  <meta name="dc.modified" content="2023-06-02T02:44:47+00:00" />
-  <meta property="article:modified_time" content="2023-06-02T02:44:47+00:00" />
+  <meta name="dc.date" content="2023-08-07" />
+  <meta name="citation_publication_date" content="2023-08-07" />
+  <meta property="article:published_time" content="2023-08-07" />
+  <meta name="dc.modified" content="2023-08-07T16:47:18+00:00" />
+  <meta property="article:modified_time" content="2023-08-07T16:47:18+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -47,9 +47,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://cmungall.github.io/gpt-mapping-manuscript/" />
   <meta name="citation_pdf_url" content="https://cmungall.github.io/gpt-mapping-manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://cmungall.github.io/gpt-mapping-manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://cmungall.github.io/gpt-mapping-manuscript/v/c7c67a1b1ff92676deda36c867dc89c5d6eeff8f/" />
-  <meta name="manubot_html_url_versioned" content="https://cmungall.github.io/gpt-mapping-manuscript/v/c7c67a1b1ff92676deda36c867dc89c5d6eeff8f/" />
-  <meta name="manubot_pdf_url_versioned" content="https://cmungall.github.io/gpt-mapping-manuscript/v/c7c67a1b1ff92676deda36c867dc89c5d6eeff8f/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://cmungall.github.io/gpt-mapping-manuscript/v/a5bc48909030a94420b5f42e706a09e7b9e1df74/" />
+  <meta name="manubot_html_url_versioned" content="https://cmungall.github.io/gpt-mapping-manuscript/v/a5bc48909030a94420b5f42e706a09e7b9e1df74/" />
+  <meta name="manubot_pdf_url_versioned" content="https://cmungall.github.io/gpt-mapping-manuscript/v/a5bc48909030a94420b5f42e706a09e7b9e1df74/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -71,10 +71,10 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://cmungall.github.io/gpt-mapping-manuscript/v/c7c67a1b1ff92676deda36c867dc89c5d6eeff8f/))
+([permalink](https://cmungall.github.io/gpt-mapping-manuscript/v/a5bc48909030a94420b5f42e706a09e7b9e1df74/))
 was automatically generated
-from [cmungall/gpt-mapping-manuscript@c7c67a1](https://github.com/cmungall/gpt-mapping-manuscript/tree/c7c67a1b1ff92676deda36c867dc89c5d6eeff8f)
-on June 2, 2023.
+from [cmungall/gpt-mapping-manuscript@a5bc489](https://github.com/cmungall/gpt-mapping-manuscript/tree/a5bc48909030a94420b5f42e706a09e7b9e1df74)
+on August 7, 2023.
 </em></small>
 
 
