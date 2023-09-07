@@ -1,0 +1,2081 @@
+  - subject: MONDO:0000608
+    object: MONDO:0008073
+    completion: |-
+      category: NARROWER_THAN
+      confidence: HIGH
+      similarities: Both are kidney disorders associated with hyperuricemia and gout; share the same disease category 
+      differences: B is a specific type of A; B is associated with a germline mutation in UMOD
+    predicate: NARROWER_THAN
+    confidence: HIGH
+    similarities:
+      - Both are kidney disorders associated with hyperuricemia and gout
+      - share the same disease category
+    differences:
+      - B is a specific type of A
+      - B is associated with a germline mutation in UMOD
+  - subject: MONDO:0000909
+    object: MONDO:0011242
+    completion: |-
+      category: RELATED_TO
+      confidence: HIGH
+      similarities: both are types of Bartter syndrome type 4; both involve sensorineural deafness; both are hereditary diseases
+      differences: A is caused by mutations in both the CLCNKA and CLCNKB genes; B is caused by a mutation in the BSND gene
+    predicate: RELATED_TO
+    confidence: HIGH
+    similarities:
+      - both are types of Bartter syndrome type 4
+      - both involve sensorineural deafness
+      - both are hereditary diseases
+    differences:
+      - A is caused by mutations in both the CLCNKA and CLCNKB genes
+      - B is caused by a mutation in the BSND gene
+  - subject: MONDO:0002350
+    object: NCIT:C35337
+    completion: |-
+      category: EXACT_MATCH
+      confidence: HIGH
+      similarities: same concept; part of nephrotic syndrome; inherited disorder affecting kidneys; known as familial or congenital nephrotic syndrome
+      differences: A refers to any instance of nephrotic syndrome caused by an inherited genetic modification; B specifically mentions it as an autosomal recessive disorder that is present in the first week of life with specific manifestations and poor prognosis.
+    predicate: EXACT_MATCH
+    confidence: HIGH
+    similarities:
+      - same concept
+      - part of nephrotic syndrome
+      - inherited disorder affecting kidneys
+      - known as familial or congenital nephrotic syndrome
+    differences:
+      - A refers to any instance of nephrotic syndrome caused by an inherited genetic
+        modification
+      - B specifically mentions it as an autosomal recessive disorder that is present
+        in the first week of life with specific manifestations and poor prognosis.
+  - subject: MONDO:0003008
+    object: NCIT:C39789
+    completion: |-
+      category: EXACT_MATCH
+      confidence: HIGH
+      similarities: same disease; related to renal cell carcinoma; hereditary/genetic component; similar synonyms
+      differences: B mentions potential findings such as bilateral disease and multiple tumor masses; is_a relationships are slightly different but within same broad categories
+    predicate: EXACT_MATCH
+    confidence: HIGH
+    similarities:
+      - same disease
+      - related to renal cell carcinoma
+      - hereditary/genetic component
+      - similar synonyms
+    differences:
+      - B mentions potential findings such as bilateral disease and multiple tumor
+        masses
+      - is_a relationships are slightly different but within same broad categories
+  - subject: MONDO:0003321
+    object: MONDO:0008679
+    completion: |-
+      category: NARROWER_THAN
+      confidence: HIGH
+      similarities: related to Wilms tumor; kidney disorder; shared synonyms such as "WT1", "nephroblastoma"
+      differences: B is a more specific form of A, as indicated by "is_a" relationship; B involves autosomal dominant, somatic mutation.
+    predicate: NARROWER_THAN
+    confidence: HIGH
+    similarities:
+      - related to Wilms tumor
+      - kidney disorder
+      - shared synonyms such as "WT1", "nephroblastoma"
+    differences:
+      - B is a more specific form of A, as indicated by "is_a" relationship
+      - B involves autosomal dominant, somatic mutation.
+  - subject: MONDO:0003321
+    object: NCIT:C8496
+    completion: |-
+      category: EXACT_MATCH
+      confidence: HIGH
+      similarities: same concept; very similar definitions; both are subtypes of Kidney Wilms Tumor; similar synonyms
+      differences: Concept A is inherited kidney disorder; Concept B is hereditary malignant urinary system neoplasm; different relationships in Concept B; different concept names
+    predicate: EXACT_MATCH
+    confidence: HIGH
+    similarities:
+      - same concept
+      - very similar definitions
+      - both are subtypes of Kidney Wilms Tumor
+      - similar synonyms
+    differences:
+      - Concept A is inherited kidney disorder
+      - Concept B is hereditary malignant urinary system neoplasm
+      - different relationships in Concept B
+      - different concept names
+  - subject: MONDO:0003789
+    object: NCIT:C9222
+    completion: |-
+      category: EXACT_MATCH
+      confidence: HIGH
+      similarities: same concept; same definition; both are types of hereditary renal cell carcinoma and papillary renal cell carcinoma; both associated with MET oncogene mutations
+      differences: B provides additional relationships regarding molecular abnormality and gene mapping; different ID's; slight differences in synonyms list
+    predicate: EXACT_MATCH
+    confidence: HIGH
+    similarities:
+      - same concept
+      - same definition
+      - both are types of hereditary renal cell carcinoma and papillary renal cell
+        carcinoma
+      - both associated with MET oncogene mutations
+    differences:
+      - B provides additional relationships regarding molecular abnormality and gene
+        mapping
+      - different ID's
+      - slight differences in synonyms list
+  - subject: MONDO:0003824
+    object: NCIT:C8960
+    completion: |-
+      category: EXACT_MATCH
+      confidence: HIGH
+      similarities: same concept; same definition; same name; related to kidney oncocytoma; related to Birt-Hogg-Dube syndrome
+      differences: A is also categorized as an inherited kidney disorder; B has an additional relationship to Hereditary Lesion
+    predicate: EXACT_MATCH
+    confidence: HIGH
+    similarities:
+      - same concept
+      - same definition
+      - same name
+      - related to kidney oncocytoma
+      - related to Birt-Hogg-Dube syndrome
+    differences:
+      - A is also categorized as an inherited kidney disorder
+      - B has an additional relationship to Hereditary Lesion
+  - subject: MONDO:0004691
+    object: NCIT:C84578
+    completion: |-
+      category: EXACT_MATCH
+      confidence: HIGH
+      similarities: same disease; inherited in an autosomal dominant pattern; related to polycystic kidney disease
+      differences: B provides additional symptoms
+    predicate: EXACT_MATCH
+    confidence: HIGH
+    similarities:
+      - same disease
+      - inherited in an autosomal dominant pattern
+      - related to polycystic kidney disease
+    differences:
+      - B provides additional symptoms
+  - subject: MONDO:0005334
+    object: MONDO:0018965
+    completion: |-
+      category: NARROWER_THAN
+      confidence: HIGH
+      similarities: related to kidneys; inherited; characterized by hematuria and progression to renal insufficiency; associated with mutations leading to defective glomerular basement membrane
+      differences: Alport syndrome is a specific form of hereditary nephritis; Alport syndrome has additional symptoms of hearing loss and ocular abnormalities; different genes involved; Alport syndrome predominantly affects males due to X-link inheritance.
+    predicate: NARROWER_THAN
+    confidence: HIGH
+    similarities:
+      - related to kidneys
+      - inherited
+      - characterized by hematuria and progression to renal insufficiency
+      - associated with mutations leading to defective glomerular basement membrane
+    differences:
+      - Alport syndrome is a specific form of hereditary nephritis
+      - Alport syndrome has additional symptoms of hearing loss and ocular abnormalities
+      - different genes involved
+      - Alport syndrome predominantly affects males due to X-link inheritance.
+  - subject: MONDO:0005342
+    object: NCIT:C34643
+    completion: |-
+      category: EXACT_MATCH
+      confidence: HIGH
+      similarities: same disease; synonyms; classification; part of the kidney affected
+      differences: B specifies it as a chronic and autoimmune condition; B mentions deposition of Immunoglobulin A; B mentions manifestation as hematuria and mild proteinuria; B does not classify it as hereditary nephritis.
+    predicate: EXACT_MATCH
+    confidence: HIGH
+    similarities:
+      - same disease
+      - synonyms
+      - classification
+      - part of the kidney affected
+    differences:
+      - B specifies it as a chronic and autoimmune condition
+      - B mentions deposition of Immunoglobulin A
+      - B mentions manifestation as hematuria and mild proteinuria
+      - B does not classify it as hereditary nephritis.
+  - subject: MONDO:0005342
+    object: NCIT:C35280
+    completion: |-
+      category: EXACT_MATCH
+      confidence: HIGH
+      similarities: same concept; same definition; both are a type of glomerulonephritis
+      differences: A is also categorised under hereditary nephritis; different names and synonyms.
+    predicate: EXACT_MATCH
+    confidence: HIGH
+    similarities:
+      - same concept
+      - same definition
+      - both are a type of glomerulonephritis
+    differences:
+      - A is also categorised under hereditary nephritis
+      - different names and synonyms.
+  - subject: MONDO:0005798
+    object: NCIT:C26918
+    completion: |-
+      category: EXACT_MATCH
+      confidence: HIGH
+      similarities: same concept; same definition; type of disorder; associated with HIV; characterized by nephrotic syndrome, azotemia, normal to large kidneys on ultrasound images, and focal segmental glomerulosclerosis
+      differences: different terms used in the 'is_a' relationship
+    predicate: EXACT_MATCH
+    confidence: HIGH
+    similarities:
+      - same concept
+      - same definition
+      - type of disorder
+      - associated with HIV
+      - characterized by nephrotic syndrome, azotemia, normal to large kidneys on
+        ultrasound images, and focal segmental glomerulosclerosis
+    differences:
+      - different terms used in the 'is_a' relationship
+  - subject: MONDO:0007078
+    object: MONDO:0008749
+    completion: |-
+      category: RELATED_TO
+      confidence: HIGH
+      similarities: type of pseudohypoparathyroidism; both present with resistance to parathyroid hormone resulting in hypocalcemia, hyperphosphatemia, and elevated PTH levels
+      differences: A has additional resistance to other hormones and comes with Albright's hereditary osteodystrophy (AHO), whereas B does not have AHO and has normal expression of the Gs protein; A has a known genetic mutation in GNAS, B does not mention a specific genetic mutation; A is also categorized as syndromic genetic obesity and acromelic dysplasia, B is not; A mentions short stature as a feature of the disease, B does not.
+    predicate: RELATED_TO
+    confidence: HIGH
+    similarities:
+      - type of pseudohypoparathyroidism
+      - both present with resistance to parathyroid hormone resulting in hypocalcemia,
+        hyperphosphatemia, and elevated PTH levels
+    differences:
+      - A has additional resistance to other hormones and comes with Albright's hereditary
+        osteodystrophy (AHO), whereas B does not have AHO and has normal expression
+        of the Gs protein
+      - A has a known genetic mutation in GNAS, B does not mention a specific genetic
+        mutation
+      - A is also categorized as syndromic genetic obesity and acromelic dysplasia,
+        B is not
+      - A mentions short stature as a feature of the disease, B does not.
+  - subject: MONDO:0007078
+    object: MONDO:0009904
+    completion: |-
+      category: DIFFERENT
+      confidence: HIGH
+      similarities: both are genetic diseases; both have a germline mutation; both are syndromic diseases; both causes mineral imbalance in the body
+      differences: different symptoms and affected hormones and areas; A affects parathyroid hormone, causing hypocalcemia and hyperphosphatemia, and features known as Albright hereditary osteodystrophy, B characterized by hypokalemic metabolic alkalosis in combination with significant hypomagnesemia and low urinary calcium excretion; A caused by mutation in GNAS gene, B by mutation in SLC12A3 gene; different names and synonyms
+    predicate: DIFFERENT
+    confidence: HIGH
+    similarities:
+      - both are genetic diseases
+      - both have a germline mutation
+      - both are syndromic diseases
+      - both causes mineral imbalance in the body
+    differences:
+      - different symptoms and affected hormones and areas
+      - A affects parathyroid hormone, causing hypocalcemia and hyperphosphatemia,
+        and features known as Albright hereditary osteodystrophy, B characterized
+        by hypokalemic metabolic alkalosis in combination with significant hypomagnesemia
+        and low urinary calcium excretion
+      - A caused by mutation in GNAS gene, B by mutation in SLC12A3 gene
+      - different names and synonyms
+  - subject: MONDO:0007078
+    object: MONDO:0012912
+    completion: |-
+      category: RELATED_TO
+      confidence: HIGH
+      similarities: Both are types of pseudohypoparathyroidism (PHP); both are characterized by Albright hereditary osteodystrophy (AHO); both have the same germline mutation in GNAS; both are classified as syndromic genetic obesity and acromelic dysplasia.
+      differences: Concept A involves renal resistance to parathyroid hormone (PTH), resulting in hypocalcemia, hyperphosphatemia, and elevated PTH and resistance to other hormones; whereas Concept B has no evidence of resistance to PTH; Concept A has the feature of short stature.
+    predicate: RELATED_TO
+    confidence: HIGH
+    similarities:
+      - Both are types of pseudohypoparathyroidism (PHP)
+      - both are characterized by Albright hereditary osteodystrophy (AHO)
+      - both have the same germline mutation in GNAS
+      - both are classified as syndromic genetic obesity and acromelic dysplasia.
+    differences:
+      - Concept A involves renal resistance to parathyroid hormone (PTH), resulting
+        in hypocalcemia, hyperphosphatemia, and elevated PTH and resistance to other
+        hormones
+      - whereas Concept B has no evidence of resistance to PTH
+      - Concept A has the feature of short stature.
+  - subject: MONDO:0007078
+    object: MONDO:0019992
+    completion: |-
+      category: NARROWER_THAN
+      confidence: HIGH
+      similarities: part of the same disease spectrum; involved in renal resistance to parathyroid hormone; resulting in hypocalcemia, hyperphosphatemia, and elevated parathyroid hormone levels
+      differences: Concept A is a subtype of Concept B; Concept A involves resistance to other hormones and the clinical features known as Albright hereditary osteodystrophy; Concept A involves germline mutation in GNAS and short stature
+    predicate: NARROWER_THAN
+    confidence: HIGH
+    similarities:
+      - part of the same disease spectrum
+      - involved in renal resistance to parathyroid hormone
+      - resulting in hypocalcemia, hyperphosphatemia, and elevated parathyroid hormone
+        levels
+    differences:
+      - Concept A is a subtype of Concept B
+      - Concept A involves resistance to other hormones and the clinical features
+        known as Albright hereditary osteodystrophy
+      - Concept A involves germline mutation in GNAS and short stature
+  - subject: MONDO:0007416
+    object: NCIT:C123025
+    completion: |-
+      category: EXACT_MATCH
+      confidence: HIGH
+      similarities: same concept; chronic tubulointerstitial nephropathy; name found in synonyms of each other
+      differences: A mentions the geographic area affected; B mentions the cause (aristolochic acid)
+    predicate: EXACT_MATCH
+    confidence: HIGH
+    similarities:
+      - same concept
+      - chronic tubulointerstitial nephropathy
+      - name found in synonyms of each other
+    differences:
+      - A mentions the geographic area affected
+      - B mentions the cause (aristolochic acid)
+  - subject: MONDO:0007534
+    object: MONDO:0009962
+    completion: |-
+      category: DIFFERENT
+      confidence: HIGH
+      similarities: both are genetic disorders
+      differences: A is characterized by overgrowth, tumor predisposition and congenital malformations ; B's cause is a mutation in the NPHP1 gene and affects kidney and eye; A is related to inherited renal cancer-predisposing syndrome ; B has a relationship with germline mutation in NPHP1; different names and synonyms
+    predicate: DIFFERENT
+    confidence: HIGH
+    similarities:
+      - both are genetic disorders
+    differences:
+      - A is characterized by overgrowth, tumor predisposition and congenital malformations
+      - B's cause is a mutation in the NPHP1 gene and affects kidney and eye
+      - A is related to inherited renal cancer-predisposing syndrome
+      - B has a relationship with germline mutation in NPHP1
+      - different names and synonyms
+  - subject: MONDO:0007534
+    object: MONDO:0009964
+    completion: |-
+      category: DIFFERENT
+      confidence: HIGH
+      similarities: both are genetic disorders
+      differences: A is characterized by overgrowth, tumor predisposition and congenital malformations; B is an asphyxiating thoracic dystrophy that may cause skeletal dysplasia and issues with kidneys, retina, and cerebellum; B is caused by a specific mutation in the IFT140 gene.
+    predicate: DIFFERENT
+    confidence: HIGH
+    similarities:
+      - both are genetic disorders
+    differences:
+      - A is characterized by overgrowth, tumor predisposition and congenital malformations
+      - B is an asphyxiating thoracic dystrophy that may cause skeletal dysplasia
+        and issues with kidneys, retina, and cerebellum
+      - B is caused by a specific mutation in the IFT140 gene.
+  - subject: MONDO:0007534
+    object: MONDO:0013127
+    completion: |-
+      category: DIFFERENT
+      confidence: HIGH
+      similarities: both are genetic disorders
+      differences: A is an overgrowth syndrome characterized by tumor predisposition and congenital malformations, while B is a type of asphyxiating thoracic dystrophy associated with malformation in the DYNC2H1 gene
+    predicate: DIFFERENT
+    confidence: HIGH
+    similarities:
+      - both are genetic disorders
+    differences:
+      - A is an overgrowth syndrome characterized by tumor predisposition and congenital
+        malformations, while B is a type of asphyxiating thoracic dystrophy associated
+        with malformation in the DYNC2H1 gene
+  - subject: MONDO:0007600
+    object: MONDO:0024525
+    completion: |-
+      category: EXACT_MATCH
+      confidence: HIGH
+      similarities: same concept; Fanconi syndrome; primary Fanconi renotubular syndrome; 
+      differences: B mentions genetic basis in GATM mutation; more synonyms for B
+    predicate: EXACT_MATCH
+    confidence: HIGH
+    similarities:
+      - same concept
+      - Fanconi syndrome
+      - primary Fanconi renotubular syndrome
+    differences:
+      - B mentions genetic basis in GATM mutation
+      - more synonyms for B
+  - subject: MONDO:0007671
+    object: MONDO:0011165
+    completion: |-
+      category: NARROWER_THAN
+      confidence: HIGH
+      similarities: kidney disease; proteinuria; involves fibronectin deposits; type of glomerular disorder
+      differences: B is caused by specific mutation in the FN1 gene; B is a subtype of A
+    predicate: NARROWER_THAN
+    confidence: HIGH
+    similarities:
+      - kidney disease
+      - proteinuria
+      - involves fibronectin deposits
+      - type of glomerular disorder
+    differences:
+      - B is caused by specific mutation in the FN1 gene
+      - B is a subtype of A
+  - subject: MONDO:0007671
+    object: MONDO:0024527
+    completion: |-
+      category: NARROWER_THAN
+      confidence: HIGH
+      similarities: Both are related to kidney disorders; Both involve fibronectin deposits
+      differences: Concept B is specifically referenced as subtype 1 of the glomerulopathy with fibronectin deposits condition described in Concept A.
+    predicate: NARROWER_THAN
+    confidence: HIGH
+    similarities:
+      - Both are related to kidney disorders
+      - Both involve fibronectin deposits
+    differences:
+      - Concept B is specifically referenced as subtype 1 of the glomerulopathy with
+        fibronectin deposits condition described in Concept A.
+  - subject: MONDO:0007671
+    object: NCIT:C187984
+    completion: |-
+      category: EXACT_MATCH
+      confidence: HIGH
+      similarities: both are hereditary kidney diseases; both involve fibronectin deposits in the kidneys; same symptoms (proteinuria, microscopic hematuria, hypertension); potential for end-stage renal disease; B's carrying gene (FN1) is implied in A's name
+      differences: B specifically caused by mutations in the FN1 gene; considered forms of glomerulopathy or glomerular disorder
+    predicate: EXACT_MATCH
+    confidence: HIGH
+    similarities:
+      - both are hereditary kidney diseases
+      - both involve fibronectin deposits in the kidneys
+      - same symptoms (proteinuria, microscopic hematuria, hypertension)
+      - potential for end-stage renal disease
+      - B's carrying gene (FN1) is implied in A's name
+    differences:
+      - B specifically caused by mutations in the FN1 gene
+      - considered forms of glomerulopathy or glomerular disorder
+  - subject: MONDO:0007772
+    object: MONDO:0019162
+    completion: |-
+      category: NARROWER_THAN
+      confidence: HIGH
+      similarities: both are forms of pseudohypoaldosteronism; share similar symptoms such as hyperkalemia and hypertension; both are inherited
+      differences: pseudohypoaldosteronism type 2A is a specific type of pseudohypoaldosteronism type 2; Concept B has a broader spectrum and includes other subtypes.
+    predicate: NARROWER_THAN
+    confidence: HIGH
+    similarities:
+      - both are forms of pseudohypoaldosteronism
+      - share similar symptoms such as hyperkalemia and hypertension
+      - both are inherited
+    differences:
+      - pseudohypoaldosteronism type 2A is a specific type of pseudohypoaldosteronism
+        type 2
+      - Concept B has a broader spectrum and includes other subtypes.
+  - subject: MONDO:0007888
+    object: NCIT:C51302
+    completion: |-
+      category: EXACT_MATCH
+      confidence: HIGH
+      similarities: same concept; hereditary predisposition to renal cell carcinoma and leiomyomas; related to mutations in FH gene
+      differences: B has detailed relationships with other diseases and genetic abnormalities; different naming conventions in is_a category; different synonyms.
+    predicate: EXACT_MATCH
+    confidence: HIGH
+    similarities:
+      - same concept
+      - hereditary predisposition to renal cell carcinoma and leiomyomas
+      - related to mutations in FH gene
+    differences:
+      - B has detailed relationships with other diseases and genetic abnormalities
+      - different naming conventions in is_a category
+      - different synonyms.
+  - subject: MONDO:0008073
+    object: MONDO:0008264
+    completion: |-
+      category: BROADER_THAN
+      confidence: HIGH
+      similarities: genetic kidney disease; associated with progressive loss of kidney function; has a connection to UMOD gene
+      differences: Concept A specifically states the presence of hyperuricemia, gout, and is caused by a single gene mutation in UMOD; Concept B includes other potential gene mutations and does not specify the presence of hyperuricemia or gout.
+    predicate: BROADER_THAN
+    confidence: HIGH
+    similarities:
+      - genetic kidney disease
+      - associated with progressive loss of kidney function
+      - has a connection to UMOD gene
+    differences:
+      - Concept A specifically states the presence of hyperuricemia, gout, and is
+        caused by a single gene mutation in UMOD
+      - Concept B includes other potential gene mutations and does not specify the
+        presence of hyperuricemia or gout.
+  - subject: MONDO:0008073
+    object: NCIT:C123172
+    completion: |-
+      category: EXACT_MATCH
+      confidence: HIGH
+      similarities: both are kidney diseases; both have the same cause (mutations in the UMOD gene); both result in impaired renal function; both can lead to gout; both involve uromodulin
+      differences: Concept A has many more synonyms and a more detailed definition; Concept A is classified as an inborn disorder of purine metabolism, while Concept B is classified as a cystic kidney disease
+    predicate: EXACT_MATCH
+    confidence: HIGH
+    similarities:
+      - both are kidney diseases
+      - both have the same cause (mutations in the UMOD gene)
+      - both result in impaired renal function
+      - both can lead to gout
+      - both involve uromodulin
+    differences:
+      - Concept A has many more synonyms and a more detailed definition
+      - Concept A is classified as an inborn disorder of purine metabolism, while
+        Concept B is classified as a cystic kidney disease
+  - subject: MONDO:0008264
+    object: MONDO:0019005
+    completion: |-
+      category: RELATED_TO
+      confidence: MEDIUM
+      similarities: both are genetic kidney diseases; both concern progressive loss of kidney function; "medullary cystic disease" and "medullary cystic kidney" are synonyms for both
+      differences: A is autosomal dominant and linked with different gene mutations; B is autosomal recessive and linked with gene mutations specific to ciliary function; potential different outcomes with A possibly involving hyperuricemia and B resulting in end stage renal failure
+    predicate: RELATED_TO
+    confidence: MEDIUM
+    similarities:
+      - both are genetic kidney diseases
+      - both concern progressive loss of kidney function
+      - '"medullary cystic disease" and "medullary cystic kidney" are synonyms for
+        both'
+    differences:
+      - A is autosomal dominant and linked with different gene mutations
+      - B is autosomal recessive and linked with gene mutations specific to ciliary
+        function
+      - potential different outcomes with A possibly involving hyperuricemia and B
+        resulting in end stage renal failure
+  - subject: MONDO:0008264
+    object: MONDO:0020726
+    completion: |-
+      category: NARROWER_THAN
+      confidence: HIGH
+      similarities: kidney disease; autosomal dominant disease; gradual loss of kidney function caused by gene mutations; synonyms including 'autosomal dominant medullary cystic kidney disease'
+      differences: B is specifically caused by mutation in MUC1 while A can be caused by mutations in multiple genes including MUC1; B does not mention hyperuricemia; B is explicitly stated to have a basis in germline mutation in MUC1; B is_a A.
+    predicate: NARROWER_THAN
+    confidence: HIGH
+    similarities:
+      - kidney disease
+      - autosomal dominant disease
+      - gradual loss of kidney function caused by gene mutations
+      - synonyms including 'autosomal dominant medullary cystic kidney disease'
+    differences:
+      - B is specifically caused by mutation in MUC1 while A can be caused by mutations
+        in multiple genes including MUC1
+      - B does not mention hyperuricemia
+      - B is explicitly stated to have a basis in germline mutation in MUC1
+      - B is_a A.
+  - subject: MONDO:0008264
+    object: NCIT:C123171
+    completion: |-
+      category: BROADER_THAN
+      confidence: HIGH
+      similarities: related to kidney; genetic disease; conditions fall under cystic kidney diseases; can be caused by MUC1 gene mutation
+      differences: Concept A includes more potential causes (UMOD, HNF1B, REN, or MUC1 genes) and suggests possibility of hyperuricemia; Concept B is specifically type I medullary cystic kidney disease due to MUC1 gene defects.
+    predicate: BROADER_THAN
+    confidence: HIGH
+    similarities:
+      - related to kidney
+      - genetic disease
+      - conditions fall under cystic kidney diseases
+      - can be caused by MUC1 gene mutation
+    differences:
+      - Concept A includes more potential causes (UMOD, HNF1B, REN, or MUC1 genes)
+        and suggests possibility of hyperuricemia
+      - Concept B is specifically type I medullary cystic kidney disease due to MUC1
+        gene defects.
+  - subject: MONDO:0008323
+    object: MONDO:0020607
+    completion: |-
+      category: NARROWER_THAN
+      confidence: HIGH
+      similarities: both are forms of Liddle Syndrome; genetic diseases; related to hypertension
+      differences: B is specifically caused by a mutation in the SCNN1B gene
+    predicate: NARROWER_THAN
+    confidence: HIGH
+    similarities:
+      - both are forms of Liddle Syndrome
+      - genetic diseases
+      - related to hypertension
+    differences:
+      - B is specifically caused by a mutation in the SCNN1B gene
+  - subject: MONDO:0008369
+    object: MONDO:0009818
+    completion: |-
+      category: RELATED_TO
+      confidence: HIGH
+      similarities: both involve renal tubular acidosis; both are primarily renal tubular acidosis; both are diseases
+      differences: A primarily focuses on proximal renal tubular acidosis; B includes osteopetrosis and neurological disorders related to cerebral calcifications; B has a genetic basis indicated by a mutation in CA2
+    predicate: RELATED_TO
+    confidence: HIGH
+    similarities:
+      - both involve renal tubular acidosis
+      - both are primarily renal tubular acidosis
+      - both are diseases
+    differences:
+      - A primarily focuses on proximal renal tubular acidosis
+      - B includes osteopetrosis and neurological disorders related to cerebral calcifications
+      - B has a genetic basis indicated by a mutation in CA2
+  - subject: MONDO:0008369
+    object: MONDO:0009968
+    completion: |-
+      category: RELATED_TO
+      confidence: HIGH
+      similarities: both are types of renal tubular acidosis; both are kidney diseases
+      differences: A affects the proximal tubule; B affects the distal tubule and is associated with progressive sensorineural hearing loss; B is a result of a germline mutation in ATP6V1B1
+    predicate: RELATED_TO
+    confidence: HIGH
+    similarities:
+      - both are types of renal tubular acidosis
+      - both are kidney diseases
+    differences:
+      - A affects the proximal tubule
+      - B affects the distal tubule and is associated with progressive sensorineural
+        hearing loss
+      - B is a result of a germline mutation in ATP6V1B1
+  - subject: MONDO:0008369
+    object: MONDO:0015827
+    completion: |-
+      category: RELATED_TO
+      confidence: HIGH
+      similarities: both are types of renal tubular acidosis; both are characterized by hyperchloremic metabolic acidosis; both are primary renal tubular acidosis
+      differences: A affects the proximal tubule and B affects the distal tubule; B is often associated with hypokalemia, hyperkalemia or normokalemia, while the same is not stated for A.
+    predicate: RELATED_TO
+    confidence: HIGH
+    similarities:
+      - both are types of renal tubular acidosis
+      - both are characterized by hyperchloremic metabolic acidosis
+      - both are primary renal tubular acidosis
+    differences:
+      - A affects the proximal tubule and B affects the distal tubule
+      - B is often associated with hypokalemia, hyperkalemia or normokalemia, while
+        the same is not stated for A.
+  - subject: MONDO:0008369
+    object: MONDO:0019162
+    completion: |-
+      category: RELATED_TO
+      confidence: MEDIUM
+      similarities: both diseases are characterized by hyperchloremic metabolic acidosis; both affect renal function
+      differences: A is characterized by impaired ability of the proximal tubule to reabsorb bicarbonate while B is characterized by hypertension and hyperkalemia; different causes and symptoms; different classifications (A belongs to renal tubular acidosis and inborn errors of metabolism while B belongs to inherited pseudohypoaldosteronism)
+    predicate: RELATED_TO
+    confidence: MEDIUM
+    similarities:
+      - both diseases are characterized by hyperchloremic metabolic acidosis
+      - both affect renal function
+    differences:
+      - A is characterized by impaired ability of the proximal tubule to reabsorb
+        bicarbonate while B is characterized by hypertension and hyperkalemia
+      - different causes and symptoms
+      - different classifications (A belongs to renal tubular acidosis and inborn
+        errors of metabolism while B belongs to inherited pseudohypoaldosteronism)
+  - subject: MONDO:0008679
+    object: NCIT:C27730
+    completion: |-
+      category: RELATED_TO
+      confidence: HIGH
+      similarities: both involve Wilms tumor; involve kidneys; both have genetic implications; synonyms
+      differences: A is a specific subtype of hereditary Wilms tumor; B is a Wilms tumor occurring in childhood; B explicitly states the occurrence in children; A involves somatic mutation; B involves inactivating WT1 gene mutation; A is linked to autosomal dominant inheritance; A is not exclusive to children
+    predicate: RELATED_TO
+    confidence: HIGH
+    similarities:
+      - both involve Wilms tumor
+      - involve kidneys
+      - both have genetic implications
+      - synonyms
+    differences:
+      - A is a specific subtype of hereditary Wilms tumor
+      - B is a Wilms tumor occurring in childhood
+      - B explicitly states the occurrence in children
+      - A involves somatic mutation
+      - B involves inactivating WT1 gene mutation
+      - A is linked to autosomal dominant inheritance
+      - A is not exclusive to children
+  - subject: MONDO:0008679
+    object: NCIT:C40407
+    completion: |-
+      category: EXACT_MATCH
+      confidence: HIGH
+      similarities: both concepts refer to Wilms tumor, a type of kidney cancer mostly occurring in children; both are types of nephroblastoma; both fall under the category of hereditary Wilms tumor
+      differences: Concept B provides more detailed information, such as symptoms and the origin of cell mutation
+    predicate: EXACT_MATCH
+    confidence: HIGH
+    similarities:
+      - both concepts refer to Wilms tumor, a type of kidney cancer mostly occurring
+        in children
+      - both are types of nephroblastoma
+      - both fall under the category of hereditary Wilms tumor
+    differences:
+      - Concept B provides more detailed information, such as symptoms and the origin
+        of cell mutation
+  - subject: MONDO:0008679
+    object: NCIT:C6180
+    completion: |-
+      category: RELATED_TO
+      confidence: HIGH
+      similarities: Wilms tumor; involves kidneys; related to WT1 gene 
+      differences: A is a general concept; A may be hereditary; B specifically occurs in adults; B may have specific molecular abnormalities
+    predicate: RELATED_TO
+    confidence: HIGH
+    similarities:
+      - Wilms tumor
+      - involves kidneys
+      - related to WT1 gene
+    differences:
+      - A is a general concept
+      - A may be hereditary
+      - B specifically occurs in adults
+      - B may have specific molecular abnormalities
+  - subject: MONDO:0008749
+    object: MONDO:0009904
+    completion: |-
+      category: DIFFERENT
+      confidence: HIGH
+      similarities: both are diseases
+      differences: A is a type of pseudohypoparathyroidism characterized by resistance to parathyroid hormone; B is a syndrome characterized by hypokalemic metabolic alkalosis with significant hypomagnesemia and low urinary calcium excretion; B has a genetic basis in a mutation in the SLC12A3 gene; A is a type of pseudohypoparathyroidism while B is a type of syndromic disease, inherited renal tubular disease, and renal tubular transport disease.
+    predicate: DIFFERENT
+    confidence: HIGH
+    similarities:
+      - both are diseases
+    differences:
+      - A is a type of pseudohypoparathyroidism characterized by resistance to parathyroid
+        hormone
+      - B is a syndrome characterized by hypokalemic metabolic alkalosis with significant
+        hypomagnesemia and low urinary calcium excretion
+      - B has a genetic basis in a mutation in the SLC12A3 gene
+      - A is a type of pseudohypoparathyroidism while B is a type of syndromic disease,
+        inherited renal tubular disease, and renal tubular transport disease.
+  - subject: MONDO:0008749
+    object: MONDO:0012912
+    completion: |-
+      category: RELATED_TO
+      confidence: HIGH
+      similarities: both are types of pseudohypoparathyroidism (PHP); both relate to parathyroid hormone (PTH); both have genetic basis; 
+      differences: PHP2 is characterized by resistance to PTH, hypocalcemia, hyperphosphatemia, elevated PTH levels, absence of Albright's hereditary osteodystrophy (AHO), and normal expression of the Gs protein; pseudopseudohypoparathyroidism is characterized by presence of AHO, no resistance to PTH; Concept B is related to syndromic genetic obesity and acromelic dysplasia, while these are not mentioned in Concept A. B also specifically mentions a germline mutation in GNAS.
+    predicate: RELATED_TO
+    confidence: HIGH
+    similarities:
+      - both are types of pseudohypoparathyroidism (PHP)
+      - both relate to parathyroid hormone (PTH)
+      - both have genetic basis
+    differences:
+      - PHP2 is characterized by resistance to PTH, hypocalcemia, hyperphosphatemia,
+        elevated PTH levels, absence of Albright's hereditary osteodystrophy (AHO),
+        and normal expression of the Gs protein
+      - pseudopseudohypoparathyroidism is characterized by presence of AHO, no resistance
+        to PTH
+      - Concept B is related to syndromic genetic obesity and acromelic dysplasia,
+        while these are not mentioned in Concept A. B also specifically mentions a
+        germline mutation in GNAS.
+  - subject: MONDO:0008749
+    object: MONDO:0019992
+    completion: |-
+      category: NARROWER_THAN
+      confidence: HIGH
+      similarities: both are types of pseudohypoparathyroidism; both are characterized by resistance to parathyroid hormone, hypocalcemia, hyperphosphatemia, and elevated PTH levels
+      differences: Concept A is a specific subtype; Concept B is the broader category encompassing various subtypes including Concept A.
+    predicate: NARROWER_THAN
+    confidence: HIGH
+    similarities:
+      - both are types of pseudohypoparathyroidism
+      - both are characterized by resistance to parathyroid hormone, hypocalcemia,
+        hyperphosphatemia, and elevated PTH levels
+    differences:
+      - Concept A is a specific subtype
+      - Concept B is the broader category encompassing various subtypes including
+        Concept A.
+  - subject: MONDO:0008762
+    object: MONDO:0010520
+    completion: |-
+      category: RELATED_TO
+      confidence: HIGH
+      similarities: Both are forms of Alport syndrome; both are genetic conditions; both are characterized by kidney disease, hearing loss, and eye abnormalities; both share the synonym "nephropathy and deafness"
+      differences: A is inherited in an autosomal recessive pattern and is caused by mutations in either the COL4A3 or COL4A4 genes; B is an X-linked form of Alport syndrome and has material basis in germline mutation in COL4A5; A is categorized as an autosomal recessive disease while B is an X-linked disease.
+    predicate: RELATED_TO
+    confidence: HIGH
+    similarities:
+      - Both are forms of Alport syndrome
+      - both are genetic conditions
+      - both are characterized by kidney disease, hearing loss, and eye abnormalities
+      - both share the synonym "nephropathy and deafness"
+    differences:
+      - A is inherited in an autosomal recessive pattern and is caused by mutations
+        in either the COL4A3 or COL4A4 genes
+      - B is an X-linked form of Alport syndrome and has material basis in germline
+        mutation in COL4A5
+      - A is categorized as an autosomal recessive disease while B is an X-linked
+        disease.
+  - subject: MONDO:0008762
+    object: MONDO:0018965
+    completion: |-
+      category: NARROWER_THAN
+      confidence: HIGH
+      similarities: Both are forms of Alport syndrome; Both involve kidney disease, hearing loss, and eye abnormalities; Both involve genetic abnormalities
+      differences: Concept A, autosomal recessive Alport syndrome, refers to a specific subset of Alport syndrome that is autosomal recessive and involves mutations in the COL4A3 or COL4A4 gene; Concept B refers to Alport syndrome in general, which is typically inherited as an X-link trait and is related to abnormalities in the COL4A5 gene.
+    predicate: NARROWER_THAN
+    confidence: HIGH
+    similarities:
+      - Both are forms of Alport syndrome
+      - Both involve kidney disease, hearing loss, and eye abnormalities
+      - Both involve genetic abnormalities
+    differences:
+      - Concept A, autosomal recessive Alport syndrome, refers to a specific subset
+        of Alport syndrome that is autosomal recessive and involves mutations in the
+        COL4A3 or COL4A4 gene
+      - Concept B refers to Alport syndrome in general, which is typically inherited
+        as an X-link trait and is related to abnormalities in the COL4A5 gene.
+  - subject: MONDO:0008831
+    object: MONDO:0018770
+    completion: |-
+      category: EXACT_MATCH
+      confidence: HIGH
+      similarities: both involve asphyxiating thoracic dystrophy; both are a type of Jeune syndrome; both are associated with short-rib thoracic dysplasia
+      differences: slightly different specific genetic region associated-A mentions 15q13; B has additional associations with inherited renal tubular disease and nephropathy-associated ciliopathy
+    predicate: EXACT_MATCH
+    confidence: HIGH
+    similarities:
+      - both involve asphyxiating thoracic dystrophy
+      - both are a type of Jeune syndrome
+      - both are associated with short-rib thoracic dysplasia
+    differences:
+      - slightly different specific genetic region associated-A mentions 15q13
+      - B has additional associations with inherited renal tubular disease and nephropathy-associated
+        ciliopathy
+  - subject: MONDO:0009032
+    object: MONDO:0010024
+    completion: |-
+      category: RELATED_TO
+      confidence: MEDIUM
+      similarities: both are types of short rib-polydactyly syndrome; both are developmental disorders; both can affect the ribs and other bones
+      differences: A has additional features like inherited renal tubular disease and ectodermal dysplasia; B is rapidly fatal and can include brain defects, other malformations, and issues like Hydrops fetalis and Polydactyly.
+    predicate: RELATED_TO
+    confidence: MEDIUM
+    similarities:
+      - both are types of short rib-polydactyly syndrome
+      - both are developmental disorders
+      - both can affect the ribs and other bones
+    differences:
+      - A has additional features like inherited renal tubular disease and ectodermal
+        dysplasia
+      - B is rapidly fatal and can include brain defects, other malformations, and
+        issues like Hydrops fetalis and Polydactyly.
+  - subject: MONDO:0009032
+    object: MONDO:0021093
+    completion: |-
+      category: NARROWER_THAN
+      confidence: HIGH
+      similarities: associated with cranioectodermal dysplasia; descriptions include similar symptomatic details; both are forms of syndromic craniosynostosis; share several synonyms
+      differences: B is caused specifically by a mutation in the IFT122 gene; B is a type/subset of A
+    predicate: NARROWER_THAN
+    confidence: HIGH
+    similarities:
+      - associated with cranioectodermal dysplasia
+      - descriptions include similar symptomatic details
+      - both are forms of syndromic craniosynostosis
+      - share several synonyms
+    differences:
+      - B is caused specifically by a mutation in the IFT122 gene
+      - B is a type/subset of A
+  - subject: MONDO:0009071
+    object: MONDO:0020728
+    completion: |-
+      category: NARROWER_THAN
+      confidence: HIGH
+      similarities: Both relate to renal hypouricemia; both are hereditary; share symptoms; share synonyms
+      differences: B has specific material basis in germline mutation in SLC22A12; B is a type or subtype of A.
+    predicate: NARROWER_THAN
+    confidence: HIGH
+    similarities:
+      - Both relate to renal hypouricemia
+      - both are hereditary
+      - share symptoms
+      - share synonyms
+    differences:
+      - B has specific material basis in germline mutation in SLC22A12
+      - B is a type or subtype of A.
+  - subject: MONDO:0009424
+    object: MONDO:0100343
+    completion: |-
+      category: NARROWER_THAN
+      confidence: HIGH
+      similarities: both are types of Bartter syndrome; both present antenatally; associated with hyperprostaglandin E syndrome
+      differences: A is specifically caused by a mutation in the KCNJ1 gene; B includes both Type 1 and Type 2 Bartter syndrome
+    predicate: NARROWER_THAN
+    confidence: HIGH
+    similarities:
+      - both are types of Bartter syndrome
+      - both present antenatally
+      - associated with hyperprostaglandin E syndrome
+    differences:
+      - A is specifically caused by a mutation in the KCNJ1 gene
+      - B includes both Type 1 and Type 2 Bartter syndrome
+  - subject: MONDO:0009728
+    object: NCIT:C74998
+    completion: |-
+      category: EXACT_MATCH
+      confidence: HIGH
+      similarities: same concept; same definition; same disease mapping; both are subtypes of nephronophthisis; caused by mutations in the NPHP1 gene; patients exhibit the same symptoms
+      differences: A has more synonyms; A is listed as a syndromic disease and nephropathy-associated ciliopathy; different way of showing the relationship with the NPHP1 gene
+    predicate: EXACT_MATCH
+    confidence: HIGH
+    similarities:
+      - same concept
+      - same definition
+      - same disease mapping
+      - both are subtypes of nephronophthisis
+      - caused by mutations in the NPHP1 gene
+      - patients exhibit the same symptoms
+    differences:
+      - A has more synonyms
+      - A is listed as a syndromic disease and nephropathy-associated ciliopathy
+      - different way of showing the relationship with the NPHP1 gene
+  - subject: MONDO:0009732
+    object: NCIT:C122795
+    completion: |-
+      category: EXACT_MATCH
+      confidence: HIGH
+      similarities: same syndrome; related to mutation(s) in the NPHS1 gene; classified as a nephrotic syndrome; synonym names match
+      differences: A mentions the syndrome starting during foetal life; B mentions it presenting during the first three months of life
+    predicate: EXACT_MATCH
+    confidence: HIGH
+    similarities:
+      - same syndrome
+      - related to mutation(s) in the NPHS1 gene
+      - classified as a nephrotic syndrome
+      - synonym names match
+    differences:
+      - A mentions the syndrome starting during foetal life
+      - B mentions it presenting during the first three months of life
+  - subject: MONDO:0009733
+    object: NCIT:C121198
+    completion: |-
+      category: EXACT_MATCH
+      confidence: HIGH
+      similarities: identical definition; related to nephrotic syndrome; characterized by increased mesangial matrix and potential glomerular sclerosis; onset within the first three months of life
+      differences: different synonyms and names; A specifies that it has a material basis in a germline mutation in WT1
+    predicate: EXACT_MATCH
+    confidence: HIGH
+    similarities:
+      - identical definition
+      - related to nephrotic syndrome
+      - characterized by increased mesangial matrix and potential glomerular sclerosis
+      - onset within the first three months of life
+    differences:
+      - different synonyms and names
+      - A specifies that it has a material basis in a germline mutation in WT1
+  - subject: MONDO:0009818
+    object: MONDO:0009968
+    completion: |-
+      category: RELATED_TO
+      confidence: MEDIUM
+      similarities: Both involve renal tubular acidosis; both are autosomal recessive disorders; both are genetically-based
+      differences: Concept A is characterized by osteopetrosis and neurological disorders related to cerebral calcifications, while Concept B is characterized by progressive sensorineural hearing loss; Concept A has a material basis in a germline mutation in CA2, while Concept B has a material basis in a germline mutation in ATP6V1B1
+    predicate: RELATED_TO
+    confidence: MEDIUM
+    similarities:
+      - Both involve renal tubular acidosis
+      - both are autosomal recessive disorders
+      - both are genetically-based
+    differences:
+      - Concept A is characterized by osteopetrosis and neurological disorders related
+        to cerebral calcifications, while Concept B is characterized by progressive
+        sensorineural hearing loss
+      - Concept A has a material basis in a germline mutation in CA2, while Concept
+        B has a material basis in a germline mutation in ATP6V1B1
+  - subject: MONDO:0009818
+    object: MONDO:0015827
+    completion: |-
+      category: RELATED_TO
+      confidence: HIGH
+      similarities: is_a primary renal tubular acidosis; involves renal tubular acidosis
+      differences: A involves a complex disorder that includes osteopetrosis and neurological disorders in addition to renal tubular acidosis caused by germline mutation in CA2; B is a disorder of impaired net acid secretion by the distal tubule, details about genetic basis are not mentioned.
+    predicate: RELATED_TO
+    confidence: HIGH
+    similarities:
+      - is_a primary renal tubular acidosis
+      - involves renal tubular acidosis
+    differences:
+      - A involves a complex disorder that includes osteopetrosis and neurological
+        disorders in addition to renal tubular acidosis caused by germline mutation
+        in CA2
+      - B is a disorder of impaired net acid secretion by the distal tubule, details
+        about genetic basis are not mentioned.
+  - subject: MONDO:0009818
+    object: MONDO:0019162
+    completion: |-
+      category: DIFFERENT
+      confidence: HIGH
+      similarities: Both are inherited, rare disorders; Both have impact on renal function
+      differences: A is characterized by osteopetrosis, renal tubular acidosis, and neurological disorders whereas B is characterized by hypertension and hyperkalemia; A has a basis in germline mutation in CA2 whereas B does not mention a specific mutation; Different names and synonyms.
+    predicate: DIFFERENT
+    confidence: HIGH
+    similarities:
+      - Both are inherited, rare disorders
+      - Both have impact on renal function
+    differences:
+      - A is characterized by osteopetrosis, renal tubular acidosis, and neurological
+        disorders whereas B is characterized by hypertension and hyperkalemia
+      - A has a basis in germline mutation in CA2 whereas B does not mention a specific
+        mutation
+      - Different names and synonyms.
+  - subject: MONDO:0009889
+    object: MONDO:0033004
+    completion: |-
+      category: RELATED_TO
+      confidence: HIGH
+      similarities: both are types of polycystic kidney disease; both can involve hepatic disease; both can be referred to as PKD1;
+      differences: A is autosomal recessive and B is autosomal dominant; B is specifically caused by a mutation in the PKD4 gene; B is known to cause Potter sequence.
+    predicate: RELATED_TO
+    confidence: HIGH
+    similarities:
+      - both are types of polycystic kidney disease
+      - both can involve hepatic disease
+      - both can be referred to as PKD1
+    differences:
+      - A is autosomal recessive and B is autosomal dominant
+      - B is specifically caused by a mutation in the PKD4 gene
+      - B is known to cause Potter sequence.
+  - subject: MONDO:0009889
+    object: MONDO:0033281
+    completion: |-
+      category: NARROWER_THAN
+      confidence: HIGH
+      similarities: both involve polycystic kidney disease; both are autosomal recessive disorders
+      differences: B has a specific genetic cause (mutation in DZIP1L gene), no mention of hepatic involvement as in A
+    predicate: NARROWER_THAN
+    confidence: HIGH
+    similarities:
+      - both involve polycystic kidney disease
+      - both are autosomal recessive disorders
+    differences:
+      - B has a specific genetic cause (mutation in DZIP1L gene), no mention of hepatic
+        involvement as in A
+  - subject: MONDO:0009889
+    object: NCIT:C84579
+    completion: |-
+      category: EXACT_MATCH
+      confidence: HIGH
+      similarities: name; definition; concept of an inherited kidney disorder; autosomal recessive pattern; part of polycystic kidney disease
+      differences: A mentions hepatic involvement; B mentions progressive renal failure and chromosome 6 abnormalities; different ids and is_a relations
+    predicate: EXACT_MATCH
+    confidence: HIGH
+    similarities:
+      - name
+      - definition
+      - concept of an inherited kidney disorder
+      - autosomal recessive pattern
+      - part of polycystic kidney disease
+    differences:
+      - A mentions hepatic involvement
+      - B mentions progressive renal failure and chromosome 6 abnormalities
+      - different ids and is_a relations
+  - subject: MONDO:0009904
+    object: MONDO:0012912
+    completion: |-
+      category: DIFFERENT
+      confidence: HIGH
+      similarities: BOTH are diseases; Both have a material basis in germline mutation
+      differences: Gitelman syndrome is characterized by significant hypokalemic metabolic alkalosis, significant hypomagnesemia and low urinary calcium excretion and is based on a mutation in the SLC12A3 gene; Pseudopseudohypoparathyroidism is a disease characterized by features of Albright hereditary osteodystrophy (AHO) and has no evidence of resistance to parathyroid hormone (PTH) and is based on mutation in the GNAS gene. The syndromes they belong to are also different.
+    predicate: DIFFERENT
+    confidence: HIGH
+    similarities:
+      - BOTH are diseases
+      - Both have a material basis in germline mutation
+    differences:
+      - Gitelman syndrome is characterized by significant hypokalemic metabolic alkalosis,
+        significant hypomagnesemia and low urinary calcium excretion and is based
+        on a mutation in the SLC12A3 gene
+      - Pseudopseudohypoparathyroidism is a disease characterized by features of Albright
+        hereditary osteodystrophy (AHO) and has no evidence of resistance to parathyroid
+        hormone (PTH) and is based on mutation in the GNAS gene. The syndromes they
+        belong to are also different.
+  - subject: MONDO:0009904
+    object: MONDO:0019992
+    completion: |-
+      category: RELATED_TO
+      confidence: MEDIUM
+      similarities: both are inherited renal tubular diseases; both involve issues in mineral metabolism
+      differences: A is characterized by hypokalemic metabolic alkalosis, hypomagnesemia and low urinary calcium excretion, and is caused by a mutation in SLC12A3; B is characterized by resistance to the action of parathyroid hormone, resulting in hypocalcemia, hyperphosphatemia and elevated PTH levels, with various subtypes
+    predicate: RELATED_TO
+    confidence: MEDIUM
+    similarities:
+      - both are inherited renal tubular diseases
+      - both involve issues in mineral metabolism
+    differences:
+      - A is characterized by hypokalemic metabolic alkalosis, hypomagnesemia and
+        low urinary calcium excretion, and is caused by a mutation in SLC12A3
+      - B is characterized by resistance to the action of parathyroid hormone, resulting
+        in hypocalcemia, hyperphosphatemia and elevated PTH levels, with various subtypes
+  - subject: MONDO:0009917
+    object: MONDO:0019161
+    completion: |-
+      category: NARROWER_THAN
+      confidence: HIGH
+      similarities: both represent forms of pseudohypoaldosteronism type 1; both conditions involve salt losing due to mineralocorticoid resistance; both share similar synonyms
+      differences: A is a more specific form of pseudohypoaldosteronism type 1 that is autosomal recessive; A has systemic involvement in multiple organs while B mentions renal salt wasting, failure to thrive and dehydration in the newborn
+    predicate: NARROWER_THAN
+    confidence: HIGH
+    similarities:
+      - both represent forms of pseudohypoaldosteronism type 1
+      - both conditions involve salt losing due to mineralocorticoid resistance
+      - both share similar synonyms
+    differences:
+      - A is a more specific form of pseudohypoaldosteronism type 1 that is autosomal
+        recessive
+      - A has systemic involvement in multiple organs while B mentions renal salt
+        wasting, failure to thrive and dehydration in the newborn
+  - subject: MONDO:0009962
+    object: MONDO:0009964
+    completion: |-
+      category: DIFFERENT
+      confidence: HIGH
+      similarities: Both are genetic disorders; have material basis in germline mutation
+      differences: A is connected to a mutation in the NPHP1 gene; A is a type of Senior-Loken syndrome; A does not mention polydactyly; B is connected to a mutation in the IFT140 gene; B is a type of thoracic dysplasia; B could involve polydactyly
+    predicate: DIFFERENT
+    confidence: HIGH
+    similarities:
+      - Both are genetic disorders
+      - have material basis in germline mutation
+    differences:
+      - A is connected to a mutation in the NPHP1 gene
+      - A is a type of Senior-Loken syndrome
+      - A does not mention polydactyly
+      - B is connected to a mutation in the IFT140 gene
+      - B is a type of thoracic dysplasia
+      - B could involve polydactyly
+  - subject: MONDO:0009962
+    object: MONDO:0013127
+    completion: |-
+      category: DIFFERENT
+      confidence: HIGH
+      similarities: Both are genetic disorders; diseases have material basis in gene mutations
+      differences: Each disease is caused by a mutation in a different gene; different disease classification; different symptoms and implications; different synonyms
+    predicate: DIFFERENT
+    confidence: HIGH
+    similarities:
+      - Both are genetic disorders
+      - diseases have material basis in gene mutations
+    differences:
+      - Each disease is caused by a mutation in a different gene
+      - different disease classification
+      - different symptoms and implications
+      - different synonyms
+  - subject: MONDO:0009962
+    object: MONDO:0017842
+    completion: |-
+      category: NARROWER_THAN
+      confidence: HIGH
+      similarities: both refer to Senior-Loken syndrome; both involve retinal and renal symptoms; both are types of oculo-renal diseases
+      differences: Concept B has a broader definition, A refers to a specific type of Senior-Loken syndrome caused by mutation in NPHP1 gene; A specifies the genetic mutation while B does not.
+    predicate: NARROWER_THAN
+    confidence: HIGH
+    similarities:
+      - both refer to Senior-Loken syndrome
+      - both involve retinal and renal symptoms
+      - both are types of oculo-renal diseases
+    differences:
+      - Concept B has a broader definition, A refers to a specific type of Senior-Loken
+        syndrome caused by mutation in NPHP1 gene
+      - A specifies the genetic mutation while B does not.
+  - subject: MONDO:0009964
+    object: MONDO:0013127
+    completion: |-
+      category: RELATED_TO
+      confidence: HIGH
+      similarities: both are types of asphyxiating thoracic dystrophy; both are types of Jeune syndrome; both form material basis in homozygous or compound heterozygous mutation
+      differences: A has material basis in mutation in the IFT140 gene on chromosome 16p13; B has material basis in mutation in the DYNC2H1 gene on chromosome 11q22; A is a type of IFT140-related recessive ciliopathy and acromelic dysplasia, B is a type of syndromic anorectal malformation
+    predicate: RELATED_TO
+    confidence: HIGH
+    similarities:
+      - both are types of asphyxiating thoracic dystrophy
+      - both are types of Jeune syndrome
+      - both form material basis in homozygous or compound heterozygous mutation
+    differences:
+      - A has material basis in mutation in the IFT140 gene on chromosome 16p13
+      - B has material basis in mutation in the DYNC2H1 gene on chromosome 11q22
+      - A is a type of IFT140-related recessive ciliopathy and acromelic dysplasia,
+        B is a type of syndromic anorectal malformation
+  - subject: MONDO:0009968
+    object: MONDO:0015827
+    completion: |-
+      category: NARROWER_THAN
+      confidence: HIGH
+      similarities: Both relate to distal renal tubular acidosis; Both are variants of renal tubular acidosis
+      differences: Concept A includes progressive sensorineural hearing loss while Concept B does not; Concept A is autosomal recessive while Concept B does not specify genetic inheritance; ATP6V1B1 germline mutation in Concept A, not mentioned in Concept B; Concept A is a specific type of distal renal tubular acidosis, with additional features like hearing loss while Concept B looks like a broad category.
+    predicate: NARROWER_THAN
+    confidence: HIGH
+    similarities:
+      - Both relate to distal renal tubular acidosis
+      - Both are variants of renal tubular acidosis
+    differences:
+      - Concept A includes progressive sensorineural hearing loss while Concept B
+        does not
+      - Concept A is autosomal recessive while Concept B does not specify genetic
+        inheritance
+      - ATP6V1B1 germline mutation in Concept A, not mentioned in Concept B
+      - Concept A is a specific type of distal renal tubular acidosis, with additional
+        features like hearing loss while Concept B looks like a broad category.
+  - subject: MONDO:0009968
+    object: MONDO:0019162
+    completion: |-
+      category: RELATED_TO
+      confidence: MEDIUM
+      similarities: Both are inherited diseases; both affect renal function
+      differences: A is characterized by sensorineural hearing loss, B is characterized by hypertension and hyperkalemia; different mutations are involved
+    predicate: RELATED_TO
+    confidence: MEDIUM
+    similarities:
+      - Both are inherited diseases
+      - both affect renal function
+    differences:
+      - A is characterized by sensorineural hearing loss, B is characterized by hypertension
+        and hyperkalemia
+      - different mutations are involved
+  - subject: MONDO:0010225
+    object: MONDO:0010687
+    completion: |-
+      category: RELATED_TO
+      confidence: HIGH
+      similarities: Both are inherited kidney disorders caused by germline mutations in the CLCN5 gene; both involve nephrolithiasis
+      differences: A is a type of Dent disease, predominantly with renal manifestations; B specifically includes renal failure
+    predicate: RELATED_TO
+    confidence: HIGH
+    similarities:
+      - Both are inherited kidney disorders caused by germline mutations in the CLCN5
+        gene
+      - both involve nephrolithiasis
+    differences:
+      - A is a type of Dent disease, predominantly with renal manifestations
+      - B specifically includes renal failure
+  - subject: MONDO:0010225
+    object: MONDO:0015612
+    completion: |-
+      category: NARROWER_THAN
+      confidence: HIGH
+      similarities: related to Dent disease; renal manifestations; genetic basis; nephrolithiasis is mentioned in both as part of the condition
+      differences: A specifically involves mutation in CLCN5; B covers a wider range of Dent disease which includes disease 1 and disease 2
+    predicate: NARROWER_THAN
+    confidence: HIGH
+    similarities:
+      - related to Dent disease
+      - renal manifestations
+      - genetic basis
+      - nephrolithiasis is mentioned in both as part of the condition
+    differences:
+      - A specifically involves mutation in CLCN5
+      - B covers a wider range of Dent disease which includes disease 1 and disease
+        2
+  - subject: MONDO:0010359
+    object: MONDO:0015612
+    completion: |-
+      category: NARROWER_THAN
+      confidence: HIGH
+      similarities: Dent disease; renal disease; genetic disease
+      differences: A is a subtype with extra-renal features; B is the broad category
+    predicate: NARROWER_THAN
+    confidence: HIGH
+    similarities:
+      - Dent disease
+      - renal disease
+      - genetic disease
+    differences:
+      - A is a subtype with extra-renal features
+      - B is the broad category
+  - subject: MONDO:0010520
+    object: MONDO:0018965
+    completion: |-
+      category: NARROWER_THAN
+      confidence: HIGH
+      similarities: part of Alport syndrome; X-linked disease; caused by abnormalities in the COL4A5 gene; associated with nephropathy and deafness;
+      differences: Concept A is specifically the X-linked form of Alport syndrome; Concept B includes all forms of Alport syndrome not just X-linked.
+    predicate: NARROWER_THAN
+    confidence: HIGH
+    similarities:
+      - part of Alport syndrome
+      - X-linked disease
+      - caused by abnormalities in the COL4A5 gene
+      - associated with nephropathy and deafness
+    differences:
+      - Concept A is specifically the X-linked form of Alport syndrome
+      - Concept B includes all forms of Alport syndrome not just X-linked.
+  - subject: MONDO:0010687
+    object: MONDO:0015612
+    completion: |-
+      category: RELATED_TO
+      confidence: HIGH
+      similarities: both are genetic kidney disorders; X-linked recessive inheritance; may involve nephrolithiasis
+      differences: A specifically involves nephrolithiasis with renal failure and has material basis in germline mutation in CLCN5; B is characterized by proximal tubule dysfunction and other symptoms such as low-molecular-weight proteinuria, hypercalciuria, nephrocalcinosis
+    predicate: RELATED_TO
+    confidence: HIGH
+    similarities:
+      - both are genetic kidney disorders
+      - X-linked recessive inheritance
+      - may involve nephrolithiasis
+    differences:
+      - A specifically involves nephrolithiasis with renal failure and has material
+        basis in germline mutation in CLCN5
+      - B is characterized by proximal tubule dysfunction and other symptoms such
+        as low-molecular-weight proteinuria, hypercalciuria, nephrocalcinosis
+  - subject: MONDO:0010916
+    object: MONDO:0033004
+    completion: |-
+      category: RELATED_TO
+      confidence: HIGH
+      similarities: both are types of polycystic kidney disease; both are genetic diseases; both may be associated with polycystic liver disease
+      differences: A is caused by a mutation in the GANAB gene while B is caused by a mutation in the PKHD1 gene; A is an autosomal dominant disease while B is an autosomal recessive disease; B can cause the Potter sequence while A does not mention this feature.
+    predicate: RELATED_TO
+    confidence: HIGH
+    similarities:
+      - both are types of polycystic kidney disease
+      - both are genetic diseases
+      - both may be associated with polycystic liver disease
+    differences:
+      - A is caused by a mutation in the GANAB gene while B is caused by a mutation
+        in the PKHD1 gene
+      - A is an autosomal dominant disease while B is an autosomal recessive disease
+      - B can cause the Potter sequence while A does not mention this feature.
+  - subject: MONDO:0011165
+    object: NCIT:C187984
+    completion: |-
+      category: EXACT_MATCH
+      confidence: HIGH
+      similarities: same concept; disease based on FN1 gene mutation; has material basis in germline mutation in FN1; linked to renal issues; identified as glomerulopathy; classified under respective 'glomerulopathy' categories; share synonyms 'GFND2'.
+      differences: different detail of definition; different names (name for B includes a hyphen); different id's; different categories for ontology.
+    predicate: EXACT_MATCH
+    confidence: HIGH
+    similarities:
+      - same concept
+      - disease based on FN1 gene mutation
+      - has material basis in germline mutation in FN1
+      - linked to renal issues
+      - identified as glomerulopathy
+      - classified under respective 'glomerulopathy' categories
+      - share synonyms 'GFND2'.
+    differences:
+      - different detail of definition
+      - different names (name for B includes a hyphen)
+      - different id's
+      - different categories for ontology.
+  - subject: MONDO:0011176
+    object: MONDO:0018100
+    completion: |-
+      category: NARROWER_THAN
+      confidence: HIGH
+      similarities: related to hypomagnesemia; hereditary disorders; magnesium absorption issues
+      differences: Concept A specifies a type of primary hypomagnesemia (intestinal) and secondary hypocalcemia; Concept B is a broader category of hypomagnesemia disorders; definition and associated symptoms; related diseases
+    predicate: NARROWER_THAN
+    confidence: HIGH
+    similarities:
+      - related to hypomagnesemia
+      - hereditary disorders
+      - magnesium absorption issues
+    differences:
+      - Concept A specifies a type of primary hypomagnesemia (intestinal) and secondary
+        hypocalcemia
+      - Concept B is a broader category of hypomagnesemia disorders
+      - definition and associated symptoms
+      - related diseases
+  - subject: MONDO:0011190
+    object: MONDO:0014158
+    completion: |-
+      category: RELATED_TO
+      confidence: HIGH
+      similarities: both are types of nephronophthisis; both are diseases caused by gene mutations; both have similar synonyms like 'infantile nephronophthisis' and 'nephronophthisis type'
+      differences: A is caused by a mutation in the INVS gene, B is caused by a mutation in the ANKS6 gene; different name ('nephronophthisis 2' vs 'nephronophthisis 16')
+    predicate: RELATED_TO
+    confidence: HIGH
+    similarities:
+      - both are types of nephronophthisis
+      - both are diseases caused by gene mutations
+      - both have similar synonyms like 'infantile nephronophthisis' and 'nephronophthisis
+        type'
+    differences:
+      - A is caused by a mutation in the INVS gene, B is caused by a mutation in the
+        ANKS6 gene
+      - different name ('nephronophthisis 2' vs 'nephronophthisis 16')
+  - subject: MONDO:0012184
+    object: NCIT:C128145
+    completion: |-
+      category: EXACT_MATCH
+      confidence: HIGH
+      similarities: same name and ID; same definition; both are autosomal recessive disorders characterized by congenital nephrotic syndrome and distinct ocular abnormalities; same synonyms
+      differences: A mentions association with microcoria in the definition; A and B have slightly different parent categorizations
+    predicate: EXACT_MATCH
+    confidence: HIGH
+    similarities:
+      - same name and ID
+      - same definition
+      - both are autosomal recessive disorders characterized by congenital nephrotic
+        syndrome and distinct ocular abnormalities
+      - same synonyms
+    differences:
+      - A mentions association with microcoria in the definition
+      - A and B have slightly different parent categorizations
+  - subject: MONDO:0012912
+    object: MONDO:0019992
+    completion: |-
+      category: NARROWER_THAN
+      confidence: HIGH
+      similarities: both are forms of pseudohypoparathyroidism; both have metabolic and endocrine aspects; both invovle resistance to parathyroid hormone; both involve mutations
+      differences: A is specifically without multiple hormone resistance and includes features of Albright hereditary osteodystrophy; B is a broader category, includes several subtypes and is not specifically associated with Albright hereditary osteodystrophy
+    predicate: NARROWER_THAN
+    confidence: HIGH
+    similarities:
+      - both are forms of pseudohypoparathyroidism
+      - both have metabolic and endocrine aspects
+      - both invovle resistance to parathyroid hormone
+      - both involve mutations
+    differences:
+      - A is specifically without multiple hormone resistance and includes features
+        of Albright hereditary osteodystrophy
+      - B is a broader category, includes several subtypes and is not specifically
+        associated with Albright hereditary osteodystrophy
+  - subject: MONDO:0013131
+    object: NCIT:C123166
+    completion: |-
+      category: EXACT_MATCH
+      confidence: HIGH
+      similarities: same concept; definitions are identical; both indicate a causation due to a mutation in PKD2; both are forms of autosomal dominant polycystic kidney disease
+      differences: different concept IDs and names; A provides more synonyms and relationships
+    predicate: EXACT_MATCH
+    confidence: HIGH
+    similarities:
+      - same concept
+      - definitions are identical
+      - both indicate a causation due to a mutation in PKD2
+      - both are forms of autosomal dominant polycystic kidney disease
+    differences:
+      - different concept IDs and names
+      - A provides more synonyms and relationships
+  - subject: MONDO:0013589
+    object: MONDO:0014451
+    completion: |-
+      category: RELATED_TO
+      confidence: HIGH
+      similarities: both are subtypes of focal segmental glomerulosclerosis; both are inherited; both are due to germline mutations
+      differences: A is caused by mutation in MYO1E gene; B is caused by mutation in PAX2 gene
+    predicate: RELATED_TO
+    confidence: HIGH
+    similarities:
+      - both are subtypes of focal segmental glomerulosclerosis
+      - both are inherited
+      - both are due to germline mutations
+    differences:
+      - A is caused by mutation in MYO1E gene
+      - B is caused by mutation in PAX2 gene
+  - subject: MONDO:0013589
+    object: MONDO:0019006
+    completion: |-
+      category: RELATED_TO
+      confidence: MEDIUM
+      similarities: Both relate to kidney diseases; Similarities in how they affect the body; diseases related to nephrotic syndrome
+      differences: B is steroid resistant; A is caused by a specific gene mutation; B is idiopathic; A is a specific type of focal segmental glomerulosclerosis; B is familial while A's heredity isn't mentioned.
+    predicate: RELATED_TO
+    confidence: MEDIUM
+    similarities:
+      - Both relate to kidney diseases
+      - Similarities in how they affect the body
+      - diseases related to nephrotic syndrome
+    differences:
+      - B is steroid resistant
+      - A is caused by a specific gene mutation
+      - B is idiopathic
+      - A is a specific type of focal segmental glomerulosclerosis
+      - B is familial while A's heredity isn't mentioned.
+  - subject: MONDO:0013781
+    object: MONDO:0019162
+    completion: |-
+      category: NARROWER_THAN
+      confidence: HIGH
+      similarities: pseudohypoaldosteronism type 2; hypertension; familial hyperkalemic hypertension
+      differences: A is specifically caused by a mutation in the KLHL3 gene; B describes the disease more generally and does not specify a genetic cause
+    predicate: NARROWER_THAN
+    confidence: HIGH
+    similarities:
+      - pseudohypoaldosteronism type 2
+      - hypertension
+      - familial hyperkalemic hypertension
+    differences:
+      - A is specifically caused by a mutation in the KLHL3 gene
+      - B describes the disease more generally and does not specify a genetic cause
+  - subject: MONDO:0014005
+    object: NCIT:C123055
+    completion: |-
+      category: EXACT_MATCH
+      confidence: HIGH
+      similarities: same concept; same definition; both are types of glomerulonephritis; both involve mesangial proliferation, endocapillary proliferation, and capillary wall remodeling
+      differences: A includes more detailed is_a relationships and the genetic mutation cause; different terminologies used for synonyms
+    predicate: EXACT_MATCH
+    confidence: HIGH
+    similarities:
+      - same concept
+      - same definition
+      - both are types of glomerulonephritis
+      - both involve mesangial proliferation, endocapillary proliferation, and capillary
+        wall remodeling
+    differences:
+      - A includes more detailed is_a relationships and the genetic mutation cause
+      - different terminologies used for synonyms
+  - subject: MONDO:0014451
+    object: MONDO:0019006
+    completion: |-
+      category: RELATED_TO
+      confidence: MEDIUM
+      similarities: both are types of nephrotic syndromes; both involved the kidneys; both have a genetic basis
+      differences: A is caused specifically by a mutation in the PAX2 gene; B is characterized by resistance to steroid therapy
+    predicate: RELATED_TO
+    confidence: MEDIUM
+    similarities:
+      - both are types of nephrotic syndromes
+      - both involved the kidneys
+      - both have a genetic basis
+    differences:
+      - A is caused specifically by a mutation in the PAX2 gene
+      - B is characterized by resistance to steroid therapy
+  - subject: MONDO:0014631
+    object: MONDO:0020787
+    completion: |-
+      category: RELATED_TO
+      confidence: HIGH
+      similarities: related to hypomagnesemia, seizures, and intellectual disability; related names and synonyms; both are diseases
+      differences: B has a specific germline mutation in CNNM2; B is a specific type (1) of A; B is a subtype of A
+    predicate: RELATED_TO
+    confidence: HIGH
+    similarities:
+      - related to hypomagnesemia, seizures, and intellectual disability
+      - related names and synonyms
+      - both are diseases
+    differences:
+      - B has a specific germline mutation in CNNM2
+      - B is a specific type (1) of A
+      - B is a subtype of A
+  - subject: MONDO:0015827
+    object: MONDO:0019162
+    completion: |-
+      category: RELATED_TO
+      confidence: HIGH
+      similarities: both are disorders involving kidney function; both conditions may be associated with hyperchloremic metabolic acidosis; both may involve imbalance of blood potassium levels 
+      differences: A is a disorder of impaired net acid secretion by the distal tubule whereas B is characterised by hypertension and elevated aldosterone; A belongs to primary renal tubular acidosis, B belongs to inherited pseudohypoaldosteronism; different synonyms and connotations; B specifically involves inherited form
+    predicate: RELATED_TO
+    confidence: HIGH
+    similarities:
+      - both are disorders involving kidney function
+      - both conditions may be associated with hyperchloremic metabolic acidosis
+      - both may involve imbalance of blood potassium levels
+    differences:
+      - A is a disorder of impaired net acid secretion by the distal tubule whereas
+        B is characterised by hypertension and elevated aldosterone
+      - A belongs to primary renal tubular acidosis, B belongs to inherited pseudohypoaldosteronism
+      - different synonyms and connotations
+      - B specifically involves inherited form
+  - subject: MONDO:0018470
+    object: MONDO:0024519
+    completion: |-
+      category: NARROWER_THAN
+      confidence: HIGH
+      similarities: both relate to kidney conditions; share several synonyms
+      differences: B is a specific form of A; B appears in the 'is_a' relationship of A.
+    predicate: NARROWER_THAN
+    confidence: HIGH
+    similarities:
+      - both relate to kidney conditions
+      - share several synonyms
+    differences:
+      - B is a specific form of A
+      - B appears in the 'is_a' relationship of A.
+  - subject: MONDO:0018492
+    object: NCIT:C36260
+    completion: |-
+      category: EXACT_MATCH
+      confidence: HIGH
+      similarities: same disease; both related to von Hippel-Lindau disease; both types of hereditary renal cell carcinoma; both types of clear cell renal carcinoma; shared synonyms
+      differences: B explicitly mentions biallelic loss/inactivation of the VHL gene, and has additional relationships with HIF1A Overexpression Positive and VHL Gene; A includes more synonyms and is_ a inherited renal cancer-predisposing syndrome; B is mapped to the VHL Gene.
+    predicate: EXACT_MATCH
+    confidence: HIGH
+    similarities:
+      - same disease
+      - both related to von Hippel-Lindau disease
+      - both types of hereditary renal cell carcinoma
+      - both types of clear cell renal carcinoma
+      - shared synonyms
+    differences:
+      - B explicitly mentions biallelic loss/inactivation of the VHL gene, and has
+        additional relationships with HIF1A Overexpression Positive and VHL Gene
+      - A includes more synonyms and is_ a inherited renal cancer-predisposing syndrome
+      - B is mapped to the VHL Gene.
+  - subject: MONDO:0019005
+    object: NCIT:C123200
+    completion: |-
+      category: EXACT_MATCH
+      confidence: HIGH
+      similarities: same name; same definition; same type of disease
+      differences: B is classified under Nephropathy while A is classified under autosomal recessive disease and inherited renal tubular disease. Different synonyms.
+    predicate: EXACT_MATCH
+    confidence: HIGH
+    similarities:
+      - same name
+      - same definition
+      - same type of disease
+    differences:
+      - B is classified under Nephropathy while A is classified under autosomal recessive
+        disease and inherited renal tubular disease. Different synonyms.
+  - subject: MONDO:0020642
+    object: NCIT:C75464
+    completion: |-
+      category: EXACT_MATCH
+      confidence: HIGH
+      similarities: same concept; definition; synonyms
+      differences: A has "familial cystic renal disease" as a parent concept while B has "Cystic Kidney Disease" as a parent concept; different identifiers and databases.
+    predicate: EXACT_MATCH
+    confidence: HIGH
+    similarities:
+      - same concept
+      - definition
+      - synonyms
+    differences:
+      - A has "familial cystic renal disease" as a parent concept while B has "Cystic
+        Kidney Disease" as a parent concept
+      - different identifiers and databases.
+  - subject: MONDO:0020726
+    object: NCIT:C123171
+    completion: |-
+      category: EXACT_MATCH
+      confidence: HIGH
+      similarities: same disease; caused by mutation in MUC1 gene; leads to loss of kidney function; classed as a cystic kidney disease
+      differences: A has more synonyms; A is described as autosomal dominant; A specifies it is a slow loss of kidney function
+    predicate: EXACT_MATCH
+    confidence: HIGH
+    similarities:
+      - same disease
+      - caused by mutation in MUC1 gene
+      - leads to loss of kidney function
+      - classed as a cystic kidney disease
+    differences:
+      - A has more synonyms
+      - A is described as autosomal dominant
+      - A specifies it is a slow loss of kidney function
+  - subject: MONDO:0024633
+    object: NCIT:C4757
+    completion: |-
+      category: EXACT_MATCH
+      confidence: HIGH
+      similarities: same concept; same definition; both are kidney related disorders
+      differences: A has an additional synonym and B is_a Nephropathy whereas A is_a inherited kidney disorder; identifier and source
+    predicate: EXACT_MATCH
+    confidence: HIGH
+    similarities:
+      - same concept
+      - same definition
+      - both are kidney related disorders
+    differences:
+      - A has an additional synonym and B is_a Nephropathy whereas A is_a inherited
+        kidney disorder
+      - identifier and source
+  - subject: MONDO:0033004
+    object: MONDO:0033281
+    completion: |-
+      category: RELATED_TO
+      confidence: HIGH
+      similarities: both are forms of polycystic kidney disease; both are autosomal recessive; both originate from genetic mutations
+      differences: A is caused by a mutation in the PKD4 gene, while B is caused by a mutation in the DZIP1L gene; A can also manifest with hepatic diseases; A causes Potter sequence as a feature.
+    predicate: RELATED_TO
+    confidence: HIGH
+    similarities:
+      - both are forms of polycystic kidney disease
+      - both are autosomal recessive
+      - both originate from genetic mutations
+    differences:
+      - A is caused by a mutation in the PKD4 gene, while B is caused by a mutation
+        in the DZIP1L gene
+      - A can also manifest with hepatic diseases
+      - A causes Potter sequence as a feature.
+  - subject: MONDO:0100343
+    object: MONDO:0100344
+    completion: |-
+      category: NARROWER_THAN
+      confidence: HIGH
+      similarities: both are a type of Bartter syndrome; both are known as antenatal Bartter syndrome; both involve hypokalemic alkalosis; both associated with hyperprostaglandin E syndrome
+      differences: B is a specific type of A; B is caused by a specific mutation in SLC12A1
+    predicate: NARROWER_THAN
+    confidence: HIGH
+    similarities:
+      - both are a type of Bartter syndrome
+      - both are known as antenatal Bartter syndrome
+      - both involve hypokalemic alkalosis
+      - both associated with hyperprostaglandin E syndrome
+    differences:
+      - B is a specific type of A
+      - B is caused by a specific mutation in SLC12A1
+  - subject: NCIT:C123060
+    object: NCIT:C128108
+    completion: |-
+      category: EXACT_MATCH
+      confidence: HIGH
+      similarities: both are forms of kidney disease; both mention being idiopathic; both have the synonym "Idiopathic Membranous Glomerulopathy"; similar descriptions of the diseases
+      differences: the exact phrasing of the names and definitions are different
+    predicate: EXACT_MATCH
+    confidence: HIGH
+    similarities:
+      - both are forms of kidney disease
+      - both mention being idiopathic
+      - both have the synonym "Idiopathic Membranous Glomerulopathy"
+      - similar descriptions of the diseases
+    differences:
+      - the exact phrasing of the names and definitions are different
+  - subject: NCIT:C123139
+    object: NCIT:C37308
+    completion: |-
+      category: NARROWER_THAN
+      confidence: HIGH
+      similarities: both pertains to a renal disorder characterized by sclerotic lesions in the glomeruli; FSGS acronym
+      differences: concept A is a specific type of concept B; B has more causes listed; A excludes tip, perihilar, collapsing, and cellular variants while B does not; B may lead to renal failure but this is not stated for A
+    predicate: NARROWER_THAN
+    confidence: HIGH
+    similarities:
+      - both pertains to a renal disorder characterized by sclerotic lesions in the
+        glomeruli
+      - FSGS acronym
+    differences:
+      - concept A is a specific type of concept B
+      - B has more causes listed
+      - A excludes tip, perihilar, collapsing, and cellular variants while B does
+        not
+      - B may lead to renal failure but this is not stated for A
+  - subject: NCIT:C140323
+    object: NCIT:C7823
+    completion: |-
+      category: RELATED_TO
+      confidence: HIGH
+      similarities: both refer to stage I renal cell cancer; both define same TNM parameters N0 and M0; both stages are limited to the kidney
+      differences: A according to AJCC v8 while B according to AJCC v6 and v7; A doesn't differentiate T1 stage while B separates it into T1a and T1b based on tumor dimension
+    predicate: RELATED_TO
+    confidence: HIGH
+    similarities:
+      - both refer to stage I renal cell cancer
+      - both define same TNM parameters N0 and M0
+      - both stages are limited to the kidney
+    differences:
+      - A according to AJCC v8 while B according to AJCC v6 and v7
+      - A doesn't differentiate T1 stage while B separates it into T1a and T1b based
+        on tumor dimension
+  - subject: NCIT:C140324
+    object: NCIT:C7824
+    completion: |-
+      category: RELATED_TO
+      confidence: HIGH
+      similarities: both refer to Stage II Renal Cell Cancer; same definition; same relationship to Disease_Is_Stage Stage II
+      differences: version of AJCC (v8 vs v6); id; is_a relationship (Renal Cell Cancer by AJCC v8 Stage vs Renal Cell Cancer by AJCC v6 Stage)
+    predicate: RELATED_TO
+    confidence: HIGH
+    similarities:
+      - both refer to Stage II Renal Cell Cancer
+      - same definition
+      - same relationship to Disease_Is_Stage Stage II
+    differences:
+      - version of AJCC (v8 vs v6)
+      - id
+      - is_a relationship (Renal Cell Cancer by AJCC v8 Stage vs Renal Cell Cancer
+        by AJCC v6 Stage)
+  - subject: NCIT:C140324
+    object: NCIT:C89301
+    completion: |-
+      category: RELATED_TO
+      confidence: HIGH
+      similarities: same cancer stage; renal cell cancer; same measurements (T2, N0, M0)
+      differences: A definitions described in AJCC 8th ed. , B definitions described in AJCC 7th ed.; B provides more subdivisions (t2A, t2B) for tumor size; is_a relationship links to different editions of staging system
+    predicate: RELATED_TO
+    confidence: HIGH
+    similarities:
+      - same cancer stage
+      - renal cell cancer
+      - same measurements (T2, N0, M0)
+    differences:
+      - A definitions described in AJCC 8th ed. , B definitions described in AJCC
+        7th ed.
+      - B provides more subdivisions (t2A, t2B) for tumor size
+      - is_a relationship links to different editions of staging system
+  - subject: NCIT:C140325
+    object: NCIT:C89302
+    completion: |-
+      category: RELATED_TO
+      confidence: HIGH
+      similarities: both stages for renal cell cancer; Stage III categorization; concepts of tumor size and extent, lymph node involvement, and absence of distant metastasis
+      differences: staging systems are from different versions (AJCC 8th edition vs. AJCC 7th edition); B has more detailed definitions of T category, dividing T1, T2, and T3 into subcategories; A includes (T2, N1, M0) which is not specifically mentioned in B.
+    predicate: RELATED_TO
+    confidence: HIGH
+    similarities:
+      - both stages for renal cell cancer
+      - Stage III categorization
+      - concepts of tumor size and extent, lymph node involvement, and absence of
+        distant metastasis
+    differences:
+      - staging systems are from different versions (AJCC 8th edition vs. AJCC 7th
+        edition)
+      - B has more detailed definitions of T category, dividing T1, T2, and T3 into
+        subcategories
+      - A includes (T2, N1, M0) which is not specifically mentioned in B.
+  - subject: NCIT:C140325
+    object: NCIT:C9220
+    completion: |-
+      category: RELATED_TO
+      confidence: HIGH
+      similarities: both about Stage III Renal Cell Cancer; definitions include that tumor extends into major veins or perinephric tissues but not beyond Gerota's fascia; regional lymph node metastasis; no distant metastasis
+      differences: different versions of AJCC (v8 vs v6); B includes additional details about T3 stages (T3a, T3b, T3c); A mentions that tumor doesn't extend into the ipsilateral adrenal gland, B mentions that the tumor invades adrenal gland or perinephric tissues; different IDS and hierarchy memberships; slightly different synonyms
+    predicate: RELATED_TO
+    confidence: HIGH
+    similarities:
+      - both about Stage III Renal Cell Cancer
+      - definitions include that tumor extends into major veins or perinephric tissues
+        but not beyond Gerota's fascia
+      - regional lymph node metastasis
+      - no distant metastasis
+    differences:
+      - different versions of AJCC (v8 vs v6)
+      - B includes additional details about T3 stages (T3a, T3b, T3c)
+      - A mentions that tumor doesn't extend into the ipsilateral adrenal gland, B
+        mentions that the tumor invades adrenal gland or perinephric tissues
+      - different IDS and hierarchy memberships
+      - slightly different synonyms
+  - subject: NCIT:C140326
+    object: NCIT:C4003
+    completion: |-
+      category: RELATED_TO
+      confidence: HIGH
+      similarities: both are Stage IV Renal Cell Cancer defined by AJCC; both include the designation T4 for tumor invasion; both refer to M0 and M1 for status of distant metastasis
+      differences: A is according to AJCC v8, while B is according to AJCC v6; definitions and staging criteria differ slightly between versions
+    predicate: RELATED_TO
+    confidence: HIGH
+    similarities:
+      - both are Stage IV Renal Cell Cancer defined by AJCC
+      - both include the designation T4 for tumor invasion
+      - both refer to M0 and M1 for status of distant metastasis
+    differences:
+      - A is according to AJCC v8, while B is according to AJCC v6
+      - definitions and staging criteria differ slightly between versions
+  - subject: NCIT:C140326
+    object: NCIT:C89303
+    completion: |-
+      category: EXACT_MATCH
+      confidence: MEDIUM
+      similarities: Both concepts refer to stage IV Renal Cell Cancer; Both definitions include the same stages (T4, Any N, M0) and (Any T, Any N, M1); part of tumor invades beyond Gerota's fascia; No distant metastasis or distant metastasis; same Disease_Is_Stage relationship.
+      differences: Different versions of AJCC (American Joint Committee on Cancer) staging system; different names; different parent classes.
+    predicate: EXACT_MATCH
+    confidence: MEDIUM
+    similarities:
+      - Both concepts refer to stage IV Renal Cell Cancer
+      - Both definitions include the same stages (T4, Any N, M0) and (Any T, Any N,
+        M1)
+      - part of tumor invades beyond Gerota's fascia
+      - No distant metastasis or distant metastasis
+      - same Disease_Is_Stage relationship.
+    differences:
+      - Different versions of AJCC (American Joint Committee on Cancer) staging system
+      - different names
+      - different parent classes.
+  - subject: NCIT:C140359
+    object: NCIT:C6202
+    completion: |-
+      category: EXACT_MATCH
+      confidence: HIGH
+      similarities: name; definition; stage; node status; metastasis status; the same type of carcinoma
+      differences: different editions of AJCC (American Joint Committee on Cancer)
+    predicate: EXACT_MATCH
+    confidence: HIGH
+    similarities:
+      - name
+      - definition
+      - stage
+      - node status
+      - metastasis status
+      - the same type of carcinoma
+    differences:
+      - different editions of AJCC (American Joint Committee on Cancer)
+  - subject: NCIT:C140362
+    object: NCIT:C4597
+    completion: |-
+      category: RELATED_TO
+      confidence: HIGH
+      similarities: same disease stage and location; same TNM classifications
+      differences: different versions of AJCC cancer staging system; different names and synonyms; different parental categories
+    predicate: RELATED_TO
+    confidence: HIGH
+    similarities:
+      - same disease stage and location
+      - same TNM classifications
+    differences:
+      - different versions of AJCC cancer staging system
+      - different names and synonyms
+      - different parental categories
+  - subject: NCIT:C140365
+    object: NCIT:C6144
+    completion: |-
+      category: RELATED_TO
+      confidence: HIGH
+      similarities: Stage I Renal Pelvis Cancer; T1, N0, M0 classification; definition
+      differences: different editions of classification; is_a relation; synonyms; ID
+    predicate: RELATED_TO
+    confidence: HIGH
+    similarities:
+      - Stage I Renal Pelvis Cancer
+      - T1, N0, M0 classification
+      - definition
+    differences:
+      - different editions of classification
+      - is_a relation
+      - synonyms
+      - ID
+  - subject: NCIT:C140368
+    object: NCIT:C6145
+    completion: |-
+      category: RELATED_TO
+      confidence: HIGH
+      similarities: both are stage II renal pelvis cancer; similar definitions; similarities in terminology and classifications; same tumor, node, and metastasis descriptions
+      differences: A uses AJCC 8th edition for classification; B uses AJCC 7th edition for classification; different synonyms; is a part of different categorized groups.
+    predicate: RELATED_TO
+    confidence: HIGH
+    similarities:
+      - both are stage II renal pelvis cancer
+      - similar definitions
+      - similarities in terminology and classifications
+      - same tumor, node, and metastasis descriptions
+    differences:
+      - A uses AJCC 8th edition for classification
+      - B uses AJCC 7th edition for classification
+      - different synonyms
+      - is a part of different categorized groups.
+  - subject: NCIT:C140371
+    object: NCIT:C6146
+    completion: |-
+      category: RELATED_TO
+      confidence: HIGH
+      similarities: Stage III Renal Pelvis Cancer; T3, N0, M0 classification; definition; is_a attributes
+      differences: different versions of AJCC (v7 vs v8) referenced; synonyms
+    predicate: RELATED_TO
+    confidence: HIGH
+    similarities:
+      - Stage III Renal Pelvis Cancer
+      - T3, N0, M0 classification
+      - definition
+      - is_a attributes
+    differences:
+      - different versions of AJCC (v7 vs v8) referenced
+      - synonyms
+  - subject: NCIT:C140374
+    object: NCIT:C6147
+    completion: |-
+      category: RELATED_TO
+      confidence: HIGH
+      similarities: both describe Stage IV Renal Pelvis Cancer; similar criteria for diagnosis (T4, N0, M0, etc.); both are categorized under "Renal Pelvis Cancer by AJCC Stage"; mention of tumor invasion into adjacent organs and metastasis
+      differences: A uses the 8th edition (v8) of the AJCC cancer staging system, whereas B uses the 7th edition (v7); B includes an additional stage (N3); levels of lymph node metastasis differ slightly
+    predicate: RELATED_TO
+    confidence: HIGH
+    similarities:
+      - both describe Stage IV Renal Pelvis Cancer
+      - similar criteria for diagnosis (T4, N0, M0, etc.)
+      - both are categorized under "Renal Pelvis Cancer by AJCC Stage"
+      - mention of tumor invasion into adjacent organs and metastasis
+    differences:
+      - A uses the 8th edition (v8) of the AJCC cancer staging system, whereas B uses
+        the 7th edition (v7)
+      - B includes an additional stage (N3)
+      - levels of lymph node metastasis differ slightly
+  - subject: NCIT:C27730
+    object: NCIT:C6180
+    completion: |-
+      category: RELATED_TO
+      confidence: HIGH
+      similarities: type of kidney tumors; both may have molecular abnormality Inactivating WT1 Gene Mutation; both fall under the broader category of Kidney Wilms Tumor
+      differences: age of occurrence (childhood vs adulthood)
+    predicate: RELATED_TO
+    confidence: HIGH
+    similarities:
+      - type of kidney tumors
+      - both may have molecular abnormality Inactivating WT1 Gene Mutation
+      - both fall under the broader category of Kidney Wilms Tumor
+    differences:
+      - age of occurrence (childhood vs adulthood)
+  - subject: NCIT:C3150
+    object: NCIT:C6563
+    completion: |-
+      category: NARROWER_THAN
+      confidence: HIGH
+      similarities: both are types of kidney neoplasms; both involve tumors of the kidney; potentially cause a similar range of conditions
+      differences: Concept B only occurs in children; Concept A could occur in persons of any age
+    predicate: NARROWER_THAN
+    confidence: HIGH
+    similarities:
+      - both are types of kidney neoplasms
+      - both involve tumors of the kidney
+      - potentially cause a similar range of conditions
+    differences:
+      - Concept B only occurs in children
+      - Concept A could occur in persons of any age
+  - subject: NCIT:C4003
+    object: NCIT:C89303
+    completion: |-
+      category: RELATED_TO
+      confidence: HIGH
+      similarities: Both represent stage IV renal cell cancer; use similar staging parameters (T, N, M); both are a type of renal cell cancer staging in different versions of AJCC
+      differences: B represents the version 7 of AJCC while A represents the version 6; slight differences in the staging details
+    predicate: RELATED_TO
+    confidence: HIGH
+    similarities:
+      - Both represent stage IV renal cell cancer
+      - use similar staging parameters (T, N, M)
+      - both are a type of renal cell cancer staging in different versions of AJCC
+    differences:
+      - B represents the version 7 of AJCC while A represents the version 6
+      - slight differences in the staging details
+  - subject: NCIT:C6568
+    object: NCIT:C9385
+    completion: |-
+      category: NARROWER_THAN
+      confidence: HIGH
+      similarities: both are types of renal cell carcinoma; both are types of cancer; both are related to the kidney
+      differences: A specifically occurs during childhood; B includes additional information on anatomic site, health findings and related behaviors like smoking
+    predicate: NARROWER_THAN
+    confidence: HIGH
+    similarities:
+      - both are types of renal cell carcinoma
+      - both are types of cancer
+      - both are related to the kidney
+    differences:
+      - A specifically occurs during childhood
+      - B includes additional information on anatomic site, health findings and related
+        behaviors like smoking
+  - subject: NCIT:C7824
+    object: NCIT:C89301
+    completion: |-
+      category: RELATED_TO
+      confidence: HIGH
+      similarities: same disease stage; same disease; same absence of metastasis and regional lymph node metastases
+      differences: B has further subdivisions (T2a, T2b) for tumor size; B is based on AJCC 7th edition whereas A is based on AJCC 6th edition
+    predicate: RELATED_TO
+    confidence: HIGH
+    similarities:
+      - same disease stage
+      - same disease
+      - same absence of metastasis and regional lymph node metastases
+    differences:
+      - B has further subdivisions (T2a, T2b) for tumor size
+      - B is based on AJCC 7th edition whereas A is based on AJCC 6th edition
+  - subject: NCIT:C80078
+    object: NCIT:C9438
+    completion: |-
+      category: EXACT_MATCH
+      confidence: HIGH
+      similarities: same concept; chronic kidney damage; impairment of renal function
+      differences: synonyms; id; name; B mentions Renal Failure in "is_a" field
+    predicate: EXACT_MATCH
+    confidence: HIGH
+    similarities:
+      - same concept
+      - chronic kidney damage
+      - impairment of renal function
+    differences:
+      - synonyms
+      - id
+      - name
+      - B mentions Renal Failure in "is_a" field
+  - subject: NCIT:C89302
+    object: NCIT:C9220
+    completion: |-
+      category: RELATED_TO
+      confidence: HIGH
+      similarities: Both refer to the same disease stage; Both are part of Renal Cell Cancer stages; N0, N1 and M0 disease classifications are included in both; Both relate to AJCC's cancer stage definitions.
+      differences: A is from AJCC's 7th edition, B is from AJCC's 6th edition; Definitions and staging classifications differ in certain aspects like tumor size and tissue invasion.
+    predicate: RELATED_TO
+    confidence: HIGH
+    similarities:
+      - Both refer to the same disease stage
+      - Both are part of Renal Cell Cancer stages
+      - N0, N1 and M0 disease classifications are included in both
+      - Both relate to AJCC's cancer stage definitions.
+    differences:
+      - A is from AJCC's 7th edition, B is from AJCC's 6th edition
+      - Definitions and staging classifications differ in certain aspects like tumor
+        size and tissue invasion.

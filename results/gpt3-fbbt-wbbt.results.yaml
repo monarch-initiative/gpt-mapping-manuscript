@@ -1,0 +1,3752 @@
+  - subject: FBbt:00000001
+    object: WBbt:0007833
+    completion: |-
+      category: EXACT_MATCH
+      confidence: HIGH
+      similarities: identical names; both are individual members of a species; consist of more than one cell; have identical synonyms
+      differences: A is specific to the species Drosophila melanogaster; B does not specify a species; A is classified under multicellular structure and B is classified under Anatomy
+    predicate: EXACT_MATCH
+    confidence: HIGH
+    similarities:
+      - identical names
+      - both are individual members of a species
+      - consist of more than one cell
+      - have identical synonyms
+    differences:
+      - A is specific to the species Drosophila melanogaster
+      - B does not specify a species
+      - A is classified under multicellular structure and B is classified under Anatomy
+  - subject: FBbt:00000004
+    object: WBbt:0005739
+    completion: |-
+      category: EXACT_MATCH
+      confidence: HIGH
+      similarities: same concept; both are anterior parts of the organism; both contain important structures
+      differences: A includes mouthparts, sensory structures, and the brain; B specifically mentions the pharynx
+    predicate: EXACT_MATCH
+    confidence: HIGH
+    similarities:
+      - same concept
+      - both are anterior parts of the organism
+      - both contain important structures
+    differences:
+      - A includes mouthparts, sensory structures, and the brain
+      - B specifically mentions the pharynx
+  - subject: FBbt:00000034
+    object: WBbt:0006797
+    completion: |-
+      category: NARROWER_THAN
+      confidence: HIGH
+      similarities: synonyms include 'ovum'; both are related to reproduction
+      differences: B is a germ cell, A is the structure that develops from an oocyte after ovulation; A is associated with the process of fertilization and embryogenesis, B isn't; B is associated specifically with hermaphrodites, A isn't.
+    predicate: NARROWER_THAN
+    confidence: HIGH
+    similarities:
+      - synonyms include 'ovum'
+      - both are related to reproduction
+    differences:
+      - B is a germ cell, A is the structure that develops from an oocyte after ovulation
+      - A is associated with the process of fertilization and embryogenesis, B isn't
+      - B is associated specifically with hermaphrodites, A isn't.
+  - subject: FBbt:00000092
+    object: WBbt:0006849
+    completion: |-
+      category: EXACT_MATCH
+      confidence: HIGH
+      similarities: both are the earliest form of germ cells; both give rise to sperm and ovum; similar synonyms (primordial germ cell)
+      differences: A has more specified relationships with different stages of embryo and expression of vas; B's definition specifies that they're a set of two cells.
+    predicate: EXACT_MATCH
+    confidence: HIGH
+    similarities:
+      - both are the earliest form of germ cells
+      - both give rise to sperm and ovum
+      - similar synonyms (primordial germ cell)
+    differences:
+      - A has more specified relationships with different stages of embryo and expression
+        of vas
+      - B's definition specifies that they're a set of two cells.
+  - subject: FBbt:00000124
+    object: WBbt:0003672
+    completion: |-
+      category: EXACT_MATCH
+      confidence: HIGH
+      similarities: same concept; part of epithelium; cell; cell morphology
+      differences: A mentions cytoskeleton and cell polarity; B includes detailed types and locations of epithelial cells
+    predicate: EXACT_MATCH
+    confidence: HIGH
+    similarities:
+      - same concept
+      - part of epithelium
+      - cell
+      - cell morphology
+    differences:
+      - A mentions cytoskeleton and cell polarity
+      - B includes detailed types and locations of epithelial cells
+  - subject: FBbt:00000266
+    object: WBbt:0004846
+    completion: |-
+      category: DIFFERENT
+      confidence: HIGH
+      similarities: share synonym "DB1"
+      differences: A is a part of tracheal system in embryonic/larval stage, B is a type of neuron that innervates dorsal muscles; different organisms and body systems
+    predicate: DIFFERENT
+    confidence: HIGH
+    similarities:
+      - share synonym "DB1"
+    differences:
+      - A is a part of tracheal system in embryonic/larval stage, B is a type of neuron
+        that innervates dorsal muscles
+      - different organisms and body systems
+  - subject: FBbt:00000267
+    object: WBbt:0004845
+    completion: |-
+      category: DIFFERENT
+      confidence: HIGH
+      similarities: share the same synonym "DB2"
+      differences: A is a part of a tracheal system in the developmental stage; B is a type of neuron in ventral cord
+    predicate: DIFFERENT
+    confidence: HIGH
+    similarities:
+      - share the same synonym "DB2"
+    differences:
+      - A is a part of a tracheal system in the developmental stage
+      - B is a type of neuron in ventral cord
+  - subject: FBbt:00000268
+    object: WBbt:0004844
+    completion: |-
+      category: DIFFERENT
+      confidence: HIGH
+      similarities: NONE
+      differences: A is a tracheal branch; B is a motor neuron; different functions; different organisms; different locations
+    predicate: DIFFERENT
+    confidence: HIGH
+    similarities:
+      - NONE
+    differences:
+      - A is a tracheal branch
+      - B is a motor neuron
+      - different functions
+      - different organisms
+      - different locations
+  - subject: FBbt:00000269
+    object: WBbt:0004843
+    completion: |-
+      category: DIFFERENT
+      confidence: HIGH
+      similarities: Shared synonym "DB4"
+      differences: A is an embryonic/larval dorsal tracheal branch; B is a type of neuron; A is part of the respiratory system, B is part of the nervous system; Different functions; B innervates muscles, A does not; Different higher categories (A falls under "embryonic/larval dorsal tracheal branch", B falls under "DB neuron", "ventral cord neuron")
+    predicate: DIFFERENT
+    confidence: HIGH
+    similarities:
+      - Shared synonym "DB4"
+    differences:
+      - A is an embryonic/larval dorsal tracheal branch
+      - B is a type of neuron
+      - A is part of the respiratory system, B is part of the nervous system
+      - Different functions
+      - B innervates muscles, A does not
+      - Different higher categories (A falls under "embryonic/larval dorsal tracheal
+        branch", B falls under "DB neuron", "ventral cord neuron")
+  - subject: FBbt:00000270
+    object: WBbt:0004842
+    completion: |-
+      category: DIFFERENT
+      confidence: HIGH
+      similarities: share the synonym DB5
+      differences: A is a part of an organism's respiratory system; B is a neuron. A is connected to the tracheal system; B is involved in motor function and connected to the neural system. Different terminology and language used in definitions. Different scientific concept categories (brain/neuron vs respiratory system).
+    predicate: DIFFERENT
+    confidence: HIGH
+    similarities:
+      - share the synonym DB5
+    differences:
+      - A is a part of an organism's respiratory system
+      - B is a neuron. A is connected to the tracheal system
+      - B is involved in motor function and connected to the neural system. Different
+        terminology and language used in definitions. Different scientific concept
+        categories (brain/neuron vs respiratory system).
+  - subject: FBbt:00000271
+    object: WBbt:0004841
+    completion: |-
+      category: DIFFERENT
+      confidence: HIGH
+      similarities: Shared synonym "DB6"
+      differences: A is part of the respiratory system; B is a neuron; A is found in embryonic/larval stages; B is a motor neuron
+    predicate: DIFFERENT
+    confidence: HIGH
+    similarities:
+      - Shared synonym "DB6"
+    differences:
+      - A is part of the respiratory system
+      - B is a neuron
+      - A is found in embryonic/larval stages
+      - B is a motor neuron
+  - subject: FBbt:00000272
+    object: WBbt:0004840
+    completion: |-
+      category: DIFFERENT
+      confidence: HIGH
+      similarities: DB7 as a synonym
+      differences: A is a part of the tracheal system; B is a type of neuron; B innervates dorsal muscles; A is part of tracheal metamere 7
+    predicate: DIFFERENT
+    confidence: HIGH
+    similarities:
+      - DB7 as a synonym
+    differences:
+      - A is a part of the tracheal system
+      - B is a type of neuron
+      - B innervates dorsal muscles
+      - A is part of tracheal metamere 7
+  - subject: FBbt:00000277
+    object: WBbt:0004869
+    completion: |-
+      category: DIFFERENT
+      confidence: HIGH
+      similarities: synonym name DA2
+      differences: A is a part of the tracheal system; B is a neuron; A is related to a morphological structure; B is related to a neurological structure
+    predicate: DIFFERENT
+    confidence: HIGH
+    similarities:
+      - synonym name DA2
+    differences:
+      - A is a part of the tracheal system
+      - B is a neuron
+      - A is related to a morphological structure
+      - B is related to a neurological structure
+  - subject: FBbt:00000278
+    object: WBbt:0004867
+    completion: |-
+      category: DIFFERENT
+      confidence: HIGH
+      similarities: SAME synonym
+      differences: A is a structure in trachea; B is a neuron; different definitions; different categorical relationships; different names.
+    predicate: DIFFERENT
+    confidence: HIGH
+    similarities:
+      - SAME synonym
+    differences:
+      - A is a structure in trachea
+      - B is a neuron
+      - different definitions
+      - different categorical relationships
+      - different names.
+  - subject: FBbt:00000279
+    object: WBbt:0004865
+    completion: |-
+      category: DIFFERENT
+      confidence: HIGH
+      similarities: share the same synonym DA4
+      differences: A is related to tracheal system, B is a neuron; different definitions; different superclasses; different relationships
+    predicate: DIFFERENT
+    confidence: HIGH
+    similarities:
+      - share the same synonym DA4
+    differences:
+      - A is related to tracheal system, B is a neuron
+      - different definitions
+      - different superclasses
+      - different relationships
+  - subject: FBbt:00000280
+    object: WBbt:0004863
+    completion: |-
+      category: DIFFERENT
+      confidence: HIGH
+      similarities: synonyms
+      differences: A is part of tracheal system; B is a neuron; A is involved in respiratory system; B is involved in nervous system; different overarching categories (A is a tracheal structure while B is a neuron)
+    predicate: DIFFERENT
+    confidence: HIGH
+    similarities:
+      - synonyms
+    differences:
+      - A is part of tracheal system
+      - B is a neuron
+      - A is involved in respiratory system
+      - B is involved in nervous system
+      - different overarching categories (A is a tracheal structure while B is a neuron)
+  - subject: FBbt:00000281
+    object: WBbt:0004861
+    completion: |-
+      category: DIFFERENT
+      confidence: HIGH
+      similarities: shared synonym 'DA6'
+      differences: A refers to trachea section of a larva; B is about nervous system neuron; A is part of a tracheal metamere while B is a motor neuron; Definitions are completely different.
+    predicate: DIFFERENT
+    confidence: HIGH
+    similarities:
+      - shared synonym 'DA6'
+    differences:
+      - A refers to trachea section of a larva
+      - B is about nervous system neuron
+      - A is part of a tracheal metamere while B is a motor neuron
+      - Definitions are completely different.
+  - subject: FBbt:00000282
+    object: WBbt:0004859
+    completion: |-
+      category: DIFFERENT
+      confidence: HIGH
+      similarities: shared synonym DA7
+      differences: A is an anatomical feature of an insect's trachea; B is a type of neuron in a worm's nervous system
+    predicate: DIFFERENT
+    confidence: HIGH
+    similarities:
+      - shared synonym DA7
+    differences:
+      - A is an anatomical feature of an insect's trachea
+      - B is a type of neuron in a worm's nervous system
+  - subject: FBbt:00000283
+    object: WBbt:0004858
+    completion: |-
+      category: DIFFERENT
+      confidence: HIGH
+      similarities: synonym name DA8
+      differences: concept A describes a part of a trachea in larvae; concept B describes a type of neurons in the ventral cord.
+    predicate: DIFFERENT
+    confidence: HIGH
+    similarities:
+      - synonym name DA8
+    differences:
+      - concept A describes a part of a trachea in larvae
+      - concept B describes a type of neurons in the ventral cord.
+  - subject: FBbt:00000284
+    object: WBbt:0004857
+    completion: |-
+      category: DIFFERENT
+      confidence: HIGH
+      similarities: share the synonym 'DA9'
+      differences: A is part of a tracheal system in an organisms; B is a type of neuron
+    predicate: DIFFERENT
+    confidence: HIGH
+    similarities:
+      - share the synonym 'DA9'
+    differences:
+      - A is part of a tracheal system in an organisms
+      - B is a type of neuron
+  - subject: FBbt:00000297
+    object: WBbt:0004641
+    completion: |-
+      category: DIFFERENT
+      confidence: HIGH
+      similarities: shares a synonym (VB2)
+      differences: A is a tracheal element in the respiratory system;  B is a motor neuron in nervous system.
+    predicate: DIFFERENT
+    confidence: HIGH
+    similarities:
+      - shares a synonym (VB2)
+    differences:
+      - A is a tracheal element in the respiratory system
+      - B is a motor neuron in nervous system.
+  - subject: FBbt:00000298
+    object: WBbt:0004638
+    completion: |-
+      category: DIFFERENT
+      confidence: HIGH
+      similarities: same synonym "VB4"
+      differences: A is a part of tracheal structure; B is a motor neuron; different organism (A is from fruit fly, B is from worm)
+    predicate: DIFFERENT
+    confidence: HIGH
+    similarities:
+      - same synonym "VB4"
+    differences:
+      - A is a part of tracheal structure
+      - B is a motor neuron
+      - different organism (A is from fruit fly, B is from worm)
+  - subject: FBbt:00000299
+    object: WBbt:0004637
+    completion: |-
+      category: DIFFERENT
+      confidence: HIGH
+      similarities: NONE
+      differences: A is an embryonic/larval tracheal branch; B is a motor neuron; different functions; different structures; different locations
+    predicate: DIFFERENT
+    confidence: HIGH
+    similarities:
+      - NONE
+    differences:
+      - A is an embryonic/larval tracheal branch
+      - B is a motor neuron
+      - different functions
+      - different structures
+      - different locations
+  - subject: FBbt:00000300
+    object: WBbt:0004633
+    completion: |-
+      category: DIFFERENT
+      confidence: HIGH
+      similarities: both are part of anatomical structures; same synonym (VB6)
+      differences: A is an embryonic/larval tracheal branch; B is a neuron
+    predicate: DIFFERENT
+    confidence: HIGH
+    similarities:
+      - both are part of anatomical structures
+      - same synonym (VB6)
+    differences:
+      - A is an embryonic/larval tracheal branch
+      - B is a neuron
+  - subject: FBbt:00000301
+    object: WBbt:0004631
+    completion: |-
+      category: DIFFERENT
+      confidence: HIGH
+      similarities: share the same synonym "VB7"
+      differences: A is a part of tracheal system; B is a type of neuron; different definitions and relationships
+    predicate: DIFFERENT
+    confidence: HIGH
+    similarities:
+      - share the same synonym "VB7"
+    differences:
+      - A is a part of tracheal system
+      - B is a type of neuron
+      - different definitions and relationships
+  - subject: FBbt:00000302
+    object: WBbt:0004629
+    completion: |-
+      category: DIFFERENT
+      confidence: HIGH
+      similarities: NONE
+      differences: A is a tracheal branch; B is a neuron; definition; function; synonyms
+    predicate: DIFFERENT
+    confidence: HIGH
+    similarities:
+      - NONE
+    differences:
+      - A is a tracheal branch
+      - B is a neuron
+      - definition
+      - function
+      - synonyms
+  - subject: FBbt:00000338
+    object: WBbt:0004872
+    completion: |-
+      category: DIFFERENT
+      confidence: HIGH
+      similarities: Synonymous names
+      differences: A is part of the tracheal system; B is a motor neuron; different functions; different parent categories
+    predicate: DIFFERENT
+    confidence: HIGH
+    similarities:
+      - Synonymous names
+    differences:
+      - A is part of the tracheal system
+      - B is a motor neuron
+      - different functions
+      - different parent categories
+  - subject: FBbt:00000339
+    object: WBbt:0004870
+    completion: |-
+      category: DIFFERENT
+      confidence: HIGH
+      similarities: share a common synonym (VA2)
+      differences: A is part of tracheal system; B is part of nervous system; different biological function; different type of biological structure
+    predicate: DIFFERENT
+    confidence: HIGH
+    similarities:
+      - share a common synonym (VA2)
+    differences:
+      - A is part of tracheal system
+      - B is part of nervous system
+      - different biological function
+      - different type of biological structure
+  - subject: FBbt:00000393
+    object: WBbt:0006117
+    completion: |-
+      category: DIFFERENT
+      confidence: HIGH
+      similarities: NONE
+      differences: A is a type of tracheal branch; B is a type of cell.
+    predicate: DIFFERENT
+    confidence: HIGH
+    similarities:
+      - NONE
+    differences:
+      - A is a type of tracheal branch
+      - B is a type of cell.
+  - subject: FBbt:00000440
+    object: WBbt:0006795
+    completion: |-
+      category: RELATED_TO
+      confidence: MEDIUM
+      similarities: same name; both relate to the digestive tract
+      differences: A originates from the ectoderm, is part of the embryonic hindgut, and does not specify gender; B is a male-specific anatomical entity, is also defined as a rectum, and serves as a junction for the alimentary and genital tracts
+    predicate: RELATED_TO
+    confidence: MEDIUM
+    similarities:
+      - same name
+      - both relate to the digestive tract
+    differences:
+      - A originates from the ectoderm, is part of the embryonic hindgut, and does
+        not specify gender
+      - B is a male-specific anatomical entity, is also defined as a rectum, and serves
+        as a junction for the alimentary and genital tracts
+  - subject: FBbt:00000487
+    object: WBbt:0005451
+    completion: |-
+      category: EXACT_MATCH
+      confidence: HIGH
+      similarities: same name; both are types of muscle cells; both are part of the pharyngeal muscle
+      differences: A is a hypodermal muscle cell of the head, B is also a part of the alimentary muscle; B is also categorised under pharyngeal cell
+    predicate: EXACT_MATCH
+    confidence: HIGH
+    similarities:
+      - same name
+      - both are types of muscle cells
+      - both are part of the pharyngeal muscle
+    differences:
+      - A is a hypodermal muscle cell of the head, B is also a part of the alimentary
+        muscle
+      - B is also categorised under pharyngeal cell
+  - subject: FBbt:00001102
+    object: WBbt:0005829
+    completion: |-
+      category: NARROWER_THAN
+      confidence: HIGH
+      similarities: both are ventral nerve cords; part of a nervous system; named as "ventral cord"
+      differences: Concept A is specifically a larval ventral nerve cord; Concept A has more defined structure in terms of specific neuromeres and a terminal plexus; Concept A is part of the embryonic/larval central nervous system while Concept B is part of the somatic nervous system.
+    predicate: NARROWER_THAN
+    confidence: HIGH
+    similarities:
+      - both are ventral nerve cords
+      - part of a nervous system
+      - named as "ventral cord"
+    differences:
+      - Concept A is specifically a larval ventral nerve cord
+      - Concept A has more defined structure in terms of specific neuromeres and a
+        terminal plexus
+      - Concept A is part of the embryonic/larval central nervous system while Concept
+        B is part of the somatic nervous system.
+  - subject: FBbt:00001105
+    object: WBbt:0004522
+    completion: |-
+      category: DIFFERENT
+      confidence: HIGH
+      similarities: NONE
+      differences: A is a part of the nervous system; B is a part of the reproductive system
+    predicate: DIFFERENT
+    confidence: HIGH
+    similarities:
+      - NONE
+    differences:
+      - A is a part of the nervous system
+      - B is a part of the reproductive system
+  - subject: FBbt:00001138
+    object: WBbt:0008115
+    completion: |-
+      category: RELATED_TO
+      confidence: MEDIUM
+      similarities: both are precursor cells; both cells divide to give rise to different types of cells; both are referred to as 'P cell' in their synonyms
+      differences: A is a precursor specifically for a chordotonal organ and is related to sensory clusters in the abdomen; B is a blast cell that gives rise to multiple types of cells, including motor neurons and hypodermal cells, and is found in the ventral cord and preanal ganglion of early larva
+    predicate: RELATED_TO
+    confidence: MEDIUM
+    similarities:
+      - both are precursor cells
+      - both cells divide to give rise to different types of cells
+      - both are referred to as 'P cell' in their synonyms
+    differences:
+      - A is a precursor specifically for a chordotonal organ and is related to sensory
+        clusters in the abdomen
+      - B is a blast cell that gives rise to multiple types of cells, including motor
+        neurons and hypodermal cells, and is found in the ventral cord and preanal
+        ganglion of early larva
+  - subject: FBbt:00001354
+    object: WBbt:0006512
+    completion: |-
+      category: RELATED_TO
+      confidence: MEDIUM
+      similarities: Both are types of cells; Both have the synonym "Da"
+      differences: A is a specific type of neuroblast in a specific location; B is a broadly defined embryonic cell
+    predicate: RELATED_TO
+    confidence: MEDIUM
+    similarities:
+      - Both are types of cells
+      - Both have the synonym "Da"
+    differences:
+      - A is a specific type of neuroblast in a specific location
+      - B is a broadly defined embryonic cell
+  - subject: FBbt:00001454
+    object: WBbt:0005359
+    completion: |-
+      category: RELATED_TO
+      confidence: MEDIUM
+      similarities: both are neurons; both are involved in transmitting messages within the nervous system
+      differences: A is a "RP2sib neuron" developing from a specific mother cell in flies, while B is a "SIB" neuron class consisting of four interneurons in worms; A has lower expression of certain markers; B has processes that run around the nerve ring and return to the ventral ganglion
+    predicate: RELATED_TO
+    confidence: MEDIUM
+    similarities:
+      - both are neurons
+      - both are involved in transmitting messages within the nervous system
+    differences:
+      - A is a "RP2sib neuron" developing from a specific mother cell in flies, while
+        B is a "SIB" neuron class consisting of four interneurons in worms
+      - A has lower expression of certain markers
+      - B has processes that run around the nerve ring and return to the ventral ganglion
+  - subject: FBbt:00001590
+    object: WBbt:0008597
+    completion: |-
+      category: RELATED_TO
+      confidence: MEDIUM
+      similarities: Both are involved in neural development; both are referred to as "V cell"
+      differences: A develops from VUM precursor, B gives rise to neurons; A is a type of neuron, B is a type of blast cell; A refers to larval VUM neuron, B related to ventrolateral ectoblast.
+    predicate: RELATED_TO
+    confidence: MEDIUM
+    similarities:
+      - Both are involved in neural development
+      - both are referred to as "V cell"
+    differences:
+      - A develops from VUM precursor, B gives rise to neurons
+      - A is a type of neuron, B is a type of blast cell
+      - A refers to larval VUM neuron, B related to ventrolateral ectoblast.
+  - subject: FBbt:00002337
+    object: WBbt:0006777
+    completion: |-
+      category: DIFFERENT
+      confidence: HIGH
+      similarities: Shared synonym "P8"
+      differences: A is a type of neuron while B is a postembryonic blast cell; A develops from a common precursor with abdominal ddaD neuron and B is for ventral cord motorneurons, ventral hypodermis, vulva, male preanal ganglion; A has its location in larval abdominal segment, while the location of B is unknown; A has sensory dendrite in abdominal dorsal campaniform sensillum dc1, while B does not mention about its dendrites.
+    predicate: DIFFERENT
+    confidence: HIGH
+    similarities:
+      - Shared synonym "P8"
+    differences:
+      - A is a type of neuron while B is a postembryonic blast cell
+      - A develops from a common precursor with abdominal ddaD neuron and B is for
+        ventral cord motorneurons, ventral hypodermis, vulva, male preanal ganglion
+      - A has its location in larval abdominal segment, while the location of B is
+        unknown
+      - A has sensory dendrite in abdominal dorsal campaniform sensillum dc1, while
+        B does not mention about its dendrites.
+  - subject: FBbt:00002345
+    object: WBbt:0006778
+    completion: |-
+      category: DIFFERENT
+      confidence: HIGH
+      similarities: NONE
+      differences: Concept A is a type of neuron; Concept B is a type of blast cell; they are part of different entities (A belongs to an abdominal segment while B is part of the ventral cord); diffferent organism levels
+    predicate: DIFFERENT
+    confidence: HIGH
+    similarities:
+      - NONE
+    differences:
+      - Concept A is a type of neuron
+      - Concept B is a type of blast cell
+      - they are part of different entities (A belongs to an abdominal segment while
+        B is part of the ventral cord)
+      - diffferent organism levels
+  - subject: FBbt:00002361
+    object: WBbt:0006776
+    completion: |-
+      category: DIFFERENT
+      confidence: HIGH
+      similarities: "P7" used as a synonym in both
+      differences: A is a type of neuron, B is a type of blast cell; different organism (inferred from definitions and relations); different body locations; different developmental origins; different functions
+    predicate: DIFFERENT
+    confidence: HIGH
+    similarities:
+      - '"P7" used as a synonym in both'
+    differences:
+      - A is a type of neuron, B is a type of blast cell
+      - different organism (inferred from definitions and relations)
+      - different body locations
+      - different developmental origins
+      - different functions
+  - subject: FBbt:00002492
+    object: WBbt:0004421
+    completion: |-
+      category: DIFFERENT
+      confidence: HIGH
+      similarities: synonym "P4"
+      differences: A is a type of sensory neuron in larvae; B is an embryonic founder germ cell; different definitions and functions; different types of cells; A is part of the nervous system, B is part of the reproductive system
+    predicate: DIFFERENT
+    confidence: HIGH
+    similarities:
+      - synonym "P4"
+    differences:
+      - A is a type of sensory neuron in larvae
+      - B is an embryonic founder germ cell
+      - different definitions and functions
+      - different types of cells
+      - A is part of the nervous system, B is part of the reproductive system
+  - subject: FBbt:00002492
+    object: WBbt:0004617
+    completion: |-
+      category: DIFFERENT
+      confidence: HIGH
+      similarities: NONE
+      differences: A is a sensory neuron, B is a motor neuron; A is found in a larva, the location of B is not specified; A has a role in sensation, B has a role in muscle innervation; different parts of body they belong to; different species they belong to.
+    predicate: DIFFERENT
+    confidence: HIGH
+    similarities:
+      - NONE
+    differences:
+      - A is a sensory neuron, B is a motor neuron
+      - A is found in a larva, the location of B is not specified
+      - A has a role in sensation, B has a role in muscle innervation
+      - different parts of body they belong to
+      - different species they belong to.
+  - subject: FBbt:00002492
+    object: WBbt:0006773
+    completion: |-
+      category: DIFFERENT
+      confidence: HIGH
+      similarities: NONE
+      differences: A is a type of neuron, B is a type of blast cell; A is related to sensory function, B is related to development of various parts of the body; different definitions; different synonyms
+    predicate: DIFFERENT
+    confidence: HIGH
+    similarities:
+      - NONE
+    differences:
+      - A is a type of neuron, B is a type of blast cell
+      - A is related to sensory function, B is related to development of various parts
+        of the body
+      - different definitions
+      - different synonyms
+  - subject: FBbt:00002500
+    object: WBbt:0006774
+    completion: |-
+      category: DIFFERENT
+      confidence: HIGH
+      similarities: same synonym - P5
+      differences: A is a type of neuron; B is a type of blast cell; A fasciculates with the segmental nerve; B doesn't have such attribute; A has sensory dendrite; B doesn't have dendrite; A is related to sensory neuron of campaniform sensillum; B has no such relation; A has soma location whereas B doesn't have one; different location and originates from different entities.
+    predicate: DIFFERENT
+    confidence: HIGH
+    similarities:
+      - same synonym - P5
+    differences:
+      - A is a type of neuron
+      - B is a type of blast cell
+      - A fasciculates with the segmental nerve
+      - B doesn't have such attribute
+      - A has sensory dendrite
+      - B doesn't have dendrite
+      - A is related to sensory neuron of campaniform sensillum
+      - B has no such relation
+      - A has soma location whereas B doesn't have one
+      - different location and originates from different entities.
+  - subject: FBbt:00002614
+    object: WBbt:0006861
+    completion: |-
+      category: DIFFERENT
+      confidence: HIGH
+      similarities: both are types of neurons
+      differences: A is a sensory neuron related to a spiracular sensillum; B is a motor neuron specific to males; A fasciculates with larval abdominal 8 nerve; B is cholinergic; function; location; cell type; species specificity
+    predicate: DIFFERENT
+    confidence: HIGH
+    similarities:
+      - both are types of neurons
+    differences:
+      - A is a sensory neuron related to a spiracular sensillum
+      - B is a motor neuron specific to males
+      - A fasciculates with larval abdominal 8 nerve
+      - B is cholinergic
+      - function
+      - location
+      - cell type
+      - species specificity
+  - subject: FBbt:00002615
+    object: WBbt:0007805
+    completion: |-
+      category: DIFFERENT
+      confidence: HIGH
+      similarities: both are types of neurons; both are sensory in nature
+      differences: A is specific to the abdomen and related to sensory abilities of the spiracles in larvae; B is specific to male reproductive organs and related to motor function; A is part of the larval intersegmental nerve sensory neuron group while B is part of the motor neuron group; B is ciliated while there is no mention of cillia in A.
+    predicate: DIFFERENT
+    confidence: HIGH
+    similarities:
+      - both are types of neurons
+      - both are sensory in nature
+    differences:
+      - A is specific to the abdomen and related to sensory abilities of the spiracles
+        in larvae
+      - B is specific to male reproductive organs and related to motor function
+      - A is part of the larval intersegmental nerve sensory neuron group while B
+        is part of the motor neuron group
+      - B is ciliated while there is no mention of cillia in A.
+  - subject: FBbt:00002721
+    object: WBbt:0005107
+    completion: |-
+      category: EXACT_MATCH
+      confidence: HIGH
+      similarities: same concept; both are types of sensillum; both are associated with the labial segment
+      differences: A's definition mentions it is part of labial segment while B's definition mentions it can be of inner or outer labial.
+    predicate: EXACT_MATCH
+    confidence: HIGH
+    similarities:
+      - same concept
+      - both are types of sensillum
+      - both are associated with the labial segment
+    differences:
+      - A's definition mentions it is part of labial segment while B's definition
+        mentions it can be of inner or outer labial.
+  - subject: FBbt:00002731
+    object: WBbt:0006774
+    completion: |-
+      category: DIFFERENT
+      confidence: HIGH
+      similarities: NONE
+      differences: A is a type of sensillum in a sensory cluster; B is a type of blast cell for neurons and other parts of an organism
+    predicate: DIFFERENT
+    confidence: HIGH
+    similarities:
+      - NONE
+    differences:
+      - A is a type of sensillum in a sensory cluster
+      - B is a type of blast cell for neurons and other parts of an organism
+  - subject: FBbt:00002736
+    object: WBbt:0006772
+    completion: |-
+      category: DIFFERENT
+      confidence: HIGH
+      similarities: NONE
+      differences: A is a type of campaniform sensillum in the prothoracic segment of an embryo/larvae; B is a type of blast cell for ventral cord motorneurons, ventral hypodermis, vulva, male preanal ganglion and ventral hypodermis in L1.
+    predicate: DIFFERENT
+    confidence: HIGH
+    similarities:
+      - NONE
+    differences:
+      - A is a type of campaniform sensillum in the prothoracic segment of an embryo/larvae
+      - B is a type of blast cell for ventral cord motorneurons, ventral hypodermis,
+        vulva, male preanal ganglion and ventral hypodermis in L1.
+  - subject: FBbt:00002736
+    object: WBbt:0006875
+    completion: |-
+      category: DIFFERENT
+      confidence: HIGH
+      similarities: NONE
+      differences: A is a type of sensillum; B is a type of embryonic founder cell
+    predicate: DIFFERENT
+    confidence: HIGH
+    similarities:
+      - NONE
+    differences:
+      - A is a type of sensillum
+      - B is a type of embryonic founder cell
+  - subject: FBbt:00002737
+    object: WBbt:0004421
+    completion: |-
+      category: DIFFERENT
+      confidence: HIGH
+      similarities: NONE
+      differences: A is a type of sensillum, part of the larval prothoracic lateral sensory cluster; B is a germ line embryonic founder cell.
+    predicate: DIFFERENT
+    confidence: HIGH
+    similarities:
+      - NONE
+    differences:
+      - A is a type of sensillum, part of the larval prothoracic lateral sensory cluster
+      - B is a germ line embryonic founder cell.
+  - subject: FBbt:00002737
+    object: WBbt:0006773
+    completion: |-
+      category: DIFFERENT
+      confidence: HIGH
+      similarities: both are related to embryonic/larval development
+      differences: A is a sensillum, a certain type of sensory organ in insects; B is a blast cell related to the development of neurons, hypodermis and reproductive structures
+    predicate: DIFFERENT
+    confidence: HIGH
+    similarities:
+      - both are related to embryonic/larval development
+    differences:
+      - A is a sensillum, a certain type of sensory organ in insects
+      - B is a blast cell related to the development of neurons, hypodermis and reproductive
+        structures
+  - subject: FBbt:00002749
+    object: WBbt:0006774
+    completion: |-
+      category: DIFFERENT
+      confidence: HIGH
+      similarities: BOTH have the same synonym "P5"
+      differences: Concept A refers to a type of sensillum found in the mesothoracic segment while Concept B refers to a type of blast cell for motorneurons and other components; the definitions, and relationships with other concepts are fundamentally different
+    predicate: DIFFERENT
+    confidence: HIGH
+    similarities:
+      - BOTH have the same synonym "P5"
+    differences:
+      - Concept A refers to a type of sensillum found in the mesothoracic segment
+        while Concept B refers to a type of blast cell for motorneurons and other
+        components
+      - the definitions, and relationships with other concepts are fundamentally different
+  - subject: FBbt:00002755
+    object: WBbt:0006772
+    completion: |-
+      category: DIFFERENT
+      confidence: HIGH
+      similarities: NONE
+      differences: A is a sensory organ in an insect; B is a type of cell in the nematode C. elegans
+    predicate: DIFFERENT
+    confidence: HIGH
+    similarities:
+      - NONE
+    differences:
+      - A is a sensory organ in an insect
+      - B is a type of cell in the nematode C. elegans
+  - subject: FBbt:00002755
+    object: WBbt:0006875
+    completion: |-
+      category: DIFFERENT
+      confidence: HIGH
+      similarities: NONE
+      differences: A is a type of sensory organ in insects; B is a type of embryonic cell in worms.
+    predicate: DIFFERENT
+    confidence: HIGH
+    similarities:
+      - NONE
+    differences:
+      - A is a type of sensory organ in insects
+      - B is a type of embryonic cell in worms.
+  - subject: FBbt:00002756
+    object: WBbt:0004421
+    completion: |-
+      category: DIFFERENT
+      confidence: HIGH
+      similarities: Both concepts have the synonym 'P4'
+      differences: Concept A is a sensillum, part of a sensory cluster in larval segment; Concept B is an embryonic founder cell of germ line
+    predicate: DIFFERENT
+    confidence: HIGH
+    similarities:
+      - Both concepts have the synonym 'P4'
+    differences:
+      - Concept A is a sensillum, part of a sensory cluster in larval segment
+      - Concept B is an embryonic founder cell of germ line
+  - subject: FBbt:00002756
+    object: WBbt:0006773
+    completion: |-
+      category: DIFFERENT
+      confidence: HIGH
+      similarities: Both have the same synonym "P4"
+      differences: A is a type of sensillum found in the embryonic/larval mesothoracic segment; B is a type of blast cell found in the ventral cord; Different definitions and characteristics.
+    predicate: DIFFERENT
+    confidence: HIGH
+    similarities:
+      - Both have the same synonym "P4"
+    differences:
+      - A is a type of sensillum found in the embryonic/larval mesothoracic segment
+      - B is a type of blast cell found in the ventral cord
+      - Different definitions and characteristics.
+  - subject: FBbt:00002767
+    object: WBbt:0006774
+    completion: |-
+      category: DIFFERENT
+      confidence: HIGH
+      similarities: NONE
+      differences: A is a type of sensory cell; B is a type of blast cell
+    predicate: DIFFERENT
+    confidence: HIGH
+    similarities:
+      - NONE
+    differences:
+      - A is a type of sensory cell
+      - B is a type of blast cell
+  - subject: FBbt:00002773
+    object: WBbt:0006772
+    completion: |-
+      category: DIFFERENT
+      confidence: HIGH
+      similarities: synonymous names (p3)
+      differences: A is a type of sensillum in an arthropod; B is a type of blast cell in a nematode; different organismal context; different function and location
+    predicate: DIFFERENT
+    confidence: HIGH
+    similarities:
+      - synonymous names (p3)
+    differences:
+      - A is a type of sensillum in an arthropod
+      - B is a type of blast cell in a nematode
+      - different organismal context
+      - different function and location
+  - subject: FBbt:00002773
+    object: WBbt:0006875
+    completion: |-
+      category: DIFFERENT
+      confidence: HIGH
+      similarities: P3 synonym
+      differences: A is a sensillum of the metathoracic segment; B is a germline blastomere; embryonic founder cell; different functions and structures.
+    predicate: DIFFERENT
+    confidence: HIGH
+    similarities:
+      - P3 synonym
+    differences:
+      - A is a sensillum of the metathoracic segment
+      - B is a germline blastomere
+      - embryonic founder cell
+      - different functions and structures.
+  - subject: FBbt:00002774
+    object: WBbt:0004421
+    completion: |-
+      category: DIFFERENT
+      confidence: HIGH
+      similarities: share the P4 synonym
+      differences: A is a campaniform sensillum, B is a germ line founder cell; A is part of an insect's anatomy, B is part of an embryonic development process; different functions and structures; different biological systems
+    predicate: DIFFERENT
+    confidence: HIGH
+    similarities:
+      - share the P4 synonym
+    differences:
+      - A is a campaniform sensillum, B is a germ line founder cell
+      - A is part of an insect's anatomy, B is part of an embryonic development process
+      - different functions and structures
+      - different biological systems
+  - subject: FBbt:00002774
+    object: WBbt:0006773
+    completion: |-
+      category: DIFFERENT
+      confidence: HIGH
+      similarities: synonym 'P4'
+      differences: A is a sensory organ of an insect; B is a cell involved in development of various body parts in a worm
+    predicate: DIFFERENT
+    confidence: HIGH
+    similarities:
+      - synonym 'P4'
+    differences:
+      - A is a sensory organ of an insect
+      - B is a cell involved in development of various body parts in a worm
+  - subject: FBbt:00002799
+    object: WBbt:0006777
+    completion: |-
+      category: DIFFERENT
+      confidence: HIGH
+      similarities: shared synonym 'P8'
+      differences: A is a sensory structure in an insect; B is a developmental cell in worm; different function; different context
+    predicate: DIFFERENT
+    confidence: HIGH
+    similarities:
+      - shared synonym 'P8'
+    differences:
+      - A is a sensory structure in an insect
+      - B is a developmental cell in worm
+      - different function
+      - different context
+  - subject: FBbt:00002807
+    object: WBbt:0006778
+    completion: |-
+      category: DIFFERENT
+      confidence: HIGH
+      similarities: Both are related to development in the lifecycle; shared synonym 'P9'
+      differences: A is a sensillum (sensory organ) in Drosophila larvae; B is a specific blast cell involved in the development of various structures in C. elegans; A is part of the sensory system, B is part of the nervous system; they belong to different organisms
+    predicate: DIFFERENT
+    confidence: HIGH
+    similarities:
+      - Both are related to development in the lifecycle
+      - shared synonym 'P9'
+    differences:
+      - A is a sensillum (sensory organ) in Drosophila larvae
+      - B is a specific blast cell involved in the development of various structures
+        in C. elegans
+      - A is part of the sensory system, B is part of the nervous system
+      - they belong to different organisms
+  - subject: FBbt:00002855
+    object: WBbt:0006776
+    completion: |-
+      category: DIFFERENT
+      confidence: HIGH
+      similarities: NONE
+      differences: A is a sensillum, part of the sensory system, in abdominal segments of larvae; B is a blast cell involved in the formation of various structures in worms
+    predicate: DIFFERENT
+    confidence: HIGH
+    similarities:
+      - NONE
+    differences:
+      - A is a sensillum, part of the sensory system, in abdominal segments of larvae
+      - B is a blast cell involved in the formation of various structures in worms
+  - subject: FBbt:00002863
+    object: WBbt:0006770
+    completion: |-
+      category: DIFFERENT
+      confidence: HIGH
+      similarities: NONE
+      differences: A is a sensillum related to the abdomen of some larva; B refers to a particular blast cell involved in the development of various structures in an organism
+    predicate: DIFFERENT
+    confidence: HIGH
+    similarities:
+      - NONE
+    differences:
+      - A is a sensillum related to the abdomen of some larva
+      - B refers to a particular blast cell involved in the development of various
+        structures in an organism
+  - subject: FBbt:00002863
+    object: WBbt:0006874
+    completion: |-
+      category: DIFFERENT
+      confidence: HIGH
+      similarities: Both have "P1" as a synonym
+      differences: A is a type of sensillum in larval abdominal segments; B is an embryonic founder cell
+    predicate: DIFFERENT
+    confidence: HIGH
+    similarities:
+      - Both have "P1" as a synonym
+    differences:
+      - A is a type of sensillum in larval abdominal segments
+      - B is an embryonic founder cell
+  - subject: FBbt:00002871
+    object: WBbt:0006771
+    completion: |-
+      category: DIFFERENT
+      confidence: HIGH
+      similarities: NONE
+      differences: A and B are different kinds of cells; A is part of the sensory system of an insect, B is a type of blast cell in the development of a worm
+    predicate: DIFFERENT
+    confidence: HIGH
+    similarities:
+      - NONE
+    differences:
+      - A and B are different kinds of cells
+      - A is part of the sensory system of an insect, B is a type of blast cell in
+        the development of a worm
+  - subject: FBbt:00002871
+    object: WBbt:0006873
+    completion: |-
+      category: DIFFERENT
+      confidence: HIGH
+      similarities: Both are biological entities
+      differences: A is a sensillum in the larval abdomen; B is an embryonic founder cell; A is part of the sensory cluster while B is a germline blastomere; Different taxonomy (A is related to insects, B is related to nematodes)
+    predicate: DIFFERENT
+    confidence: HIGH
+    similarities:
+      - Both are biological entities
+    differences:
+      - A is a sensillum in the larval abdomen
+      - B is an embryonic founder cell
+      - A is part of the sensory cluster while B is a germline blastomere
+      - Different taxonomy (A is related to insects, B is related to nematodes)
+  - subject: FBbt:00002879
+    object: WBbt:0006772
+    completion: |-
+      category: DIFFERENT
+      confidence: HIGH
+      similarities: NONE
+      differences: A refers to a specific type of sensory cell located in an insect's abdomen; B refers to a specific blast cell involved in forming parts of a worm; different organisms; different functions; different specific structures; different locations; not related in any aspects.
+    predicate: DIFFERENT
+    confidence: HIGH
+    similarities:
+      - NONE
+    differences:
+      - A refers to a specific type of sensory cell located in an insect's abdomen
+      - B refers to a specific blast cell involved in forming parts of a worm
+      - different organisms
+      - different functions
+      - different specific structures
+      - different locations
+      - not related in any aspects.
+  - subject: FBbt:00002879
+    object: WBbt:0006875
+    completion: |-
+      category: DIFFERENT
+      confidence: HIGH
+      similarities: NONE
+      differences: A is a type of sensillum, a sensory organ in insects; B is a type of embryonic cell
+    predicate: DIFFERENT
+    confidence: HIGH
+    similarities:
+      - NONE
+    differences:
+      - A is a type of sensillum, a sensory organ in insects
+      - B is a type of embryonic cell
+  - subject: FBbt:00002887
+    object: WBbt:0006774
+    completion: |-
+      category: DIFFERENT
+      confidence: HIGH
+      similarities: share a synonym "P5"
+      differences: A is a type of sensillum in larval abdominal segments; B is a type of blast cell for various parts in L1 stage
+    predicate: DIFFERENT
+    confidence: HIGH
+    similarities:
+      - share a synonym "P5"
+    differences:
+      - A is a type of sensillum in larval abdominal segments
+      - B is a type of blast cell for various parts in L1 stage
+  - subject: FBbt:00002895
+    object: WBbt:0004421
+    completion: |-
+      category: DIFFERENT
+      confidence: HIGH
+      similarities: NONE
+      differences: A is a sensillum; B is a germ cell; completely different functions and locations; different organisms
+    predicate: DIFFERENT
+    confidence: HIGH
+    similarities:
+      - NONE
+    differences:
+      - A is a sensillum
+      - B is a germ cell
+      - completely different functions and locations
+      - different organisms
+  - subject: FBbt:00002895
+    object: WBbt:0004617
+    completion: |-
+      category: DIFFERENT
+      confidence: HIGH
+      similarities: Both concepts share the term 'VC4'; both are involved in sensory functions
+      differences: A is a type of sensillum found in larval abdominal segments, B is a type of motor neuron found in hermaphrodites; A is associated with a physical structure, B is associated with neural function; Different definitions, synonyms and relationships
+    predicate: DIFFERENT
+    confidence: HIGH
+    similarities:
+      - Both concepts share the term 'VC4'
+      - both are involved in sensory functions
+    differences:
+      - A is a type of sensillum found in larval abdominal segments, B is a type of
+        motor neuron found in hermaphrodites
+      - A is associated with a physical structure, B is associated with neural function
+      - Different definitions, synonyms and relationships
+  - subject: FBbt:00002895
+    object: WBbt:0006773
+    completion: |-
+      category: DIFFERENT
+      confidence: HIGH
+      similarities: Synonyms include "P4"
+      differences: A is a sensillum in larval abdominal segments; B is a cell for motorneurons and other structures in L1
+    predicate: DIFFERENT
+    confidence: HIGH
+    similarities:
+      - Synonyms include "P4"
+    differences:
+      - A is a sensillum in larval abdominal segments
+      - B is a cell for motorneurons and other structures in L1
+  - subject: FBbt:00002903
+    object: WBbt:0006775
+    completion: |-
+      category: DIFFERENT
+      confidence: HIGH
+      similarities: Synonym P6
+      differences: A is a sensillum in insect larvae; B is a blast cell in worm larvae; Located in different organisms; Different functions; Different locations within the organism; Different structures
+    predicate: DIFFERENT
+    confidence: HIGH
+    similarities:
+      - Synonym P6
+    differences:
+      - A is a sensillum in insect larvae
+      - B is a blast cell in worm larvae
+      - Located in different organisms
+      - Different functions
+      - Different locations within the organism
+      - Different structures
+  - subject: FBbt:00003121
+    object: WBbt:0005835
+    completion: |-
+      category: DIFFERENT
+      confidence: HIGH
+      similarities: NONE
+      differences: A is a part of an adult spiracle; B is a class of neuron motoneurons that innervate muscles in the head.
+    predicate: DIFFERENT
+    confidence: HIGH
+    similarities:
+      - NONE
+    differences:
+      - A is a part of an adult spiracle
+      - B is a class of neuron motoneurons that innervate muscles in the head.
+  - subject: FBbt:00003138
+    object: WBbt:0005772
+    completion: |-
+      category: RELATED_TO
+      confidence: HIGH
+      similarities: both play role in digestion; part of alimentary canal/system; function in nutrient absorption; synonyms include 'mesenteron'
+      differences: A specifically refers to mid-region of the alimentary canal in adult stage; B is more generic and refers to the entire intestinal system; A has specific structural details about cellular composition; A has the role of reabsorption while B doesn't explicitly mention this function; A is part of adult gut, B is part of digestive tract and alimentary system.
+    predicate: RELATED_TO
+    confidence: HIGH
+    similarities:
+      - both play role in digestion
+      - part of alimentary canal/system
+      - function in nutrient absorption
+      - synonyms include 'mesenteron'
+    differences:
+      - A specifically refers to mid-region of the alimentary canal in adult stage
+      - B is more generic and refers to the entire intestinal system
+      - A has specific structural details about cellular composition
+      - A has the role of reabsorption while B doesn't explicitly mention this function
+      - A is part of adult gut, B is part of digestive tract and alimentary system.
+  - subject: FBbt:00003235
+    object: WBbt:0006210
+    completion: |-
+      category: RELATED_TO
+      confidence: MEDIUM
+      similarities: both are embryonic cells; share the synonym 'Dap'
+      differences: Concept A refers to a specific type of muscle precursor cell located in abdominal segments, Concept B is a general embryonic cell.
+    predicate: RELATED_TO
+    confidence: MEDIUM
+    similarities:
+      - both are embryonic cells
+      - share the synonym 'Dap'
+    differences:
+      - Concept A refers to a specific type of muscle precursor cell located in abdominal
+        segments, Concept B is a general embryonic cell.
+  - subject: FBbt:00003668
+    object: WBbt:0006859
+    completion: |-
+      category: DIFFERENT
+      confidence: HIGH
+      similarities: acronym PCB
+      differences: A is a part of the central complex in the brain; B is a type of neuron; B is male-specific
+    predicate: DIFFERENT
+    confidence: HIGH
+    similarities:
+      - acronym PCB
+    differences:
+      - A is a part of the central complex in the brain
+      - B is a type of neuron
+      - B is male-specific
+  - subject: FBbt:00003682
+    object: WBbt:0003734
+    completion: |-
+      category: DIFFERENT
+      confidence: HIGH
+      similarities: NONE
+      differences: A is a part of the brain; B is a part of the pharynx; A involves synaptic neuropil domain and neural functions; B involves pharyngeal muscles and peristaltic motion
+    predicate: DIFFERENT
+    confidence: HIGH
+    similarities:
+      - NONE
+    differences:
+      - A is a part of the brain
+      - B is a part of the pharynx
+      - A involves synaptic neuropil domain and neural functions
+      - B involves pharyngeal muscles and peristaltic motion
+  - subject: FBbt:00003685
+    object: WBbt:0005980
+    completion: |-
+      category: DIFFERENT
+      confidence: HIGH
+      similarities: share the same synonym (CA)
+      differences: A is a part of the brain's structure while B is an embryonic cell; different definitions and identities; different relationships
+    predicate: DIFFERENT
+    confidence: HIGH
+    similarities:
+      - share the same synonym (CA)
+    differences:
+      - A is a part of the brain's structure while B is an embryonic cell
+      - different definitions and identities
+      - different relationships
+  - subject: FBbt:00003708
+    object: WBbt:0005756
+    completion: |-
+      category: DIFFERENT
+      confidence: HIGH
+      similarities: term 'lamina' is used in both contexts
+      differences: A refers to a synaptic neuropil domain in the optic lobe; B refers to a component of the extracellular matrix within the epithelial system
+    predicate: DIFFERENT
+    confidence: HIGH
+    similarities:
+      - term 'lamina' is used in both contexts
+    differences:
+      - A refers to a synaptic neuropil domain in the optic lobe
+      - B refers to a component of the extracellular matrix within the epithelial
+        system
+  - subject: FBbt:00003764
+    object: WBbt:0004489
+    completion: |-
+      category: DIFFERENT
+      confidence: HIGH
+      similarities: share synonym "M cell"
+      differences: A is a type of neuron while B is a type of mesoblast; A has relationships with other neurons and structures, B does not; A is in adult stage, B is in postembryonic stage
+    predicate: DIFFERENT
+    confidence: HIGH
+    similarities:
+      - share synonym "M cell"
+    differences:
+      - A is a type of neuron while B is a type of mesoblast
+      - A has relationships with other neurons and structures, B does not
+      - A is in adult stage, B is in postembryonic stage
+  - subject: FBbt:00003833
+    object: WBbt:0003744
+    completion: |-
+      category: DIFFERENT
+      confidence: HIGH
+      similarities: NONE
+      differences: A is a type of neuron with specific location and function in the optic lobe; B is a type of muscle cell located in the pharynx; A's role involves synaptic communication while B's role is likely associated with physical activity in the metacorpus; different organism parts (nervous system vs muscular system)
+    predicate: DIFFERENT
+    confidence: HIGH
+    similarities:
+      - NONE
+    differences:
+      - A is a type of neuron with specific location and function in the optic lobe
+      - B is a type of muscle cell located in the pharynx
+      - A's role involves synaptic communication while B's role is likely associated
+        with physical activity in the metacorpus
+      - different organism parts (nervous system vs muscular system)
+  - subject: FBbt:00003835
+    object: WBbt:0003742
+    completion: |-
+      category: DIFFERENT
+      confidence: HIGH
+      similarities: NONE
+      differences: A is a type of neuron; B is a type of muscle cell; A is part of the optic lobe; B is part of the procorpus; different functions
+    predicate: DIFFERENT
+    confidence: HIGH
+    similarities:
+      - NONE
+    differences:
+      - A is a type of neuron
+      - B is a type of muscle cell
+      - A is part of the optic lobe
+      - B is part of the procorpus
+      - different functions
+  - subject: FBbt:00003911
+    object: WBbt:0004578
+    completion: |-
+      category: DIFFERENT
+      confidence: HIGH
+      similarities: Name
+      differences: A is a type of neuron in an optic lobe; B is a type of cell in rectal epithelium; function; location; development stage; relationship with other structures
+    predicate: DIFFERENT
+    confidence: HIGH
+    similarities:
+      - Name
+    differences:
+      - A is a type of neuron in an optic lobe
+      - B is a type of cell in rectal epithelium
+      - function
+      - location
+      - development stage
+      - relationship with other structures
+  - subject: FBbt:00003918
+    object: WBbt:0006830
+    completion: |-
+      category: DIFFERENT
+      confidence: HIGH
+      similarities: name (HSN)
+      differences: A is a type of horizontal system neuron and is associated with vision; B is a motor neuron associated with a hermaphrodite's reproductive system; different definitions; different relationships
+    predicate: DIFFERENT
+    confidence: HIGH
+    similarities:
+      - name (HSN)
+    differences:
+      - A is a type of horizontal system neuron and is associated with vision
+      - B is a motor neuron associated with a hermaphrodite's reproductive system
+      - different definitions
+      - different relationships
+  - subject: FBbt:00004023
+    object: WBbt:0003677
+    completion: |-
+      category: RELATED_TO
+      confidence: HIGH
+      similarities: both are motor neurons; involved in feeding behavior; A specifically controls the proboscis muscle responsible for opening the rostrum/pharynx
+      differences: A is located in the rostrum muscle and has a specific role; B is a general category of motor neurons location unspecified
+    predicate: RELATED_TO
+    confidence: HIGH
+    similarities:
+      - both are motor neurons
+      - involved in feeding behavior
+      - A specifically controls the proboscis muscle responsible for opening the rostrum/pharynx
+    differences:
+      - A is located in the rostrum muscle and has a specific role
+      - B is a general category of motor neurons location unspecified
+  - subject: FBbt:00004103
+    object: WBbt:0005339
+    completion: |-
+      category: RELATED_TO
+      confidence: MEDIUM
+      similarities: both are neurons; named as VA neuron; located along the ventral cord
+      differences: A is part of larval ventral nerve cord and is peptidergic; B is a motoneuron and is cholinergic; B innervates ventral body muscles
+    predicate: RELATED_TO
+    confidence: MEDIUM
+    similarities:
+      - both are neurons
+      - named as VA neuron
+      - located along the ventral cord
+    differences:
+      - A is part of larval ventral nerve cord and is peptidergic
+      - B is a motoneuron and is cholinergic
+      - B innervates ventral body muscles
+  - subject: FBbt:00004174
+    object: WBbt:0004015
+    completion: |-
+      category: DIFFERENT
+      confidence: HIGH
+      similarities: NONE
+      differences: A is a type of sensation structure located on the antenna; B is a type of embryonic cell
+    predicate: DIFFERENT
+    confidence: HIGH
+    similarities:
+      - NONE
+    differences:
+      - A is a type of sensation structure located on the antenna
+      - B is a type of embryonic cell
+  - subject: FBbt:00004177
+    object: WBbt:0004522
+    completion: |-
+      category: DIFFERENT
+      confidence: HIGH
+      similarities: NONE
+      differences: A is a sensory organ in antennae; B is a cell in the gonad of a hermaphrodite; different biological structures and functions; different synonyms
+    predicate: DIFFERENT
+    confidence: HIGH
+    similarities:
+      - NONE
+    differences:
+      - A is a sensory organ in antennae
+      - B is a cell in the gonad of a hermaphrodite
+      - different biological structures and functions
+      - different synonyms
+  - subject: FBbt:00004213
+    object: WBbt:0006932
+    completion: |-
+      category: DIFFERENT
+      confidence: HIGH
+      similarities: share the name R1; both are precursor cells
+      differences: A is a photoreceptor cell and involved in vision; B is a precursor of sensory cells involved in touch; different organism mentions in definitions; different parent categories
+    predicate: DIFFERENT
+    confidence: HIGH
+    similarities:
+      - share the name R1
+      - both are precursor cells
+    differences:
+      - A is a photoreceptor cell and involved in vision
+      - B is a precursor of sensory cells involved in touch
+      - different organism mentions in definitions
+      - different parent categories
+  - subject: FBbt:00004215
+    object: WBbt:0006933
+    completion: |-
+      category: DIFFERENT
+      confidence: HIGH
+      similarities: name; both concepts have cellular development
+      differences: A is a photoreceptor cell in the eye, developing from a photoreceptor R2 precursor cell; B is a precursor of sensory cells, related to the formation of a male sensory ray 2.
+    predicate: DIFFERENT
+    confidence: HIGH
+    similarities:
+      - name
+      - both concepts have cellular development
+    differences:
+      - A is a photoreceptor cell in the eye, developing from a photoreceptor R2 precursor
+        cell
+      - B is a precursor of sensory cells, related to the formation of a male sensory
+        ray 2.
+  - subject: FBbt:00004217
+    object: WBbt:0006934
+    completion: |-
+      category: DIFFERENT
+      confidence: HIGH
+      similarities: same name; precursor relationships
+      differences: A is an eye cell in insects; B is a precursor of sensory cells in nematodes; distinct functions and structure
+    predicate: DIFFERENT
+    confidence: HIGH
+    similarities:
+      - same name
+      - precursor relationships
+    differences:
+      - A is an eye cell in insects
+      - B is a precursor of sensory cells in nematodes
+      - distinct functions and structure
+  - subject: FBbt:00004219
+    object: WBbt:0006935
+    completion: |-
+      category: DIFFERENT
+      confidence: HIGH
+      similarities: name; both are precursor cells
+      differences: A is part of the eye, B is part of the male sensory ray; A develops from a photoreceptor R4 precursor, B forms male sensory ray 4; A is referenced in terms of vision, B is not.
+    predicate: DIFFERENT
+    confidence: HIGH
+    similarities:
+      - name
+      - both are precursor cells
+    differences:
+      - A is part of the eye, B is part of the male sensory ray
+      - A develops from a photoreceptor R4 precursor, B forms male sensory ray 4
+      - A is referenced in terms of vision, B is not.
+  - subject: FBbt:00004221
+    object: WBbt:0006936
+    completion: |-
+      category: DIFFERENT
+      confidence: HIGH
+      similarities: shared name "R5"
+      differences: A is a photoreceptor cell in the eye; B is a precursor of cells forming a male sensory structure
+    predicate: DIFFERENT
+    confidence: HIGH
+    similarities:
+      - shared name "R5"
+    differences:
+      - A is a photoreceptor cell in the eye
+      - B is a precursor of cells forming a male sensory structure
+  - subject: FBbt:00004223
+    object: WBbt:0006937
+    completion: |-
+      category: DIFFERENT
+      confidence: HIGH
+      similarities: same name
+      differences: A is a photoreceptor cell in the eye; B is a precursor to a male sensory cell
+    predicate: DIFFERENT
+    confidence: HIGH
+    similarities:
+      - same name
+    differences:
+      - A is a photoreceptor cell in the eye
+      - B is a precursor to a male sensory cell
+  - subject: FBbt:00004225
+    object: WBbt:0006938
+    completion: |-
+      category: DIFFERENT
+      confidence: HIGH
+      similarities: share the same name "R7"
+      differences: A is a type of photoreceptor cell in the eye; B is a precursor cell that forms a sensory part in males; Different functions and structures; Different species (A likely refers to a fruit fly species, while B likely refers to a worm species based on the ontology ID prefixes)
+    predicate: DIFFERENT
+    confidence: HIGH
+    similarities:
+      - share the same name "R7"
+    differences:
+      - A is a type of photoreceptor cell in the eye
+      - B is a precursor cell that forms a sensory part in males
+      - Different functions and structures
+      - Different species (A likely refers to a fruit fly species, while B likely
+        refers to a worm species based on the ontology ID prefixes)
+  - subject: FBbt:00004227
+    object: WBbt:0006939
+    completion: |-
+      category: DIFFERENT
+      confidence: HIGH
+      similarities: shared name R8
+      differences: A is a type of photoreceptor cell with specific functionalities and relationships in a visual system; B is a precursor cell in the context of male sensory system development
+    predicate: DIFFERENT
+    confidence: HIGH
+    similarities:
+      - shared name R8
+    differences:
+      - A is a type of photoreceptor cell with specific functionalities and relationships
+        in a visual system
+      - B is a precursor cell in the context of male sensory system development
+  - subject: FBbt:00004308
+    object: WBbt:0004384
+    completion: |-
+      category: DIFFERENT
+      confidence: HIGH
+      similarities: shared acronym "PDC"
+      differences: A is a type of bristle, while B is a type of neuron; A and B belong to different organisms; B is a male-specific anatomical entity
+    predicate: DIFFERENT
+    confidence: HIGH
+    similarities:
+      - shared acronym "PDC"
+    differences:
+      - A is a type of bristle, while B is a type of neuron
+      - A and B belong to different organisms
+      - B is a male-specific anatomical entity
+  - subject: FBbt:00004771
+    object: WBbt:0003673
+    completion: |-
+      category: DIFFERENT
+      confidence: HIGH
+      similarities: both are named marginal cell;
+      differences: A is a part of a wing; B is a part of a pharynx; different functions and locations; different synonyms
+    predicate: DIFFERENT
+    confidence: HIGH
+    similarities:
+      - both are named marginal cell
+    differences:
+      - A is a part of a wing
+      - B is a part of a pharynx
+      - different functions and locations
+      - different synonyms
+  - subject: FBbt:00004772
+    object: WBbt:0003825
+    completion: |-
+      category: DIFFERENT
+      confidence: HIGH
+      similarities: synonym "B cell"
+      differences: A is a part of a wing; B is a type of cell in the rectal epithelium; different functions; different structures
+    predicate: DIFFERENT
+    confidence: HIGH
+    similarities:
+      - synonym "B cell"
+    differences:
+      - A is a part of a wing
+      - B is a type of cell in the rectal epithelium
+      - different functions
+      - different structures
+  - subject: FBbt:00004826
+    object: WBbt:0008422
+    completion: |-
+      category: EXACT_MATCH
+      confidence: HIGH
+      similarities: same concept; involved in sexual reproduction; part of the reproduction system
+      differences: A is labeled as an anatomical structure; B is labeled as an organ; A develops from genital disc; different is_a relationships
+    predicate: EXACT_MATCH
+    confidence: HIGH
+    similarities:
+      - same concept
+      - involved in sexual reproduction
+      - part of the reproduction system
+    differences:
+      - A is labeled as an anatomical structure
+      - B is labeled as an organ
+      - A develops from genital disc
+      - different is_a relationships
+  - subject: FBbt:00004856
+    object: WBbt:0005746
+    completion: |-
+      category: EXACT_MATCH
+      confidence: HIGH
+      similarities: same concept; perform functions; part of an organism
+      differences: A is classified as a multicellular structure while B is classified as a functional system; the synonyms and IDs are different
+    predicate: EXACT_MATCH
+    confidence: HIGH
+    similarities:
+      - same concept
+      - perform functions
+      - part of an organism
+    differences:
+      - A is classified as a multicellular structure while B is classified as a functional
+        system
+      - the synonyms and IDs are different
+  - subject: FBbt:00004857
+    object: WBbt:0005747
+    completion: |-
+      category: EXACT_MATCH
+      confidence: MEDIUM
+      similarities: same name; both are organ systems; both are related to reproduction
+      differences: Concept A has a relationship indicating it is sexually dimorphic
+    predicate: EXACT_MATCH
+    confidence: MEDIUM
+    similarities:
+      - same name
+      - both are organ systems
+      - both are related to reproduction
+    differences:
+      - Concept A has a relationship indicating it is sexually dimorphic
+  - subject: FBbt:00004858
+    object: WBbt:0005175
+    completion: |-
+      category: EXACT_MATCH
+      confidence: HIGH
+      similarities: same concept; organ of the reproductive system; germ cells reside in it; part of reproductive system
+      differences: B explicitly mentions production of sperm or ova; B is part of reproductive tract
+    predicate: EXACT_MATCH
+    confidence: HIGH
+    similarities:
+      - same concept
+      - organ of the reproductive system
+      - germ cells reside in it
+      - part of reproductive system
+    differences:
+      - B explicitly mentions production of sperm or ova
+      - B is part of reproductive tract
+  - subject: FBbt:00004860
+    object: WBbt:0006796
+    completion: |-
+      category: EXACT_MATCH
+      confidence: HIGH
+      similarities: same concept; cell; name
+      differences: B provides a definition; B has a development relationship
+    predicate: EXACT_MATCH
+    confidence: HIGH
+    similarities:
+      - same concept
+      - cell
+      - name
+    differences:
+      - B provides a definition
+      - B has a development relationship
+  - subject: FBbt:00004886
+    object: WBbt:0006797
+    completion: |-
+      category: EXACT_MATCH
+      confidence: HIGH
+      similarities: same name; female germ/germline cell; mature into reproductive cells
+      differences: A specifies development process; B implies potential for self-fertilization due to hermaphrodite-specific anatomical entity classification; different ontologies and ID systems
+    predicate: EXACT_MATCH
+    confidence: HIGH
+    similarities:
+      - same name
+      - female germ/germline cell
+      - mature into reproductive cells
+    differences:
+      - A specifies development process
+      - B implies potential for self-fertilization due to hermaphrodite-specific anatomical
+        entity classification
+      - different ontologies and ID systems
+  - subject: FBbt:00004921
+    object: WBbt:0005319
+    completion: |-
+      category: RELATED_TO
+      confidence: HIGH
+      similarities: name; function (sperm storage); definition includes tube-like component; both are parts of reproductive systems
+      differences: A produces a cuticular intima; A is part of a female reproductive system; B is part of a hermaphrodite reproductive system; A has two per female; B's definition includes oocyte fertilization; A's shape is likened to a mushroom; B's definition describes it as accordion-like
+    predicate: RELATED_TO
+    confidence: HIGH
+    similarities:
+      - name
+      - function (sperm storage)
+      - definition includes tube-like component
+      - both are parts of reproductive systems
+    differences:
+      - A produces a cuticular intima
+      - A is part of a female reproductive system
+      - B is part of a hermaphrodite reproductive system
+      - A has two per female
+      - B's definition includes oocyte fertilization
+      - A's shape is likened to a mushroom
+      - B's definition describes it as accordion-like
+  - subject: FBbt:00004924
+    object: WBbt:0006760
+    completion: |-
+      category: RELATED_TO
+      confidence: MEDIUM
+      similarities: same name; both are parts of reproductive systems; both are involved in egg development and protection
+      differences: A is specifically a female organ while B is part of hermaphrodite gonad; A has a specific structure within female reproductive system while the structure of B is not defined; A is an ectodermal invagination while the origin of B is not stated; A is part of the genital chamber while B is part of the egg-laying apparatus; A is specified to be surrounded by muscles while no such detail is provided for B.
+    predicate: RELATED_TO
+    confidence: MEDIUM
+    similarities:
+      - same name
+      - both are parts of reproductive systems
+      - both are involved in egg development and protection
+    differences:
+      - A is specifically a female organ while B is part of hermaphrodite gonad
+      - A has a specific structure within female reproductive system while the structure
+        of B is not defined
+      - A is an ectodermal invagination while the origin of B is not stated
+      - A is part of the genital chamber while B is part of the egg-laying apparatus
+      - A is specified to be surrounded by muscles while no such detail is provided
+        for B.
+  - subject: FBbt:00004925
+    object: WBbt:0006760
+    completion: |-
+      category: RELATED_TO
+      confidence: HIGH
+      similarities: both are part of reproductive systems; both involve the development and protection of eggs
+      differences: A is a more complex structure that includes the uterus but also the vagina and vulva; A and B belong to different types of organisms (B likely belongs to a hermaphroditic organism while A belongs to a female organism)
+    predicate: RELATED_TO
+    confidence: HIGH
+    similarities:
+      - both are part of reproductive systems
+      - both involve the development and protection of eggs
+    differences:
+      - A is a more complex structure that includes the uterus but also the vagina
+        and vulva
+      - A and B belong to different types of organisms (B likely belongs to a hermaphroditic
+        organism while A belongs to a female organism)
+  - subject: FBbt:00004926
+    object: WBbt:0006748
+    completion: |-
+      category: RELATED_TO
+      confidence: HIGH
+      similarities: part of female genitalia; both have the synonym 'vulva'
+      differences: A is eversible and has more complex relationships and definitions; B is a general term for female genitalia and is part of egg-laying apparatus
+    predicate: RELATED_TO
+    confidence: HIGH
+    similarities:
+      - part of female genitalia
+      - both have the synonym 'vulva'
+    differences:
+      - A is eversible and has more complex relationships and definitions
+      - B is a general term for female genitalia and is part of egg-laying apparatus
+  - subject: FBbt:00004936
+    object: WBbt:0006799
+    completion: |-
+      category: EXACT_MATCH
+      confidence: HIGH
+      similarities: same name; is a germ cell; involved in spermatogenesis; both produce spermatids; same function
+      differences: A details cell part of spermatocyte cyst, developed from spermatogonium, and expression of twine; B does not offer these details; B is a broader concept of a germ cell, while A is a more specific 'male germline cell'; the part of the ontology underlay they belong to can be different.
+    predicate: EXACT_MATCH
+    confidence: HIGH
+    similarities:
+      - same name
+      - is a germ cell
+      - involved in spermatogenesis
+      - both produce spermatids
+      - same function
+    differences:
+      - A details cell part of spermatocyte cyst, developed from spermatogonium, and
+        expression of twine
+      - B does not offer these details
+      - B is a broader concept of a germ cell, while A is a more specific 'male germline
+        cell'
+      - the part of the ontology underlay they belong to can be different.
+  - subject: FBbt:00004941
+    object: WBbt:0008592
+    completion: |-
+      category: EXACT_MATCH
+      confidence: HIGH
+      similarities: same concept; develops from primary spermatocyte; is a type of spermatocyte
+      differences: A is part of secondary spermatocyte cyst; definitions vary slightly in details about meiosis
+    predicate: EXACT_MATCH
+    confidence: HIGH
+    similarities:
+      - same concept
+      - develops from primary spermatocyte
+      - is a type of spermatocyte
+    differences:
+      - A is part of secondary spermatocyte cyst
+      - definitions vary slightly in details about meiosis
+  - subject: FBbt:00004942
+    object: WBbt:0006800
+    completion: |-
+      category: EXACT_MATCH
+      confidence: HIGH
+      similarities: same name and concept; both are germ cells; both develop from a type of spermatocyte; both represent an immature sperm cell stage
+      differences: A specifies quantity and the connection by cytoplasmic bridges, as well as part of a spermatid cyst; B specifies the development into amoeboid form of sperm
+    predicate: EXACT_MATCH
+    confidence: HIGH
+    similarities:
+      - same name and concept
+      - both are germ cells
+      - both develop from a type of spermatocyte
+      - both represent an immature sperm cell stage
+    differences:
+      - A specifies quantity and the connection by cytoplasmic bridges, as well as
+        part of a spermatid cyst
+      - B specifies the development into amoeboid form of sperm
+  - subject: FBbt:00004954
+    object: WBbt:0006798
+    completion: |-
+      category: EXACT_MATCH
+      confidence: HIGH
+      similarities: same concept; male haploid gamete/germ cell; develops from spermatid
+      differences: A is part of testis; B doesn't mention this relationship; A uses the term "individualization stage spermatid", B just mentions "spermatid"
+    predicate: EXACT_MATCH
+    confidence: HIGH
+    similarities:
+      - same concept
+      - male haploid gamete/germ cell
+      - develops from spermatid
+    differences:
+      - A is part of testis
+      - B doesn't mention this relationship
+      - A uses the term "individualization stage spermatid", B just mentions "spermatid"
+  - subject: FBbt:00004958
+    object: WBbt:0006870
+    completion: |-
+      category: RELATED_TO
+      confidence: MEDIUM
+      similarities: both are male-specific anatomical entities; second definition implies a similar function
+      differences: A is part of the reproductive system in a broader sense while B is specifically a part of the male gonad; B is made up of 12 nuclei
+    predicate: RELATED_TO
+    confidence: MEDIUM
+    similarities:
+      - both are male-specific anatomical entities
+      - second definition implies a similar function
+    differences:
+      - A is part of the reproductive system in a broader sense while B is specifically
+        a part of the male gonad
+      - B is made up of 12 nuclei
+  - subject: FBbt:00004968
+    object: WBbt:0005337
+    completion: |-
+      category: RELATED_TO
+      confidence: HIGH
+      similarities: same name; part of the male reproductive system; function of delivering sperm
+      differences: A is in a fly and includes more detailed information about its structure and formation; B is in an unspecified organism and refers to the portion of the reproductive tract distal to the testis
+    predicate: RELATED_TO
+    confidence: HIGH
+    similarities:
+      - same name
+      - part of the male reproductive system
+      - function of delivering sperm
+    differences:
+      - A is in a fly and includes more detailed information about its structure and
+        formation
+      - B is in an unspecified organism and refers to the portion of the reproductive
+        tract distal to the testis
+  - subject: FBbt:00004970
+    object: WBbt:0005755
+    completion: |-
+      category: EXACT_MATCH
+      confidence: MEDIUM
+      similarities: both are external layers covering a body; both are secreted by underlying tissue; both referred to as "cuticle"
+      differences: A is part of integumentary system, B is part of epithelial system; differing details in specific anatomical locations and features
+    predicate: EXACT_MATCH
+    confidence: MEDIUM
+    similarities:
+      - both are external layers covering a body
+      - both are secreted by underlying tissue
+      - both referred to as "cuticle"
+    differences:
+      - A is part of integumentary system, B is part of epithelial system
+      - differing details in specific anatomical locations and features
+  - subject: FBbt:00004993
+    object: WBbt:0005733
+    completion: |-
+      category: EXACT_MATCH
+      confidence: HIGH
+      similarities: same concept; same synonyms; part of a similar system; both are types of tissues
+      differences: A is described as cuboidal/columnar epithelium; B is a part of epithelial system; different ids and source databases
+    predicate: EXACT_MATCH
+    confidence: HIGH
+    similarities:
+      - same concept
+      - same synonyms
+      - part of a similar system
+      - both are types of tissues
+    differences:
+      - A is described as cuboidal/columnar epithelium
+      - B is a part of epithelial system
+      - different ids and source databases
+  - subject: FBbt:00005056
+    object: WBbt:0005736
+    completion: |-
+      category: EXACT_MATCH
+      confidence: MEDIUM
+      similarities: same concept; excretory system; function
+      differences: B is a part of the excretory secretory system; different source databases (FBbt vs WBbt)
+    predicate: EXACT_MATCH
+    confidence: MEDIUM
+    similarities:
+      - same concept
+      - excretory system
+      - function
+    differences:
+      - B is a part of the excretory secretory system
+      - different source databases (FBbt vs WBbt)
+  - subject: FBbt:00005062
+    object: WBbt:0006783
+    completion: |-
+      category: RELATED_TO
+      confidence: MEDIUM
+      similarities: both are immature, precursor cells
+      differences: A is specific to hemocytes and is found in certain locations; B is unspecified type of precursor cell and its location or destination is not specified; definition details; name; id; is_a relationship
+    predicate: RELATED_TO
+    confidence: MEDIUM
+    similarities:
+      - both are immature, precursor cells
+    differences:
+      - A is specific to hemocytes and is found in certain locations
+      - B is unspecified type of precursor cell and its location or destination is
+        not specified
+      - definition details
+      - name
+      - id
+      - is_a relationship
+  - subject: FBbt:00005070
+    object: WBbt:0005781
+    completion: |-
+      category: RELATED_TO
+      confidence: HIGH
+      similarities: both relate to a type of muscle cell; both have 'smooth muscle' as a synonym
+      differences: A specifically refers to a visceral muscle cell which moves the viscera and appears striated; B is a generic smooth muscle which is non-striated
+    predicate: RELATED_TO
+    confidence: HIGH
+    similarities:
+      - both relate to a type of muscle cell
+      - both have 'smooth muscle' as a synonym
+    differences:
+      - A specifically refers to a visceral muscle cell which moves the viscera and
+        appears striated
+      - B is a generic smooth muscle which is non-striated
+  - subject: FBbt:00005074
+    object: WBbt:0003675
+    completion: |-
+      category: EXACT_MATCH
+      confidence: HIGH
+      similarities: same concept; cell type; function; part of muscle/muscular system
+      differences: A mentions formation process; B is broader in categorization (Cell vs Somatic cell)
+    predicate: EXACT_MATCH
+    confidence: HIGH
+    similarities:
+      - same concept
+      - cell type
+      - function
+      - part of muscle/muscular system
+    differences:
+      - A mentions formation process
+      - B is broader in categorization (Cell vs Somatic cell)
+  - subject: FBbt:00005093
+    object: WBbt:0005735
+    completion: |-
+      category: EXACT_MATCH
+      confidence: HIGH
+      similarities: same concept; is an organ system; function of coordinating information 
+      differences: B gives a more detailed definition indicating it includes neurons, nerves, receptors, and support cells while A only mentions nerve centers and fibers
+    predicate: EXACT_MATCH
+    confidence: HIGH
+    similarities:
+      - same concept
+      - is an organ system
+      - function of coordinating information
+    differences:
+      - B gives a more detailed definition indicating it includes neurons, nerves,
+        receptors, and support cells while A only mentions nerve centers and fibers
+  - subject: FBbt:00005097
+    object: WBbt:0005829
+    completion: |-
+      category: EXACT_MATCH
+      confidence: MEDIUM
+      similarities: same name; both are part of the nervous system; both run along the ventral (belly) side of the organism
+      differences: A is described as a posterior region of the central nervous system and is associated with the thoracic and abdominal neuromeres, while B is described as a large process bundle extending from the ventral region of the nerve ring; A is listed as part of the central nervous system, while B is listed as part of the somatic nervous system; A has a more detailed description and includes specific references.
+    predicate: EXACT_MATCH
+    confidence: MEDIUM
+    similarities:
+      - same name
+      - both are part of the nervous system
+      - both run along the ventral (belly) side of the organism
+    differences:
+      - A is described as a posterior region of the central nervous system and is
+        associated with the thoracic and abdominal neuromeres, while B is described
+        as a large process bundle extending from the ventral region of the nerve ring
+      - A is listed as part of the central nervous system, while B is listed as part
+        of the somatic nervous system
+      - A has a more detailed description and includes specific references.
+  - subject: FBbt:00005106
+    object: WBbt:0003679
+    completion: |-
+      category: EXACT_MATCH
+      confidence: HIGH
+      similarities: both are electrically active cells of the nervous system; synapsed with other cells; major component of nervous tissue; same name; part of the nervous system
+      differences: A specifies that it has an axon and/or dendrite; B mentions the transmission of information in the form of patterns of impulses; A is also a somatic cell; A and B belong to different databases and have different IDs
+    predicate: EXACT_MATCH
+    confidence: HIGH
+    similarities:
+      - both are electrically active cells of the nervous system
+      - synapsed with other cells
+      - major component of nervous tissue
+      - same name
+      - part of the nervous system
+    differences:
+      - A specifies that it has an axon and/or dendrite
+      - B mentions the transmission of information in the form of patterns of impulses
+      - A is also a somatic cell
+      - A and B belong to different databases and have different IDs
+  - subject: FBbt:00005123
+    object: WBbt:0005409
+    completion: |-
+      category: EXACT_MATCH
+      confidence: HIGH
+      similarities: same concept; motor neuron; send impulses to muscles; type of neuron
+      differences: A specifies it overlaps with the peripheral nervous system and sends output to muscle cell; B specifies that it can synapse on a gland in addition to muscle
+    predicate: EXACT_MATCH
+    confidence: HIGH
+    similarities:
+      - same concept
+      - motor neuron
+      - send impulses to muscles
+      - type of neuron
+    differences:
+      - A specifies it overlaps with the peripheral nervous system and sends output
+        to muscle cell
+      - B specifies that it can synapse on a gland in addition to muscle
+  - subject: FBbt:00005124
+    object: WBbt:0005759
+    completion: |-
+      category: EXACT_MATCH
+      confidence: HIGH
+      similarities: same concept; same definition; both belong to neurons; both sense external stimuli
+      differences: A has additional classification as sensory system neuron; different vocabularies used to describe their functions
+    predicate: EXACT_MATCH
+    confidence: HIGH
+    similarities:
+      - same concept
+      - same definition
+      - both belong to neurons
+      - both sense external stimuli
+    differences:
+      - A has additional classification as sensory system neuron
+      - different vocabularies used to describe their functions
+  - subject: FBbt:00005125
+    object: WBbt:0005113
+    completion: |-
+      category: EXACT_MATCH
+      confidence: MEDIUM
+      similarities: same concept; both types of neurons
+      differences: A is specified as part of the central nervous system; B lacks a detailed definition
+    predicate: EXACT_MATCH
+    confidence: MEDIUM
+    similarities:
+      - same concept
+      - both types of neurons
+    differences:
+      - A is specified as part of the central nervous system
+      - B lacks a detailed definition
+  - subject: FBbt:00005131
+    object: WBbt:0005278
+    completion: |-
+      category: RELATED_TO
+      confidence: HIGH
+      similarities: both are neurons; both have DA neuron as a synonym; both are a type of specialized neuron
+      differences: B is a motor neuron that innervates dorsal muscle; A is a neuron that secretes dopamine
+    predicate: RELATED_TO
+    confidence: HIGH
+    similarities:
+      - both are neurons
+      - both have DA neuron as a synonym
+      - both are a type of specialized neuron
+    differences:
+      - B is a motor neuron that innervates dorsal muscle
+      - A is a neuron that secretes dopamine
+  - subject: FBbt:00005131
+    object: WBbt:0006746
+    completion: |-
+      category: EXACT_MATCH
+      confidence: HIGH
+      similarities: same concept; both types of neurons; both secretes or uses dopamine as a neurotransmitter
+      differences: different ID and source; A has more synonyms; B is described to use dopamine specifically as a neurotransmitter; A is also defined as an aminergic neuron which is not mentioned for B.
+    predicate: EXACT_MATCH
+    confidence: HIGH
+    similarities:
+      - same concept
+      - both types of neurons
+      - both secretes or uses dopamine as a neurotransmitter
+    differences:
+      - different ID and source
+      - A has more synonyms
+      - B is described to use dopamine specifically as a neurotransmitter
+      - A is also defined as an aminergic neuron which is not mentioned for B.
+  - subject: FBbt:00005133
+    object: WBbt:0006837
+    completion: |-
+      category: EXACT_MATCH
+      confidence: HIGH
+      similarities: same concept; type of neuron; produces and uses serotonin; same synonyms
+      differences: different identifiers, A has additional classification as 'aminergic neuron'
+    predicate: EXACT_MATCH
+    confidence: HIGH
+    similarities:
+      - same concept
+      - type of neuron
+      - produces and uses serotonin
+      - same synonyms
+    differences:
+      - different identifiers, A has additional classification as 'aminergic neuron'
+  - subject: FBbt:00005137
+    object: WBbt:0005189
+    completion: |-
+      category: EXACT_MATCH
+      confidence: HIGH
+      similarities: same concept; part of nervous system; cluster of nerve cells and associated glial cells
+      differences: A adds that it's surrounded by a glial cell and connective tissue sheath; categorization (A is categorized as a multi-tissue structure, B is categorized as Anatomy)
+    predicate: EXACT_MATCH
+    confidence: HIGH
+    similarities:
+      - same concept
+      - part of nervous system
+      - cluster of nerve cells and associated glial cells
+    differences:
+      - A adds that it's surrounded by a glial cell and connective tissue sheath
+      - categorization (A is categorized as a multi-tissue structure, B is categorized
+        as Anatomy)
+  - subject: FBbt:00005140
+    object: WBbt:0005189
+    completion: |-
+      category: RELATED_TO
+      confidence: HIGH
+      similarities: both are part of the nervous system; both associated with nerve cells; "ganglion" is a synonym for both
+      differences: A is a segmental subdivision of the nervous system; B is a cluster of nerve cells and associated glial cells. B has nuclear location. A is part of central nervous system. B is a part of nervous system without specifying whether central or peripheral. A is a segmental subdivision of an organ system while B falls under the general category of anatomy.
+    predicate: RELATED_TO
+    confidence: HIGH
+    similarities:
+      - both are part of the nervous system
+      - both associated with nerve cells
+      - '"ganglion" is a synonym for both'
+    differences:
+      - A is a segmental subdivision of the nervous system
+      - B is a cluster of nerve cells and associated glial cells. B has nuclear location.
+        A is part of central nervous system. B is a part of nervous system without
+        specifying whether central or peripheral. A is a segmental subdivision of
+        an organ system while B falls under the general category of anatomy.
+  - subject: FBbt:00005146
+    object: WBbt:0008594
+    completion: |-
+      category: EXACT_MATCH
+      confidence: HIGH
+      similarities: same name; function; definition implies a precursor cell for neurons
+      differences: A's definition implies it may also produce glia and regenerate the adult brain; B's definition is less detailed; A is a type of somatic stem cell, B is a type of blast cell
+    predicate: EXACT_MATCH
+    confidence: HIGH
+    similarities:
+      - same name
+      - function
+      - definition implies a precursor cell for neurons
+    differences:
+      - A's definition implies it may also produce glia and regenerate the adult brain
+      - B's definition is less detailed
+      - A is a type of somatic stem cell, B is a type of blast cell
+  - subject: FBbt:00005168
+    object: WBbt:0006929
+    completion: |-
+      category: EXACT_MATCH
+      confidence: HIGH
+      similarities: both are sensory organs; detect stimuli; concept names are synonyms; part of an organ
+      differences: A specifies detection of mechanical or chemical stimuli; B specifies the presence of sensory neurons and supporting cells.
+    predicate: EXACT_MATCH
+    confidence: HIGH
+    similarities:
+      - both are sensory organs
+      - detect stimuli
+      - concept names are synonyms
+      - part of an organ
+    differences:
+      - A specifies detection of mechanical or chemical stimuli
+      - B specifies the presence of sensory neurons and supporting cells.
+  - subject: FBbt:00005171
+    object: WBbt:0005750
+    completion: |-
+      category: EXACT_MATCH
+      confidence: MEDIUM
+      similarities: both serve to support and form sockets for sensilla; both are cells; "socket cell" is a synonym for both
+      differences: A develops from an external sensory organ precursor cell IIa; B functions similarly to a glial cell; B binds the sheath of a sensillum to the neighboring hypodermis
+    predicate: EXACT_MATCH
+    confidence: MEDIUM
+    similarities:
+      - both serve to support and form sockets for sensilla
+      - both are cells
+      - '"socket cell" is a synonym for both'
+    differences:
+      - A develops from an external sensory organ precursor cell IIa
+      - B functions similarly to a glial cell
+      - B binds the sheath of a sensillum to the neighboring hypodermis
+  - subject: FBbt:00005173
+    object: WBbt:0005762
+    completion: |-
+      category: RELATED_TO
+      confidence: MEDIUM
+      similarities: both are cells that support neurons; both have a protective role; both have a reference as a 'support cell' in synonyms
+      differences: Specific function and structure of thecogen cell is defined in details while accessory cell is a more general category; A develops from external sensory organ precursor cell IIIb, while B is a part of the nervous system.
+    predicate: RELATED_TO
+    confidence: MEDIUM
+    similarities:
+      - both are cells that support neurons
+      - both have a protective role
+      - both have a reference as a 'support cell' in synonyms
+    differences:
+      - Specific function and structure of thecogen cell is defined in details while
+        accessory cell is a more general category
+      - A develops from external sensory organ precursor cell IIIb, while B is a part
+        of the nervous system.
+  - subject: FBbt:00005213
+    object: WBbt:0005278
+    completion: |-
+      category: DIFFERENT
+      confidence: HIGH
+      similarities: Neither is related in function, structure or development
+      differences: A is a sensory neuron of the PNS that develops from a dendritic arborizing neuron precursor cell; B is a motor neuron that innervates dorsal muscle and is a cholinergic neuron
+    predicate: DIFFERENT
+    confidence: HIGH
+    similarities:
+      - Neither is related in function, structure or development
+    differences:
+      - A is a sensory neuron of the PNS that develops from a dendritic arborizing
+        neuron precursor cell
+      - B is a motor neuron that innervates dorsal muscle and is a cholinergic neuron
+  - subject: FBbt:00005213
+    object: WBbt:0006512
+    completion: |-
+      category: DIFFERENT
+      confidence: HIGH
+      similarities: use the same synonym "Da"
+      differences: A is a specific type of neuron; B is an embryonic cell; different functions and development stages; different body systems
+    predicate: DIFFERENT
+    confidence: HIGH
+    similarities:
+      - use the same synonym "Da"
+    differences:
+      - A is a specific type of neuron
+      - B is an embryonic cell
+      - different functions and development stages
+      - different body systems
+  - subject: FBbt:00005286
+    object: WBbt:0008591
+    completion: |-
+      category: EXACT_MATCH
+      confidence: MEDIUM
+      similarities: same name; both are a type of spermatocyte; both are part of male germ cell development
+      differences: A is part of the 16-cell cyst stage; B is described as a diploid immature germ cell originating from a spermatogonial stem cell; A's definition refers to meiosis I phase, while B's definition refers to the metaphase I.
+    predicate: EXACT_MATCH
+    confidence: MEDIUM
+    similarities:
+      - same name
+      - both are a type of spermatocyte
+      - both are part of male germ cell development
+    differences:
+      - A is part of the 16-cell cyst stage
+      - B is described as a diploid immature germ cell originating from a spermatogonial
+        stem cell
+      - A's definition refers to meiosis I phase, while B's definition refers to the
+        metaphase I.
+  - subject: FBbt:00005380
+    object: WBbt:0003681
+    completion: |-
+      category: EXACT_MATCH
+      confidence: MEDIUM
+      similarities: same concept; part of animal body; role in digestion
+      differences: A refers to it as a gut section; A describes it as the section anterior to the esophagus while B describes it as a neuro-muscular pump in the head that is used for feeding and digestion; B mentions additional functions like feeding, grinding food, filtering bacteria and transporting food to the intestine; B relates it to the digestive tract and alimentary system.
+    predicate: EXACT_MATCH
+    confidence: MEDIUM
+    similarities:
+      - same concept
+      - part of animal body
+      - role in digestion
+    differences:
+      - A refers to it as a gut section
+      - A describes it as the section anterior to the esophagus while B describes
+        it as a neuro-muscular pump in the head that is used for feeding and digestion
+      - B mentions additional functions like feeding, grinding food, filtering bacteria
+        and transporting food to the intestine
+      - B relates it to the digestive tract and alimentary system.
+  - subject: FBbt:00005381
+    object: WBbt:0003681
+    completion: |-
+      category: RELATED_TO
+      confidence: HIGH
+      similarities: part of the digestive system; function in food transport; synonym as esophagus
+      differences: A is posterior to the pharynx while B is a neuro-muscular pump in the head of the animal; A comes from esophagus primordium while B is not mentioned to have any development from another structure.
+    predicate: RELATED_TO
+    confidence: HIGH
+    similarities:
+      - part of the digestive system
+      - function in food transport
+      - synonym as esophagus
+    differences:
+      - A is posterior to the pharynx while B is a neuro-muscular pump in the head
+        of the animal
+      - A comes from esophagus primordium while B is not mentioned to have any development
+        from another structure.
+  - subject: FBbt:00005473
+    object: WBbt:0007854
+    completion: |-
+      category: RELATED_TO
+      confidence: HIGH
+      similarities: both related to formation of gonad; both have the synonym "SGP"; both are related to somatic tissues of the gonad; both have relationships to gonadal primordium
+      differences: A develops from fat body/gonad primordium and is part of a dorsal closure embryo; B is part of gonadal primordium and is a blast cell; B explicitly mentions development of genital ducts; definitions describe slightly different aspects of development
+    predicate: RELATED_TO
+    confidence: HIGH
+    similarities:
+      - both related to formation of gonad
+      - both have the synonym "SGP"
+      - both are related to somatic tissues of the gonad
+      - both have relationships to gonadal primordium
+    differences:
+      - A develops from fat body/gonad primordium and is part of a dorsal closure
+        embryo
+      - B is part of gonadal primordium and is a blast cell
+      - B explicitly mentions development of genital ducts
+      - definitions describe slightly different aspects of development
+  - subject: FBbt:00005752
+    object: WBbt:0005767
+    completion: |-
+      category: RELATED_TO
+      confidence: MEDIUM
+      similarities: both are valves that regulate passage of food; both have a cuticle lining
+      differences: A is located at the foregut-midgut junction and is a multi-tissue structure, part of the gut section; B is located in the pharynx and is part of the alimentary system
+    predicate: RELATED_TO
+    confidence: MEDIUM
+    similarities:
+      - both are valves that regulate passage of food
+      - both have a cuticle lining
+    differences:
+      - A is located at the foregut-midgut junction and is a multi-tissue structure,
+        part of the gut section
+      - B is located in the pharynx and is part of the alimentary system
+  - subject: FBbt:00005756
+    object: WBbt:0005773
+    completion: |-
+      category: EXACT_MATCH
+      confidence: HIGH
+      similarities: same concept; part of hindgut/alimentary system; passageway
+      differences: B gives specific details about the regions it connects; A is a gut section, B falls under Anatomy
+    predicate: EXACT_MATCH
+    confidence: HIGH
+    similarities:
+      - same concept
+      - part of hindgut/alimentary system
+      - passageway
+    differences:
+      - B gives specific details about the regions it connects
+      - A is a gut section, B falls under Anatomy
+  - subject: FBbt:00005800
+    object: WBbt:0005980
+    completion: |-
+      category: DIFFERENT
+      confidence: HIGH
+      similarities: Both have the synonym "CA"
+      differences: A is a neuroendocrine structure, produces juvenile hormone and is part of the retrocerebral complex, while B is an embryonic cell; A is found in different parts of a body during different stages of development, B is simply defined as an embryonic cell without specific location or properties.
+    predicate: DIFFERENT
+    confidence: HIGH
+    similarities:
+      - Both have the synonym "CA"
+    differences:
+      - A is a neuroendocrine structure, produces juvenile hormone and is part of
+        the retrocerebral complex, while B is an embryonic cell
+      - A is found in different parts of a body during different stages of development,
+        B is simply defined as an embryonic cell without specific location or properties.
+  - subject: FBbt:00005918
+    object: WBbt:0005838
+    completion: |-
+      category: EXACT_MATCH
+      confidence: HIGH
+      similarities: same concept; same function of detecting temperature; both are types of sensory neurons
+      differences: A has a specific relationship indicating its capability in thermoception
+    predicate: EXACT_MATCH
+    confidence: HIGH
+    similarities:
+      - same concept
+      - same function of detecting temperature
+      - both are types of sensory neurons
+    differences:
+      - A has a specific relationship indicating its capability in thermoception
+  - subject: FBbt:00005919
+    object: WBbt:0008431
+    completion: |-
+      category: EXACT_MATCH
+      confidence: HIGH
+      similarities: same concept; type of neuron; senses and responds to mechanical stimuli
+      differences: A has more is_a relationships; slight differences in definitions but carry the same meaning
+    predicate: EXACT_MATCH
+    confidence: HIGH
+    similarities:
+      - same concept
+      - type of neuron
+      - senses and responds to mechanical stimuli
+    differences:
+      - A has more is_a relationships
+      - slight differences in definitions but carry the same meaning
+  - subject: FBbt:00005922
+    object: WBbt:0005837
+    completion: |-
+      category: EXACT_MATCH
+      confidence: MEDIUM
+      similarities: same name; same classification as sensory neurons; function related to detecting chemicals
+      differences: slightly different definitions, with A specifying part of sensory perception and B mentioning soluable chemicals.
+    predicate: EXACT_MATCH
+    confidence: MEDIUM
+    similarities:
+      - same name
+      - same classification as sensory neurons
+      - function related to detecting chemicals
+    differences:
+      - slightly different definitions, with A specifying part of sensory perception
+        and B mentioning soluable chemicals.
+  - subject: FBbt:00006020
+    object: WBbt:0005980
+    completion: |-
+      category: DIFFERENT
+      confidence: HIGH
+      similarities: Both are cells
+      differences: A is a specific type of sensory organ cell in a specific organ and has very specific roles and relationships; B is a general embryonic cell with no specified relationships and roles
+    predicate: DIFFERENT
+    confidence: HIGH
+    similarities:
+      - Both are cells
+    differences:
+      - A is a specific type of sensory organ cell in a specific organ and has very
+        specific roles and relationships
+      - B is a general embryonic cell with no specified relationships and roles
+  - subject: FBbt:00007001
+    object: WBbt:0005766
+    completion: |-
+      category: RELATED_TO
+      confidence: HIGH
+      similarities: Both concepts pertain to anatomical entities; both can be material and are related to organisms' genomes; concept B mentioned concept A as a synonym
+      differences: Concept A specifies an element that has an inherent 3D shape and is connected; Concept B includes acellular entities; Concept A doesn't specify any cellular variety, while concept B can be cellular or acellular; Concept A does not specify any species, while Concept B is specific to C. Elegans (a type of worm); Concept B suggests it is more comprehensive while concept A refers to a more specific component of Anatomy.
+    predicate: RELATED_TO
+    confidence: HIGH
+    similarities:
+      - Both concepts pertain to anatomical entities
+      - both can be material and are related to organisms' genomes
+      - concept B mentioned concept A as a synonym
+    differences:
+      - Concept A specifies an element that has an inherent 3D shape and is connected
+      - Concept B includes acellular entities
+      - Concept A doesn't specify any cellular variety, while concept B can be cellular
+        or acellular
+      - Concept A does not specify any species, while Concept B is specific to C.
+        Elegans (a type of worm)
+      - Concept B suggests it is more comprehensive while concept A refers to a more
+        specific component of Anatomy.
+  - subject: FBbt:00007002
+    object: WBbt:0004017
+    completion: |-
+      category: EXACT_MATCH
+      confidence: HIGH
+      similarities: same concept; anatomical structure; performs functions; consists of subcellular components
+      differences: A is general, B specifically refers to C. elegans; synonyms listed
+    predicate: EXACT_MATCH
+    confidence: HIGH
+    similarities:
+      - same concept
+      - anatomical structure
+      - performs functions
+      - consists of subcellular components
+    differences:
+      - A is general, B specifically refers to C. elegans
+      - synonyms listed
+  - subject: FBbt:00007003
+    object: WBbt:0005729
+    completion: |-
+      category: EXACT_MATCH
+      confidence: MEDIUM
+      similarities: Both refer to anatomical structures consisting of similar cells; both have a common theme in discussing the spatial aggregation of these cells
+      differences: B elaborates on the embryological origin and functionality of tissues; A refers to a portion of tissue while B refers to tissue generally; Different classifications with A being a multicellular structure and B being a functional system
+    predicate: EXACT_MATCH
+    confidence: MEDIUM
+    similarities:
+      - Both refer to anatomical structures consisting of similar cells
+      - both have a common theme in discussing the spatial aggregation of these cells
+    differences:
+      - B elaborates on the embryological origin and functionality of tissues
+      - A refers to a portion of tissue while B refers to tissue generally
+      - Different classifications with A being a multicellular structure and B being
+        a functional system
+  - subject: FBbt:00007004
+    object: WBbt:0007850
+    completion: |-
+      category: EXACT_MATCH
+      confidence: HIGH
+      similarities: same function; same concept; ability to produce male gametes; both are organisms
+      differences: NONE
+    predicate: EXACT_MATCH
+    confidence: HIGH
+    similarities:
+      - same function
+      - same concept
+      - ability to produce male gametes
+      - both are organisms
+    differences:
+      - NONE
+  - subject: FBbt:00007005
+    object: WBbt:0003672
+    completion: |-
+      category: BROADER_THAN
+      confidence: HIGH
+      similarities: both are part of organism; involved in covering surfaces of the organism; mention of epithelium
+      differences: A is a portion of tissue; B is a cell type
+    predicate: BROADER_THAN
+    confidence: HIGH
+    similarities:
+      - both are part of organism
+      - involved in covering surfaces of the organism
+      - mention of epithelium
+    differences:
+      - A is a portion of tissue
+      - B is a cell type
+  - subject: FBbt:00007005
+    object: WBbt:0005733
+    completion: |-
+      category: NARROWER_THAN
+      confidence: HIGH
+      similarities: Both are tissues; Both are related to the epithelial system
+      differences: Epithelium consists of one or more layers of cells with distinct apical-basal polarity connected to each other by cell junctions; Hypodermis is specifically an epidermal layer and is part of the epithelial system.
+    predicate: NARROWER_THAN
+    confidence: HIGH
+    similarities:
+      - Both are tissues
+      - Both are related to the epithelial system
+    differences:
+      - Epithelium consists of one or more layers of cells with distinct apical-basal
+        polarity connected to each other by cell junctions
+      - Hypodermis is specifically an epidermal layer and is part of the epithelial
+        system.
+  - subject: FBbt:00007011
+    object: WBbt:0008595
+    completion: |-
+      category: EXACT_MATCH
+      confidence: HIGH
+      similarities: same concept; function; category
+      differences: id; name; vocabulary reference
+    predicate: EXACT_MATCH
+    confidence: HIGH
+    similarities:
+      - same concept
+      - function
+      - category
+    differences:
+      - id
+      - name
+      - vocabulary reference
+  - subject: FBbt:00007012
+    object: WBbt:0008628
+    completion: |-
+      category: EXACT_MATCH
+      confidence: HIGH
+      similarities: same concept; definition; name
+      differences: A is more specific in category, using 'anatomical structure', while B uses 'Anatomy'
+    predicate: EXACT_MATCH
+    confidence: HIGH
+    similarities:
+      - same concept
+      - definition
+      - name
+    differences:
+      - A is more specific in category, using 'anatomical structure', while B uses
+        'Anatomy'
+  - subject: FBbt:00007013
+    object: WBbt:0005732
+    completion: |-
+      category: RELATED_TO
+      confidence: HIGH
+      similarities: Both are non-cellular and implied as part of an anatomical structure
+      differences: Concept A does not specify being outside cells while Concept B is explicitly outside of cells; terminology used ('anatomical structure' vs 'component')
+    predicate: RELATED_TO
+    confidence: HIGH
+    similarities:
+      - Both are non-cellular and implied as part of an anatomical structure
+    differences:
+      - Concept A does not specify being outside cells while Concept B is explicitly
+        outside of cells
+      - terminology used ('anatomical structure' vs 'component')
+  - subject: FBbt:00007065
+    object: WBbt:0006512
+    completion: |-
+      category: DIFFERENT
+      confidence: HIGH
+      similarities: synonym 'Da'
+      differences: A is a synaptic neuropil subdomain; B is an embryonic cell; completely disparate functions and structures
+    predicate: DIFFERENT
+    confidence: HIGH
+    similarities:
+      - synonym 'Da'
+    differences:
+      - A is a synaptic neuropil subdomain
+      - B is an embryonic cell
+      - completely disparate functions and structures
+  - subject: FBbt:00007066
+    object: WBbt:0006718
+    completion: |-
+      category: DIFFERENT
+      confidence: HIGH
+      similarities: synonym DP/Dp
+      differences: A is a subdomain of the brain; B is an embryonic cell
+    predicate: DIFFERENT
+    confidence: HIGH
+    similarities:
+      - synonym DP/Dp
+    differences:
+      - A is a subdomain of the brain
+      - B is an embryonic cell
+  - subject: FBbt:00007118
+    object: WBbt:0005980
+    completion: |-
+      category: DIFFERENT
+      confidence: HIGH
+      similarities: both related to embryonic stage; share synonym "CA"
+      differences: A is a brain structure in larvae; B is a type of cell in embryo
+    predicate: DIFFERENT
+    confidence: HIGH
+    similarities:
+      - both related to embryonic stage
+      - share synonym "CA"
+    differences:
+      - A is a brain structure in larvae
+      - B is a type of cell in embryo
+  - subject: FBbt:00007152
+    object: WBbt:0006929
+    completion: |-
+      category: EXACT_MATCH
+      confidence: HIGH
+      similarities: both are sense organs; both consist sensory neurons and support cells; same name and synonym; function
+      differences: A provides more detailed definition with additional constituents like glial cells and sensory structures
+    predicate: EXACT_MATCH
+    confidence: HIGH
+    similarities:
+      - both are sense organs
+      - both consist sensory neurons and support cells
+      - same name and synonym
+      - function
+    differences:
+      - A provides more detailed definition with additional constituents like glial
+        cells and sensory structures
+  - subject: FBbt:00007173
+    object: WBbt:0006840
+    completion: |-
+      category: EXACT_MATCH
+      confidence: HIGH
+      similarities: same concept; uses acetylcholine as a neurotransmitter; type of neuron
+      differences: different descriptions of particular functions
+    predicate: EXACT_MATCH
+    confidence: HIGH
+    similarities:
+      - same concept
+      - uses acetylcholine as a neurotransmitter
+      - type of neuron
+    differences:
+      - different descriptions of particular functions
+  - subject: FBbt:00007228
+    object: WBbt:0005190
+    completion: |-
+      category: EXACT_MATCH
+      confidence: HIGH
+      similarities: same concept; both are neurons; both are capable of GABA neurotransmission
+      differences: A additionally mentions "gamma-aminobutyric acid secretion"; different identifiers and ontologies
+    predicate: EXACT_MATCH
+    confidence: HIGH
+    similarities:
+      - same concept
+      - both are neurons
+      - both are capable of GABA neurotransmission
+    differences:
+      - A additionally mentions "gamma-aminobutyric acid secretion"
+      - different identifiers and ontologies
+  - subject: FBbt:00007290
+    object: WBbt:0008074
+    completion: |-
+      category: EXACT_MATCH
+      confidence: HIGH
+      similarities: same concept; both are cells; both have more than one nucleus
+      differences: A mentions the absence of internal boundaries
+    predicate: EXACT_MATCH
+    confidence: HIGH
+    similarities:
+      - same concept
+      - both are cells
+      - both have more than one nucleus
+    differences:
+      - A mentions the absence of internal boundaries
+  - subject: FBbt:00007473
+    object: WBbt:0004871
+    completion: |-
+      category: DIFFERENT
+      confidence: HIGH
+      similarities: both are related to anatomy; share the same synonym 'DA1'
+      differences: A is part of a tracheal system, B is a type of neuron; A relates to embryonic/larval stages, B does not specify developmental stage; A is part of insect anatomy, B is part of worm anatomy
+    predicate: DIFFERENT
+    confidence: HIGH
+    similarities:
+      - both are related to anatomy
+      - share the same synonym 'DA1'
+    differences:
+      - A is part of a tracheal system, B is a type of neuron
+      - A relates to embryonic/larval stages, B does not specify developmental stage
+      - A is part of insect anatomy, B is part of worm anatomy
+  - subject: FBbt:00007657
+    object: WBbt:0006855
+    completion: |-
+      category: DIFFERENT
+      confidence: HIGH
+      similarities: both are associated with nerves; both have PLN as a synonym
+      differences: A relates to adult prothoracic leg nerves and is part of the peripheral nervous system, B is a cholinergic neuron with cell bodies in the lumbar ganglion; B lacks the detailed anatomical description provided for A; different definitions and relationships.
+    predicate: DIFFERENT
+    confidence: HIGH
+    similarities:
+      - both are associated with nerves
+      - both have PLN as a synonym
+    differences:
+      - A relates to adult prothoracic leg nerves and is part of the peripheral nervous
+        system, B is a cholinergic neuron with cell bodies in the lumbar ganglion
+      - B lacks the detailed anatomical description provided for A
+      - different definitions and relationships.
+  - subject: FBbt:00015288
+    object: WBbt:0006797
+    completion: |-
+      category: EXACT_MATCH
+      confidence: HIGH
+      similarities: same concept; egg; unfertilized; female germ cell; same synonyms
+      differences: A explains the process of ovulation, B does not; B is a specific entity in hermaphrodites; different concept id and name
+    predicate: EXACT_MATCH
+    confidence: HIGH
+    similarities:
+      - same concept
+      - egg
+      - unfertilized
+      - female germ cell
+      - same synonyms
+    differences:
+      - A explains the process of ovulation, B does not
+      - B is a specific entity in hermaphrodites
+      - different concept id and name
+  - subject: FBbt:00045051
+    object: WBbt:0006827
+    completion: |-
+      category: DIFFERENT
+      confidence: HIGH
+      similarities: The abbreviation "CAN" is used in both cases
+      differences: A is a synaptic neuropil domain while B is a class of neurons; A is part of the adult deutocerebrum and adult periesophageal neuropils while B is associated with the excretory canal.
+    predicate: DIFFERENT
+    confidence: HIGH
+    similarities:
+      - The abbreviation "CAN" is used in both cases
+    differences:
+      - A is a synaptic neuropil domain while B is a class of neurons
+      - A is part of the adult deutocerebrum and adult periesophageal neuropils while
+        B is associated with the excretory canal.
+  - subject: FBbt:00047143
+    object: WBbt:0005772
+    completion: |-
+      category: BROADER_THAN
+      confidence: HIGH
+      similarities: part of the digestive system; synonyms include "gut"; both are structures in the body involved in digestion
+      differences: A includes muscles, nerves, and tracheae and is divided into foregut, midgut, and hindgut while B is more specific being a single chain of cells; B has more detailed description of anatomical characteristics such as large nuclei, vacuoles, yolk granules, etc.
+    predicate: BROADER_THAN
+    confidence: HIGH
+    similarities:
+      - part of the digestive system
+      - synonyms include "gut"
+      - both are structures in the body involved in digestion
+    differences:
+      - A includes muscles, nerves, and tracheae and is divided into foregut, midgut,
+        and hindgut while B is more specific being a single chain of cells
+      - B has more detailed description of anatomical characteristics such as large
+        nuclei, vacuoles, yolk granules, etc.
+  - subject: FBbt:00047153
+    object: WBbt:0005364
+    completion: |-
+      category: EXACT_MATCH
+      confidence: HIGH
+      similarities: same concept; part of the digestive system; posterior opening
+      differences: specified parent in different taxa; slight differences in definition; B is considered an extracellular component
+    predicate: EXACT_MATCH
+    confidence: HIGH
+    similarities:
+      - same concept
+      - part of the digestive system
+      - posterior opening
+    differences:
+      - specified parent in different taxa
+      - slight differences in definition
+      - B is considered an extracellular component
+  - subject: FBbt:00048132
+    object: WBbt:0004946
+    completion: |-
+      category: DIFFERENT
+      confidence: HIGH
+      similarities: NONE
+      differences: A is a type of neuron in the optic lobe; B is a hypodermal cell in the tail seam and a postembryonic blast cell; A has to do with vision, B with development; A has synaptic IO in the lobula and lobula plate, B functions as a phasmid socket in L1; different areas of the organism.
+    predicate: DIFFERENT
+    confidence: HIGH
+    similarities:
+      - NONE
+    differences:
+      - A is a type of neuron in the optic lobe
+      - B is a hypodermal cell in the tail seam and a postembryonic blast cell
+      - A has to do with vision, B with development
+      - A has synaptic IO in the lobula and lobula plate, B functions as a phasmid
+        socket in L1
+      - different areas of the organism.
+  - subject: FBbt:00048329
+    object: WBbt:0005834
+    completion: |-
+      category: RELATED_TO
+      confidence: LOW
+      similarities: use of the term "RIB" or "rIB"; related to neuroscience
+      differences: Concept A refers to a region in the adult brain; Concept B refers to a class of neurons; Concept A details relationships to other brain parts; Concept B is classified as interneuron and nerve ring neuron.
+    predicate: RELATED_TO
+    confidence: LOW
+    similarities:
+      - use of the term "RIB" or "rIB"
+      - related to neuroscience
+    differences:
+      - Concept A refers to a region in the adult brain
+      - Concept B refers to a class of neurons
+      - Concept A details relationships to other brain parts
+      - Concept B is classified as interneuron and nerve ring neuron.
+  - subject: FBbt:00048490
+    object: WBbt:0005757
+    completion: |-
+      category: EXACT_MATCH
+      confidence: HIGH
+      similarities: same name; same concept; both pertaining to male specific anatomical entities; both are part-of male organism
+      differences: A highlights both direct male counterparts with female and non-existent counterparts, while B mainly specifies cells or anatomical parts of males.
+    predicate: EXACT_MATCH
+    confidence: HIGH
+    similarities:
+      - same name
+      - same concept
+      - both pertaining to male specific anatomical entities
+      - both are part-of male organism
+    differences:
+      - A highlights both direct male counterparts with female and non-existent counterparts,
+        while B mainly specifies cells or anatomical parts of males.
+  - subject: FBbt:00049284
+    object: WBbt:0006612
+    completion: |-
+      category: RELATED_TO
+      confidence: MEDIUM
+      similarities: both are types of cells; both share the same synonym "EP"
+      differences: A is specifically an adult enteroendocrine precursor cell from the midgut epithelium, capable of detecting mechanical stimulus and expressing Piezo, and develops from an intestinal stem cell; B is an embryonic cell with unspecified properties and function
+    predicate: RELATED_TO
+    confidence: MEDIUM
+    similarities:
+      - both are types of cells
+      - both share the same synonym "EP"
+    differences:
+      - A is specifically an adult enteroendocrine precursor cell from the midgut
+        epithelium, capable of detecting mechanical stimulus and expressing Piezo,
+        and develops from an intestinal stem cell
+      - B is an embryonic cell with unspecified properties and function
+  - subject: FBbt:00051040
+    object: WBbt:0005027
+    completion: |-
+      category: DIFFERENT
+      confidence: HIGH
+      similarities: NONE
+      differences: A is a region of cell body, B is a type of neuron; different parts of the organism; different names
+    predicate: DIFFERENT
+    confidence: HIGH
+    similarities:
+      - NONE
+    differences:
+      - A is a region of cell body, B is a type of neuron
+      - different parts of the organism
+      - different names
+  - subject: FBbt:00051041
+    object: WBbt:0005025
+    completion: |-
+      category: DIFFERENT
+      confidence: HIGH
+      similarities: NONE
+      differences: A is a region of cell body related mostly to the medulla; B is a type of neuron related to the anterior ganglion; distinct names and definitions; different synonyms
+    predicate: DIFFERENT
+    confidence: HIGH
+    similarities:
+      - NONE
+    differences:
+      - A is a region of cell body related mostly to the medulla
+      - B is a type of neuron related to the anterior ganglion
+      - distinct names and definitions
+      - different synonyms
+  - subject: FBbt:00051043
+    object: WBbt:0005021
+    completion: |-
+      category: DIFFERENT
+      confidence: HIGH
+      similarities: possibly the same acronym (RMEV)
+      differences: A is a cell body rind region; B is a type of neuron; different definitions and relationships
+    predicate: DIFFERENT
+    confidence: HIGH
+    similarities:
+      - possibly the same acronym (RMEV)
+    differences:
+      - A is a cell body rind region
+      - B is a type of neuron
+      - different definitions and relationships
+  - subject: FBbt:00051365
+    object: WBbt:0005841
+    completion: |-
+      category: DIFFERENT
+      confidence: HIGH
+      similarities: associated with neurons
+      differences: A is a combined structure consisting of multiple neuronal lineages; B is a class of two specific interneurons; A is part of the embryonic/larval nervous system; B is situated in the lateral ganglia; A's definition mentions anatomical structure and orientation (e.g., vertically projecting, anterior-posterior axis), B's definition doesn't; Different is_a classification
+    predicate: DIFFERENT
+    confidence: HIGH
+    similarities:
+      - associated with neurons
+    differences:
+      - A is a combined structure consisting of multiple neuronal lineages
+      - B is a class of two specific interneurons
+      - A is part of the embryonic/larval nervous system
+      - B is situated in the lateral ganglia
+      - A's definition mentions anatomical structure and orientation (e.g., vertically
+        projecting, anterior-posterior axis), B's definition doesn't
+      - Different is_a classification
+  - subject: FBbt:00051393
+    object: WBbt:0006849
+    completion: |-
+      category: DIFFERENT
+      confidence: HIGH
+      similarities: Shared synonym 'PGC'
+      differences: A is a neuropil subdomain, specifically for sensory perception; B is a type of cell, specifically responsible for production of sperm and ovum; A is part of the adult brain, B is part of reproductive system; different functions
+    predicate: DIFFERENT
+    confidence: HIGH
+    similarities:
+      - Shared synonym 'PGC'
+    differences:
+      - A is a neuropil subdomain, specifically for sensory perception
+      - B is a type of cell, specifically responsible for production of sperm and
+        ovum
+      - A is part of the adult brain, B is part of reproductive system
+      - different functions
+  - subject: FBbt:00052020
+    object: WBbt:0008435
+    completion: |-
+      category: EXACT_MATCH
+      confidence: HIGH
+      similarities: same concept; same definition; both are epithelial cells
+      differences: A has a relationship with uterine epithelium; B doesn't specify any relationships; different database identifiers
+    predicate: EXACT_MATCH
+    confidence: HIGH
+    similarities:
+      - same concept
+      - same definition
+      - both are epithelial cells
+    differences:
+      - A has a relationship with uterine epithelium
+      - B doesn't specify any relationships
+      - different database identifiers
+  - subject: FBbt:00052061
+    object: WBbt:0008633
+    completion: |-
+      category: DIFFERENT
+      confidence: HIGH
+      similarities: Both have a synonym "bursa"
+      differences: A is a female-specific anatomical entity in the genital area; B is a male-specific anatomical entity in the tail area; different definitions and relationships
+    predicate: DIFFERENT
+    confidence: HIGH
+    similarities:
+      - Both have a synonym "bursa"
+    differences:
+      - A is a female-specific anatomical entity in the genital area
+      - B is a male-specific anatomical entity in the tail area
+      - different definitions and relationships
+  - subject: FBbt:00052087
+    object: WBbt:0006748
+    completion: |-
+      category: RELATED_TO
+      confidence: HIGH
+      similarities: female genitalia; copulatory orifice and exit for eggs; named as "vulva"; recognized as a specific anatomical entity
+      differences: A is a foramen and part of female terminalia, B is part of midbody and egg-laying apparatus; A has a more detailed definition while B's definition is quite broad; A is female-specific while B is hermaphrodite-specific
+    predicate: RELATED_TO
+    confidence: HIGH
+    similarities:
+      - female genitalia
+      - copulatory orifice and exit for eggs
+      - named as "vulva"
+      - recognized as a specific anatomical entity
+    differences:
+      - A is a foramen and part of female terminalia, B is part of midbody and egg-laying
+        apparatus
+      - A has a more detailed definition while B's definition is quite broad
+      - A is female-specific while B is hermaphrodite-specific
+  - subject: FBbt:00052176
+    object: WBbt:0006770
+    completion: |-
+      category: DIFFERENT
+      confidence: HIGH
+      similarities: NONE
+      differences: A is a type of sensillum; B is a type of blast cell; distinct functions and locations in organisms; 'P1' is a synonym for both but refers to different entities
+    predicate: DIFFERENT
+    confidence: HIGH
+    similarities:
+      - NONE
+    differences:
+      - A is a type of sensillum
+      - B is a type of blast cell
+      - distinct functions and locations in organisms
+      - "'P1' is a synonym for both but refers to different entities"
+  - subject: FBbt:00052176
+    object: WBbt:0006874
+    completion: |-
+      category: DIFFERENT
+      confidence: HIGH
+      similarities: NONE
+      differences: A is a type of sensillum, B is a type of embryonic cell; different functions; different locations
+    predicate: DIFFERENT
+    confidence: HIGH
+    similarities:
+      - NONE
+    differences:
+      - A is a type of sensillum, B is a type of embryonic cell
+      - different functions
+      - different locations
+  - subject: FBbt:00052177
+    object: WBbt:0006771
+    completion: |-
+      category: DIFFERENT
+      confidence: HIGH
+      similarities: synonymous names
+      differences: A is a type of sensillum in the larval thoracic ventral sensory cluster; B is a type of postembryonic blast cell for various parts and structures in the ventral cord.
+    predicate: DIFFERENT
+    confidence: HIGH
+    similarities:
+      - synonymous names
+    differences:
+      - A is a type of sensillum in the larval thoracic ventral sensory cluster
+      - B is a type of postembryonic blast cell for various parts and structures in
+        the ventral cord.
+  - subject: FBbt:00052177
+    object: WBbt:0006873
+    completion: |-
+      category: DIFFERENT
+      confidence: HIGH
+      similarities: NONE
+      differences: A is a type of sensory cluster relating to larvae; B is a type of embryonic founder cell.
+    predicate: DIFFERENT
+    confidence: HIGH
+    similarities:
+      - NONE
+    differences:
+      - A is a type of sensory cluster relating to larvae
+      - B is a type of embryonic founder cell.
+  - subject: FBbt:00058155
+    object: WBbt:0004583
+    completion: |-
+      category: DIFFERENT
+      confidence: HIGH
+      similarities: Both are cells.
+      differences: A is a neuron responsive to water or low osmolarity; B is a postembryonic neuroblast; they have different functions and structures; A is related to detection of osmotic stimulus; B is related to embryonic development.
+    predicate: DIFFERENT
+    confidence: HIGH
+    similarities:
+      - Both are cells.
+    differences:
+      - A is a neuron responsive to water or low osmolarity
+      - B is a postembryonic neuroblast
+      - they have different functions and structures
+      - A is related to detection of osmotic stimulus
+      - B is related to embryonic development.
+  - subject: FBbt:00058315
+    object: WBbt:0006909
+    completion: |-
+      category: RELATED_TO
+      confidence: HIGH
+      similarities: Both are types of muscles; Both have longitudinal orientation; "ventral longitudinal muscle" mentioned as synonym for both
+      differences: A is embryonic/larval muscle while B is in adult male; B is male-specific and part of the reproductive system; A is internal muscle while B's location is not specified as internal; B is non-striated muscle, no information about A's striation is provided
+    predicate: RELATED_TO
+    confidence: HIGH
+    similarities:
+      - Both are types of muscles
+      - Both have longitudinal orientation
+      - '"ventral longitudinal muscle" mentioned as synonym for both'
+    differences:
+      - A is embryonic/larval muscle while B is in adult male
+      - B is male-specific and part of the reproductive system
+      - A is internal muscle while B's location is not specified as internal
+      - B is non-striated muscle, no information about A's striation is provided
+  - subject: FBbt:00058331
+    object: WBbt:0006917
+    completion: |-
+      category: DIFFERENT
+      confidence: HIGH
+      similarities: both muscles; name
+      differences: A is an embryonic/larval hypodermal muscle in the mouthpart, B is a type of vulval muscle
+    predicate: DIFFERENT
+    confidence: HIGH
+    similarities:
+      - both muscles
+      - name
+    differences:
+      - A is an embryonic/larval hypodermal muscle in the mouthpart, B is a type of
+        vulval muscle
+  - subject: FBbt:00058426
+    object: WBbt:0004868
+    completion: |-
+      category: RELATED_TO
+      confidence: MEDIUM
+      similarities: same name (VA3); related to muscles
+      differences: A is a muscle, B is a neuron that innervates muscles; B belongs to the nerve system, A belongs to the muscular system
+    predicate: RELATED_TO
+    confidence: MEDIUM
+    similarities:
+      - same name (VA3)
+      - related to muscles
+    differences:
+      - A is a muscle, B is a neuron that innervates muscles
+      - B belongs to the nerve system, A belongs to the muscular system
+  - subject: FBbt:00059142
+    object: WBbt:0004870
+    completion: |-
+      category: RELATED_TO
+      confidence: MEDIUM
+      similarities: Both are related to muscles; Use of the term "VA2" in each concept
+      differences: A is a muscle, B is a neuron that innervates muscles; A is found in the segments A1 to A7, no specific location for B is given; A is attached to the posterior intrasegmental apodeme of its segment, no similar attachment is mentioned for B.
+    predicate: RELATED_TO
+    confidence: MEDIUM
+    similarities:
+      - Both are related to muscles
+      - Use of the term "VA2" in each concept
+    differences:
+      - A is a muscle, B is a neuron that innervates muscles
+      - A is found in the segments A1 to A7, no specific location for B is given
+      - A is attached to the posterior intrasegmental apodeme of its segment, no similar
+        attachment is mentioned for B.
+  - subject: FBbt:00059150
+    object: WBbt:0006804
+    completion: |-
+      category: RELATED_TO
+      confidence: HIGH
+      similarities: both are muscles; both are part of the body wall; both are involved in movement
+      differences: A is specific to abdominal segments A1-7 of larvae; B is a cell type, not a specific muscle; B is part of a count of 95 cells that make up muscles of the body wall; A has specific neural innervation details that B does not mention
+    predicate: RELATED_TO
+    confidence: HIGH
+    similarities:
+      - both are muscles
+      - both are part of the body wall
+      - both are involved in movement
+    differences:
+      - A is specific to abdominal segments A1-7 of larvae
+      - B is a cell type, not a specific muscle
+      - B is part of a count of 95 cells that make up muscles of the body wall
+      - A has specific neural innervation details that B does not mention
+  - subject: FBbt:00100006
+    object: WBbt:0006733
+    completion: |-
+      category: DIFFERENT
+      confidence: HIGH
+      similarities: NONE
+      differences: A is a bundle of a sensory and motor center; B is an embryonic cell
+    predicate: DIFFERENT
+    confidence: HIGH
+    similarities:
+      - NONE
+    differences:
+      - A is a bundle of a sensory and motor center
+      - B is an embryonic cell
+  - subject: FBbt:00100042
+    object: WBbt:0004583
+    completion: |-
+      category: DIFFERENT
+      confidence: HIGH
+      similarities: same synonym "W cell"
+      differences: A is a type of neuron that senses water and expresses the osmosensitive ion channel ppk28; B is a postembryonic neuroblast which is a type of progenitor cell; different definitions and relationships.
+    predicate: DIFFERENT
+    confidence: HIGH
+    similarities:
+      - same synonym "W cell"
+    differences:
+      - A is a type of neuron that senses water and expresses the osmosensitive ion
+        channel ppk28
+      - B is a postembryonic neuroblast which is a type of progenitor cell
+      - different definitions and relationships.
+  - subject: FBbt:00100205
+    object: WBbt:0005399
+    completion: |-
+      category: DIFFERENT
+      confidence: HIGH
+      similarities: NONE
+      differences: A is a region of the brain; B is a class of neurons; B innervates head muscles; A is part of the optic lobe; B is part of the nerve ring; A is related to the medulla; B is GABAergic
+    predicate: DIFFERENT
+    confidence: HIGH
+    similarities:
+      - NONE
+    differences:
+      - A is a region of the brain
+      - B is a class of neurons
+      - B innervates head muscles
+      - A is part of the optic lobe
+      - B is part of the nerve ring
+      - A is related to the medulla
+      - B is GABAergic
+  - subject: FBbt:00100234
+    object: WBbt:0003724
+    completion: |-
+      category: DIFFERENT
+      confidence: HIGH
+      similarities: names and synonyms include 'm6'; both are involved in biological systems
+      differences: A is a neuron in the brain of adult fruit flies, involved in memory retrieval; B is a muscle cell layer in a nematode's pharynx
+    predicate: DIFFERENT
+    confidence: HIGH
+    similarities:
+      - names and synonyms include 'm6'
+      - both are involved in biological systems
+    differences:
+      - A is a neuron in the brain of adult fruit flies, involved in memory retrieval
+      - B is a muscle cell layer in a nematode's pharynx
+  - subject: FBbt:00100291
+    object: WBbt:0006829
+    completion: |-
+      category: EXACT_MATCH
+      confidence: HIGH
+      similarities: same concept; both relate to neurons; both involve glutamate
+      differences: A mentions capability of some glutamate secretion, neurotransmission; B specifies usage of glutamate as a vesicular neurotransmitter
+    predicate: EXACT_MATCH
+    confidence: HIGH
+    similarities:
+      - same concept
+      - both relate to neurons
+      - both involve glutamate
+    differences:
+      - A mentions capability of some glutamate secretion, neurotransmission
+      - B specifies usage of glutamate as a vesicular neurotransmitter
+  - subject: FBbt:00100318
+    object: WBbt:0008378
+    completion: |-
+      category: EXACT_MATCH
+      confidence: HIGH
+      similarities: same concept; is_a cell; name
+      differences: B provides definition and specifies that it has a diploid set of chromosomes; synonyms
+    predicate: EXACT_MATCH
+    confidence: HIGH
+    similarities:
+      - same concept
+      - is_a cell
+      - name
+    differences:
+      - B provides definition and specifies that it has a diploid set of chromosomes
+      - synonyms
+  - subject: FBbt:00110066
+    object: WBbt:0003740
+    completion: |-
+      category: DIFFERENT
+      confidence: HIGH
+      similarities: NONE
+      differences: A is a type of adult optic lobe neuron; B is a type of pharyngeal muscle cell; Different functions; Different locations; Different structures
+    predicate: DIFFERENT
+    confidence: HIGH
+    similarities:
+      - NONE
+    differences:
+      - A is a type of adult optic lobe neuron
+      - B is a type of pharyngeal muscle cell
+      - Different functions
+      - Different locations
+      - Different structures
+  - subject: FBbt:00110116
+    object: WBbt:0005339
+    completion: |-
+      category: DIFFERENT
+      confidence: HIGH
+      similarities: both are types of neurons
+      differences: A is a neurosecretory neuron in larval abdomen, innervates neurohemal organ and expresses capability; B is a motoneuron, innervates ventral body muscles and is cholinergic
+    predicate: DIFFERENT
+    confidence: HIGH
+    similarities:
+      - both are types of neurons
+    differences:
+      - A is a neurosecretory neuron in larval abdomen, innervates neurohemal organ
+        and expresses capability
+      - B is a motoneuron, innervates ventral body muscles and is cholinergic
+  - subject: FBbt:00110172
+    object: WBbt:0004015
+    completion: |-
+      category: DIFFERENT
+      confidence: HIGH
+      similarities: shared acronym 'AB'
+      differences: A refers to part of the neural structure in flies; B to a embryonic cell; different biological context
+    predicate: DIFFERENT
+    confidence: HIGH
+    similarities:
+      - shared acronym 'AB'
+    differences:
+      - A refers to part of the neural structure in flies
+      - B to a embryonic cell
+      - different biological context
+  - subject: FBbt:00110173
+    object: WBbt:0004522
+    completion: |-
+      category: DIFFERENT
+      confidence: HIGH
+      similarities: NONE
+      differences: A is a part of nerve system; B is a part of reproductive system; different organismal locations; different functions
+    predicate: DIFFERENT
+    confidence: HIGH
+    similarities:
+      - NONE
+    differences:
+      - A is a part of nerve system
+      - B is a part of reproductive system
+      - different organismal locations
+      - different functions
+  - subject: FBbt:00110179
+    object: WBbt:0008596
+    completion: |-
+      category: DIFFERENT
+      confidence: HIGH
+      similarities: name
+      differences: A is a type of neuron in the larval ventral nerve cord; B is a type of ectoblast cell in the head; A is dopamine-producing; B gives rise to hypodermal cells in the head
+    predicate: DIFFERENT
+    confidence: HIGH
+    similarities:
+      - name
+    differences:
+      - A is a type of neuron in the larval ventral nerve cord
+      - B is a type of ectoblast cell in the head
+      - A is dopamine-producing
+      - B gives rise to hypodermal cells in the head
+  - subject: FBbt:00110299
+    object: WBbt:0006804
+    completion: |-
+      category: RELATED_TO
+      confidence: HIGH
+      similarities: both are types of muscle cells; both are part of body muscles
+      differences: A is specifically a part of hypodermal muscle of A1-7; B is a more general concept that consists of cells that make up body wall muscles
+    predicate: RELATED_TO
+    confidence: HIGH
+    similarities:
+      - both are types of muscle cells
+      - both are part of body muscles
+    differences:
+      - A is specifically a part of hypodermal muscle of A1-7
+      - B is a more general concept that consists of cells that make up body wall
+        muscles
+  - subject: FBbt:00110300
+    object: WBbt:0004522
+    completion: |-
+      category: DIFFERENT
+      confidence: HIGH
+      similarities: BOTH have the acronym 'AC' in their synonyms
+      differences: A is a type of motor neuron, specific to larva and related to muscle innervation; B is a part of a gonad, specific to hermaphrodites and related to inducing the vulva. Different synonyms and definitions.
+    predicate: DIFFERENT
+    confidence: HIGH
+    similarities:
+      - BOTH have the acronym 'AC' in their synonyms
+    differences:
+      - A is a type of motor neuron, specific to larva and related to muscle innervation
+      - B is a part of a gonad, specific to hermaphrodites and related to inducing
+        the vulva. Different synonyms and definitions.
+  - subject: FBbt:00110477
+    object: WBbt:0004488
+    completion: |-
+      category: DIFFERENT
+      confidence: HIGH
+      similarities: both are M1 neurons
+      differences: A is part of an adult fruitless M lineage clone and is in the optic lobe, expressing fruitless; B is part of the terminal bulb and is a pharyngeal motor neuron
+    predicate: DIFFERENT
+    confidence: HIGH
+    similarities:
+      - both are M1 neurons
+    differences:
+      - A is part of an adult fruitless M lineage clone and is in the optic lobe,
+        expressing fruitless
+      - B is part of the terminal bulb and is a pharyngeal motor neuron
+  - subject: FBbt:00110890
+    object: WBbt:0006932
+    completion: |-
+      category: DIFFERENT
+      confidence: HIGH
+      similarities: both referred to as R1
+      differences: A is a region of a midgut; B is a precursor cell; A is in an adult organism; B is in male sensory ray
+    predicate: DIFFERENT
+    confidence: HIGH
+    similarities:
+      - both referred to as R1
+    differences:
+      - A is a region of a midgut
+      - B is a precursor cell
+      - A is in an adult organism
+      - B is in male sensory ray
+  - subject: FBbt:00110891
+    object: WBbt:0008391
+    completion: |-
+      category: DIFFERENT
+      confidence: HIGH
+      similarities: NONE
+      differences: A is a region in animal digestion system; B is a type of neuron.
+    predicate: DIFFERENT
+    confidence: HIGH
+    similarities:
+      - NONE
+    differences:
+      - A is a region in animal digestion system
+      - B is a type of neuron.
+  - subject: FBbt:00110892
+    object: WBbt:0008397
+    completion: |-
+      category: DIFFERENT
+      confidence: HIGH
+      similarities: NONE
+      differences: A is a region of the gut; B is a type of neuron
+    predicate: DIFFERENT
+    confidence: HIGH
+    similarities:
+      - NONE
+    differences:
+      - A is a region of the gut
+      - B is a type of neuron
+  - subject: FBbt:00110893
+    object: WBbt:0006933
+    completion: |-
+      category: DIFFERENT
+      confidence: HIGH
+      similarities: NONE
+      differences: A is a region of midgut, B is a precursor cell for sensory ray; context (digestive system vs sensory system); biological role
+    predicate: DIFFERENT
+    confidence: HIGH
+    similarities:
+      - NONE
+    differences:
+      - A is a region of midgut, B is a precursor cell for sensory ray
+      - context (digestive system vs sensory system)
+      - biological role
+  - subject: FBbt:00110894
+    object: WBbt:0008392
+    completion: |-
+      category: DIFFERENT
+      confidence: HIGH
+      similarities: NONE
+      differences: A is a subregion of the adult midgut; B is a neuron class of sensory ray neurons
+    predicate: DIFFERENT
+    confidence: HIGH
+    similarities:
+      - NONE
+    differences:
+      - A is a subregion of the adult midgut
+      - B is a neuron class of sensory ray neurons
+  - subject: FBbt:00110895
+    object: WBbt:0008398
+    completion: |-
+      category: DIFFERENT
+      confidence: HIGH
+      similarities: NONE
+      differences: A is a region of a midgut; B is a type of neuron
+    predicate: DIFFERENT
+    confidence: HIGH
+    similarities:
+      - NONE
+    differences:
+      - A is a region of a midgut
+      - B is a type of neuron
+  - subject: FBbt:00110897
+    object: WBbt:0006934
+    completion: |-
+      category: DIFFERENT
+      confidence: HIGH
+      similarities: NONE
+      differences: A is a region of the adult midgut in insects, contains copper cells and follows a ventral-dorsal axis; B is a precursor of cells that form male sensory ray 3
+    predicate: DIFFERENT
+    confidence: HIGH
+    similarities:
+      - NONE
+    differences:
+      - A is a region of the adult midgut in insects, contains copper cells and follows
+        a ventral-dorsal axis
+      - B is a precursor of cells that form male sensory ray 3
+  - subject: FBbt:00110898
+    object: WBbt:0008393
+    completion: |-
+      category: DIFFERENT
+      confidence: HIGH
+      similarities: NONE
+      differences: A is a part of a digestive system, B is a type of neuron
+    predicate: DIFFERENT
+    confidence: HIGH
+    similarities:
+      - NONE
+    differences:
+      - A is a part of a digestive system, B is a type of neuron
+  - subject: FBbt:00110899
+    object: WBbt:0008399
+    completion: |-
+      category: DIFFERENT
+      confidence: HIGH
+      similarities: NONE
+      differences: A is a region of an adult midgut; B is a neuron; A is related to digestion; B is related to sensation
+    predicate: DIFFERENT
+    confidence: HIGH
+    similarities:
+      - NONE
+    differences:
+      - A is a region of an adult midgut
+      - B is a neuron
+      - A is related to digestion
+      - B is related to sensation
+  - subject: FBbt:00110901
+    object: WBbt:0006935
+    completion: |-
+      category: DIFFERENT
+      confidence: HIGH
+      similarities: Both are related to regions or cells named R4.
+      differences: A is a region in the adult midgut; B is a precursor of cells that form a male sensory ray.
+    predicate: DIFFERENT
+    confidence: HIGH
+    similarities:
+      - Both are related to regions or cells named R4.
+    differences:
+      - A is a region in the adult midgut
+      - B is a precursor of cells that form a male sensory ray.
+  - subject: FBbt:00110902
+    object: WBbt:0008394
+    completion: |-
+      category: DIFFERENT
+      confidence: HIGH
+      similarities: NONE
+      differences: A is a subregion of the midgut in an adult; B is a neuron in a male-specific sensory ray neuron type A
+    predicate: DIFFERENT
+    confidence: HIGH
+    similarities:
+      - NONE
+    differences:
+      - A is a subregion of the midgut in an adult
+      - B is a neuron in a male-specific sensory ray neuron type A
+  - subject: FBbt:00110903
+    object: WBbt:0008400
+    completion: |-
+      category: DIFFERENT
+      confidence: HIGH
+      similarities: NONE
+      differences: A is a subregion of a gut; B is a type of neuron
+    predicate: DIFFERENT
+    confidence: HIGH
+    similarities:
+      - NONE
+    differences:
+      - A is a subregion of a gut
+      - B is a type of neuron
+  - subject: FBbt:00110905
+    object: WBbt:0006936
+    completion: |-
+      category: DIFFERENT
+      confidence: HIGH
+      similarities: NONE
+      differences: A is a region of adult midgut; B is a precursor of cells that form male sensory ray 5
+    predicate: DIFFERENT
+    confidence: HIGH
+    similarities:
+      - NONE
+    differences:
+      - A is a region of adult midgut
+      - B is a precursor of cells that form male sensory ray 5
+  - subject: FBbt:00110906
+    object: WBbt:0006856
+    completion: |-
+      category: DIFFERENT
+      confidence: HIGH
+      similarities: NONE
+      differences: A is an anatomical part of the digestive system; B represents a neuron type in the nervous system; different functions and morphology; different systems; different species (since the ontology IDs FBbt and WBbt stand for Drosophila and Caenorhabditis elegans)
+    predicate: DIFFERENT
+    confidence: HIGH
+    similarities:
+      - NONE
+    differences:
+      - A is an anatomical part of the digestive system
+      - B represents a neuron type in the nervous system
+      - different functions and morphology
+      - different systems
+      - different species (since the ontology IDs FBbt and WBbt stand for Drosophila
+        and Caenorhabditis elegans)
+  - subject: FBbt:00110907
+    object: WBbt:0008401
+    completion: |-
+      category: DIFFERENT
+      confidence: HIGH
+      similarities: NONE
+      differences: A is a region of the midgut; B is a class of neurons
+    predicate: DIFFERENT
+    confidence: HIGH
+    similarities:
+      - NONE
+    differences:
+      - A is a region of the midgut
+      - B is a class of neurons
+  - subject: FBbt:00111153
+    object: WBbt:0004405
+    completion: |-
+      category: DIFFERENT
+      confidence: HIGH
+      similarities: share the acronym PCBR
+      differences: A is a region of a brain cell body; B is a neuron ending in a postcloacal sensillum in a male, function, structure
+    predicate: DIFFERENT
+    confidence: HIGH
+    similarities:
+      - share the acronym PCBR
+    differences:
+      - A is a region of a brain cell body
+      - B is a neuron ending in a postcloacal sensillum in a male, function, structure
+  - subject: FBbt:00111201
+    object: WBbt:0003638
+    completion: |-
+      category: DIFFERENT
+      confidence: HIGH
+      similarities: both are types of neurons; both are known as MC neuron
+      differences: A is a dopaminergic neuron in the adult brain and optic lobe, specifically the medulla; B is a cholinergic neuron in the pharynx, specifically the metacorpus; A produces dopamine, B produces acetylcholine; Located in different regions of the body
+    predicate: DIFFERENT
+    confidence: HIGH
+    similarities:
+      - both are types of neurons
+      - both are known as MC neuron
+    differences:
+      - A is a dopaminergic neuron in the adult brain and optic lobe, specifically
+        the medulla
+      - B is a cholinergic neuron in the pharynx, specifically the metacorpus
+      - A produces dopamine, B produces acetylcholine
+      - Located in different regions of the body
+  - subject: FBbt:00111203
+    object: WBbt:0006512
+    completion: |-
+      category: RELATED_TO
+      confidence: LOW
+      similarities: both are embryonic in nature
+      differences: A refers to a specific region within a larval brain, B refers to an embryonic cell; A is part of the nervous system, B could be any cell type in the organism.
+    predicate: RELATED_TO
+    confidence: LOW
+    similarities:
+      - both are embryonic in nature
+    differences:
+      - A refers to a specific region within a larval brain, B refers to an embryonic
+        cell
+      - A is part of the nervous system, B could be any cell type in the organism.
+  - subject: FBbt:00111203
+    object: WBbt:0006718
+    completion: |-
+      category: DIFFERENT
+      confidence: HIGH
+      similarities: NONE
+      differences: A is a structural region of a larval brain; B is an embryonic cell; different functions and characteristics
+    predicate: DIFFERENT
+    confidence: HIGH
+    similarities:
+      - NONE
+    differences:
+      - A is a structural region of a larval brain
+      - B is an embryonic cell
+      - different functions and characteristics
+  - subject: FBbt:00111282
+    object: WBbt:0003739
+    completion: |-
+      category: DIFFERENT
+      confidence: HIGH
+      similarities: NONE
+      differences: A is a type of neuron in the adult optic lobe; uses terminology such as "proximal medullary amacrine neuron", "GABAergic"; B is a layer of muscle cells in the pharynx; uses terminology such as "pharyngeal muscle cell", "syncytium", "metacorpus"
+    predicate: DIFFERENT
+    confidence: HIGH
+    similarities:
+      - NONE
+    differences:
+      - A is a type of neuron in the adult optic lobe
+      - uses terminology such as "proximal medullary amacrine neuron", "GABAergic"
+      - B is a layer of muscle cells in the pharynx
+      - uses terminology such as "pharyngeal muscle cell", "syncytium", "metacorpus"

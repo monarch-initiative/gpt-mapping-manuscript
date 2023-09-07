@@ -1,0 +1,739 @@
+  - subject: HsapDv:0000000
+    object: MmusDv:0000000
+    completion: |-
+      category: EXACT_MATCH
+      confidence: HIGH
+      similarities: identical name; identical definition; identical synonyms
+      differences: NONE
+    predicate: EXACT_MATCH
+    confidence: HIGH
+    similarities:
+      - identical name
+      - identical definition
+      - identical synonyms
+    differences:
+      - NONE
+  - subject: HsapDv:0000001
+    object: MmusDv:0000001
+    completion: |-
+      category: RELATED_TO
+      confidence: HIGH
+      similarities: Both are life cycles; both deal with the same temporal interval from prenatal stage to late adulthood; both belong to the category of life cycle stage
+      differences: A is specific to humans; B is specific to mice
+    predicate: RELATED_TO
+    confidence: HIGH
+    similarities:
+      - Both are life cycles
+      - both deal with the same temporal interval from prenatal stage to late adulthood
+      - both belong to the category of life cycle stage
+    differences:
+      - A is specific to humans
+      - B is specific to mice
+  - subject: HsapDv:0000002
+    object: MmusDv:0000002
+    completion: |-
+      category: EXACT_MATCH
+      confidence: HIGH
+      similarities: identical definitions; both are stages of life cycle; both are part of prenatal stage
+      differences: B doesn't include 'first trimester' as a synonym; concept identifiers are different
+    predicate: EXACT_MATCH
+    confidence: HIGH
+    similarities:
+      - identical definitions
+      - both are stages of life cycle
+      - both are part of prenatal stage
+    differences:
+      - B doesn't include 'first trimester' as a synonym
+      - concept identifiers are different
+  - subject: HsapDv:0000003
+    object: MmusDv:0000003
+    completion: |-
+      category: EXACT_MATCH
+      confidence: HIGH
+      similarities: embryonic stage; involves a fertilized egg; life cycle stage; part of embryonic stage
+      differences: different names; different species (implied); B includes mention of zona pellucida
+    predicate: EXACT_MATCH
+    confidence: HIGH
+    similarities:
+      - embryonic stage
+      - involves a fertilized egg
+      - life cycle stage
+      - part of embryonic stage
+    differences:
+      - different names
+      - different species (implied)
+      - B includes mention of zona pellucida
+  - subject: HsapDv:0000005
+    object: MmusDv:0000004
+    completion: |-
+      category: EXACT_MATCH
+      confidence: HIGH
+      similarities: both refer to same developmental stage in an embryo - cleavage stage; both are part of embryonic stage; both are a life cycle stage
+      differences: A specifies Carnegie stage 02 and is preceded by Carnegie stage 01; B specifies it's immediately preceded by Theiler stage 01. Different name and predecessor due to different species context.
+    predicate: EXACT_MATCH
+    confidence: HIGH
+    similarities:
+      - both refer to same developmental stage in an embryo - cleavage stage
+      - both are part of embryonic stage
+      - both are a life cycle stage
+    differences:
+      - A specifies Carnegie stage 02 and is preceded by Carnegie stage 01
+      - B specifies it's immediately preceded by Theiler stage 01. Different name
+        and predecessor due to different species context.
+  - subject: HsapDv:0000006
+    object: MmusDv:0000007
+    completion: |-
+      category: EXACT_MATCH
+      confidence: MEDIUM
+      similarities: same concept; same definition; same part of the life cycle; both are part of embryonic stage
+      differences: A is preceded by Carnegie stage 02; B is preceded by cleavage stage; different species (Hsap stands for Homo sapiens and Mmus stands for Mus musculus)
+    predicate: EXACT_MATCH
+    confidence: MEDIUM
+    similarities:
+      - same concept
+      - same definition
+      - same part of the life cycle
+      - both are part of embryonic stage
+    differences:
+      - A is preceded by Carnegie stage 02
+      - B is preceded by cleavage stage
+      - different species (Hsap stands for Homo sapiens and Mmus stands for Mus musculus)
+  - subject: HsapDv:0000010
+    object: MmusDv:0000013
+    completion: |-
+      category: EXACT_MATCH
+      confidence: HIGH
+      similarities: same concept; embryonic stage; part of life cycle stage; same definition; both preceded by blastula stage
+      differences: B specifies that gastrula stage is "immediately" preceded by blastula stage; different databases (HsapDv vs MmusDv)
+    predicate: EXACT_MATCH
+    confidence: HIGH
+    similarities:
+      - same concept
+      - embryonic stage
+      - part of life cycle stage
+      - same definition
+      - both preceded by blastula stage
+    differences:
+      - B specifies that gastrula stage is "immediately" preceded by blastula stage
+      - different databases (HsapDv vs MmusDv)
+  - subject: HsapDv:0000012
+    object: MmusDv:0000017
+    completion: |-
+      category: EXACT_MATCH
+      confidence: HIGH
+      similarities: both are embryonic stages; involve formation of the neural plate; life cycle stage; part of embryonic stage
+      differences: synonyms; A is preceded by gastrula stage while B is preceded by Theiler stage 10; species-specific definitions
+    predicate: EXACT_MATCH
+    confidence: HIGH
+    similarities:
+      - both are embryonic stages
+      - involve formation of the neural plate
+      - life cycle stage
+      - part of embryonic stage
+    differences:
+      - synonyms
+      - A is preceded by gastrula stage while B is preceded by Theiler stage 10
+      - species-specific definitions
+  - subject: HsapDv:0000015
+    object: MmusDv:0000018
+    completion: |-
+      category: EXACT_MATCH
+      confidence: MEDIUM
+      similarities: same concept; stage of life; specifically related to the developmental processes leading to organ formation; part of embryonic stage
+      differences: the preceding stage is different
+    predicate: EXACT_MATCH
+    confidence: MEDIUM
+    similarities:
+      - same concept
+      - stage of life
+      - specifically related to the developmental processes leading to organ formation
+      - part of embryonic stage
+    differences:
+      - the preceding stage is different
+  - subject: HsapDv:0000037
+    object: MmusDv:0000031
+    completion: |-
+      category: EXACT_MATCH
+      confidence: HIGH
+      similarities: name; definition; category; relationships
+      differences: A has additional synonyms; sources of concepts are different
+    predicate: EXACT_MATCH
+    confidence: HIGH
+    similarities:
+      - name
+      - definition
+      - category
+      - relationships
+    differences:
+      - A has additional synonyms
+      - sources of concepts are different
+  - subject: HsapDv:0000045
+    object: MmusDv:0000042
+    completion: |-
+      category: EXACT_MATCH
+      confidence: MEDIUM
+      similarities: same name; same definition; both are life cycle stages
+      differences: A refers to human, B refers to mouse.
+    predicate: EXACT_MATCH
+    confidence: MEDIUM
+    similarities:
+      - same name
+      - same definition
+      - both are life cycle stages
+    differences:
+      - A refers to human, B refers to mouse.
+  - subject: HsapDv:0000175
+    object: MmusDv:0000062
+    completion: |-
+      category: RELATED_TO
+      confidence: HIGH
+      similarities: same name; both refer to period of 2-3 months old; both represent a life cycle stage; both immediately preceded by the previous stage
+      differences: Concept A refers to an infant human while Concept B refers to a young adult mouse; Concept A is part of the infant stage, Concept B is part of young adult stage; different preceding stages (1-month-old for humans, 7-week-old for mice)
+    predicate: RELATED_TO
+    confidence: HIGH
+    similarities:
+      - same name
+      - both refer to period of 2-3 months old
+      - both represent a life cycle stage
+      - both immediately preceded by the previous stage
+    differences:
+      - Concept A refers to an infant human while Concept B refers to a young adult
+        mouse
+      - Concept A is part of the infant stage, Concept B is part of young adult stage
+      - different preceding stages (1-month-old for humans, 7-week-old for mice)
+  - subject: HsapDv:0000176
+    object: MmusDv:0000063
+    completion: |-
+      category: RELATED_TO
+      confidence: HIGH
+      similarities: both pertain to the 3-month-old stage; both are life cycle stages; both are immediately preceded by the 2-month-old stage
+      differences: A is an infant stage in humans; B is an early adult stage in mice; B is part of the 3-6 month-old mature stage, while A is part of the infant stage.
+    predicate: RELATED_TO
+    confidence: HIGH
+    similarities:
+      - both pertain to the 3-month-old stage
+      - both are life cycle stages
+      - both are immediately preceded by the 2-month-old stage
+    differences:
+      - A is an infant stage in humans
+      - B is an early adult stage in mice
+      - B is part of the 3-6 month-old mature stage, while A is part of the infant
+        stage.
+  - subject: HsapDv:0000177
+    object: MmusDv:0000064
+    completion: |-
+      category: RELATED_TO
+      confidence: HIGH
+      similarities: both refer to a 4-month-old stage; both are a part of a life cycle stage; both are immediately preceded by a 3-month-old stage
+      differences: A refers to an infant human stage, B refers to an early adult mouse stage; B is part of 3-6 month-old mature stage, A is part of an infant stage
+    predicate: RELATED_TO
+    confidence: HIGH
+    similarities:
+      - both refer to a 4-month-old stage
+      - both are a part of a life cycle stage
+      - both are immediately preceded by a 3-month-old stage
+    differences:
+      - A refers to an infant human stage, B refers to an early adult mouse stage
+      - B is part of 3-6 month-old mature stage, A is part of an infant stage
+  - subject: HsapDv:0000178
+    object: MmusDv:0000069
+    completion: |-
+      category: RELATED_TO
+      confidence: HIGH
+      similarities: same stage of life; over 5 and under 6 months old; both are immediately preceded by the 4-month-old stage
+      differences: A pertains to human infants, B pertains to mice
+    predicate: RELATED_TO
+    confidence: HIGH
+    similarities:
+      - same stage of life
+      - over 5 and under 6 months old
+      - both are immediately preceded by the 4-month-old stage
+    differences:
+      - A pertains to human infants, B pertains to mice
+  - subject: HsapDv:0000179
+    object: MmusDv:0000077
+    completion: |-
+      category: RELATED_TO
+      confidence: HIGH
+      similarities: same stage of life; both immediately preceded by 5-month-old stage; both are life cycle stages
+      differences: A refers to human infant, B refers to mouse; B is part of 3-6 month-old mature stage, A is part of infant stage
+    predicate: RELATED_TO
+    confidence: HIGH
+    similarities:
+      - same stage of life
+      - both immediately preceded by 5-month-old stage
+      - both are life cycle stages
+    differences:
+      - A refers to human infant, B refers to mouse
+      - B is part of 3-6 month-old mature stage, A is part of infant stage
+  - subject: HsapDv:0000180
+    object: MmusDv:0000078
+    completion: |-
+      category: RELATED_TO
+      confidence: HIGH
+      similarities: same age period (7-month-old stage); both relate to a life cycle stage; both immediately preceded by a 6-month-old stage
+      differences: A pertains to human infants; B pertains to mature mice
+    predicate: RELATED_TO
+    confidence: HIGH
+    similarities:
+      - same age period (7-month-old stage)
+      - both relate to a life cycle stage
+      - both immediately preceded by a 6-month-old stage
+    differences:
+      - A pertains to human infants
+      - B pertains to mature mice
+  - subject: HsapDv:0000181
+    object: MmusDv:0000079
+    completion: |-
+      category: RELATED_TO
+      confidence: HIGH
+      similarities: same stage of life; same duration; immediately preceded by 7-month-old stage
+      differences: A pertains to humans and B to mice; B is a part of the young adult stage while A is part of the infant stage.
+    predicate: RELATED_TO
+    confidence: HIGH
+    similarities:
+      - same stage of life
+      - same duration
+      - immediately preceded by 7-month-old stage
+    differences:
+      - A pertains to humans and B to mice
+      - B is a part of the young adult stage while A is part of the infant stage.
+  - subject: HsapDv:0000182
+    object: MmusDv:0000080
+    completion: |-
+      category: RELATED_TO
+      confidence: HIGH
+      similarities: name; life cycle stage; 9-month old age; immediately preceded by 8-month old stage
+      differences: A refers to human infants; B refers to young adult mice
+    predicate: RELATED_TO
+    confidence: HIGH
+    similarities:
+      - name
+      - life cycle stage
+      - 9-month old age
+      - immediately preceded by 8-month old stage
+    differences:
+      - A refers to human infants
+      - B refers to young adult mice
+  - subject: HsapDv:0000183
+    object: MmusDv:0000081
+    completion: |-
+      category: RELATED_TO
+      confidence: HIGH
+      similarities: same name; same duration; life cycle stage; immediately preceded by 9-month-old stage
+      differences: A refers to human infants; B refers to middle-aged mice
+    predicate: RELATED_TO
+    confidence: HIGH
+    similarities:
+      - same name
+      - same duration
+      - life cycle stage
+      - immediately preceded by 9-month-old stage
+    differences:
+      - A refers to human infants
+      - B refers to middle-aged mice
+  - subject: HsapDv:0000184
+    object: MmusDv:0000082
+    completion: |-
+      category: RELATED_TO
+      confidence: HIGH
+      similarities: same stage in life cycle; immediately preceded by 10-month-old stage
+      differences: A refers to humans (infants); B refers to mice (middle aged)
+    predicate: RELATED_TO
+    confidence: HIGH
+    similarities:
+      - same stage in life cycle
+      - immediately preceded by 10-month-old stage
+    differences:
+      - A refers to humans (infants)
+      - B refers to mice (middle aged)
+  - subject: HsapDv:0000185
+    object: MmusDv:0000083
+    completion: |-
+      category: RELATED_TO
+      confidence: HIGH
+      similarities: same name; same definition of being in the 12-month stage; immediately preceded by 11-month-old stage; is part of life cycle stage
+      differences: A refers to an infant human; B refers to a mouse; A is part of 1-year-old stage; B is part of middle aged stage
+    predicate: RELATED_TO
+    confidence: HIGH
+    similarities:
+      - same name
+      - same definition of being in the 12-month stage
+      - immediately preceded by 11-month-old stage
+      - is part of life cycle stage
+    differences:
+      - A refers to an infant human
+      - B refers to a mouse
+      - A is part of 1-year-old stage
+      - B is part of middle aged stage
+  - subject: HsapDv:0000186
+    object: MmusDv:0000084
+    completion: |-
+      category: RELATED_TO
+      confidence: HIGH
+      similarities: same stage of life; same duration; both follow 12-month-old stage
+      differences: A is for a human infant; B is for a mouse; different life stages they are part of
+    predicate: RELATED_TO
+    confidence: HIGH
+    similarities:
+      - same stage of life
+      - same duration
+      - both follow 12-month-old stage
+    differences:
+      - A is for a human infant
+      - B is for a mouse
+      - different life stages they are part of
+  - subject: HsapDv:0000187
+    object: MmusDv:0000085
+    completion: |-
+      category: RELATED_TO
+      confidence: HIGH
+      similarities: same name; same time period of development; both are life cycle stages; immediately preceded by 13-month-old stage
+      differences: A is in humans, B is in mice; A is part of 1-year-old stage, B is part of middle-aged stage
+    predicate: RELATED_TO
+    confidence: HIGH
+    similarities:
+      - same name
+      - same time period of development
+      - both are life cycle stages
+      - immediately preceded by 13-month-old stage
+    differences:
+      - A is in humans, B is in mice
+      - A is part of 1-year-old stage, B is part of middle-aged stage
+  - subject: HsapDv:0000188
+    object: MmusDv:0000086
+    completion: |-
+      category: RELATED_TO
+      confidence: HIGH
+      similarities: both are a 15-month-old stage; life cycle stage; immediately preceded by 14-month-old stage
+      differences: A refers to infants, B refers to mice; A is part of 1-year-old stage, B is part of middle aged stage.
+    predicate: RELATED_TO
+    confidence: HIGH
+    similarities:
+      - both are a 15-month-old stage
+      - life cycle stage
+      - immediately preceded by 14-month-old stage
+    differences:
+      - A refers to infants, B refers to mice
+      - A is part of 1-year-old stage, B is part of middle aged stage.
+  - subject: HsapDv:0000189
+    object: MmusDv:0000087
+    completion: |-
+      category: RELATED_TO
+      confidence: HIGH
+      similarities: both refer to the life stage of an organism; both cover the same age period in the life of the organism; both are part of a longer stage; both are immediately preceded by the 15-month-old stage
+      differences: A refers to a human infant, B refers to a mouse; A is part of the 1-year-old stage, B is part of the middle aged stage
+    predicate: RELATED_TO
+    confidence: HIGH
+    similarities:
+      - both refer to the life stage of an organism
+      - both cover the same age period in the life of the organism
+      - both are part of a longer stage
+      - both are immediately preceded by the 15-month-old stage
+    differences:
+      - A refers to a human infant, B refers to a mouse
+      - A is part of the 1-year-old stage, B is part of the middle aged stage
+  - subject: HsapDv:0000190
+    object: MmusDv:0000088
+    completion: |-
+      category: RELATED_TO
+      confidence: HIGH
+      similarities: same stage of life; both immediately preceded by 16-month-old stage
+      differences: A refers to humans, B to mice; A is part of a 1-year old stage while B is part of the middle aged stage.
+    predicate: RELATED_TO
+    confidence: HIGH
+    similarities:
+      - same stage of life
+      - both immediately preceded by 16-month-old stage
+    differences:
+      - A refers to humans, B to mice
+      - A is part of a 1-year old stage while B is part of the middle aged stage.
+  - subject: HsapDv:0000191
+    object: MmusDv:0000089
+    completion: |-
+      category: RELATED_TO
+      confidence: HIGH
+      similarities: same stage of life; same duration; is a life cycle stage; immediately preceded by 17-month-old stage
+      differences: A refers to human infants; B refers to mice
+    predicate: RELATED_TO
+    confidence: HIGH
+    similarities:
+      - same stage of life
+      - same duration
+      - is a life cycle stage
+      - immediately preceded by 17-month-old stage
+    differences:
+      - A refers to human infants
+      - B refers to mice
+  - subject: HsapDv:0000192
+    object: MmusDv:0000090
+    completion: |-
+      category: RELATED_TO
+      confidence: HIGH
+      similarities: both relate to the 19-month-old stage of life; both immediately preceded by 18-month-old stage; both are life cycle stages
+      differences: A refers to a human infant, B refers to a late adult mouse; A is part of 1-year-old stage, B is part of late adult stage
+    predicate: RELATED_TO
+    confidence: HIGH
+    similarities:
+      - both relate to the 19-month-old stage of life
+      - both immediately preceded by 18-month-old stage
+      - both are life cycle stages
+    differences:
+      - A refers to a human infant, B refers to a late adult mouse
+      - A is part of 1-year-old stage, B is part of late adult stage
+  - subject: HsapDv:0000193
+    object: MmusDv:0000124
+    completion: |-
+      category: RELATED_TO
+      confidence: HIGH
+      similarities: same age stage; same amount of time since birth; is a life cycle stage; both immediately preceded by 19-month-old stage
+      differences: A is for humans, B is for mice
+    predicate: RELATED_TO
+    confidence: HIGH
+    similarities:
+      - same age stage
+      - same amount of time since birth
+      - is a life cycle stage
+      - both immediately preceded by 19-month-old stage
+    differences:
+      - A is for humans, B is for mice
+  - subject: HsapDv:0000194
+    object: MmusDv:0000125
+    completion: |-
+      category: RELATED_TO
+      confidence: HIGH
+      similarities: age range of the organism; the preceding stage; name; part of a life cycle stage
+      differences: A refers to the developmental stage of a human infant; B refers to the developmental stage of a mouse
+    predicate: RELATED_TO
+    confidence: HIGH
+    similarities:
+      - age range of the organism
+      - the preceding stage
+      - name
+      - part of a life cycle stage
+    differences:
+      - A refers to the developmental stage of a human infant
+      - B refers to the developmental stage of a mouse
+  - subject: HsapDv:0000195
+    object: MmusDv:0000126
+    completion: |-
+      category: RELATED_TO
+      confidence: HIGH
+      similarities: same period of life stage; both immediately preceded by a 21-month-old stage
+      differences: A refers to human infant stage; B refers to mouse stage
+    predicate: RELATED_TO
+    confidence: HIGH
+    similarities:
+      - same period of life stage
+      - both immediately preceded by a 21-month-old stage
+    differences:
+      - A refers to human infant stage
+      - B refers to mouse stage
+  - subject: HsapDv:0000196
+    object: MmusDv:0000127
+    completion: |-
+      category: RELATED_TO
+      confidence: HIGH
+      similarities: same named stage; life cycle stage; followed by 22-month-old stage
+      differences: refers to different species; A is a stage in human development, B is a stage in mouse development
+    predicate: RELATED_TO
+    confidence: HIGH
+    similarities:
+      - same named stage
+      - life cycle stage
+      - followed by 22-month-old stage
+    differences:
+      - refers to different species
+      - A is a stage in human development, B is a stage in mouse development
+  - subject: HsapDv:0000226
+    object: MmusDv:0000136
+    completion: |-
+      category: RELATED_TO
+      confidence: HIGH
+      similarities: same concept name; both refer to a life cycle stage; both are prime adult stages of a life form
+      differences: A is a life stage of a human; B is a life stage of a mouse; specific age range in B's definition; B has an added relationship of being immediately preceded by 5-week-old stage
+    predicate: RELATED_TO
+    confidence: HIGH
+    similarities:
+      - same concept name
+      - both refer to a life cycle stage
+      - both are prime adult stages of a life form
+    differences:
+      - A is a life stage of a human
+      - B is a life stage of a mouse
+      - specific age range in B's definition
+      - B has an added relationship of being immediately preceded by 5-week-old stage
+  - subject: HsapDv:0000227
+    object: MmusDv:0000134
+    completion: |-
+      category: RELATED_TO
+      confidence: HIGH
+      similarities: same stage of life; immediately_preceded_by respective prime adult stages
+      differences: A refers to humans over 60 years old; B refers to mice over 18 months old; age-related impairments mentioned in A
+    predicate: RELATED_TO
+    confidence: HIGH
+    similarities:
+      - same stage of life
+      - immediately_preceded_by respective prime adult stages
+    differences:
+      - A refers to humans over 60 years old
+      - B refers to mice over 18 months old
+      - age-related impairments mentioned in A
+  - subject: HsapDv:0000258
+    object: MmusDv:0000110
+    completion: |-
+      category: RELATED_TO
+      confidence: HIGH
+      similarities: both refer to sexually mature stage in life cycle; both are part of postnatal stage; both are immediately preceded by an earlier stage
+      differences: A refers to humans while B refers to mice; B specifies age of maturity
+    predicate: RELATED_TO
+    confidence: HIGH
+    similarities:
+      - both refer to sexually mature stage in life cycle
+      - both are part of postnatal stage
+      - both are immediately preceded by an earlier stage
+    differences:
+      - A refers to humans while B refers to mice
+      - B specifies age of maturity
+  - subject: HsapDv:0000260
+    object: MmusDv:0000138
+    completion: |-
+      category: RELATED_TO
+      confidence: HIGH
+      similarities: both are nursing stages; both are life cycle stages; both occur after birth; both involve feeding on mother's milk or a substitute
+      differences: A is human while B is mouse; A lasts 0-11 months while B lasts until 22 days; A stops at language acquisition while B stops at weaning; A is part of pediatric stage, hence related to human infancy while B is part of immature stage, hence related to young or undeveloped stage in animals
+    predicate: RELATED_TO
+    confidence: HIGH
+    similarities:
+      - both are nursing stages
+      - both are life cycle stages
+      - both occur after birth
+      - both involve feeding on mother's milk or a substitute
+    differences:
+      - A is human while B is mouse
+      - A lasts 0-11 months while B lasts until 22 days
+      - A stops at language acquisition while B stops at weaning
+      - A is part of pediatric stage, hence related to human infancy while B is part
+        of immature stage, hence related to young or undeveloped stage in animals
+  - subject: HsapDv:0000261
+    object: MmusDv:0000177
+    completion: |-
+      category: RELATED_TO
+      confidence: HIGH
+      similarities: Identical names; Both are life cycle stages; Both have a nursing relationship; Both have a stage immediately before them.
+      differences: A refers to humans and lasts from 28 days to under 12 months; B refers to mice and lasts to 22 days following the neonate stage; Different preceding stages (newborn and Theiler).
+    predicate: RELATED_TO
+    confidence: HIGH
+    similarities:
+      - Identical names
+      - Both are life cycle stages
+      - Both have a nursing relationship
+      - Both have a stage immediately before them.
+    differences:
+      - A refers to humans and lasts from 28 days to under 12 months
+      - B refers to mice and lasts to 22 days following the neonate stage
+      - Different preceding stages (newborn and Theiler).
+  - subject: HsapDv:0000262
+    object: MmusDv:0000036
+    completion: |-
+      category: RELATED_TO
+      confidence: HIGH
+      similarities: Both relate to the newborn stage of life; both are located within the broader category of life cycle stage; both are part of the nursing stage.
+      differences: A refers to human life cycle stage that lasts 28 days, while B refers to the mouse life cycle stage of approximately the first 3 days; B is structured as a stage in the Theiler staging sequence and is preceded by Theiler stage 26.
+    predicate: RELATED_TO
+    confidence: HIGH
+    similarities:
+      - Both relate to the newborn stage of life
+      - both are located within the broader category of life cycle stage
+      - both are part of the nursing stage.
+    differences:
+      - A refers to human life cycle stage that lasts 28 days, while B refers to the
+        mouse life cycle stage of approximately the first 3 days
+      - B is structured as a stage in the Theiler staging sequence and is preceded
+        by Theiler stage 26.
+  - subject: HsapDv:0000264
+    object: MmusDv:0000043
+    completion: |-
+      category: RELATED_TO
+      confidence: HIGH
+      similarities: both are developmental stages; both fall under life cycle stages; both are part of a postnatal stage; B's name is a synonym of A
+      differences: A is for humans and lasts until the age of 14; B is for mice and lasts until the age of 5 weeks
+    predicate: RELATED_TO
+    confidence: HIGH
+    similarities:
+      - both are developmental stages
+      - both fall under life cycle stages
+      - both are part of a postnatal stage
+      - B's name is a synonym of A
+    differences:
+      - A is for humans and lasts until the age of 14
+      - B is for mice and lasts until the age of 5 weeks
+  - subject: HsapDv:0000266
+    object: MmusDv:0000153
+    completion: |-
+      category: RELATED_TO
+      confidence: HIGH
+      similarities: both are young adult stages in a life cycle; both are part of prime adult stage
+      differences: A pertains to humans and defines young adult as under 40 years old; B pertains to mice and defines young adult as under 10 months old; B has the relationship "immediately_preceded_by 5-week-old stage", which A does not have.
+    predicate: RELATED_TO
+    confidence: HIGH
+    similarities:
+      - both are young adult stages in a life cycle
+      - both are part of prime adult stage
+    differences:
+      - A pertains to humans and defines young adult as under 40 years old
+      - B pertains to mice and defines young adult as under 10 months old
+      - B has the relationship "immediately_preceded_by 5-week-old stage", which A
+        does not have.
+  - subject: HsapDv:0000267
+    object: MmusDv:0000135
+    completion: |-
+      category: EXACT_MATCH
+      confidence: MEDIUM
+      similarities: name; part of life cycle stage; definition regarding middle aged; part of prime adult stage; immediately preceded by young adult stage
+      differences: A refers to a human age range, B refers to a mouse age range; B has an additional immediately_preceded_by relationship
+    predicate: EXACT_MATCH
+    confidence: MEDIUM
+    similarities:
+      - name
+      - part of life cycle stage
+      - definition regarding middle aged
+      - part of prime adult stage
+      - immediately preceded by young adult stage
+    differences:
+      - A refers to a human age range, B refers to a mouse age range
+      - B has an additional immediately_preceded_by relationship
+  - subject: HsapDv:0000271
+    object: MmusDv:0000178
+    completion: |-
+      category: RELATED_TO
+      confidence: HIGH
+      similarities: both refer to juvenile stages; both are life cycle stages; both are defined by specific age ranges in their respective organisms
+      differences: A refers to human juvenile stage (5-14yo); B refers to mouse juvenile stage (over 23 days); different preceding stages (child stage vs infant stage)
+    predicate: RELATED_TO
+    confidence: HIGH
+    similarities:
+      - both refer to juvenile stages
+      - both are life cycle stages
+      - both are defined by specific age ranges in their respective organisms
+    differences:
+      - A refers to human juvenile stage (5-14yo)
+      - B refers to mouse juvenile stage (over 23 days)
+      - different preceding stages (child stage vs infant stage)
+  - subject: HsapDv:0010000
+    object: MmusDv:0000092
+    completion: |-
+      category: EXACT_MATCH
+      confidence: HIGH
+      similarities: same concept; same name; both are life cycle stages; both immediately preceded by prenatal stage
+      differences: A is for humans; B is for mice
+    predicate: EXACT_MATCH
+    confidence: HIGH
+    similarities:
+      - same concept
+      - same name
+      - both are life cycle stages
+      - both immediately preceded by prenatal stage
+    differences:
+      - A is for humans
+      - B is for mice

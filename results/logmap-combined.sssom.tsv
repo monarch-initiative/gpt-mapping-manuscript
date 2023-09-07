@@ -1,0 +1,257 @@
+subject_id	object_id	confidence	predicate_id	subject_label	object_label
+FBbt:00004055	ZFA:0005663	0.79	skos:exactMatch	adult dorsal prothoracic nerve	dorsal spinal nerve
+FBbt:00007173	ZFA:0009060	0.79	skos:exactMatch	cholinergic neuron	cholinergic neuron
+FBbt:00047548	ZFA:0009088	0.57	skos:exactMatch	adult mesothoracic anterior anterior ventral commissure	professional antigen presenting cell
+FBbt:00000286	ZFA:0005685	0.67	skos:exactMatch	larval dorsal group tracheal branch 1	dG1
+FBbt:00111202	ZFA:0001689	0.79	skos:exactMatch	anatomical line	anatomical line
+FBbt:00047541	ZFA:0005031	0.72	skos:exactMatch	dorsal lateral tract of ventral cervical fasciculus	dorsal longitudinal vein
+FBbt:00000440	ZFA:0000066	0.91	skos:exactMatch	proctodeum	proctodeum
+FBbt:00001408	ZFA:0009011	0.96	skos:exactMatch	neuroblast X	neuroblast
+FBbt:00047097	ZFA:0009242	0.95	skos:exactMatch	primary neuron	primary neuron
+FBbt:00001843	ZFA:0000547	0.57	skos:exactMatch	embryonic/larval mouth	mouth
+FBbt:00047096	ZFA:0009246	0.76	skos:exactMatch	secondary neuron	secondary neuron
+FBbt:00100318	ZFA:0009386	0.52	skos:exactMatch	somatic cell	somatic cell
+FBbt:00007164	ZFA:0000649	0.67	skos:exactMatch	dorsal arm of pharyngeal sclerite	dorsal horn spinal cord
+FBbt:00000275	ZFA:0000320	0.62	skos:exactMatch	embryonic/larval dorsal tracheal branch 10	caudal commissure
+FBbt:00000439	ZFA:0001290	0.94	skos:exactMatch	stomodeum	stomodeum
+FBbt:00100359	ZFA:0009361	0.65	skos:exactMatch	serotonergic SP neuron	serotonergic neuron
+FBbt:00007390	ZFA:0000425	0.57	skos:exactMatch	local interneuron of adult antennal lobe	anterior lateral line nerve
+FBbt:00005412	ZFA:0009156	0.96	skos:exactMatch	gamete	gamete
+FBbt:00004019	ZFA:0005219	0.72	skos:exactMatch	adult cervical connective	choroid plexus vascular circuit
+FBbt:00110636	ZFA:0000008	0.7	skos:exactMatch	adult cerebral ganglion	brain
+FBbt:00015899	ZFA:0000534	0.73	skos:exactMatch	lateral longitudinal fascicle	lateral longitudinal fasciculus
+FBbt:00004873	ZFA:0005878	0.96	skos:exactMatch	female germline stem cell	oogonia
+FBbt:00110628	ZFA:0000228	0.61	skos:exactMatch	pars lateralis primordium	lateral line primordium
+FBbt:00047034	ZFA:0000202	0.7	skos:exactMatch	ellipsoid body anterior domain	efferent branchial artery
+FBbt:00004860	ZFA:0009016	0.94	skos:exactMatch	germline cell	germ line cell
+FBbt:00000092	ZFA:0009288	0.78	skos:exactMatch	primordial germ cell	primordial germ cell
+FBbt:00004858	ZFA:0000413	0.95	skos:exactMatch	gonad	gonad
+FBbt:00058280	ZFA:0009400	0.75	skos:exactMatch	adult esophagus epithelial cell	epithelial cell of esophagus
+FBbt:00007553	ZFA:0000202	0.7	skos:exactMatch	ellipsoid body inner central domain	efferent branchial artery
+FBbt:00004842	ZFA:0000121	0.7	skos:exactMatch	epandrial ventral lobe	lateral plate mesoderm
+FBbt:00052517	ZFA:0009245	0.89	skos:exactMatch	primary interneuron	primary interneuron
+FBbt:00052518	ZFA:0009244	1.03	skos:exactMatch	primary motor neuron	primary motor neuron
+FBbt:00007344	ZFA:0009307	0.87	skos:exactMatch	somatic stem cell	somatic stem cell
+FBbt:00000043	ZFA:0005239	0.63	skos:exactMatch	micropyle	micropylar cell
+FBbt:00004857	ZFA:0000632	0.92	skos:exactMatch	reproductive system	reproductive system
+FBbt:00005058	ZFA:0000054	0.6	skos:exactMatch	pericardial cell	pericardium
+FBbt:00000038	ZFA:0000329	0.95	skos:exactMatch	chorion	chorion
+FBbt:00000035	ZFA:0000084	0.95	skos:exactMatch	yolk	yolk
+FBbt:00058306	ZFA:0000608	0.71	skos:exactMatch	ventral transverse muscle	ventral transverse
+FBbt:00058304	ZFA:0000201	0.71	skos:exactMatch	dorsal transverse muscle	dorsal transverse
+FBbt:00004865	ZFA:0000403	0.94	skos:exactMatch	ovary	ovary
+FBbt:00001573	ZFA:0009248	0.78	skos:exactMatch	EN neuron	neuron
+FBbt:00003764	ZFA:0009293	0.6	skos:exactMatch	s-LNv Pdf neuron	M cell
+FBbt:00007325	ZFA:0009183	0.92	skos:exactMatch	epidermal cell	epidermal cell
+FBbt:00052149	ZFA:0005775	0.94	skos:exactMatch	enteric neuron	enteric neuron
+FBbt:00003154	ZFA:0000114	0.59	skos:exactMatch	adult heart	heart
+FBbt:00100291	ZFA:0009290	0.76	skos:exactMatch	glutamatergic neuron	glutamatergic neuron
+FBbt:00007319	ZFA:0009316	0.86	skos:exactMatch	cardial cell	cardiac muscle cell
+FBbt:00003144	ZFA:0000706	0.93	skos:exactMatch	adult posterior hindgut	posterior intestine
+FBbt:00004886	ZFA:0001109	1.1	skos:exactMatch	oocyte	oocyte
+FBbt:00000004	ZFA:0001114	0.9	skos:exactMatch	head	head
+FBbt:00003125	ZFA:0000112	0.78	skos:exactMatch	alimentary canal	gut
+FBbt:00000001	ZFA:0001094	0.88	skos:exactMatch	organism	whole organism
+FBbt:00002597	ZFA:0005663	0.78	skos:exactMatch	larval abdominal median nerve	dorsal spinal nerve
+FBbt:00005173	ZFA:0000688	0.67	skos:exactMatch	thecogen cell	olfactory support cell
+FBbt:00052197	ZFA:0001108	0.72	skos:exactMatch	anterior dorsal commissure	anterior commissure
+FBbt:00047136	ZFA:0005034	0.67	skos:exactMatch	adult posterior anterior ventral commissure	parachordal vessel
+FBbt:00005786	ZFA:0001287	0.8	skos:exactMatch	Malpighian tubule	renal tubule
+FBbt:00058893	ZFA:0005145	0.73	skos:exactMatch	tergosternal muscle	muscle
+FBbt:00058890	ZFA:0000503	0.64	skos:exactMatch	lateral oblique dorsal muscle	dorsal oblique branchial muscle
+FBbt:00045001	ZFA:0009022	0.67	skos:exactMatch	plexiform medulla	megakaryocyte erythroid progenitor cell
+FBbt:00005926	ZFA:0009125	0.96	skos:exactMatch	olfactory receptor neuron	olfactory receptor cell
+FBbt:00047166	ZFA:0005123	0.97	skos:exactMatch	gut epithelium	gut epithelium
+FBbt:00005144	ZFA:0009073	0.89	skos:exactMatch	glial cell	glial cell
+FBbt:00005140	ZFA:0001328	0.96	skos:exactMatch	neuromere	neuromere
+FBbt:00005140	ZFA:0001064	0.67	skos:exactMatch	neuromere	rhombomere
+FBbt:00006009	ZFA:0009154	0.82	skos:exactMatch	eye photoreceptor cell	eye photoreceptor cell
+FBbt:00005133	ZFA:0009361	0.85	skos:exactMatch	serotonergic neuron	serotonergic neuron
+FBbt:00005131	ZFA:0009301	0.92	skos:exactMatch	dopaminergic neuron	dopaminergic neuron
+FBbt:00047887	ZFA:0000128	0.79	skos:exactMatch	adult central brain	midbrain
+FBbt:00005130	ZFA:0009186	0.99	skos:exactMatch	neurosecretory neuron	neurosecretory neuron
+FBbt:00005130	ZFA:0009098	0.65	skos:exactMatch	neurosecretory neuron	neuroendocrine cell
+FBbt:00047177	ZFA:0009129	0.61	skos:exactMatch	midgut enterocyte	absorptive cell
+FBbt:00048032	ZFA:0009396	0.9	skos:exactMatch	glycinergic neuron	glycinergic neuron
+FBbt:00005128	ZFA:0009066	0.95	skos:exactMatch	pioneer neuron	pioneer neuron
+FBbt:00005127	ZFA:0009255	0.85	skos:exactMatch	optic lobe amacrine neuron	amacrine cell
+FBbt:00005125	ZFA:0009051	0.92	skos:exactMatch	interneuron	interneuron
+FBbt:00005124	ZFA:0009053	0.92	skos:exactMatch	sensory neuron	sensory neuron
+FBbt:00005123	ZFA:0009052	0.98	skos:exactMatch	motor neuron	motor neuron
+FBbt:00005381	ZFA:0000204	0.96	skos:exactMatch	esophagus	esophagus
+FBbt:00059084	ZFA:0005816	0.66	skos:exactMatch	dorsal protractor muscle	dorsal fin protractor
+FBbt:00058848	ZFA:0000510	0.41	skos:exactMatch	levator muscle	external levatores
+FBbt:00100314	ZFA:0005171	0.77	skos:exactMatch	duct	duct
+FBbt:00058842	ZFA:0005270	0.97	skos:exactMatch	depressor muscle	depressor muscle
+FBbt:00058840	ZFA:0005268	0.84	skos:exactMatch	adductor muscle	adductor muscle
+FBbt:00005110	ZFA:0009209	0.56	skos:exactMatch	dendrite	dendritic cell
+FBbt:00005376	ZFA:0000088	0.95	skos:exactMatch	yolk sac	yolk syncytial layer
+FBbt:00046052	ZFA:0009082	0.65	skos:exactMatch	fat cell	fat cell
+FBbt:00085378	ZFA:0000038	0.67	skos:exactMatch	section of wing margin	margin
+FBbt:00001135	ZFA:0000068	0.9	skos:exactMatch	proneural cluster	proneural cluster
+FBbt:00100138	ZFA:0000029	0.77	skos:exactMatch	larval gnathal ganglion	hindbrain
+FBbt:00004230	ZFA:0009090	0.59	skos:exactMatch	pigment cell	pigment cell
+FBbt:00000381	ZFA:0005702	0.7	skos:exactMatch	larval lateral G tracheal branch 10	lg1
+FBbt:00047212	ZFA:0005031	0.77	skos:exactMatch	longitudinal vein	dorsal longitudinal vein
+FBbt:00100120	ZFA:0000423	0.55	skos:exactMatch	campaniform sensillum anterior crossvein neuron	anterior cardinal vein
+FBbt:00005558	ZFA:0001178	0.7	skos:exactMatch	ventral ectoderm	non neural ectoderm
+FBbt:00000377	ZFA:0005708	0.65	skos:exactMatch	larval lateral G tracheal branch 6	lg6
+FBbt:00000376	ZFA:0005706	0.65	skos:exactMatch	larval lateral G tracheal branch 5	lg5
+FBbt:00051963	ZFA:0009239	1.0	skos:exactMatch	efferent neuron	efferent neuron
+FBbt:00000375	ZFA:0005720	0.64	skos:exactMatch	larval lateral G tracheal branch 4	lateral protoglomerulus 4
+FBbt:00000375	ZFA:0005705	0.65	skos:exactMatch	larval lateral G tracheal branch 4	lG4
+FBbt:00004211	ZFA:0009127	0.72	skos:exactMatch	photoreceptor neuron	photoreceptor cell
+FBbt:00001105	ZFA:0001108	0.7	skos:exactMatch	larval anterior commissure	anterior commissure
+FBbt:00004200	ZFA:0000152	0.96	skos:exactMatch	retina	retina
+FBbt:00007294	ZFA:0009096	0.83	skos:exactMatch	endocrine cell	endocrine cell
+FBbt:00001956	ZFA:0000435	0.92	skos:exactMatch	optic nerve	cranial nerve II
+FBbt:00100505	ZFA:0009075	0.7	skos:exactMatch	astrocyte-like glial cell	astrocyte
+FBbt:00007693	ZFA:0009185	0.52	skos:exactMatch	sensory system neuron	sensory processing neuron
+FBbt:00007692	ZFA:0000282	0.88	skos:exactMatch	sensory system	sensory system
+FBbt:00007690	ZFA:0001101	0.98	skos:exactMatch	gustatory system	gustatory system
+FBbt:00007281	ZFA:0000019	0.63	skos:exactMatch	epiphysis	epiphysis
+FBbt:00007688	ZFA:0001149	0.98	skos:exactMatch	olfactory system	olfactory system
+FBbt:00004993	ZFA:0000105	0.91	skos:exactMatch	epidermis	epidermis
+FBbt:00004993	ZFA:0001136	0.7	skos:exactMatch	epidermis	hypodermis
+FBbt:00004515	ZFA:0000533	0.62	skos:exactMatch	third segment of antenna	lateral funiculus
+FBbt:00004515	ZFA:0000501	0.67	skos:exactMatch	third segment of antenna	dorsal funiculus
+FBbt:00004515	ZFA:0000605	0.62	skos:exactMatch	third segment of antenna	ventral funiculus
+FBbt:00007277	ZFA:0001478	0.76	skos:exactMatch	anatomical cluster	anatomical cluster
+FBbt:00004774	ZFA:0009260	0.7	skos:exactMatch	1st posterior cell	parafollicular cell
+FBbt:00004772	ZFA:0009142	0.62	skos:exactMatch	submarginal cell	B cell
+FBbt:00001931	ZFA:0000137	0.66	skos:exactMatch	embryonic/larval optic stalk	optic stalk
+FBbt:00004508	ZFA:0000107	0.96	skos:exactMatch	eye	eye
+FBbt:00004506	ZFA:0000059	0.66	skos:exactMatch	lateral ocellus	postoptic commissure
+FBbt:00047735	ZFA:0001127	0.97	skos:exactMatch	visual system	visual system
+FBbt:00007042	ZFA:0009269	0.91	skos:exactMatch	enterocyte	enterocyte
+FBbt:00007042	ZFA:0009129	0.68	skos:exactMatch	enterocyte	absorptive cell
+FBbt:00007038	ZFA:0009097	0.96	skos:exactMatch	enteroendocrine cell	enteroendocrine cell
+FBbt:00007035	ZFA:0001076	0.76	skos:exactMatch	adult anterior hindgut	intestinal bulb
+FBbt:00003921	ZFA:0000556	0.92	skos:exactMatch	optic chiasma	optic chiasm
+FBbt:00004954	ZFA:0009006	0.96	skos:exactMatch	spermatozoon	sperm
+FBbt:00007019	ZFA:0001487	0.63	skos:exactMatch	portion of organism substance	portion of organism substance
+FBbt:00007017	ZFA:0001643	0.82	skos:exactMatch	anatomical space	anatomical space
+FBbt:00007014	ZFA:0005957	0.89	skos:exactMatch	stem cell	stem cell
+FBbt:00007011	ZFA:0000303	0.99	skos:exactMatch	female organism	female organism
+FBbt:00004942	ZFA:0005769	0.97	skos:exactMatch	spermatid	spermatid
+FBbt:00111304	ZFA:0000588	0.57	skos:exactMatch	adult sex peptide abdominal ganglion neuron	statoacoustic (VIII) ganglion
+FBbt:00007005	ZFA:0001486	0.78	skos:exactMatch	epithelium	epithelium
+FBbt:00004199	ZFA:0000035	0.97	skos:exactMatch	lens	lens
+FBbt:00007004	ZFA:0000242	0.99	skos:exactMatch	male organism	male organism
+FBbt:00004930	ZFA:0009108	0.71	skos:exactMatch	hub cell	Leydig cell
+FBbt:00004191	ZFA:0000640	0.97	skos:exactMatch	cornea	cornea
+FBbt:00007228	ZFA:0009276	0.74	skos:exactMatch	GABAergic neuron	GABAergic neuron
+FBbt:00005095	ZFA:0000008	0.87	skos:exactMatch	brain	brain
+FBbt:00005094	ZFA:0000012	0.87	skos:exactMatch	central nervous system	central nervous system
+FBbt:00002719	ZFA:0000118	0.74	skos:exactMatch	hypophysis	hypophysis
+FBbt:00004928	ZFA:0000598	0.95	skos:exactMatch	testis	testis
+FBbt:00005090	ZFA:0005647	0.76	skos:exactMatch	tendon cell	tendon
+FBbt:00005090	ZFA:0009189	0.79	skos:exactMatch	tendon cell	tendon cell
+FBbt:00005083	ZFA:0009025	0.81	skos:exactMatch	myoblast	myoblast
+FBbt:00004179	ZFA:0000428	0.92	skos:exactMatch	sacculus	saccule
+FBbt:00001061	ZFA:0001120	0.93	skos:exactMatch	ventral neurectoderm	neuroectoderm
+FBbt:00001061	ZFA:0000063	0.71	skos:exactMatch	ventral neurectoderm	presumptive neural plate
+FBbt:00005074	ZFA:0009114	0.66	skos:exactMatch	muscle cell	muscle cell
+FBbt:00005073	ZFA:0009115	0.84	skos:exactMatch	somatic muscle cell	skeletal muscle cell
+FBbt:00005068	ZFA:0001158	0.96	skos:exactMatch	endocrine system	endocrine system
+FBbt:00004911	ZFA:0000560	0.71	skos:exactMatch	oviduct	oviduct
+FBbt:00005062	ZFA:0009014	0.68	skos:exactMatch	prohemocyte	hematopoietic stem cell
+FBbt:00005061	ZFA:0000007	0.74	skos:exactMatch	hemolymph	blood
+FBbt:00004767	ZFA:0000423	0.75	skos:exactMatch	anterior crossvein	anterior cardinal vein
+FBbt:00004768	ZFA:0000477	0.75	skos:exactMatch	posterior crossvein	posterior cardinal vein
+FBbt:00000126	ZFA:0000041	0.85	skos:exactMatch	mesoderm	mesoderm
+FBbt:00000125	ZFA:0000017	0.93	skos:exactMatch	endoderm	endoderm
+FBbt:00000124	ZFA:0009034	0.87	skos:exactMatch	epithelial cell	epithelial cell
+FBbt:00004935	ZFA:0009007	0.95	skos:exactMatch	spermatogonium	spermatogonium
+FBbt:00005055	ZFA:0000339	0.83	skos:exactMatch	digestive system	digestive system
+FBbt:00049543	ZFA:0009066	0.75	skos:exactMatch	small undifferentiated primary neuron	pioneer neuron
+FBbt:00007427	ZFA:0000059	0.67	skos:exactMatch	posterior optic commissure	postoptic commissure
+FBbt:00000111	ZFA:0000016	0.91	skos:exactMatch	ectoderm	ectoderm
+FBbt:00004936	ZFA:0009005	0.99	skos:exactMatch	spermatocyte	spermatocyte
+FBbt:00015288	ZFA:0001570	0.94	skos:exactMatch	unfertilized egg	unfertilized egg
+FBbt:00003126	ZFA:0000547	0.6	skos:exactMatch	adult mouth	mouth
+FBbt:00004957	ZFA:0001268	0.6	skos:exactMatch	testicular duct	sperm duct
+FBbt:00004861	ZFA:0005956	0.91	skos:exactMatch	germline stem cell	germline stem cell
+FBbt:00047153	ZFA:0000066	0.65	skos:exactMatch	anus	proctodeum
+FBbt:00111204	ZFA:0007006	0.62	skos:exactMatch	embryonic/larval superior clamp	lip
+FBbt:00004101	ZFA:0009062	0.83	skos:exactMatch	peptidergic neuron	peptidergic neuron
+FBbt:00111739	ZFA:0000092	0.95	skos:exactMatch	midline	axis
+FBbt:00047143	ZFA:0000112	0.91	skos:exactMatch	gut	gut
+FBbt:00004499	ZFA:0005892	0.8	skos:exactMatch	occipital foramen	lateral occipital foramen
+FBbt:00004495	ZFA:0005054	0.7	skos:exactMatch	ocellar triangle	inner optic circle
+FBbt:00005379	ZFA:0001076	0.78	skos:exactMatch	foregut	intestinal bulb
+FBbt:00005380	ZFA:0000056	0.97	skos:exactMatch	pharynx	pharynx
+FBbt:00005112	ZFA:0001356	1.01	skos:exactMatch	nerve terminal	terminal nerve
+FBbt:00048500	ZFA:0009049	0.61	skos:exactMatch	larval antennal-pharyngeal nerve motor neuron	mature neutrophil
+FBbt:00048500	ZFA:0009327	0.6	skos:exactMatch	larval antennal-pharyngeal nerve motor neuron	neutrophil
+FBbt:00005288	ZFA:0005772	0.94	skos:exactMatch	fertilized egg	fertilized egg
+FBbt:00004478	ZFA:0005386	0.85	skos:exactMatch	foramen	foramen
+FBbt:00058996	ZFA:0001327	0.55	skos:exactMatch	abdominal ventral muscle	abdominal musculature
+FBbt:00058979	ZFA:0001327	0.56	skos:exactMatch	abdominal dorsal muscle	abdominal musculature
+FBbt:00005684	ZFA:0000028	0.8	skos:exactMatch	heart primordium	heart primordium
+FBbt:00005145	ZFA:0009010	0.89	skos:exactMatch	glioblast	glioblast
+FBbt:00001685	ZFA:0009048	0.7	skos:exactMatch	embryonic/larval plasmatocyte	granulocyte
+FBbt:00001685	ZFA:0009285	0.77	skos:exactMatch	embryonic/larval plasmatocyte	podocyte
+FBbt:00001040	ZFA:0001675	0.75	skos:exactMatch	embryonic/larval alary muscle cell	ligament
+FBbt:00040072	ZFA:0009021	0.63	skos:exactMatch	posterior slope	common myeloid progenitor
+FBbt:00001675	ZFA:0000114	0.57	skos:exactMatch	embryonic/larval heart	heart
+FBbt:00005812	ZFA:0009114	0.53	skos:exactMatch	myotube	muscle cell
+FBbt:00003874	ZFA:0005234	0.73	skos:exactMatch	lobula columnar neuron LC4	CoLA
+FBbt:00001666	ZFA:0009234	0.72	skos:exactMatch	cardioblast	cardiac muscle myoblast
+FBbt:00005098	ZFA:0000142	0.9	skos:exactMatch	peripheral nervous system	peripheral nervous system
+FBbt:00004094	ZFA:0005663	0.75	skos:exactMatch	adult dorsal metathoracic nerve	dorsal spinal nerve
+FBbt:00040007	ZFA:0005907	0.56	skos:exactMatch	synaptic neuropil domain	tectal neuropile
+FBbt:00003232	ZFA:0009291	0.63	skos:exactMatch	embryonic precursor cell of adult muscle	muscle precursor cell
+FBbt:00005378	ZFA:0000038	0.94	skos:exactMatch	wing margin	margin
+FBbt:00058901	ZFA:0005269	0.69	skos:exactMatch	basalar muscle 49	abductor muscle
+FBbt:00004086	ZFA:0005820	0.58	skos:exactMatch	campaniform sensillum of anterior crossvein	ventral caudal adductor
+FBbt:00002684	ZFA:0000496	0.74	skos:exactMatch	associated organ	compound organ
+MONDO:0012546	NCIT:C123098	0.75	skos:exactMatch	nephrotic syndrome, type 3	Nephrotic Syndrome - PLCE1 Associated
+MONDO:0007888	NCIT:C51302	0.72	skos:exactMatch	hereditary leiomyomatosis and renal cell cancer	Hereditary Leiomyomatosis and Renal Cell Carcinoma
+MONDO:0013619	NCIT:C123099	0.75	skos:exactMatch	nephrotic syndrome, type 6	Nephrotic Syndrome - PTPRO Associated
+MONDO:0011165	NCIT:C187984	0.75	skos:exactMatch	glomerulopathy with fibronectin deposits 2	Glomerulopathy with Fibronectin Deposits-2
+MONDO:0005334	NCIT:C26833	0.55	skos:exactMatch	hereditary nephritis	Nephritis
+MONDO:0011390	NCIT:C37308	0.66	skos:exactMatch	focal segmental glomerulosclerosis 2	Focal Segmental Glomerulosclerosis
+MONDO:0014373	NCIT:C123080	0.75	skos:exactMatch	nephrotic syndrome, type 10	Nephrotic Syndrome - EMP2 Associated
+MONDO:0003008	NCIT:C39789	0.93	skos:exactMatch	hereditary renal cell carcinoma	Hereditary Renal Cell Carcinoma
+MONDO:0013131	NCIT:C123166	1.04	skos:exactMatch	polycystic kidney disease 2	Autosomal Dominant Polycystic Kidney Disease Type 2
+MONDO:0003824	NCIT:C8960	0.79	skos:exactMatch	hereditary kidney oncocytoma	Hereditary Kidney Oncocytoma
+MONDO:0008264	NCIT:C123171	0.94	skos:exactMatch	autosomal dominant medullary cystic kidney disease with or without hyperuricemia	Medullary Cystic Kidney Disease Type I
+MONDO:0019005	NCIT:C123200	1.17	skos:exactMatch	nephronophthisis	Nephronophthisis
+MONDO:0009728	NCIT:C74998	0.96	skos:exactMatch	nephronophthisis 1	Nephronophthisis 1
+MONDO:0020726	NCIT:C123167	0.68	skos:exactMatch	tubulointerstitial kidney disease, autosomal dominant, 2	Autosomal Dominant Polycystic Kidney Disease Type I
+MONDO:0020726	NCIT:C123171	0.74	skos:exactMatch	tubulointerstitial kidney disease, autosomal dominant, 2	Medullary Cystic Kidney Disease Type I
+MONDO:0009889	NCIT:C84579	1.1	skos:exactMatch	autosomal recessive polycystic kidney disease	Autosomal Recessive Polycystic Kidney Disease
+MONDO:0010974	NCIT:C123095	0.75	skos:exactMatch	nephrotic syndrome, type 2	Nephrotic Syndrome - NPHS2 Associated
+MONDO:0004691	NCIT:C84578	0.93	skos:exactMatch	autosomal dominant polycystic kidney disease	Autosomal Dominant Polycystic Kidney Disease
+MONDO:0012184	NCIT:C128145	0.78	skos:exactMatch	Pierson syndrome	Pierson Syndrome
+MONDO:0009733	NCIT:C121198	0.88	skos:exactMatch	nephrotic syndrome, type 4	Congenital Nephrotic Syndrome - Diffuse Mesangial Sclerosis
+MONDO:0009732	NCIT:C35337	0.57	skos:exactMatch	congenital nephrotic syndrome, Finnish type	Congenital Nephrotic Syndrome
+MONDO:0009732	NCIT:C122795	0.88	skos:exactMatch	congenital nephrotic syndrome, Finnish type	Nephrotic Syndrome - NPHS1 Associated
+MONDO:0018492	NCIT:C36260	0.95	skos:exactMatch	hereditary clear cell renal cell carcinoma	Hereditary Clear Cell Renal Cell Carcinoma
+MONDO:0008263	NCIT:C123167	0.87	skos:exactMatch	polycystic kidney disease 1	Autosomal Dominant Polycystic Kidney Disease Type I
+MONDO:0007416	NCIT:C123025	0.79	skos:exactMatch	Balkan nephropathy	Aristolochic Acid Nephropathy
+MONDO:0020642	NCIT:C75464	1.02	skos:exactMatch	polycystic kidney disease	Polycystic Kidney Disease
+MONDO:0008679	NCIT:C27730	0.69	skos:exactMatch	Wilms tumor 1	Childhood Kidney Wilms Tumor
+MONDO:0008680	NCIT:C7841	0.61	skos:exactMatch	Wilms tumor 2	Stage II Kidney Wilms Tumor
+MONDO:0008680	NCIT:C27730	0.69	skos:exactMatch	Wilms tumor 2	Childhood Kidney Wilms Tumor
+MONDO:0002350	NCIT:C35337	1.03	skos:exactMatch	familial nephrotic syndrome	Congenital Nephrotic Syndrome
+MONDO:0024633	NCIT:C4757	0.96	skos:exactMatch	hypertensive nephropathy	Hypertensive Nephropathy
+MONDO:0033004	NCIT:C84579	0.84	skos:exactMatch	polycystic kidney disease 4	Autosomal Recessive Polycystic Kidney Disease
+MONDO:0008073	NCIT:C123172	0.74	skos:exactMatch	familial juvenile hyperuricemic nephropathy type 1	Medullary Cystic Kidney Disease Type II
+MONDO:0019741	NCIT:C34750	0.87	skos:exactMatch	familial cystic renal disease	Cystic Kidney Disease
+MONDO:0005798	NCIT:C26918	0.87	skos:exactMatch	HIV-associated nephropathy	HIV-Associated Nephropathy
+MONDO:0008683	NCIT:C7842	0.67	skos:exactMatch	Wilms tumor 3	Stage III Kidney Wilms Tumor
+MONDO:0011056	NCIT:C7843	0.61	skos:exactMatch	Wilms tumor 4	Stage IV Kidney Wilms Tumor
+MONDO:0014005	NCIT:C34644	0.68	skos:exactMatch	immunoglobulin-mediated membranoproliferative glomerulonephritis	Membranoproliferative Glomerulonephritis
+MONDO:0014005	NCIT:C123055	0.62	skos:exactMatch	immunoglobulin-mediated membranoproliferative glomerulonephritis	Immune Complex Mediated Membranoproliferative Glomerulonephritis
+MONDO:0003321	NCIT:C8496	1.05	skos:exactMatch	hereditary Wilms tumor	Hereditary Kidney Wilms Tumor
+MONDO:0007671	NCIT:C187984	0.87	skos:exactMatch	fibronectin glomerulopathy	Glomerulopathy with Fibronectin Deposits-2
+MONDO:0011303	NCIT:C37308	0.65	skos:exactMatch	focal segmental glomerulosclerosis 1	Focal Segmental Glomerulosclerosis
+MONDO:0019006	NCIT:C122796	0.85	skos:exactMatch	familial idiopathic steroid-resistant nephrotic syndrome	Idiopathic Nephrotic Syndrome
+MONDO:0011112	NCIT:C7844	0.6	skos:exactMatch	Wilms tumor 5	Stage V Kidney Wilms Tumor
+MONDO:0003789	NCIT:C6975	0.67	skos:exactMatch	hereditary papillary renal cell carcinoma	Papillary Renal Cell Carcinoma
+MONDO:0003789	NCIT:C9222	0.92	skos:exactMatch	hereditary papillary renal cell carcinoma	Hereditary Papillary Renal Cell Carcinoma
+MONDO:0005342	NCIT:C35280	0.96	skos:exactMatch	IgA glomerulonephritis	Focal Glomerulonephritis
+MONDO:0005342	NCIT:C34643	0.61	skos:exactMatch	IgA glomerulonephritis	IgA Nephropathy
+MONDO:0014099	NCIT:C123071	0.75	skos:exactMatch	nephrotic syndrome, type 8	Nephrotic Syndrome - ARHGDIA Associated

@@ -1499,284 +1499,50 @@
 #   zfin: http://zfin.org/
 #   zinc: http://zinc15.docking.org/substances/
 # license: https://w3id.org/sssom/license/unspecified
-# mapping_set_id: https://w3id.org/sssom/mappings/aa1ef5ed-2129-40d5-9932-7e3662d95827
+# mapping_set_id: https://w3id.org/sssom/mappings/fe224788-c399-46dd-ba9d-8d98118cd08e
 subject_id	subject_label	predicate_id	object_id	object_label	mapping_justification	subject_source	object_source	mapping_tool	confidence	subject_match_field	object_match_field	match_string
-FBbt:00000001	organism	skos:broadMatch	ZFA:0001094	whole organism	semapv:LexicalMatching	FBbt	ZFA	oaklib	0.5	oio:hasDbXref	oio:hasDbXref	caro:0000012
-FBbt:00000004	head	skos:relatedMatch	ZFA:0001114	head	semapv:LexicalMatching	FBbt	ZFA	oaklib	0.5	rdfs:label	rdfs:label	head
-FBbt:00000034	egg	skos:exactMatch	ZFA:0001109	oocyte	semapv:LexicalMatching	FBbt	ZFA	oaklib	0.5	rdfs:label	oio:hasRelatedSynonym	egg
-FBbt:00000034	egg	skos:relatedMatch	ZFA:0001570	unfertilized egg	semapv:LexicalMatching	FBbt	ZFA	oaklib	0.5	rdfs:label	oio:hasExactSynonym	egg
-FBbt:00000035	yolk	skos:relatedMatch	ZFA:0000084	yolk	semapv:LexicalMatching	FBbt	ZFA	oaklib	0.5	rdfs:label	rdfs:label	yolk
-FBbt:00000038	chorion	skos:exactMatch	ZFA:0000329	chorion	semapv:LexicalMatching	FBbt	ZFA	oaklib	0.5	rdfs:label	rdfs:label	chorion
-FBbt:00000092	primordial germ cell	skos:broadMatch	ZFA:0009288	primordial germ cell	semapv:LexicalMatching	FBbt	ZFA	oaklib	0.5	rdfs:label	rdfs:label	primordial germ cell
-FBbt:00000111	ectoderm	skos:exactMatch	ZFA:0000016	ectoderm	semapv:LexicalMatching	FBbt	ZFA	oaklib	0.5	rdfs:label	rdfs:label	ectoderm
-FBbt:00000124	epithelial cell	skos:exactMatch	ZFA:0009034	epithelial cell	semapv:LexicalMatching	FBbt	ZFA	oaklib	0.5	oio:hasDbXref	oio:hasDbXref	cl:0000066
-FBbt:00000125	endoderm	skos:relatedMatch	ZFA:0000017	endoderm	semapv:LexicalMatching	FBbt	ZFA	oaklib	0.5	rdfs:label	rdfs:label	endoderm
-FBbt:00000126	mesoderm	skos:exactMatch	ZFA:0000041	mesoderm	semapv:LexicalMatching	FBbt	ZFA	oaklib	0.5	rdfs:label	rdfs:label	mesoderm
-FBbt:00000275	embryonic/larval dorsal tracheal branch 10	skos:relatedMatch	ZFA:0000320	caudal commissure	semapv:LexicalMatching	FBbt	ZFA	oaklib	0.5	oio:hasExactSynonym	oio:hasExactSynonym	posterior commissure
-FBbt:00000286	larval dorsal group tracheal branch 1	owl:differentFrom	ZFA:0005685	dG1	semapv:LexicalMatching	FBbt	ZFA	oaklib	0.5	oio:hasExactSynonym	rdfs:label	dg1
-FBbt:00000375	larval lateral G tracheal branch 4	skos:relatedMatch	ZFA:0005705	lG4	semapv:LexicalMatching	FBbt	ZFA	oaklib	0.5	oio:hasExactSynonym	rdfs:label	lg4
-FBbt:00000375	larval lateral G tracheal branch 4	skos:relatedMatch	ZFA:0005720	lateral protoglomerulus 4	semapv:LexicalMatching	FBbt	ZFA	oaklib	0.5	oio:hasExactSynonym	oio:hasRelatedSynonym	lg4
-FBbt:00000376	larval lateral G tracheal branch 5	skos:relatedMatch	ZFA:0005706	lg5	semapv:LexicalMatching	FBbt	ZFA	oaklib	0.5	oio:hasExactSynonym	rdfs:label	lg5
-FBbt:00000377	larval lateral G tracheal branch 6	owl:differentFrom	ZFA:0005708	lg6	semapv:LexicalMatching	FBbt	ZFA	oaklib	0.5	oio:hasExactSynonym	rdfs:label	lg6
-FBbt:00000398	dorsal cephalic tracheal branch	owl:differentFrom	ZFA:0000487	central zone of dorsal telencephalon	semapv:LexicalMatching	FBbt	ZFA	oaklib	0.5	oio:hasExactSynonym	oio:hasExactSynonym	dc
-FBbt:00000399	lateral cephalic tracheal branch	skos:relatedMatch	ZFA:0000166	lateral crista	semapv:LexicalMatching	FBbt	ZFA	oaklib	0.5	oio:hasExactSynonym	oio:hasExactSynonym	lc
-FBbt:00000439	stomodeum	skos:exactMatch	ZFA:0001290	stomodeum	semapv:LexicalMatching	FBbt	ZFA	oaklib	0.5	rdfs:label	rdfs:label	stomodeum
-FBbt:00000440	proctodeum	skos:exactMatch	ZFA:0000066	proctodeum	semapv:LexicalMatching	FBbt	ZFA	oaklib	0.5	rdfs:label	rdfs:label	proctodeum
-FBbt:00001061	ventral neurectoderm	skos:exactMatch	ZFA:0001120	neuroectoderm	semapv:LexicalMatching	FBbt	ZFA	oaklib	0.5	oio:hasRelatedSynonym	oio:hasExactSynonym	neurectoderm
-FBbt:00001061	ventral neurectoderm	skos:relatedMatch	ZFA:0000063	presumptive neural plate	semapv:LexicalMatching	FBbt	ZFA	oaklib	0.5	oio:hasRelatedSynonym	oio:hasRelatedSynonym	neurectoderm
-FBbt:00001105	larval anterior commissure	skos:relatedMatch	ZFA:0000619	anterior crista	semapv:LexicalMatching	FBbt	ZFA	oaklib	0.5	oio:hasExactSynonym	oio:hasExactSynonym	ac
-FBbt:00001135	proneural cluster	skos:relatedMatch	ZFA:0000068	proneural cluster	semapv:LexicalMatching	FBbt	ZFA	oaklib	0.5	rdfs:label	rdfs:label	proneural cluster
-FBbt:00001321	embryonic/larval exit glial cell	owl:differentFrom	ZFA:0000212	granular eminence	semapv:LexicalMatching	FBbt	ZFA	oaklib	0.5	oio:hasRelatedSynonym	oio:hasRelatedSynonym	eg
-FBbt:00001326	dorsal median cell	owl:differentFrom	ZFA:0000391	medial zone of dorsal telencephalon	semapv:LexicalMatching	FBbt	ZFA	oaklib	0.5	oio:hasExactSynonym	oio:hasExactSynonym	dm
-FBbt:00001335	anterior protocerebral neuroblast	owl:differentFrom	ZFA:0005086	pectoral artery	semapv:LexicalMatching	FBbt	ZFA	oaklib	0.5	oio:hasRelatedSynonym	oio:hasExactSynonym	pa
-FBbt:00001343	central protocerebral neuroblast	owl:differentFrom	ZFA:0000320	caudal commissure	semapv:LexicalMatching	FBbt	ZFA	oaklib	0.5	oio:hasRelatedSynonym	oio:hasRelatedSynonym	pc
-FBbt:00001343	central protocerebral neuroblast	owl:differentFrom	ZFA:0000566	posterior crista	semapv:LexicalMatching	FBbt	ZFA	oaklib	0.5	oio:hasRelatedSynonym	oio:hasExactSynonym	pc
-FBbt:00001354	dorsal deutocerebral neuroblast	owl:differentFrom	ZFA:0000014	dorsal aorta	semapv:LexicalMatching	FBbt	ZFA	oaklib	0.5	oio:hasRelatedSynonym	oio:hasExactSynonym	da
-FBbt:00001356	ventral deutocerebral neuroblast	owl:differentFrom	ZFA:0000487	central zone of dorsal telencephalon	semapv:LexicalMatching	FBbt	ZFA	oaklib	0.5	oio:hasRelatedSynonym	oio:hasExactSynonym	dc
-FBbt:00001405	longitudinal glioblast	skos:narrowMatch	ZFA:0009010	glioblast	semapv:LexicalMatching	FBbt	ZFA	oaklib	0.5	oio:hasBroadSynonym	rdfs:label	glioblast
-FBbt:00001627	posterior cervical tract	skos:relatedMatch	ZFA:0001620	pronephric proximal convoluted tubule	semapv:LexicalMatching	FBbt	ZFA	oaklib	0.5	oio:hasExactSynonym	oio:hasExactSynonym	pct
-FBbt:00001666	cardioblast	skos:relatedMatch	ZFA:0009234	cardiac muscle myoblast	semapv:LexicalMatching	FBbt	ZFA	oaklib	0.5	rdfs:label	oio:hasRelatedSynonym	cardioblast
-FBbt:00001685	embryonic/larval plasmatocyte	owl:differentFrom	ZFA:0005107	pectoral lymphatic vessel	semapv:LexicalMatching	FBbt	ZFA	oaklib	0.5	oio:hasExactSynonym	oio:hasExactSynonym	pl
-FBbt:00001685	embryonic/larval plasmatocyte	skos:narrowMatch	ZFA:0009141	macrophage	semapv:LexicalMatching	FBbt	ZFA	oaklib	0.5	oio:hasExactSynonym	rdfs:label	macrophage
-FBbt:00001685	embryonic/larval plasmatocyte	skos:relatedMatch	ZFA:0009048	granulocyte	semapv:LexicalMatching	FBbt	ZFA	oaklib	0.5	oio:hasRelatedSynonym	rdfs:label	granulocyte
-FBbt:00001685	embryonic/larval plasmatocyte	skos:relatedMatch	ZFA:0009285	podocyte	semapv:LexicalMatching	FBbt	ZFA	oaklib	0.5	oio:hasExactSynonym	rdfs:label	podocyte
-FBbt:00001906	embryonic/larval Malpighian tubule Type I cell	owl:differentFrom	ZFA:0000320	caudal commissure	semapv:LexicalMatching	FBbt	ZFA	oaklib	0.5	oio:hasExactSynonym	oio:hasRelatedSynonym	pc
-FBbt:00001906	embryonic/larval Malpighian tubule Type I cell	skos:relatedMatch	ZFA:0000566	posterior crista	semapv:LexicalMatching	FBbt	ZFA	oaklib	0.5	oio:hasExactSynonym	oio:hasExactSynonym	pc
-FBbt:00001956	optic nerve	skos:exactMatch	ZFA:0000435	cranial nerve II	semapv:LexicalMatching	FBbt	ZFA	oaklib	0.5	rdfs:label	oio:hasExactSynonym	optic nerve
-FBbt:00001975	larval maxillary neuromere	skos:relatedMatch	ZFA:0000270	maxilla	semapv:LexicalMatching	FBbt	ZFA	oaklib	0.5	oio:hasBroadSynonym	rdfs:label	maxilla
-FBbt:00002085	larval prothoracic segmental nerve	skos:relatedMatch	ZFA:0000442	supraneural	semapv:LexicalMatching	FBbt	ZFA	oaklib	0.5	oio:hasBroadSynonym	oio:hasExactSynonym	sn
-FBbt:00002125	larval mesothoracic segmental nerve	owl:differentFrom	ZFA:0000442	supraneural	semapv:LexicalMatching	FBbt	ZFA	oaklib	0.5	oio:hasBroadSynonym	oio:hasExactSynonym	sn
-FBbt:00002163	larval metathoracic segmental nerve	owl:differentFrom	ZFA:0000442	supraneural	semapv:LexicalMatching	FBbt	ZFA	oaklib	0.5	oio:hasBroadSynonym	oio:hasExactSynonym	sn
-FBbt:00002597	larval abdominal median nerve	skos:relatedMatch	ZFA:0005663	dorsal spinal nerve	semapv:LexicalMatching	FBbt	ZFA	oaklib	0.5	oio:hasRelatedSynonym	oio:hasExactSynonym	dorsal nerve
-FBbt:00002635	paraesophageal ganglion	owl:differentFrom	ZFA:0000212	granular eminence	semapv:LexicalMatching	FBbt	ZFA	oaklib	0.5	oio:hasExactSynonym	oio:hasRelatedSynonym	eg
-FBbt:00002708	ventral organ sensillum	skos:relatedMatch	ZFA:0005866	vestibulospinal neuron	semapv:LexicalMatching	FBbt	ZFA	oaklib	0.5	oio:hasRelatedSynonym	oio:hasRelatedSynonym	v
-FBbt:00002719	hypophysis	skos:relatedMatch	ZFA:0000118	hypophysis	semapv:LexicalMatching	FBbt	ZFA	oaklib	0.5	rdfs:label	rdfs:label	hypophysis
-FBbt:00003125	alimentary canal	skos:broadMatch	ZFA:0000112	gut	semapv:LexicalMatching	FBbt	ZFA	oaklib	0.5	rdfs:label	oio:hasExactSynonym	alimentary canal
-FBbt:00003144	adult posterior hindgut	skos:relatedMatch	ZFA:0000706	posterior intestine	semapv:LexicalMatching	FBbt	ZFA	oaklib	0.5	oio:hasExactSynonym	rdfs:label	posterior intestine
-FBbt:00003545	adult alary muscle cell	owl:differentFrom	ZFA:0000168	anterior macula	semapv:LexicalMatching	FBbt	ZFA	oaklib	0.5	oio:hasRelatedSynonym	oio:hasExactSynonym	am
-FBbt:00003598	abdominal neuroblast NB3-5	skos:relatedMatch	ZFA:0000536	lateral zone of dorsal telencephalon	semapv:LexicalMatching	FBbt	ZFA	oaklib	0.5	oio:hasRelatedSynonym	oio:hasExactSynonym	dl
-FBbt:00003682	bulb	skos:relatedMatch	ZFA:0000042	midbrain hindbrain boundary	semapv:LexicalMatching	FBbt	ZFA	oaklib	0.5	oio:hasExactSynonym	oio:hasExactSynonym	isthmus
-FBbt:00003685	mushroom body calyx	owl:differentFrom	ZFA:0000011	caudal artery	semapv:LexicalMatching	FBbt	ZFA	oaklib	0.5	oio:hasExactSynonym	oio:hasExactSynonym	ca
-FBbt:00003746	lamina intrinsic neuron	skos:narrowMatch	ZFA:0009255	amacrine cell	semapv:LexicalMatching	FBbt	ZFA	oaklib	0.5	oio:hasBroadSynonym	rdfs:label	amacrine cell
-FBbt:00003746	lamina intrinsic neuron	skos:relatedMatch	ZFA:0000168	anterior macula	semapv:LexicalMatching	FBbt	ZFA	oaklib	0.5	oio:hasBroadSynonym	oio:hasExactSynonym	am
-FBbt:00003764	s-LNv Pdf neuron	owl:differentFrom	ZFA:0009293	M cell	semapv:LexicalMatching	FBbt	ZFA	oaklib	0.5	oio:hasExactSynonym	rdfs:label	m cell
-FBbt:00003767	distal medullary amacrine neuron	skos:relatedMatch	ZFA:0000391	medial zone of dorsal telencephalon	semapv:LexicalMatching	FBbt	ZFA	oaklib	0.5	oio:hasRelatedSynonym	oio:hasExactSynonym	dm
-FBbt:00003832	proximal medullary amacrine neuron	owl:differentFrom	ZFA:0000558	posterior macula	semapv:LexicalMatching	FBbt	ZFA	oaklib	0.5	oio:hasRelatedSynonym	oio:hasExactSynonym	pm
-FBbt:00003870	lobula columnar neuron	skos:broadMatch	ZFA:0000166	lateral crista	semapv:LexicalMatching	FBbt	ZFA	oaklib	0.5	oio:hasExactSynonym	oio:hasExactSynonym	lc
-FBbt:00003874	lobula columnar neuron LC4	owl:differentFrom	ZFA:0005234	CoLA	semapv:LexicalMatching	FBbt	ZFA	oaklib	0.5	oio:hasExactSynonym	rdfs:label	cola
-FBbt:00003921	optic chiasma	skos:exactMatch	ZFA:0000556	optic chiasm	semapv:LexicalMatching	FBbt	ZFA	oaklib	0.5	oio:hasExactSynonym	rdfs:label	optic chiasm
-FBbt:00004019	adult cervical connective	owl:differentFrom	ZFA:0000180	caudal vein	semapv:LexicalMatching	FBbt	ZFA	oaklib	0.5	oio:hasExactSynonym	oio:hasExactSynonym	cv
-FBbt:00004019	adult cervical connective	owl:differentFrom	ZFA:0005219	choroid plexus vascular circuit	semapv:LexicalMatching	FBbt	ZFA	oaklib	0.5	oio:hasExactSynonym	oio:hasExactSynonym	cvc
-FBbt:00004044	LN period neuron	skos:relatedMatch	ZFA:0000166	lateral crista	semapv:LexicalMatching	FBbt	ZFA	oaklib	0.5	oio:hasRelatedSynonym	oio:hasExactSynonym	lc
-FBbt:00004086	campaniform sensillum of anterior crossvein	owl:differentFrom	ZFA:0005820	ventral caudal adductor	semapv:LexicalMatching	FBbt	ZFA	oaklib	0.5	oio:hasRelatedSynonym	oio:hasRelatedSynonym	acv
-FBbt:00004086	campaniform sensillum of anterior crossvein	skos:narrowMatch	ZFA:0000423	anterior cardinal vein	semapv:LexicalMatching	FBbt	ZFA	oaklib	0.5	oio:hasRelatedSynonym	oio:hasExactSynonym	acv
-FBbt:00004101	peptidergic neuron	skos:relatedMatch	ZFA:0009062	peptidergic neuron	semapv:LexicalMatching	FBbt	ZFA	oaklib	0.5	oio:hasDbXref	oio:hasDbXref	cl:0000110
-FBbt:00004177	coeloconic sensillum of antennal segment 3	skos:relatedMatch	ZFA:0000619	anterior crista	semapv:LexicalMatching	FBbt	ZFA	oaklib	0.5	oio:hasRelatedSynonym	oio:hasExactSynonym	ac
-FBbt:00004179	sacculus	skos:exactMatch	ZFA:0000428	saccule	semapv:LexicalMatching	FBbt	ZFA	oaklib	0.5	rdfs:label	oio:hasExactSynonym	sacculus
-FBbt:00004191	cornea	skos:relatedMatch	ZFA:0000640	cornea	semapv:LexicalMatching	FBbt	ZFA	oaklib	0.5	rdfs:label	rdfs:label	cornea
-FBbt:00004199	lens	skos:relatedMatch	ZFA:0000035	lens	semapv:LexicalMatching	FBbt	ZFA	oaklib	0.5	rdfs:label	rdfs:label	lens
-FBbt:00004200	retina	skos:relatedMatch	ZFA:0000152	retina	semapv:LexicalMatching	FBbt	ZFA	oaklib	0.5	rdfs:label	rdfs:label	retina
-FBbt:00004211	photoreceptor neuron	skos:relatedMatch	ZFA:0009127	photoreceptor cell	semapv:LexicalMatching	FBbt	ZFA	oaklib	0.5	oio:hasExactSynonym	rdfs:label	photoreceptor cell
-FBbt:00004213	photoreceptor cell R1	skos:relatedMatch	ZFA:0001031	rhombomere 1	semapv:LexicalMatching	FBbt	ZFA	oaklib	0.5	oio:hasExactSynonym	oio:hasExactSynonym	r1
-FBbt:00004215	photoreceptor cell R2	owl:differentFrom	ZFA:0000822	rhombomere 2	semapv:LexicalMatching	FBbt	ZFA	oaklib	0.5	oio:hasExactSynonym	oio:hasExactSynonym	r2
-FBbt:00004217	photoreceptor cell R3	owl:differentFrom	ZFA:0000948	rhombomere 3	semapv:LexicalMatching	FBbt	ZFA	oaklib	0.5	oio:hasExactSynonym	oio:hasExactSynonym	r3
-FBbt:00004219	photoreceptor cell R4	skos:relatedMatch	ZFA:0001032	rhombomere 4	semapv:LexicalMatching	FBbt	ZFA	oaklib	0.5	oio:hasExactSynonym	oio:hasExactSynonym	r4
-FBbt:00004221	photoreceptor cell R5	owl:differentFrom	ZFA:0000823	rhombomere 5	semapv:LexicalMatching	FBbt	ZFA	oaklib	0.5	oio:hasExactSynonym	oio:hasExactSynonym	r5
-FBbt:00004223	photoreceptor cell R6	skos:relatedMatch	ZFA:0000069	rhombomere 6	semapv:LexicalMatching	FBbt	ZFA	oaklib	0.5	oio:hasExactSynonym	oio:hasExactSynonym	r6
-FBbt:00004225	photoreceptor cell R7	owl:differentFrom	ZFA:0000949	rhombomere 7	semapv:LexicalMatching	FBbt	ZFA	oaklib	0.5	oio:hasExactSynonym	oio:hasExactSynonym	r7
-FBbt:00004227	photoreceptor cell R8	owl:differentFrom	ZFA:0000153	rhombomere 8	semapv:LexicalMatching	FBbt	ZFA	oaklib	0.5	oio:hasExactSynonym	oio:hasExactSynonym	r8
-FBbt:00004230	pigment cell	skos:relatedMatch	ZFA:0009090	pigment cell	semapv:LexicalMatching	FBbt	ZFA	oaklib	0.5	rdfs:label	rdfs:label	pigment cell
-FBbt:00004478	foramen	skos:relatedMatch	ZFA:0005386	foramen	semapv:LexicalMatching	FBbt	ZFA	oaklib	0.5	rdfs:label	rdfs:label	foramen
-FBbt:00004495	ocellar triangle	owl:differentFrom	ZFA:0005054	inner optic circle	semapv:LexicalMatching	FBbt	ZFA	oaklib	0.5	oio:hasExactSynonym	oio:hasExactSynonym	ioc
-FBbt:00004506	lateral ocellus	owl:differentFrom	ZFA:0000059	postoptic commissure	semapv:LexicalMatching	FBbt	ZFA	oaklib	0.5	oio:hasExactSynonym	oio:hasExactSynonym	poc
-FBbt:00004508	eye	skos:exactMatch	ZFA:0000107	eye	semapv:LexicalMatching	FBbt	ZFA	oaklib	0.5	rdfs:label	rdfs:label	eye
-FBbt:00004767	anterior crossvein	owl:differentFrom	ZFA:0005820	ventral caudal adductor	semapv:LexicalMatching	FBbt	ZFA	oaklib	0.5	oio:hasExactSynonym	oio:hasRelatedSynonym	acv
-FBbt:00004767	anterior crossvein	skos:narrowMatch	ZFA:0000423	anterior cardinal vein	semapv:LexicalMatching	FBbt	ZFA	oaklib	0.5	oio:hasExactSynonym	oio:hasExactSynonym	acv
-FBbt:00004768	posterior crossvein	skos:relatedMatch	ZFA:0000477	posterior cardinal vein	semapv:LexicalMatching	FBbt	ZFA	oaklib	0.5	oio:hasExactSynonym	oio:hasExactSynonym	pcv
-FBbt:00004772	submarginal cell	skos:relatedMatch	ZFA:0009142	B cell	semapv:LexicalMatching	FBbt	ZFA	oaklib	0.5	oio:hasRelatedSynonym	rdfs:label	b cell
-FBbt:00004774	1st posterior cell	owl:differentFrom	ZFA:0009260	parafollicular cell	semapv:LexicalMatching	FBbt	ZFA	oaklib	0.5	oio:hasRelatedSynonym	oio:hasExactSynonym	c cell
-FBbt:00004775	2nd posterior cell	owl:differentFrom	ZFA:0009228	D cell	semapv:LexicalMatching	FBbt	ZFA	oaklib	0.5	oio:hasRelatedSynonym	rdfs:label	d cell
-FBbt:00004842	epandrial ventral lobe	skos:narrowMatch	ZFA:0000121	lateral plate mesoderm	semapv:LexicalMatching	FBbt	ZFA	oaklib	0.5	oio:hasExactSynonym	oio:hasExactSynonym	lateral plate
-FBbt:00004857	reproductive system	skos:exactMatch	ZFA:0000632	reproductive system	semapv:LexicalMatching	FBbt	ZFA	oaklib	0.5	rdfs:label	rdfs:label	reproductive system
-FBbt:00004858	gonad	skos:narrowMatch	ZFA:0000413	gonad	semapv:LexicalMatching	FBbt	ZFA	oaklib	0.5	rdfs:label	rdfs:label	gonad
-FBbt:00004861	germline stem cell	skos:exactMatch	ZFA:0005956	germline stem cell	semapv:LexicalMatching	FBbt	ZFA	oaklib	0.5	oio:hasDbXref	oio:hasDbXref	cl:0000014
-FBbt:00004865	ovary	skos:relatedMatch	ZFA:0000403	ovary	semapv:LexicalMatching	FBbt	ZFA	oaklib	0.5	rdfs:label	rdfs:label	ovary
-FBbt:00004886	oocyte	skos:broadMatch	ZFA:0001109	oocyte	semapv:LexicalMatching	FBbt	ZFA	oaklib	0.5	oio:hasDbXref	oio:hasDbXref	cl:0000023
-FBbt:00004903	follicle stem cell	skos:relatedMatch	ZFA:0009307	somatic stem cell	semapv:LexicalMatching	FBbt	ZFA	oaklib	0.5	oio:hasBroadSynonym	rdfs:label	somatic stem cell
-FBbt:00004911	oviduct	skos:relatedMatch	ZFA:0000560	oviduct	semapv:LexicalMatching	FBbt	ZFA	oaklib	0.5	rdfs:label	rdfs:label	oviduct
-FBbt:00004928	testis	skos:exactMatch	ZFA:0000598	testis	semapv:LexicalMatching	FBbt	ZFA	oaklib	0.5	rdfs:label	rdfs:label	testis
-FBbt:00004930	hub cell	skos:relatedMatch	ZFA:0009108	Leydig cell	semapv:LexicalMatching	FBbt	ZFA	oaklib	0.5	oio:hasRelatedSynonym	oio:hasExactSynonym	interstitial cell
-FBbt:00004934	primary gonial cell	skos:relatedMatch	ZFA:0009007	spermatogonium	semapv:LexicalMatching	FBbt	ZFA	oaklib	0.5	oio:hasDbXref	oio:hasDbXref	cl:0000020
-FBbt:00004935	spermatogonium	skos:exactMatch	ZFA:0009007	spermatogonium	semapv:LexicalMatching	FBbt	ZFA	oaklib	0.5	oio:hasDbXref	oio:hasDbXref	cl:0000020
-FBbt:00004936	spermatocyte	skos:relatedMatch	ZFA:0009005	spermatocyte	semapv:LexicalMatching	FBbt	ZFA	oaklib	0.5	oio:hasDbXref	oio:hasDbXref	cl:0000017
-FBbt:00004942	spermatid	skos:relatedMatch	ZFA:0005769	spermatid	semapv:LexicalMatching	FBbt	ZFA	oaklib	0.5	oio:hasDbXref	oio:hasDbXref	cl:0000018
-FBbt:00004954	spermatozoon	skos:exactMatch	ZFA:0009006	sperm	semapv:LexicalMatching	FBbt	ZFA	oaklib	0.5	oio:hasDbXref	oio:hasDbXref	cl:0000019
-FBbt:00004993	epidermis	skos:relatedMatch	ZFA:0000105	epidermis	semapv:LexicalMatching	FBbt	ZFA	oaklib	0.5	rdfs:label	rdfs:label	epidermis
-FBbt:00004993	epidermis	skos:relatedMatch	ZFA:0001136	hypodermis	semapv:LexicalMatching	FBbt	ZFA	oaklib	0.5	oio:hasRelatedSynonym	rdfs:label	hypodermis
-FBbt:00005055	digestive system	skos:exactMatch	ZFA:0000339	digestive system	semapv:LexicalMatching	FBbt	ZFA	oaklib	0.5	rdfs:label	rdfs:label	digestive system
-FBbt:00005061	hemolymph	skos:narrowMatch	ZFA:0000007	blood	semapv:LexicalMatching	FBbt	ZFA	oaklib	0.5	oio:hasRelatedSynonym	rdfs:label	blood
-FBbt:00005062	prohemocyte	skos:narrowMatch	ZFA:0009014	hematopoietic stem cell	semapv:LexicalMatching	FBbt	ZFA	oaklib	0.5	oio:hasExactSynonym	oio:hasExactSynonym	hsc
-FBbt:00005068	endocrine system	skos:relatedMatch	ZFA:0001158	endocrine system	semapv:LexicalMatching	FBbt	ZFA	oaklib	0.5	rdfs:label	rdfs:label	endocrine system
-FBbt:00005070	visceral muscle cell	skos:relatedMatch	ZFA:0005274	smooth muscle	semapv:LexicalMatching	FBbt	ZFA	oaklib	0.5	oio:hasBroadSynonym	rdfs:label	smooth muscle
-FBbt:00005073	somatic muscle cell	skos:exactMatch	ZFA:0009115	skeletal muscle cell	semapv:LexicalMatching	FBbt	ZFA	oaklib	0.5	oio:hasExactSynonym	rdfs:label	skeletal muscle cell
-FBbt:00005074	muscle cell	skos:exactMatch	ZFA:0009114	muscle cell	semapv:LexicalMatching	FBbt	ZFA	oaklib	0.5	oio:hasDbXref	oio:hasDbXref	cl:0000187
-FBbt:00005083	myoblast	skos:relatedMatch	ZFA:0009025	myoblast	semapv:LexicalMatching	FBbt	ZFA	oaklib	0.5	oio:hasDbXref	oio:hasDbXref	cl:0000056
-FBbt:00005090	tendon cell	skos:exactMatch	ZFA:0009189	tendon cell	semapv:LexicalMatching	FBbt	ZFA	oaklib	0.5	rdfs:label	rdfs:label	tendon cell
-FBbt:00005093	nervous system	skos:relatedMatch	ZFA:0000396	nervous system	semapv:LexicalMatching	FBbt	ZFA	oaklib	0.5	rdfs:label	rdfs:label	nervous system
-FBbt:00005094	central nervous system	owl:differentFrom	ZFA:0000012	central nervous system	semapv:LexicalMatching	FBbt	ZFA	oaklib	0.5	oio:hasRelatedSynonym	oio:hasExactSynonym	cns
-FBbt:00005095	brain	skos:exactMatch	ZFA:0000008	brain	semapv:LexicalMatching	FBbt	ZFA	oaklib	0.5	rdfs:label	rdfs:label	brain
-FBbt:00005098	peripheral nervous system	skos:exactMatch	ZFA:0000142	peripheral nervous system	semapv:LexicalMatching	FBbt	ZFA	oaklib	0.5	oio:hasRelatedSynonym	oio:hasExactSynonym	pns
-FBbt:00005105	nerve	skos:relatedMatch	ZFA:0007009	nerve	semapv:LexicalMatching	FBbt	ZFA	oaklib	0.5	rdfs:label	rdfs:label	nerve
-FBbt:00005106	neuron	skos:exactMatch	ZFA:0009248	neuron	semapv:LexicalMatching	FBbt	ZFA	oaklib	0.5	oio:hasDbXref	oio:hasDbXref	cl:0000540
-FBbt:00005123	motor neuron	skos:exactMatch	ZFA:0009052	motor neuron	semapv:LexicalMatching	FBbt	ZFA	oaklib	0.5	oio:hasDbXref	oio:hasDbXref	cl:0000100
-FBbt:00005124	sensory neuron	skos:exactMatch	ZFA:0009053	sensory neuron	semapv:LexicalMatching	FBbt	ZFA	oaklib	0.5	oio:hasDbXref	oio:hasDbXref	cl:0000101
-FBbt:00005125	interneuron	skos:relatedMatch	ZFA:0009051	interneuron	semapv:LexicalMatching	FBbt	ZFA	oaklib	0.5	oio:hasDbXref	oio:hasDbXref	cl:0000099
-FBbt:00005127	optic lobe amacrine neuron	skos:relatedMatch	ZFA:0009255	amacrine cell	semapv:LexicalMatching	FBbt	ZFA	oaklib	0.5	oio:hasRelatedSynonym	rdfs:label	amacrine cell
-FBbt:00005128	pioneer neuron	skos:relatedMatch	ZFA:0009066	pioneer neuron	semapv:LexicalMatching	FBbt	ZFA	oaklib	0.5	oio:hasDbXref	oio:hasDbXref	cl:0000116
-FBbt:00005130	neurosecretory neuron	skos:exactMatch	ZFA:0009186	neurosecretory neuron	semapv:LexicalMatching	FBbt	ZFA	oaklib	0.5	rdfs:label	rdfs:label	neurosecretory neuron
-FBbt:00005130	neurosecretory neuron	skos:narrowMatch	ZFA:0009098	neuroendocrine cell	semapv:LexicalMatching	FBbt	ZFA	oaklib	0.5	oio:hasDbXref	oio:hasDbXref	cl:0000165
-FBbt:00005131	dopaminergic neuron	skos:exactMatch	ZFA:0009301	dopaminergic neuron	semapv:LexicalMatching	FBbt	ZFA	oaklib	0.5	oio:hasDbXref	oio:hasDbXref	cl:0000700
-FBbt:00005133	serotonergic neuron	skos:broadMatch	ZFA:0009361	serotonergic neuron	semapv:LexicalMatching	FBbt	ZFA	oaklib	0.5	oio:hasDbXref	oio:hasDbXref	cl:0000850
-FBbt:00005137	ganglion	skos:relatedMatch	ZFA:0000190	ganglion	semapv:LexicalMatching	FBbt	ZFA	oaklib	0.5	rdfs:label	rdfs:label	ganglion
-FBbt:00005140	neuromere	skos:relatedMatch	ZFA:0000190	ganglion	semapv:LexicalMatching	FBbt	ZFA	oaklib	0.5	oio:hasRelatedSynonym	rdfs:label	ganglion
-FBbt:00005140	neuromere	skos:relatedMatch	ZFA:0001064	rhombomere	semapv:LexicalMatching	FBbt	ZFA	oaklib	0.5	rdfs:label	oio:hasRelatedSynonym	neuromere
-FBbt:00005140	neuromere	skos:relatedMatch	ZFA:0001328	neuromere	semapv:LexicalMatching	FBbt	ZFA	oaklib	0.5	rdfs:label	rdfs:label	neuromere
-FBbt:00005144	glial cell	skos:narrowMatch	ZFA:0009073	glial cell	semapv:LexicalMatching	FBbt	ZFA	oaklib	0.5	oio:hasDbXref	oio:hasDbXref	cl:0000125
-FBbt:00005145	glioblast	skos:relatedMatch	ZFA:0009010	glioblast	semapv:LexicalMatching	FBbt	ZFA	oaklib	0.5	rdfs:label	rdfs:label	glioblast
-FBbt:00005146	neuroblast	skos:relatedMatch	ZFA:0009011	neuroblast	semapv:LexicalMatching	FBbt	ZFA	oaklib	0.5	rdfs:label	rdfs:label	neuroblast
-FBbt:00005169	trichogen cell	skos:narrowMatch	ZFA:0009366	hair cell	semapv:LexicalMatching	FBbt	ZFA	oaklib	0.5	oio:hasNarrowSynonym	rdfs:label	hair cell
-FBbt:00005213	dendritic arborizing neuron	owl:differentFrom	ZFA:0000014	dorsal aorta	semapv:LexicalMatching	FBbt	ZFA	oaklib	0.5	oio:hasRelatedSynonym	oio:hasExactSynonym	da
-FBbt:00005288	fertilized egg	skos:exactMatch	ZFA:0005772	fertilized egg	semapv:LexicalMatching	FBbt	ZFA	oaklib	0.5	oio:hasRelatedSynonym	oio:hasExactSynonym	zygote
-FBbt:00005376	yolk sac	skos:relatedMatch	ZFA:0000088	yolk syncytial layer	semapv:LexicalMatching	FBbt	ZFA	oaklib	0.5	rdfs:label	oio:hasRelatedSynonym	yolk sac
-FBbt:00005378	wing margin	skos:relatedMatch	ZFA:0000038	margin	semapv:LexicalMatching	FBbt	ZFA	oaklib	0.5	oio:hasRelatedSynonym	rdfs:label	margin
-FBbt:00005379	foregut	skos:relatedMatch	ZFA:0001076	intestinal bulb	semapv:LexicalMatching	FBbt	ZFA	oaklib	0.5	rdfs:label	oio:hasRelatedSynonym	foregut
-FBbt:00005380	pharynx	skos:relatedMatch	ZFA:0000056	pharynx	semapv:LexicalMatching	FBbt	ZFA	oaklib	0.5	rdfs:label	rdfs:label	pharynx
-FBbt:00005381	esophagus	skos:relatedMatch	ZFA:0000204	esophagus	semapv:LexicalMatching	FBbt	ZFA	oaklib	0.5	oio:hasExactSynonym	oio:hasExactSynonym	oesophagus
-FBbt:00005412	gamete	skos:exactMatch	ZFA:0009156	gamete	semapv:LexicalMatching	FBbt	ZFA	oaklib	0.5	oio:hasDbXref	oio:hasDbXref	cl:0000300
-FBbt:00005558	ventral ectoderm	skos:relatedMatch	ZFA:0001178	non neural ectoderm	semapv:LexicalMatching	FBbt	ZFA	oaklib	0.5	rdfs:label	oio:hasExactSynonym	ventral ectoderm
-FBbt:00005644	embryonic Malpighian tubule Type I cell	owl:differentFrom	ZFA:0000320	caudal commissure	semapv:LexicalMatching	FBbt	ZFA	oaklib	0.5	oio:hasBroadSynonym	oio:hasRelatedSynonym	pc
-FBbt:00005644	embryonic Malpighian tubule Type I cell	owl:differentFrom	ZFA:0000566	posterior crista	semapv:LexicalMatching	FBbt	ZFA	oaklib	0.5	oio:hasBroadSynonym	oio:hasExactSynonym	pc
-FBbt:00005684	heart primordium	skos:exactMatch	ZFA:0000028	heart primordium	semapv:LexicalMatching	FBbt	ZFA	oaklib	0.5	rdfs:label	rdfs:label	heart primordium
-FBbt:00005786	Malpighian tubule	skos:relatedMatch	ZFA:0001287	renal tubule	semapv:LexicalMatching	FBbt	ZFA	oaklib	0.5	oio:hasExactSynonym	rdfs:label	renal tubule
-FBbt:00005796	Malpighian tubule Type I cell	owl:differentFrom	ZFA:0000320	caudal commissure	semapv:LexicalMatching	FBbt	ZFA	oaklib	0.5	oio:hasExactSynonym	oio:hasRelatedSynonym	pc
-FBbt:00005796	Malpighian tubule Type I cell	skos:relatedMatch	ZFA:0000566	posterior crista	semapv:LexicalMatching	FBbt	ZFA	oaklib	0.5	oio:hasExactSynonym	oio:hasExactSynonym	pc
-FBbt:00005800	corpus allatum	skos:relatedMatch	ZFA:0000011	caudal artery	semapv:LexicalMatching	FBbt	ZFA	oaklib	0.5	oio:hasExactSynonym	oio:hasExactSynonym	ca
-FBbt:00005812	myotube	skos:narrowMatch	ZFA:0009114	muscle cell	semapv:LexicalMatching	FBbt	ZFA	oaklib	0.5	oio:hasExactSynonym	oio:hasExactSynonym	myofiber
-FBbt:00005835	extraembryonic structure	skos:exactMatch	ZFA:0000020	extraembryonic structure	semapv:LexicalMatching	FBbt	ZFA	oaklib	0.5	oio:hasDbXref	oio:hasDbXref	caro:0000042
-FBbt:00005926	olfactory receptor neuron	skos:broadMatch	ZFA:0009125	olfactory receptor cell	semapv:LexicalMatching	FBbt	ZFA	oaklib	0.5	oio:hasExactSynonym	oio:hasExactSynonym	olfactory sensory neuron
-FBbt:00006009	eye photoreceptor cell	skos:relatedMatch	ZFA:0009154	eye photoreceptor cell	semapv:LexicalMatching	FBbt	ZFA	oaklib	0.5	rdfs:label	rdfs:label	eye photoreceptor cell
-FBbt:00006020	lch5 cap attachment cell	owl:differentFrom	ZFA:0000011	caudal artery	semapv:LexicalMatching	FBbt	ZFA	oaklib	0.5	oio:hasRelatedSynonym	oio:hasExactSynonym	ca
-FBbt:00006049	escort cell	owl:differentFrom	ZFA:0007004	epiphyseal cluster	semapv:LexicalMatching	FBbt	ZFA	oaklib	0.5	oio:hasExactSynonym	oio:hasExactSynonym	ec
-FBbt:00007001	anatomical structure	skos:relatedMatch	ZFA:0000037	anatomical structure	semapv:LexicalMatching	FBbt	ZFA	oaklib	0.5	oio:hasDbXref	oio:hasDbXref	caro:0000003
-FBbt:00007002	cell	skos:exactMatch	ZFA:0009000	cell	semapv:LexicalMatching	FBbt	ZFA	oaklib	0.5	oio:hasDbXref	oio:hasDbXref	caro:0000013
-FBbt:00007003	portion of tissue	skos:relatedMatch	ZFA:0001477	portion of tissue	semapv:LexicalMatching	FBbt	ZFA	oaklib	0.5	oio:hasDbXref	oio:hasDbXref	caro:0000043
-FBbt:00007004	male organism	skos:exactMatch	ZFA:0000242	male organism	semapv:LexicalMatching	FBbt	ZFA	oaklib	0.5	oio:hasDbXref	oio:hasDbXref	caro:0000027
-FBbt:00007005	epithelium	skos:narrowMatch	ZFA:0001486	epithelium	semapv:LexicalMatching	FBbt	ZFA	oaklib	0.5	oio:hasDbXref	oio:hasDbXref	caro:0000066
-FBbt:00007009	organism subdivision	skos:exactMatch	ZFA:0001308	organism subdivision	semapv:LexicalMatching	FBbt	ZFA	oaklib	0.5	oio:hasDbXref	oio:hasDbXref	caro:0000032
-FBbt:00007010	multi-tissue structure	skos:exactMatch	ZFA:0001488	multi-tissue structure	semapv:LexicalMatching	FBbt	ZFA	oaklib	0.5	oio:hasDbXref	oio:hasDbXref	caro:0000055
-FBbt:00007011	female organism	skos:exactMatch	ZFA:0000303	female organism	semapv:LexicalMatching	FBbt	ZFA	oaklib	0.5	oio:hasDbXref	oio:hasDbXref	caro:0000028
-FBbt:00007013	acellular anatomical structure	skos:exactMatch	ZFA:0000382	acellular anatomical structure	semapv:LexicalMatching	FBbt	ZFA	oaklib	0.5	oio:hasDbXref	oio:hasDbXref	caro:0000040
-FBbt:00007014	stem cell	skos:relatedMatch	ZFA:0005957	stem cell	semapv:LexicalMatching	FBbt	ZFA	oaklib	0.5	rdfs:label	rdfs:label	stem cell
-FBbt:00007017	anatomical space	skos:exactMatch	ZFA:0001643	anatomical space	semapv:LexicalMatching	FBbt	ZFA	oaklib	0.5	oio:hasDbXref	oio:hasDbXref	caro:0000005
-FBbt:00007019	portion of organism substance	skos:exactMatch	ZFA:0001487	portion of organism substance	semapv:LexicalMatching	FBbt	ZFA	oaklib	0.5	oio:hasDbXref	oio:hasDbXref	caro:0000004
-FBbt:00007035	adult anterior hindgut	skos:relatedMatch	ZFA:0001076	intestinal bulb	semapv:LexicalMatching	FBbt	ZFA	oaklib	0.5	oio:hasRelatedSynonym	oio:hasExactSynonym	anterior intestine
-FBbt:00007038	enteroendocrine cell	skos:exactMatch	ZFA:0009097	enteroendocrine cell	semapv:LexicalMatching	FBbt	ZFA	oaklib	0.5	rdfs:label	rdfs:label	enteroendocrine cell
-FBbt:00007042	enterocyte	owl:differentFrom	ZFA:0007004	epiphyseal cluster	semapv:LexicalMatching	FBbt	ZFA	oaklib	0.5	oio:hasExactSynonym	oio:hasExactSynonym	ec
-FBbt:00007042	enterocyte	skos:exactMatch	ZFA:0009129	absorptive cell	semapv:LexicalMatching	FBbt	ZFA	oaklib	0.5	oio:hasRelatedSynonym	rdfs:label	absorptive cell
-FBbt:00007042	enterocyte	skos:relatedMatch	ZFA:0009269	enterocyte	semapv:LexicalMatching	FBbt	ZFA	oaklib	0.5	rdfs:label	rdfs:label	enterocyte
-FBbt:00007065	embryonic/larval anterior superior medial protocerebrum	skos:relatedMatch	ZFA:0000014	dorsal aorta	semapv:LexicalMatching	FBbt	ZFA	oaklib	0.5	oio:hasExactSynonym	oio:hasExactSynonym	da
-FBbt:00007066	embryonic/larval posterior superior medial protocerebrum	owl:differentFrom	ZFA:0000181	caudal zone of dorsal telencephalon	semapv:LexicalMatching	FBbt	ZFA	oaklib	0.5	oio:hasExactSynonym	oio:hasExactSynonym	dp
-FBbt:00007118	embryonic/larval crepine	owl:differentFrom	ZFA:0000011	caudal artery	semapv:LexicalMatching	FBbt	ZFA	oaklib	0.5	oio:hasExactSynonym	oio:hasExactSynonym	ca
-FBbt:00007126	embryonic/larval posterior cervical tract	owl:differentFrom	ZFA:0001620	pronephric proximal convoluted tubule	semapv:LexicalMatching	FBbt	ZFA	oaklib	0.5	oio:hasRelatedSynonym	oio:hasExactSynonym	pct
-FBbt:00007127	embryonic/larval antennal lobe	owl:differentFrom	ZFA:0005002	basilar artery	semapv:LexicalMatching	FBbt	ZFA	oaklib	0.5	oio:hasExactSynonym	oio:hasExactSynonym	ba
-FBbt:00007173	cholinergic neuron	skos:exactMatch	ZFA:0009060	cholinergic neuron	semapv:LexicalMatching	FBbt	ZFA	oaklib	0.5	oio:hasDbXref	oio:hasDbXref	cl:0000108
-FBbt:00007228	GABAergic neuron	skos:exactMatch	ZFA:0009276	GABAergic neuron	semapv:LexicalMatching	FBbt	ZFA	oaklib	0.5	oio:hasDbXref	oio:hasDbXref	cl:0000617
-FBbt:00007277	anatomical cluster	skos:relatedMatch	ZFA:0001478	anatomical cluster	semapv:LexicalMatching	FBbt	ZFA	oaklib	0.5	rdfs:label	rdfs:label	anatomical cluster
-FBbt:00007281	epiphysis	skos:exactMatch	ZFA:0000019	epiphysis	semapv:LexicalMatching	FBbt	ZFA	oaklib	0.5	rdfs:label	rdfs:label	epiphysis
-FBbt:00007294	endocrine cell	skos:relatedMatch	ZFA:0009096	endocrine cell	semapv:LexicalMatching	FBbt	ZFA	oaklib	0.5	rdfs:label	rdfs:label	endocrine cell
-FBbt:00007319	cardial cell	skos:narrowMatch	ZFA:0009316	cardiac muscle cell	semapv:LexicalMatching	FBbt	ZFA	oaklib	0.5	oio:hasExactSynonym	oio:hasExactSynonym	cardiomyocyte
-FBbt:00007325	epidermal cell	skos:exactMatch	ZFA:0009183	epidermal cell	semapv:LexicalMatching	FBbt	ZFA	oaklib	0.5	rdfs:label	rdfs:label	epidermal cell
-FBbt:00007344	somatic stem cell	skos:relatedMatch	ZFA:0009307	somatic stem cell	semapv:LexicalMatching	FBbt	ZFA	oaklib	0.5	rdfs:label	rdfs:label	somatic stem cell
-FBbt:00007390	local interneuron of adult antennal lobe	owl:differentFrom	ZFA:0000425	anterior lateral line nerve	semapv:LexicalMatching	FBbt	ZFA	oaklib	0.5	oio:hasExactSynonym	oio:hasExactSynonym	alln
-FBbt:00007427	posterior optic commissure	skos:relatedMatch	ZFA:0000059	postoptic commissure	semapv:LexicalMatching	FBbt	ZFA	oaklib	0.5	oio:hasExactSynonym	oio:hasExactSynonym	poc
-FBbt:00007553	ellipsoid body inner central domain	owl:differentFrom	ZFA:0000202	efferent branchial artery	semapv:LexicalMatching	FBbt	ZFA	oaklib	0.5	oio:hasRelatedSynonym	oio:hasExactSynonym	eba
-FBbt:00007688	olfactory system	skos:relatedMatch	ZFA:0001149	olfactory system	semapv:LexicalMatching	FBbt	ZFA	oaklib	0.5	rdfs:label	rdfs:label	olfactory system
-FBbt:00007690	gustatory system	skos:relatedMatch	ZFA:0001101	gustatory system	semapv:LexicalMatching	FBbt	ZFA	oaklib	0.5	rdfs:label	rdfs:label	gustatory system
-FBbt:00007692	sensory system	skos:relatedMatch	ZFA:0000282	sensory system	semapv:LexicalMatching	FBbt	ZFA	oaklib	0.5	rdfs:label	rdfs:label	sensory system
-FBbt:00015288	unfertilized egg	skos:exactMatch	ZFA:0001109	oocyte	semapv:LexicalMatching	FBbt	ZFA	oaklib	0.5	oio:hasBroadSynonym	rdfs:label	oocyte
-FBbt:00015288	unfertilized egg	skos:exactMatch	ZFA:0001570	unfertilized egg	semapv:LexicalMatching	FBbt	ZFA	oaklib	0.5	rdfs:label	rdfs:label	unfertilized egg
-FBbt:00015899	lateral longitudinal fascicle	skos:relatedMatch	ZFA:0000534	lateral longitudinal fasciculus	semapv:LexicalMatching	FBbt	ZFA	oaklib	0.5	rdfs:label	oio:hasExactSynonym	lateral longitudinal fascicle
-FBbt:00040001	lateral complex	owl:differentFrom	ZFA:0000297	vagal lobe	semapv:LexicalMatching	FBbt	ZFA	oaklib	0.5	oio:hasExactSynonym	oio:hasExactSynonym	lx
-FBbt:00040005	synaptic neuropil	owl:differentFrom	ZFA:0005907	tectal neuropile	semapv:LexicalMatching	FBbt	ZFA	oaklib	0.5	rdfs:label	oio:hasRelatedSynonym	synaptic neuropil
-FBbt:00040007	synaptic neuropil domain	skos:relatedMatch	ZFA:0005907	tectal neuropile	semapv:LexicalMatching	FBbt	ZFA	oaklib	0.5	oio:hasRelatedSynonym	oio:hasRelatedSynonym	synaptic neuropil
-FBbt:00040072	posterior slope	owl:differentFrom	ZFA:0009021	common myeloid progenitor	semapv:LexicalMatching	FBbt	ZFA	oaklib	0.5	oio:hasRelatedSynonym	oio:hasExactSynonym	cmp
-FBbt:00045001	plexiform medulla	owl:differentFrom	ZFA:0009022	megakaryocyte erythroid progenitor cell	semapv:LexicalMatching	FBbt	ZFA	oaklib	0.5	oio:hasExactSynonym	oio:hasExactSynonym	mep
-FBbt:00046052	fat cell	skos:exactMatch	ZFA:0009082	fat cell	semapv:LexicalMatching	FBbt	ZFA	oaklib	0.5	oio:hasExactSynonym	oio:hasExactSynonym	adipocyte
-FBbt:00047034	ellipsoid body anterior domain	owl:differentFrom	ZFA:0000202	efferent branchial artery	semapv:LexicalMatching	FBbt	ZFA	oaklib	0.5	oio:hasExactSynonym	oio:hasExactSynonym	eba
-FBbt:00047096	secondary neuron	skos:exactMatch	ZFA:0009246	secondary neuron	semapv:LexicalMatching	FBbt	ZFA	oaklib	0.5	rdfs:label	rdfs:label	secondary neuron
-FBbt:00047097	primary neuron	skos:exactMatch	ZFA:0009242	primary neuron	semapv:LexicalMatching	FBbt	ZFA	oaklib	0.5	rdfs:label	rdfs:label	primary neuron
-FBbt:00047136	adult posterior anterior ventral commissure	skos:relatedMatch	ZFA:0005034	parachordal vessel	semapv:LexicalMatching	FBbt	ZFA	oaklib	0.5	oio:hasExactSynonym	oio:hasExactSynonym	pav
-FBbt:00047143	gut	skos:relatedMatch	ZFA:0000112	gut	semapv:LexicalMatching	FBbt	ZFA	oaklib	0.5	rdfs:label	rdfs:label	gut
-FBbt:00047153	anus	skos:exactMatch	ZFA:0000066	proctodeum	semapv:LexicalMatching	FBbt	ZFA	oaklib	0.5	rdfs:label	oio:hasRelatedSynonym	anus
-FBbt:00047166	gut epithelium	skos:relatedMatch	ZFA:0005123	gut epithelium	semapv:LexicalMatching	FBbt	ZFA	oaklib	0.5	rdfs:label	rdfs:label	gut epithelium
-FBbt:00047177	midgut enterocyte	skos:broadMatch	ZFA:0009129	absorptive cell	semapv:LexicalMatching	FBbt	ZFA	oaklib	0.5	oio:hasRelatedSynonym	rdfs:label	absorptive cell
-FBbt:00047541	dorsal lateral tract of ventral cervical fasciculus	skos:relatedMatch	ZFA:0005031	dorsal longitudinal vein	semapv:LexicalMatching	FBbt	ZFA	oaklib	0.5	oio:hasExactSynonym	oio:hasExactSynonym	dlv
-FBbt:00047548	adult mesothoracic anterior anterior ventral commissure	owl:differentFrom	ZFA:0009088	professional antigen presenting cell	semapv:LexicalMatching	FBbt	ZFA	oaklib	0.5	oio:hasExactSynonym	oio:hasExactSynonym	apc
-FBbt:00047735	visual system	skos:exactMatch	ZFA:0001127	visual system	semapv:LexicalMatching	FBbt	ZFA	oaklib	0.5	rdfs:label	rdfs:label	visual system
-FBbt:00047836	ensheathing glial cell	owl:differentFrom	ZFA:0000212	granular eminence	semapv:LexicalMatching	FBbt	ZFA	oaklib	0.5	oio:hasExactSynonym	oio:hasRelatedSynonym	eg
-FBbt:00047887	adult central brain	skos:narrowMatch	ZFA:0000128	midbrain	semapv:LexicalMatching	FBbt	ZFA	oaklib	0.5	oio:hasExactSynonym	rdfs:label	midbrain
-FBbt:00048032	glycinergic neuron	skos:exactMatch	ZFA:0009396	glycinergic neuron	semapv:LexicalMatching	FBbt	ZFA	oaklib	0.5	oio:hasDbXref	oio:hasDbXref	cl:1001509
-FBbt:00048329	cell body rind of adult inferior bridge	owl:differentFrom	ZFA:0000538	rib	semapv:LexicalMatching	FBbt	ZFA	oaklib	0.5	oio:hasExactSynonym	rdfs:label	rib
-FBbt:00048500	larval antennal-pharyngeal nerve motor neuron	owl:differentFrom	ZFA:0009049	mature neutrophil	semapv:LexicalMatching	FBbt	ZFA	oaklib	0.5	oio:hasRelatedSynonym	oio:hasExactSynonym	pmn
-FBbt:00048500	larval antennal-pharyngeal nerve motor neuron	owl:differentFrom	ZFA:0009327	neutrophil	semapv:LexicalMatching	FBbt	ZFA	oaklib	0.5	oio:hasRelatedSynonym	oio:hasRelatedSynonym	pmn
-FBbt:00048549	larval intermingled cell	skos:relatedMatch	ZFA:0000528	interradialis caudalis	semapv:LexicalMatching	FBbt	ZFA	oaklib	0.5	oio:hasExactSynonym	oio:hasRelatedSynonym	ic
-FBbt:00049543	small undifferentiated primary neuron	skos:relatedMatch	ZFA:0009066	pioneer neuron	semapv:LexicalMatching	FBbt	ZFA	oaklib	0.5	oio:hasRelatedSynonym	rdfs:label	pioneer neuron
-FBbt:00051393	adult sensory region of subesophageal zone	owl:differentFrom	ZFA:0009288	primordial germ cell	semapv:LexicalMatching	FBbt	ZFA	oaklib	0.5	oio:hasRelatedSynonym	oio:hasExactSynonym	pgc
-FBbt:00051963	efferent neuron	skos:exactMatch	ZFA:0009239	efferent neuron	semapv:LexicalMatching	FBbt	ZFA	oaklib	0.5	rdfs:label	rdfs:label	efferent neuron
-FBbt:00052149	enteric neuron	skos:exactMatch	ZFA:0005775	enteric neuron	semapv:LexicalMatching	FBbt	ZFA	oaklib	0.5	rdfs:label	rdfs:label	enteric neuron
-FBbt:00052152	intermediate zone of lymph gland primary lobe	skos:relatedMatch	ZFA:0001341	intervening zone	semapv:LexicalMatching	FBbt	ZFA	oaklib	0.5	oio:hasExactSynonym	oio:hasExactSynonym	iz
-FBbt:00052517	primary interneuron	skos:exactMatch	ZFA:0009245	primary interneuron	semapv:LexicalMatching	FBbt	ZFA	oaklib	0.5	rdfs:label	rdfs:label	primary interneuron
-FBbt:00052518	primary motor neuron	skos:relatedMatch	ZFA:0009244	primary motor neuron	semapv:LexicalMatching	FBbt	ZFA	oaklib	0.5	rdfs:label	rdfs:label	primary motor neuron
-FBbt:00057012	female germline cell	skos:narrowMatch	ZFA:0001570	unfertilized egg	semapv:LexicalMatching	FBbt	ZFA	oaklib	0.5	oio:hasDbXref	oio:hasDbXref	cl:0000025
-FBbt:00058328	dorsal mouthpart muscle	owl:differentFrom	ZFA:0000391	medial zone of dorsal telencephalon	semapv:LexicalMatching	FBbt	ZFA	oaklib	0.5	oio:hasExactSynonym	oio:hasExactSynonym	dm
-FBbt:00058377	mesothoracic lateral longitudinal muscle	skos:narrowMatch	ZFA:0000034	lateral line system	semapv:LexicalMatching	FBbt	ZFA	oaklib	0.5	oio:hasBroadSynonym	oio:hasExactSynonym	ll
-FBbt:00058412	metathoracic lateral longitudinal muscle	skos:narrowMatch	ZFA:0000034	lateral line system	semapv:LexicalMatching	FBbt	ZFA	oaklib	0.5	oio:hasRelatedSynonym	oio:hasExactSynonym	ll
-FBbt:00058840	adductor muscle	skos:relatedMatch	ZFA:0005268	adductor muscle	semapv:LexicalMatching	FBbt	ZFA	oaklib	0.5	rdfs:label	rdfs:label	adductor muscle
-FBbt:00058842	depressor muscle	skos:relatedMatch	ZFA:0005270	depressor muscle	semapv:LexicalMatching	FBbt	ZFA	oaklib	0.5	rdfs:label	rdfs:label	depressor muscle
-FBbt:00059181	postcephalic region	skos:broadMatch	ZFA:0001115	trunk	semapv:LexicalMatching	FBbt	ZFA	oaklib	0.5	oio:hasNarrowSynonym	rdfs:label	trunk
-FBbt:00085378	section of wing margin	owl:differentFrom	ZFA:0000038	margin	semapv:LexicalMatching	FBbt	ZFA	oaklib	0.5	oio:hasRelatedSynonym	rdfs:label	margin
-FBbt:00100007	lateral core of antennal mechanosensory and motor center	owl:differentFrom	ZFA:0000166	lateral crista	semapv:LexicalMatching	FBbt	ZFA	oaklib	0.5	oio:hasExactSynonym	oio:hasExactSynonym	lc
-FBbt:00100120	campaniform sensillum anterior crossvein neuron	owl:differentFrom	ZFA:0000423	anterior cardinal vein	semapv:LexicalMatching	FBbt	ZFA	oaklib	0.5	oio:hasRelatedSynonym	oio:hasExactSynonym	acv
-FBbt:00100120	campaniform sensillum anterior crossvein neuron	owl:differentFrom	ZFA:0005820	ventral caudal adductor	semapv:LexicalMatching	FBbt	ZFA	oaklib	0.5	oio:hasRelatedSynonym	oio:hasRelatedSynonym	acv
-FBbt:00100138	larval gnathal ganglion	skos:relatedMatch	ZFA:0000029	hindbrain	semapv:LexicalMatching	FBbt	ZFA	oaklib	0.5	oio:hasRelatedSynonym	rdfs:label	hindbrain
-FBbt:00100291	glutamatergic neuron	skos:exactMatch	ZFA:0009290	glutamatergic neuron	semapv:LexicalMatching	FBbt	ZFA	oaklib	0.5	oio:hasDbXref	oio:hasDbXref	cl:0000679
-FBbt:00100314	duct	skos:exactMatch	ZFA:0005171	duct	semapv:LexicalMatching	FBbt	ZFA	oaklib	0.5	rdfs:label	rdfs:label	duct
-FBbt:00100318	somatic cell	skos:exactMatch	ZFA:0009386	somatic cell	semapv:LexicalMatching	FBbt	ZFA	oaklib	0.5	rdfs:label	rdfs:label	somatic cell
-FBbt:00100505	astrocyte-like glial cell	skos:narrowMatch	ZFA:0009075	astrocyte	semapv:LexicalMatching	FBbt	ZFA	oaklib	0.5	oio:hasExactSynonym	rdfs:label	astrocyte
-FBbt:00100769	larval dopaminergic AL neuron	owl:differentFrom	ZFA:0000536	lateral zone of dorsal telencephalon	semapv:LexicalMatching	FBbt	ZFA	oaklib	0.5	oio:hasRelatedSynonym	oio:hasExactSynonym	dl
-FBbt:00100770	abdominal 1 dopaminergic AL neuron	owl:differentFrom	ZFA:0000536	lateral zone of dorsal telencephalon	semapv:LexicalMatching	FBbt	ZFA	oaklib	0.5	oio:hasRelatedSynonym	oio:hasExactSynonym	dl
-FBbt:00100771	abdominal 2 dopaminergic AL neuron	owl:differentFrom	ZFA:0000536	lateral zone of dorsal telencephalon	semapv:LexicalMatching	FBbt	ZFA	oaklib	0.5	oio:hasRelatedSynonym	oio:hasExactSynonym	dl
-FBbt:00100772	abdominal 3 dopaminergic AL neuron	skos:relatedMatch	ZFA:0000536	lateral zone of dorsal telencephalon	semapv:LexicalMatching	FBbt	ZFA	oaklib	0.5	oio:hasRelatedSynonym	oio:hasExactSynonym	dl
-FBbt:00100773	abdominal 4 dopaminergic AL neuron	owl:differentFrom	ZFA:0000536	lateral zone of dorsal telencephalon	semapv:LexicalMatching	FBbt	ZFA	oaklib	0.5	oio:hasRelatedSynonym	oio:hasExactSynonym	dl
-FBbt:00100774	abdominal 5 dopaminergic AL neuron	skos:relatedMatch	ZFA:0000536	lateral zone of dorsal telencephalon	semapv:LexicalMatching	FBbt	ZFA	oaklib	0.5	oio:hasRelatedSynonym	oio:hasExactSynonym	dl
-FBbt:00100775	abdominal 6 dopaminergic AL neuron	skos:relatedMatch	ZFA:0000536	lateral zone of dorsal telencephalon	semapv:LexicalMatching	FBbt	ZFA	oaklib	0.5	oio:hasRelatedSynonym	oio:hasExactSynonym	dl
-FBbt:00100776	abdominal 7 dopaminergic AL neuron	owl:differentFrom	ZFA:0000536	lateral zone of dorsal telencephalon	semapv:LexicalMatching	FBbt	ZFA	oaklib	0.5	oio:hasRelatedSynonym	oio:hasExactSynonym	dl
-FBbt:00110173	adult abdominal neuromere	owl:differentFrom	ZFA:0000619	anterior crista	semapv:LexicalMatching	FBbt	ZFA	oaklib	0.5	oio:hasExactSynonym	oio:hasExactSynonym	ac
-FBbt:00110300	larval V motor neuron	owl:differentFrom	ZFA:0000619	anterior crista	semapv:LexicalMatching	FBbt	ZFA	oaklib	0.5	oio:hasExactSynonym	oio:hasExactSynonym	ac
-FBbt:00110567	pars lateralis	owl:differentFrom	ZFA:0005107	pectoral lymphatic vessel	semapv:LexicalMatching	FBbt	ZFA	oaklib	0.5	oio:hasExactSynonym	oio:hasExactSynonym	pl
-FBbt:00110636	adult cerebral ganglion	skos:broadMatch	ZFA:0000008	brain	semapv:LexicalMatching	FBbt	ZFA	oaklib	0.5	oio:hasRelatedSynonym	rdfs:label	brain
-FBbt:00110652	adult pars lateralis	owl:differentFrom	ZFA:0005107	pectoral lymphatic vessel	semapv:LexicalMatching	FBbt	ZFA	oaklib	0.5	oio:hasExactSynonym	oio:hasExactSynonym	pl
-FBbt:00110875	peripheral cell	owl:differentFrom	ZFA:0000320	caudal commissure	semapv:LexicalMatching	FBbt	ZFA	oaklib	0.5	oio:hasExactSynonym	oio:hasRelatedSynonym	pc
-FBbt:00110875	peripheral cell	owl:differentFrom	ZFA:0000566	posterior crista	semapv:LexicalMatching	FBbt	ZFA	oaklib	0.5	oio:hasExactSynonym	oio:hasExactSynonym	pc
-FBbt:00110890	adult midgut region R1	skos:relatedMatch	ZFA:0001031	rhombomere 1	semapv:LexicalMatching	FBbt	ZFA	oaklib	0.5	oio:hasExactSynonym	oio:hasExactSynonym	r1
-FBbt:00110893	adult midgut region R2	owl:differentFrom	ZFA:0000822	rhombomere 2	semapv:LexicalMatching	FBbt	ZFA	oaklib	0.5	oio:hasExactSynonym	oio:hasExactSynonym	r2
-FBbt:00110897	adult midgut region R3	owl:differentFrom	ZFA:0000948	rhombomere 3	semapv:LexicalMatching	FBbt	ZFA	oaklib	0.5	oio:hasExactSynonym	oio:hasExactSynonym	r3
-FBbt:00110901	adult midgut region R4	skos:relatedMatch	ZFA:0001032	rhombomere 4	semapv:LexicalMatching	FBbt	ZFA	oaklib	0.5	oio:hasExactSynonym	oio:hasExactSynonym	r4
-FBbt:00110905	adult midgut region R5	owl:differentFrom	ZFA:0000823	rhombomere 5	semapv:LexicalMatching	FBbt	ZFA	oaklib	0.5	oio:hasExactSynonym	oio:hasExactSynonym	r5
-FBbt:00111202	anatomical line	skos:exactMatch	ZFA:0001689	anatomical line	semapv:LexicalMatching	FBbt	ZFA	oaklib	0.5	oio:hasDbXref	oio:hasDbXref	caro:0000008
-FBbt:00111203	embryonic/larval superior medial protocerebrum	owl:differentFrom	ZFA:0000014	dorsal aorta	semapv:LexicalMatching	FBbt	ZFA	oaklib	0.5	oio:hasNarrowSynonym	oio:hasExactSynonym	da
-FBbt:00111203	embryonic/larval superior medial protocerebrum	owl:differentFrom	ZFA:0000181	caudal zone of dorsal telencephalon	semapv:LexicalMatching	FBbt	ZFA	oaklib	0.5	oio:hasNarrowSynonym	oio:hasExactSynonym	dp
-FBbt:00111204	embryonic/larval superior clamp	skos:relatedMatch	ZFA:0007006	lip	semapv:LexicalMatching	FBbt	ZFA	oaklib	0.5	oio:hasRelatedSynonym	rdfs:label	lip
-FBbt:00111304	adult sex peptide abdominal ganglion neuron	owl:differentFrom	ZFA:0000588	statoacoustic (VIII) ganglion	semapv:LexicalMatching	FBbt	ZFA	oaklib	0.5	oio:hasExactSynonym	oio:hasExactSynonym	sag
-FBbt:00111739	midline	skos:relatedMatch	ZFA:0000092	axis	semapv:LexicalMatching	FBbt	ZFA	oaklib	0.5	rdfs:label	oio:hasExactSynonym	midline
+HsapDv:0000000	life cycle stage	skos:exactMatch	MmusDv:0000000	life cycle stage	semapv:LexicalMatching	HsapDv	MmusDv	oaklib	0.5	oio:hasDbXref	oio:hasDbXref	uberon:0000105
+HsapDv:0000001	life cycle	skos:exactMatch	MmusDv:0000001	life cycle	semapv:LexicalMatching	HsapDv	MmusDv	oaklib	0.5	oio:hasDbXref	oio:hasDbXref	uberon:0000104
+HsapDv:0000002	embryonic stage	skos:exactMatch	MmusDv:0000002	embryonic stage	semapv:LexicalMatching	HsapDv	MmusDv	oaklib	0.5	rdfs:label	rdfs:label	embryonic stage
+HsapDv:0000003	Carnegie stage 01	skos:relatedMatch	MmusDv:0000003	Theiler stage 01	semapv:LexicalMatching	HsapDv	MmusDv	oaklib	0.5	oio:hasDbXref	oio:hasDbXref	uberon:0000106
+HsapDv:0000005	Carnegie stage 02	owl:differentFrom	MmusDv:0000004	cleavage stage	semapv:LexicalMatching	HsapDv	MmusDv	oaklib	0.5	oio:hasBroadSynonym	rdfs:label	cleavage stage
+HsapDv:0000006	blastula stage	skos:relatedMatch	MmusDv:0000007	blastula stage	semapv:LexicalMatching	HsapDv	MmusDv	oaklib	0.5	oio:hasDbXref	oio:hasDbXref	uberon:0000108
+HsapDv:0000010	gastrula stage	skos:exactMatch	MmusDv:0000013	gastrula stage	semapv:LexicalMatching	HsapDv	MmusDv	oaklib	0.5	oio:hasDbXref	oio:hasDbXref	uberon:0000109
+HsapDv:0000012	neurula stage	skos:narrowMatch	MmusDv:0000017	Theiler stage 11	semapv:LexicalMatching	HsapDv	MmusDv	oaklib	0.5	oio:hasDbXref	oio:hasDbXref	uberon:0000110
+HsapDv:0000015	organogenesis stage	skos:exactMatch	MmusDv:0000018	organogenesis stage	semapv:LexicalMatching	HsapDv	MmusDv	oaklib	0.5	oio:hasDbXref	oio:hasDbXref	uberon:0000111
+HsapDv:0000037	fetal stage	skos:exactMatch	MmusDv:0000031	fetal stage	semapv:LexicalMatching	HsapDv	MmusDv	oaklib	0.5	oio:hasDbXref	oio:hasDbXref	uberon:0007220
+HsapDv:0000045	prenatal stage	skos:exactMatch	MmusDv:0000042	prenatal stage	semapv:LexicalMatching	HsapDv	MmusDv	oaklib	0.5	oio:hasDbXref	oio:hasDbXref	uberon:0000068
+HsapDv:0000175	2-month-old stage	owl:differentFrom	MmusDv:0000062	2-month-old stage	semapv:LexicalMatching	HsapDv	MmusDv	oaklib	0.5	rdfs:label	rdfs:label	2-month-old stage
+HsapDv:0000176	3-month-old stage	skos:exactMatch	MmusDv:0000063	3-month-old stage	semapv:LexicalMatching	HsapDv	MmusDv	oaklib	0.5	rdfs:label	rdfs:label	3-month-old stage
+HsapDv:0000177	4-month-old stage	skos:relatedMatch	MmusDv:0000064	4-month-old stage	semapv:LexicalMatching	HsapDv	MmusDv	oaklib	0.5	rdfs:label	rdfs:label	4-month-old stage
+HsapDv:0000178	5-month-old stage	skos:relatedMatch	MmusDv:0000069	5-month-old stage	semapv:LexicalMatching	HsapDv	MmusDv	oaklib	0.5	rdfs:label	rdfs:label	5-month-old stage
+HsapDv:0000179	6-month-old stage	skos:relatedMatch	MmusDv:0000077	6-month-old stage	semapv:LexicalMatching	HsapDv	MmusDv	oaklib	0.5	rdfs:label	rdfs:label	6-month-old stage
+HsapDv:0000180	7-month-old stage	skos:relatedMatch	MmusDv:0000078	7-month-old stage	semapv:LexicalMatching	HsapDv	MmusDv	oaklib	0.5	rdfs:label	rdfs:label	7-month-old stage
+HsapDv:0000181	8-month-old stage	skos:relatedMatch	MmusDv:0000079	8-month-old stage	semapv:LexicalMatching	HsapDv	MmusDv	oaklib	0.5	rdfs:label	rdfs:label	8-month-old stage
+HsapDv:0000182	9-month-old stage	skos:relatedMatch	MmusDv:0000080	9-month-old stage	semapv:LexicalMatching	HsapDv	MmusDv	oaklib	0.5	rdfs:label	rdfs:label	9-month-old stage
+HsapDv:0000183	10-month-old stage	owl:differentFrom	MmusDv:0000081	10-month-old stage	semapv:LexicalMatching	HsapDv	MmusDv	oaklib	0.5	rdfs:label	rdfs:label	10-month-old stage
+HsapDv:0000184	11-month-old stage	owl:differentFrom	MmusDv:0000082	11-month-old stage	semapv:LexicalMatching	HsapDv	MmusDv	oaklib	0.5	rdfs:label	rdfs:label	11-month-old stage
+HsapDv:0000185	12-month-old stage	owl:differentFrom	MmusDv:0000083	12-month-old stage	semapv:LexicalMatching	HsapDv	MmusDv	oaklib	0.5	rdfs:label	rdfs:label	12-month-old stage
+HsapDv:0000186	13-month-old stage	skos:relatedMatch	MmusDv:0000084	13-month-old stage	semapv:LexicalMatching	HsapDv	MmusDv	oaklib	0.5	rdfs:label	rdfs:label	13-month-old stage
+HsapDv:0000187	14-month-old stage	owl:differentFrom	MmusDv:0000085	14-month-old stage	semapv:LexicalMatching	HsapDv	MmusDv	oaklib	0.5	rdfs:label	rdfs:label	14-month-old stage
+HsapDv:0000188	15-month-old stage	skos:relatedMatch	MmusDv:0000086	15-month-old stage	semapv:LexicalMatching	HsapDv	MmusDv	oaklib	0.5	rdfs:label	rdfs:label	15-month-old stage
+HsapDv:0000189	16-month-old stage	skos:relatedMatch	MmusDv:0000087	16-month-old stage	semapv:LexicalMatching	HsapDv	MmusDv	oaklib	0.5	rdfs:label	rdfs:label	16-month-old stage
+HsapDv:0000190	17-month-old stage	owl:differentFrom	MmusDv:0000088	17-month-old stage	semapv:LexicalMatching	HsapDv	MmusDv	oaklib	0.5	rdfs:label	rdfs:label	17-month-old stage
+HsapDv:0000191	18-month-old stage	skos:exactMatch	MmusDv:0000089	18-month-old stage	semapv:LexicalMatching	HsapDv	MmusDv	oaklib	0.5	rdfs:label	rdfs:label	18-month-old stage
+HsapDv:0000192	19-month-old stage	owl:differentFrom	MmusDv:0000090	19-month-old stage	semapv:LexicalMatching	HsapDv	MmusDv	oaklib	0.5	rdfs:label	rdfs:label	19-month-old stage
+HsapDv:0000193	20-month-old stage	skos:broadMatch	MmusDv:0000124	20-month-old stage	semapv:LexicalMatching	HsapDv	MmusDv	oaklib	0.5	rdfs:label	rdfs:label	20-month-old stage
+HsapDv:0000194	21-month-old stage	skos:exactMatch	MmusDv:0000125	21-month-old stage	semapv:LexicalMatching	HsapDv	MmusDv	oaklib	0.5	rdfs:label	rdfs:label	21-month-old stage
+HsapDv:0000195	22-month-old stage	skos:relatedMatch	MmusDv:0000126	22-month-old stage	semapv:LexicalMatching	HsapDv	MmusDv	oaklib	0.5	rdfs:label	rdfs:label	22-month-old stage
+HsapDv:0000196	23-month-old stage	skos:relatedMatch	MmusDv:0000127	23-month-old stage	semapv:LexicalMatching	HsapDv	MmusDv	oaklib	0.5	rdfs:label	rdfs:label	23-month-old stage
+HsapDv:0000226	prime adult stage	skos:exactMatch	MmusDv:0000136	prime adult stage	semapv:LexicalMatching	HsapDv	MmusDv	oaklib	0.5	oio:hasDbXref	oio:hasDbXref	uberon:0018241
+HsapDv:0000227	late adult stage	skos:relatedMatch	MmusDv:0000134	late adult stage	semapv:LexicalMatching	HsapDv	MmusDv	oaklib	0.5	oio:hasDbXref	oio:hasDbXref	uberon:0007222
+HsapDv:0000258	adult stage	skos:narrowMatch	MmusDv:0000110	mature stage	semapv:LexicalMatching	HsapDv	MmusDv	oaklib	0.5	oio:hasDbXref	oio:hasDbXref	uberon:0000113
+HsapDv:0000260	nursing stage (0-11 months)	skos:relatedMatch	MmusDv:0000138	nursing stage	semapv:LexicalMatching	HsapDv	MmusDv	oaklib	0.5	oio:hasDbXref	oio:hasDbXref	uberon:0018685
+HsapDv:0000261	infant stage	skos:exactMatch	MmusDv:0000177	infant stage	semapv:LexicalMatching	HsapDv	MmusDv	oaklib	0.5	oio:hasDbXref	oio:hasDbXref	uberon:0034920
+HsapDv:0000262	newborn stage (0-28 days)	skos:relatedMatch	MmusDv:0000036	Theiler stage 27	semapv:LexicalMatching	HsapDv	MmusDv	oaklib	0.5	oio:hasDbXref	oio:hasDbXref	uberon:0007221
+HsapDv:0000264	pediatric stage	skos:relatedMatch	MmusDv:0000043	immature stage	semapv:LexicalMatching	HsapDv	MmusDv	oaklib	0.5	oio:hasDbXref	oio:hasDbXref	uberon:0000112
+HsapDv:0000266	young adult stage	skos:exactMatch	MmusDv:0000153	young adult stage	semapv:LexicalMatching	HsapDv	MmusDv	oaklib	0.5	rdfs:label	rdfs:label	young adult stage
+HsapDv:0000267	middle aged stage	skos:relatedMatch	MmusDv:0000135	middle aged stage	semapv:LexicalMatching	HsapDv	MmusDv	oaklib	0.5	rdfs:label	rdfs:label	middle aged stage
+HsapDv:0000271	juvenile stage (5-14 yo)	skos:relatedMatch	MmusDv:0000178	juvenile stage	semapv:LexicalMatching	HsapDv	MmusDv	oaklib	0.5	oio:hasDbXref	oio:hasDbXref	uberon:0034919
+HsapDv:0010000	postnatal stage	skos:exactMatch	MmusDv:0000092	postnatal stage	semapv:LexicalMatching	HsapDv	MmusDv	oaklib	0.5	oio:hasDbXref	oio:hasDbXref	uberon:0000066
 
