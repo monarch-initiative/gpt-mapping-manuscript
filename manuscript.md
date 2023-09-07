@@ -26,8 +26,8 @@ header-includes: |
   <meta name="dc.date" content="2023-09-07" />
   <meta name="citation_publication_date" content="2023-09-07" />
   <meta property="article:published_time" content="2023-09-07" />
-  <meta name="dc.modified" content="2023-09-07T13:48:44+00:00" />
-  <meta property="article:modified_time" content="2023-09-07T13:48:44+00:00" />
+  <meta name="dc.modified" content="2023-09-07T18:37:08+00:00" />
+  <meta property="article:modified_time" content="2023-09-07T18:37:08+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -47,9 +47,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://cmungall.github.io/gpt-mapping-manuscript/" />
   <meta name="citation_pdf_url" content="https://cmungall.github.io/gpt-mapping-manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://cmungall.github.io/gpt-mapping-manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://cmungall.github.io/gpt-mapping-manuscript/v/8186ae0f73df5ca2f1b689748f8209ea5f0986ec/" />
-  <meta name="manubot_html_url_versioned" content="https://cmungall.github.io/gpt-mapping-manuscript/v/8186ae0f73df5ca2f1b689748f8209ea5f0986ec/" />
-  <meta name="manubot_pdf_url_versioned" content="https://cmungall.github.io/gpt-mapping-manuscript/v/8186ae0f73df5ca2f1b689748f8209ea5f0986ec/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://cmungall.github.io/gpt-mapping-manuscript/v/d7808b4793d09ac834a51081f72b3657b2f50539/" />
+  <meta name="manubot_html_url_versioned" content="https://cmungall.github.io/gpt-mapping-manuscript/v/d7808b4793d09ac834a51081f72b3657b2f50539/" />
+  <meta name="manubot_pdf_url_versioned" content="https://cmungall.github.io/gpt-mapping-manuscript/v/d7808b4793d09ac834a51081f72b3657b2f50539/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -71,9 +71,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://cmungall.github.io/gpt-mapping-manuscript/v/8186ae0f73df5ca2f1b689748f8209ea5f0986ec/))
+([permalink](https://cmungall.github.io/gpt-mapping-manuscript/v/d7808b4793d09ac834a51081f72b3657b2f50539/))
 was automatically generated
-from [cmungall/gpt-mapping-manuscript@8186ae0](https://github.com/cmungall/gpt-mapping-manuscript/tree/8186ae0f73df5ca2f1b689748f8209ea5f0986ec)
+from [cmungall/gpt-mapping-manuscript@d7808b4](https://github.com/cmungall/gpt-mapping-manuscript/tree/d7808b4793d09ac834a51081f72b3657b2f50539)
 on September 7, 2023.
 </em></small>
 
@@ -428,11 +428,11 @@ On all tasks combined, summarized in @tbl:combined-results, MapperGPT with GPT4 
 improvement over the SOTA, demonstrating the validity of the approach.
 
  | method     | f1         | P          | R          | 
- | ---        | ---        | ---        | ---        | 
- | lexmatch   | 0.012      | 0.006      | **0.865**  | 
- | logmap     | 0.538      | 0.463      | 0.641      | 
- | gpt3       | 0.473      | **0.598**  | 0.391      | 
- | gpt4       | **0.647**  | 0.594      | 0.712      | 
+ | :---       | :---       | :---       | :---       | 
+ | lexmatch   | 0.340      | 0.210      | **0.881**  | 
+ | logmap     | 0.527      | 0.458      | 0.619      | 
+ | gpt3       | 0.490      | 0.500      | 0.481      | 
+ | gpt4       | **0.672**  | **0.601**  | 0.762      | 
 
 
 Table: Combined results over all tasks
@@ -450,11 +450,11 @@ We assessed methods against an anatomy ontology matching task
 containing all vetted mappings between the Fly anatomy ontology (FBbt) and the Zebra fish anatomy ontology (ZFA).
 
  | method     | f1         | P          | R          | 
- | ---        | ---        | ---        | ---        | 
- | lexmatch   | 0.350      | 0.220      | **0.847**  | 
- | logmap     | 0.489      | 0.402      | 0.625      | 
- | gpt3       | 0.435      | 0.519      | 0.375      | 
- | gpt4       | **0.651**  | **0.560**  | 0.778      | 
+ | :---       | :---       | :---       | :---       | 
+ | lexmatch   | 0.349      | 0.219      | **0.847**  | 
+ | logmap     | 0.486      | 0.404      | 0.611      | 
+ | gpt3       | 0.511      | **0.557**  | 0.472      | 
+ | gpt4       | **0.644**  | 0.543      | 0.792      | 
 
 Table: Results of *Drosophila* to *Danio rerio* anatomy matching
 {#tbl:main_results_fbbt_zfa}
@@ -466,11 +466,11 @@ In this task, GPT-4 scored highest in both accuracy and precision.
 We also assessed Fly to Worm:
 
  | method     | f1         | P          | R          | 
- | ---        | ---        | ---        | ---        | 
- | lexmatch   | 0.264      | 0.156      | **0.857**  | 
- | logmap     | 0.589      | 0.528      | 0.667      | 
- | gpt3       | 0.345      | **0.625**  | 0.238      | 
- | gpt4       | **0.630**  | 0.580      | 0.690      | 
+ | :---       | :---       | :---       | :---       | 
+ | lexmatch   | 0.257      | 0.152      | **0.854**  | 
+ | logmap     | 0.520      | 0.441      | 0.634      | 
+ | gpt3       | 0.427      | 0.471      | 0.390      | 
+ | gpt4       | **0.660**  | **0.585**  | 0.756      | 
 
 Table: Results of *Drosophila* to *C elegans* anatomy matching
 {#tbl:main_results_fbbt_wbbt}
@@ -480,11 +480,11 @@ Table: Results of *Drosophila* to *C elegans* anatomy matching
 ### Developmental Stage ontology task results
 
  | method     | f1         | P          | R          | 
- | ---        | ---        | ---        | ---        | 
- | lexmatch   | **0.839**  | 0.929      | **0.765**  | 
- | logmap     | 0.643      | 0.818      | 0.529      | 
- | gpt3       | 0.522      | **1.000**  | 0.353      | 
- | gpt4       | 0.381      | **1.000**  | 0.235      | 
+ | :---       | :---       | :---       | :---       | 
+ | lexmatch   | 0.606      | 0.455      | **0.909**  | 
+ | logmap     | 0.531      | 0.405      | 0.773      | 
+ | gpt3       | 0.556      | 0.714      | 0.455      | 
+ | gpt4       | **0.647**  | **0.917**  | 0.500      | 
 
 Table: Results of human developmental stages (HsapDv) vs mouse developmental stages (MmusDv)
 {#tbl:main_results_hsapdv_mmusdv}
@@ -497,11 +497,11 @@ We evaluated methods against a disease ontology matching task, which was to matc
 all heritable renal diseases from Mondo to all renal diseases from NCIT.
 
  | method     | f1         | P          | R          | 
- | ---        | ---        | ---        | ---        | 
- | lexmatch   | 0.003      | 0.002      | **1.000**  | 
- | logmap     | 0.680      | **0.680**  | 0.680      | 
- | gpt3       | 0.679      | 0.643      | 0.720      | 
- | gpt4       | **0.759**  | 0.667      | 0.880      | 
+ | :---       | :---       | :---       | :---       | 
+ | lexmatch   | 0.352      | 0.214      | **1.000**  | 
+ | logmap     | 0.721      | 0.611      | 0.880      | 
+ | gpt3       | 0.486      | 0.378      | 0.680      | 
+ | gpt4       | **0.793**  | **0.697**  | 0.920      | 
 
 Table: Results of MONDO vs NCIT (renal subset)
 {#tbl:main_results_mondo_ncit_renal_subset}
