@@ -1,0 +1,101 @@
+subject_id	object_id	confidence	predicate_id	subject_label	object_label
+FBbt:00004924	WBbt:0006760	0.75	skos:exactMatch	uterus	uterus
+FBbt:00003682	WBbt:0003734	0.73	skos:exactMatch	bulb	isthmus
+FBbt:00004921	WBbt:0005319	0.73	skos:exactMatch	spermatheca	spermatheca
+FBbt:00005173	WBbt:0005762	0.52	skos:exactMatch	thecogen cell	accessory cell
+FBbt:00005171	WBbt:0008418	0.81	skos:exactMatch	tormogen cell	IL socket cell
+FBbt:00005171	WBbt:0005750	0.55	skos:exactMatch	tormogen cell	socket cell
+FBbt:00007152	WBbt:0006929	0.88	skos:exactMatch	sensillum	sensillum
+FBbt:00003372	WBbt:0003675	0.52	skos:exactMatch	tergosternal muscle cell	muscle cell
+FBbt:00004826	WBbt:0008422	0.89	skos:exactMatch	genitalia	sex organ
+FBbt:00004926	WBbt:0006748	0.63	skos:exactMatch	oviprovector	vulva
+FBbt:00052061	WBbt:0008633	0.66	skos:exactMatch	vagina	bursa
+FBbt:00004856	WBbt:0005746	0.86	skos:exactMatch	organ system	Organ system
+FBbt:00004857	WBbt:0005747	0.77	skos:exactMatch	reproductive system	reproductive system
+FBbt:00007012	WBbt:0008628	0.73	skos:exactMatch	cell component	cell component
+FBbt:00004936	WBbt:0006799	0.96	skos:exactMatch	spermatocyte	spermatocyte
+FBbt:00005286	WBbt:0008591	0.93	skos:exactMatch	primary spermatocyte	primary spermatocyte
+FBbt:00001408	WBbt:0008594	0.77	skos:exactMatch	neuroblast X	neuroblast
+FBbt:00005133	WBbt:0006837	0.53	skos:exactMatch	serotonergic neuron	serotonergic neuron
+FBbt:00005131	WBbt:0005278	0.8	skos:exactMatch	dopaminergic neuron	DA neuron
+FBbt:00005131	WBbt:0006746	0.52	skos:exactMatch	dopaminergic neuron	dopaminergic neuron
+FBbt:00007004	WBbt:0007850	0.89	skos:exactMatch	male organism	male
+FBbt:00007002	WBbt:0004017	0.81	skos:exactMatch	cell	Cell
+FBbt:00007001	WBbt:0005766	0.91	skos:exactMatch	anatomical structure	Anatomy
+FBbt:00004968	WBbt:0005337	0.87	skos:exactMatch	vas deferens	vas deferens
+FBbt:00000129	WBbt:0005785	0.59	skos:exactMatch	somatic mesoderm	somatic gonad
+FBbt:00001000	WBbt:0008599	0.75	skos:exactMatch	gut suspension muscle cell	G cell
+FBbt:00005125	WBbt:0005113	0.82	skos:exactMatch	interneuron	interneuron
+FBbt:00005124	WBbt:0005759	0.95	skos:exactMatch	sensory neuron	sensory neuron
+FBbt:00000124	WBbt:0003672	0.9	skos:exactMatch	epithelial cell	epithelial cell
+FBbt:00005123	WBbt:0005409	0.82	skos:exactMatch	motor neuron	motor neuron
+FBbt:00052020	WBbt:0008435	0.83	skos:exactMatch	uterus epithelial cell	uterine epithelial cell
+FBbt:00004886	WBbt:0006797	0.87	skos:exactMatch	oocyte	oocyte
+FBbt:00003890	WBbt:0006996	0.56	skos:exactMatch	translobula plate neuron	TL.p
+FBbt:00111201	WBbt:0003638	0.82	skos:exactMatch	dopaminergic medulla neuron	MC neuron
+FBbt:00000004	WBbt:0005739	0.8	skos:exactMatch	head	head
+FBbt:00000001	WBbt:0007833	0.81	skos:exactMatch	organism	organism
+FBbt:00003235	WBbt:0006210	0.57	skos:exactMatch	abdominal dorsal adult muscle precursor cell	Dap
+FBbt:00048490	WBbt:0005757	0.73	skos:exactMatch	male-specific anatomical entity	male-specific anatomical entity
+FBbt:00007228	WBbt:0005190	0.56	skos:exactMatch	GABAergic neuron	GABAergic neuron
+FBbt:00110477	WBbt:0004488	0.6	skos:exactMatch	adult fruitless M neuron	M1 neuron
+FBbt:00005093	WBbt:0005735	0.76	skos:exactMatch	nervous system	nervous system
+FBbt:00002684	WBbt:0003760	0.74	skos:exactMatch	associated organ	organ
+FBbt:00005381	WBbt:0003681	0.87	skos:exactMatch	esophagus	pharynx
+FBbt:00005380	WBbt:0003681	0.68	skos:exactMatch	pharynx	pharynx
+FBbt:00002665	WBbt:0003760	0.57	skos:exactMatch	hypopharyngeal organ	organ
+FBbt:00111672	WBbt:0005300	0.46	skos:exactMatch	larval ventral midline neuron	ventral cord neuron
+FBbt:00005213	WBbt:0005278	0.57	skos:exactMatch	dendritic arborizing neuron	DA neuron
+FBbt:00048500	WBbt:0005409	0.52	skos:exactMatch	larval antennal-pharyngeal nerve motor neuron	motor neuron
+FBbt:00059080	WBbt:0008423	0.67	skos:exactMatch	male genital muscle	male genital
+FBbt:00002615	WBbt:0007805	0.79	skos:exactMatch	abdominal 8 spD neuron	SPD
+FBbt:00002614	WBbt:0006861	0.79	skos:exactMatch	abdominal 8 spC neuron	SPC
+FBbt:00005922	WBbt:0005837	0.77	skos:exactMatch	chemosensory neuron	chemosensory neuron
+FBbt:00004021	WBbt:0005441	0.69	skos:exactMatch	adult pharyngeal nerve	pharyngeal nerve
+FBbt:00005919	WBbt:0008431	0.78	skos:exactMatch	mechanosensory neuron	mechanosensory neuron
+FBbt:00005918	WBbt:0005838	0.79	skos:exactMatch	thermosensory neuron	thermosensory neuron
+FBbt:00001590	WBbt:0008597	0.74	skos:exactMatch	V neuron	V cell
+FBbt:00005756	WBbt:0005773	0.82	skos:exactMatch	rectum	rectum
+FBbt:00049636	WBbt:0005208	0.48	skos:exactMatch	adult evening cell	E lineage cell
+FBbt:00005752	WBbt:0005767	0.67	skos:exactMatch	proventriculus	pharyngeal-intestinal valve
+FBbt:00005062	WBbt:0006783	0.52	skos:exactMatch	prohemocyte	blast cell
+FBbt:00049915	WBbt:0006994	0.59	skos:exactMatch	adult TwoLumps ascending neuron	TL.a
+FBbt:00100291	WBbt:0006829	0.56	skos:exactMatch	glutamatergic neuron	glutamatergic neuron
+FBbt:00017008	WBbt:0008384	0.42	skos:exactMatch	longitudinal visceral muscle primordium	caudal longitudinal muscle
+FBbt:00001454	WBbt:0005359	0.8	skos:exactMatch	RP2sib neuron	SIB
+FBbt:00003918	WBbt:0006830	0.56	skos:exactMatch	dorsal giant horizontal cell HSN	HSN
+FBbt:00003917	WBbt:0008596	0.74	skos:exactMatch	horizontal system neuron	H cell
+FBbt:00110299	WBbt:0006804	0.75	skos:exactMatch	hypodermal muscle cell of A1-7	body wall muscle cell
+FBbt:00003911	WBbt:0004578	0.55	skos:exactMatch	Y neuron	Y cell
+FBbt:00002721	WBbt:0005107	0.91	skos:exactMatch	labial sensillum	labial sensillum
+FBbt:00100359	WBbt:0006837	0.72	skos:exactMatch	serotonergic SP neuron	serotonergic neuron
+FBbt:00004993	WBbt:0005733	0.77	skos:exactMatch	epidermis	hypodermis
+FBbt:00005097	WBbt:0005829	0.75	skos:exactMatch	ventral nerve cord	ventral nerve cord
+FBbt:00001138	WBbt:0008115	0.54	skos:exactMatch	C1 chordotonal organ precursor cell	ventral cord blast cell
+FBbt:00000487	WBbt:0005451	0.73	skos:exactMatch	pharyngeal muscle cell	pharyngeal muscle cell
+FBbt:00003138	WBbt:0005772	0.72	skos:exactMatch	adult midgut	intestine
+FBbt:00005074	WBbt:0003675	0.89	skos:exactMatch	muscle cell	muscle cell
+FBbt:00004970	WBbt:0005755	0.92	skos:exactMatch	cuticle	cuticle
+FBbt:00004860	WBbt:0006796	0.82	skos:exactMatch	germline cell	germ cell
+FBbt:00005473	WBbt:0007854	0.56	skos:exactMatch	gonadal sheath proper primordium	somatic gonad precursor
+FBbt:00004858	WBbt:0005175	0.84	skos:exactMatch	gonad	gonad
+FBbt:00005056	WBbt:0005736	0.81	skos:exactMatch	excretory system	excretory system
+FBbt:00110116	WBbt:0005339	0.56	skos:exactMatch	Va neuron	VA neuron
+FBbt:00049185	WBbt:0005441	0.68	skos:exactMatch	larval pharyngeal nerve	pharyngeal nerve
+FBbt:00004958	WBbt:0006870	0.75	skos:exactMatch	seminal vesicle	seminal vesicle
+FBbt:00001102	WBbt:0005829	0.94	skos:exactMatch	larval ventral nerve cord	ventral nerve cord
+FBbt:00004954	WBbt:0006798	0.9	skos:exactMatch	spermatozoon	sperm
+FBbt:00007173	WBbt:0006840	0.73	skos:exactMatch	cholinergic neuron	cholinergic neuron
+FBbt:00004942	WBbt:0006800	0.94	skos:exactMatch	spermatid	spermatid
+FBbt:00004941	WBbt:0008592	0.91	skos:exactMatch	secondary spermatocyte	secondary spermatocyte
+FBbt:00047153	WBbt:0005364	0.84	skos:exactMatch	anus	anus
+FBbt:00004103	WBbt:0005339	0.77	skos:exactMatch	ventral group vA neuron	VA neuron
+FBbt:00000440	WBbt:0006795	0.84	skos:exactMatch	proctodeum	proctodeum
+FBbt:00007290	WBbt:0008074	0.71	skos:exactMatch	syncytium	syncytium
+FBbt:00110179	WBbt:0008596	0.55	skos:exactMatch	larval H-cell	H cell
+FBbt:00058317	WBbt:0005373	0.44	skos:exactMatch	hypodermal muscle of head	anterior hypodermis
+FBbt:00000092	WBbt:0006849	0.6	skos:exactMatch	primordial germ cell	germline precursor cell
+FBbt:00003556	WBbt:0005828	0.63	skos:exactMatch	gonadal sheath muscle cell	gonadal sheath cell
+FBbt:00001448	WBbt:0006860	0.49	skos:exactMatch	pCC neuron	PCC
+FBbt:00003708	WBbt:0005756	0.69	skos:exactMatch	lamina	basal lamina
+FBbt:00047143	WBbt:0005772	0.72	skos:exactMatch	gut	intestine

@@ -1,0 +1,44 @@
+subject_id	object_id	confidence	predicate_id	subject_label	object_label
+HsapDv:0000194	MmusDv:0000125	1.0	skos:exactMatch	21-month-old stage	21-month-old stage
+HsapDv:0000006	MmusDv:0000007	1.0	skos:exactMatch	blastula stage	blastula stage
+HsapDv:0000002	MmusDv:0000002	1.0	skos:exactMatch	embryonic stage	embryonic stage
+HsapDv:0000001	MmusDv:0000001	1.0	skos:exactMatch	life cycle	life cycle
+HsapDv:0000000	MmusDv:0000000	0.95	skos:exactMatch	life cycle stage	life cycle stage
+HsapDv:0000271	MmusDv:0000178	1.03	skos:exactMatch	juvenile stage (5-14 yo)	juvenile stage
+HsapDv:0000189	MmusDv:0000087	1.0	skos:exactMatch	16-month-old stage	16-month-old stage
+HsapDv:0000188	MmusDv:0000086	1.0	skos:exactMatch	15-month-old stage	15-month-old stage
+HsapDv:0000187	MmusDv:0000085	1.0	skos:exactMatch	14-month-old stage	14-month-old stage
+HsapDv:0000186	MmusDv:0000084	1.0	skos:exactMatch	13-month-old stage	13-month-old stage
+HsapDv:0000185	MmusDv:0000083	1.0	skos:exactMatch	12-month-old stage	12-month-old stage
+HsapDv:0000184	MmusDv:0000082	1.0	skos:exactMatch	11-month-old stage	11-month-old stage
+HsapDv:0000182	MmusDv:0000080	1.0	skos:exactMatch	9-month-old stage	9-month-old stage
+HsapDv:0000045	MmusDv:0000042	1.0	skos:exactMatch	prenatal stage	prenatal stage
+HsapDv:0000267	MmusDv:0000135	1.0	skos:exactMatch	middle aged stage	middle aged stage
+HsapDv:0000266	MmusDv:0000153	1.0	skos:exactMatch	young adult stage	young adult stage
+HsapDv:0000264	MmusDv:0000043	1.0	skos:exactMatch	pediatric stage	immature stage
+HsapDv:0000183	MmusDv:0000081	1.0	skos:exactMatch	10-month-old stage	10-month-old stage
+HsapDv:0000262	MmusDv:0000036	1.01	skos:exactMatch	newborn stage (0-28 days)	Theiler stage 27
+HsapDv:0000260	MmusDv:0000138	1.0	skos:exactMatch	nursing stage (0-11 months)	nursing stage
+HsapDv:0000261	MmusDv:0000177	1.0	skos:exactMatch	infant stage	infant stage
+HsapDv:0000015	MmusDv:0000018	1.0	skos:exactMatch	organogenesis stage	organogenesis stage
+HsapDv:0000179	MmusDv:0000077	1.0	skos:exactMatch	6-month-old stage	6-month-old stage
+HsapDv:0000178	MmusDv:0000069	1.0	skos:exactMatch	5-month-old stage	5-month-old stage
+HsapDv:0000177	MmusDv:0000064	1.0	skos:exactMatch	4-month-old stage	4-month-old stage
+HsapDv:0000176	MmusDv:0000063	1.0	skos:exactMatch	3-month-old stage	3-month-old stage
+HsapDv:0000175	MmusDv:0000062	1.0	skos:exactMatch	2-month-old stage	2-month-old stage
+HsapDv:0000037	MmusDv:0000031	1.0	skos:exactMatch	fetal stage	fetal stage
+HsapDv:0000258	MmusDv:0000110	1.0	skos:exactMatch	adult stage	mature stage
+HsapDv:0000010	MmusDv:0000013	1.0	skos:exactMatch	gastrula stage	gastrula stage
+HsapDv:0000192	MmusDv:0000090	1.0	skos:exactMatch	19-month-old stage	19-month-old stage
+HsapDv:0000190	MmusDv:0000088	1.0	skos:exactMatch	17-month-old stage	17-month-old stage
+HsapDv:0000193	MmusDv:0000091	1.0	skos:exactMatch	20-month-old stage	20-month-old stage and over
+HsapDv:0000193	MmusDv:0000124	1.0	skos:exactMatch	20-month-old stage	20-month-old stage
+HsapDv:0000226	MmusDv:0000136	1.0	skos:exactMatch	prime adult stage	prime adult stage
+HsapDv:0000180	MmusDv:0000078	1.0	skos:exactMatch	7-month-old stage	7-month-old stage
+HsapDv:0000181	MmusDv:0000079	1.0	skos:exactMatch	8-month-old stage	8-month-old stage
+HsapDv:0000012	MmusDv:0000017	1.0	skos:exactMatch	neurula stage	Theiler stage 11
+HsapDv:0000191	MmusDv:0000089	1.0	skos:exactMatch	18-month-old stage	18-month-old stage
+HsapDv:0000227	MmusDv:0000134	1.0	skos:exactMatch	late adult stage	late adult stage
+HsapDv:0000196	MmusDv:0000127	1.0	skos:exactMatch	23-month-old stage	23-month-old stage
+HsapDv:0010000	MmusDv:0000092	1.0	skos:exactMatch	postnatal stage	postnatal stage
+HsapDv:0000195	MmusDv:0000126	1.0	skos:exactMatch	22-month-old stage	22-month-old stage

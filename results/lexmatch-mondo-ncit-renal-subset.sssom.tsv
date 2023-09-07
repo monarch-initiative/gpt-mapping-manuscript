@@ -1499,7 +1499,7 @@
 #   zfin: http://zfin.org/
 #   zinc: http://zinc15.docking.org/substances/
 # license: https://w3id.org/sssom/license/unspecified
-# mapping_set_id: https://w3id.org/sssom/mappings/a1796898-0c86-40bd-a45f-d9220aed99b2
+# mapping_set_id: https://w3id.org/sssom/mappings/8608b14f-5dfc-4a97-ad77-d0527a2af1cd
 subject_id	subject_label	predicate_id	object_id	object_label	mapping_justification	mapping_tool	confidence	subject_match_field	object_match_field	match_string
 MONDO:0000608	familial juvenile hyperuricemic nephropathy	skos:closeMatch	MONDO:0008073	familial juvenile hyperuricemic nephropathy type 1	semapv:LexicalMatching	oaklib	0.5	oio:hasExactSynonym	oio:hasBroadSynonym	familial juvenile gouty nephropathy
 MONDO:0000608	familial juvenile hyperuricemic nephropathy	skos:closeMatch	MONDO:0008073	familial juvenile hyperuricemic nephropathy type 1	semapv:LexicalMatching	oaklib	0.5	oio:hasExactSynonym	oio:hasBroadSynonym	familial nephropathy with gout

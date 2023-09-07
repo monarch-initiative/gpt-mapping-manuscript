@@ -1499,7 +1499,7 @@
 #   zfin: http://zfin.org/
 #   zinc: http://zinc15.docking.org/substances/
 # license: https://w3id.org/sssom/license/unspecified
-# mapping_set_id: https://w3id.org/sssom/mappings/dc6a8666-9269-4b76-a10d-9ba18f1cd6c9
+# mapping_set_id: https://w3id.org/sssom/mappings/11016ef0-7708-44a9-b1f1-6c01dd9248cf
 subject_id	subject_label	predicate_id	object_id	object_label	mapping_justification	mapping_tool	confidence	subject_match_field	object_match_field	match_string
 FBbt:00000001	organism	skos:closeMatch	WBbt:0007833	organism	semapv:LexicalMatching	oaklib	0.5	rdfs:label	rdfs:label	organism
 FBbt:00000004	head	skos:closeMatch	WBbt:0005739	head	semapv:LexicalMatching	oaklib	0.5	rdfs:label	rdfs:label	head

@@ -1499,7 +1499,7 @@
 #   zfin: http://zfin.org/
 #   zinc: http://zinc15.docking.org/substances/
 # license: https://w3id.org/sssom/license/unspecified
-# mapping_set_id: https://w3id.org/sssom/mappings/fe224788-c399-46dd-ba9d-8d98118cd08e
+# mapping_set_id: https://w3id.org/sssom/mappings/4960f330-d445-4790-b769-c83c1d1c47b1
 subject_id	subject_label	predicate_id	object_id	object_label	mapping_justification	mapping_tool	confidence	subject_match_field	object_match_field	match_string
 HsapDv:0000000	life cycle stage	skos:closeMatch	MmusDv:0000000	life cycle stage	semapv:LexicalMatching	oaklib	0.5	oio:hasDbXref	oio:hasDbXref	uberon:0000105
 HsapDv:0000000	life cycle stage	skos:closeMatch	MmusDv:0000000	life cycle stage	semapv:LexicalMatching	oaklib	0.5	oio:hasExactSynonym	oio:hasExactSynonym	developmental stage

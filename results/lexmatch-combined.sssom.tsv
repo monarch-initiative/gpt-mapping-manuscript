@@ -1499,7 +1499,7 @@
 #   zfin: http://zfin.org/
 #   zinc: http://zinc15.docking.org/substances/
 # license: https://w3id.org/sssom/license/unspecified
-# mapping_set_id: https://w3id.org/sssom/mappings/dc6a8666-9269-4b76-a10d-9ba18f1cd6c9
+# mapping_set_id: https://w3id.org/sssom/mappings/11016ef0-7708-44a9-b1f1-6c01dd9248cf
 subject_id	subject_label	predicate_id	object_id	object_label	mapping_justification	mapping_tool	confidence	subject_match_field	object_match_field	match_string
 FBbt:00000001	organism	skos:closeMatch	WBbt:0007833	organism	semapv:LexicalMatching	oaklib	0.5	rdfs:label	rdfs:label	organism
 FBbt:00000004	head	skos:closeMatch	WBbt:0005739	head	semapv:LexicalMatching	oaklib	0.5	rdfs:label	rdfs:label	head
@@ -3261,7 +3261,7 @@ FBbt:00111282	proximal medullary amacrine neuron Pm4	skos:closeMatch	WBbt:000373
 #   zfin: http://zfin.org/
 #   zinc: http://zinc15.docking.org/substances/
 # license: https://w3id.org/sssom/license/unspecified
-# mapping_set_id: https://w3id.org/sssom/mappings/aa1ef5ed-2129-40d5-9932-7e3662d95827
+# mapping_set_id: https://w3id.org/sssom/mappings/a9e2a0bb-dd0e-4a21-bccc-f45644d6a4b5
 FBbt:00000001	organism	skos:closeMatch	ZFA:0001094	whole organism	semapv:LexicalMatching	oaklib	0.5	oio:hasDbXref	oio:hasDbXref	caro:0000012
 FBbt:00000001	organism	skos:closeMatch	ZFA:0001094	whole organism	semapv:LexicalMatching	oaklib	0.5	oio:hasRelatedSynonym	rdfs:label	whole organism
 FBbt:00000004	head	skos:closeMatch	ZFA:0001114	head	semapv:LexicalMatching	oaklib	0.5	rdfs:label	rdfs:label	head
@@ -5102,7 +5102,7 @@ FBbt:00111739	midline	skos:closeMatch	ZFA:0000092	axis	semapv:LexicalMatching	oa
 #   zfin: http://zfin.org/
 #   zinc: http://zinc15.docking.org/substances/
 # license: https://w3id.org/sssom/license/unspecified
-# mapping_set_id: https://w3id.org/sssom/mappings/fe224788-c399-46dd-ba9d-8d98118cd08e
+# mapping_set_id: https://w3id.org/sssom/mappings/4960f330-d445-4790-b769-c83c1d1c47b1
 HsapDv:0000000	life cycle stage	skos:closeMatch	MmusDv:0000000	life cycle stage	semapv:LexicalMatching	oaklib	0.5	oio:hasDbXref	oio:hasDbXref	uberon:0000105
 HsapDv:0000000	life cycle stage	skos:closeMatch	MmusDv:0000000	life cycle stage	semapv:LexicalMatching	oaklib	0.5	oio:hasExactSynonym	oio:hasExactSynonym	developmental stage
 HsapDv:0000000	life cycle stage	skos:closeMatch	MmusDv:0000000	life cycle stage	semapv:LexicalMatching	oaklib	0.5	oio:hasNarrowSynonym	oio:hasNarrowSynonym	stage
@@ -6666,7 +6666,7 @@ HsapDv:0010000	postnatal stage	skos:closeMatch	MmusDv:0000092	postnatal stage	se
 #   zfin: http://zfin.org/
 #   zinc: http://zinc15.docking.org/substances/
 # license: https://w3id.org/sssom/license/unspecified
-# mapping_set_id: https://w3id.org/sssom/mappings/a1796898-0c86-40bd-a45f-d9220aed99b2
+# mapping_set_id: https://w3id.org/sssom/mappings/8608b14f-5dfc-4a97-ad77-d0527a2af1cd
 MONDO:0000608	familial juvenile hyperuricemic nephropathy	skos:closeMatch	MONDO:0008073	familial juvenile hyperuricemic nephropathy type 1	semapv:LexicalMatching	oaklib	0.5	oio:hasExactSynonym	oio:hasBroadSynonym	familial juvenile gouty nephropathy
 MONDO:0000608	familial juvenile hyperuricemic nephropathy	skos:closeMatch	MONDO:0008073	familial juvenile hyperuricemic nephropathy type 1	semapv:LexicalMatching	oaklib	0.5	oio:hasExactSynonym	oio:hasBroadSynonym	familial nephropathy with gout
 MONDO:0000608	familial juvenile hyperuricemic nephropathy	skos:closeMatch	MONDO:0008073	familial juvenile hyperuricemic nephropathy type 1	semapv:LexicalMatching	oaklib	0.5	oio:hasExactSynonym	oio:hasBroadSynonym	gouty nephropathy, familial juvenile
