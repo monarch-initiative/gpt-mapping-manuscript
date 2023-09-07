@@ -117,3 +117,12 @@ All other files are only available under CC BY 4.0, including:
 + `*.docx`
 
 Please open [an issue](https://github.com/cmungall/gpt-mapping-manuscript/issues) for any question related to licensing.
+
+
+## Mapping GPT instructions
+
+If you want to run the makefile:
+
+1. Create new python environment and activate
+1. Install prerequistes. Run `make help` for help about this.
+1. Set openai key: `runoak set-apikey -e openai sk-$(KEY)`
