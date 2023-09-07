@@ -8,7 +8,7 @@ keywords:
 - Ontologies
 - SSSOM
 lang: en-US
-date-meta: '2023-08-07'
+date-meta: '2023-09-07'
 author-meta:
 - John Doe
 - Chris Mungall
@@ -23,11 +23,11 @@ header-includes: |
   <meta name="citation_title" content="MapperGPT: Large Language Models for Linking and Mapping Entities" />
   <meta property="og:title" content="MapperGPT: Large Language Models for Linking and Mapping Entities" />
   <meta property="twitter:title" content="MapperGPT: Large Language Models for Linking and Mapping Entities" />
-  <meta name="dc.date" content="2023-08-07" />
-  <meta name="citation_publication_date" content="2023-08-07" />
-  <meta property="article:published_time" content="2023-08-07" />
-  <meta name="dc.modified" content="2023-08-07T16:47:18+00:00" />
-  <meta property="article:modified_time" content="2023-08-07T16:47:18+00:00" />
+  <meta name="dc.date" content="2023-09-07" />
+  <meta name="citation_publication_date" content="2023-09-07" />
+  <meta property="article:published_time" content="2023-09-07" />
+  <meta name="dc.modified" content="2023-09-07T07:43:16+00:00" />
+  <meta property="article:modified_time" content="2023-09-07T07:43:16+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -47,9 +47,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://cmungall.github.io/gpt-mapping-manuscript/" />
   <meta name="citation_pdf_url" content="https://cmungall.github.io/gpt-mapping-manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://cmungall.github.io/gpt-mapping-manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://cmungall.github.io/gpt-mapping-manuscript/v/a5bc48909030a94420b5f42e706a09e7b9e1df74/" />
-  <meta name="manubot_html_url_versioned" content="https://cmungall.github.io/gpt-mapping-manuscript/v/a5bc48909030a94420b5f42e706a09e7b9e1df74/" />
-  <meta name="manubot_pdf_url_versioned" content="https://cmungall.github.io/gpt-mapping-manuscript/v/a5bc48909030a94420b5f42e706a09e7b9e1df74/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://cmungall.github.io/gpt-mapping-manuscript/v/932bff3ea85a171925f39a6a05f29b3c14d3ce0f/" />
+  <meta name="manubot_html_url_versioned" content="https://cmungall.github.io/gpt-mapping-manuscript/v/932bff3ea85a171925f39a6a05f29b3c14d3ce0f/" />
+  <meta name="manubot_pdf_url_versioned" content="https://cmungall.github.io/gpt-mapping-manuscript/v/932bff3ea85a171925f39a6a05f29b3c14d3ce0f/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -71,10 +71,10 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://cmungall.github.io/gpt-mapping-manuscript/v/a5bc48909030a94420b5f42e706a09e7b9e1df74/))
+([permalink](https://cmungall.github.io/gpt-mapping-manuscript/v/932bff3ea85a171925f39a6a05f29b3c14d3ce0f/))
 was automatically generated
-from [cmungall/gpt-mapping-manuscript@a5bc489](https://github.com/cmungall/gpt-mapping-manuscript/tree/a5bc48909030a94420b5f42e706a09e7b9e1df74)
-on August 7, 2023.
+from [cmungall/gpt-mapping-manuscript@932bff3](https://github.com/cmungall/gpt-mapping-manuscript/tree/932bff3ea85a171925f39a6a05f29b3c14d3ce0f)
+on September 7, 2023.
 </em></small>
 
 
@@ -122,20 +122,44 @@ Chris Mungall \<cjmungall@lbl.gov\>.
 
 ## Abstract {.page_break_before}
 
-Mapping...
+Aligning terminological resources, including ontologies, controlled vocabularies and taxonomies, is a critical part of data integration in many domains such as healthcare, chemistry and biomedical research.
+
+Entity mapping is the process of determining correspondences between entities across these resources, such as gene identifiers, disease concepts or chemical entity identifiers. Many tools have been developed to compute such mappings based on common structural features and lexical information such as labels and synonyms. Lexical approaches in particular often provide very high recall, but low precision, due to lexical ambiguity. 
+
+Large Language Models (LLMs), such as the ones employed by ChatGPT, have generalizable abilities to perform a wide range of tasks, including question answering and
+information extraction. 
+
+Here we present *MapperGPT*, an approach based on LLMs to refine and predict mapping relationships
+as a post-processing step, that works in
+concert with existing high-recall methods that are based on lexical and structural heuristics.
+
+We evaluated *MapperGPT* on a series of alignment tasks from different domains, including anatomy, developmental
+biology, and renal diseases.
+We devised a collection of tasks that are designed to be particularly challenging
+for lexical methods. We show that when used in combination with high-recall methods
+*MapperGPT* can provide a substantial improvement in accuracy beating state of the art methods such as LogMap.
 
 
 ## Introduction
 
-When do two identifiers indicate the same thing? Linking the same or related entities at scale is crucial
-for knowledge base and ontology integration. For example, if two different disease databases, one with
-information about disease genes and the other with information about disease symptoms, are to be merged,
-then it is important to precisely know which disease in one database corresponds to which disease in the other.
+Tackling global challenges, including rare disease and climate change, requires the integration of a large number of disparate data sources. 
+Due to the decentralised nature of data standardisation, 
+where different data providers inevitably employ
+different controlled vocabularies and ontologies to standardise their data,
+it becomes crucial to integrate such "semantic spaces" (i.e. data spaces that are described using divergent sets of ontologies).
 
+Linking entities across often huge semantic spaces at scale is crucial.
+For example, integrating genetic associations for disease provided by a disease data resource such as the Online Mendelian Inheritance in Man (OMIM) with the phenotypic associations to the same disease provided by Orphanet 
+requires mapping different disease identifiers that refer to the exact same real-world disease concept.
+Manually mapping thousands of disease concepts for two semantic spaces is potentially doable manually,
+but in the real world, dozens of resources providing information about the same data type (disease, genes, environment, organisms) need to be integrated, 
+which makes a purely manual approach infeasible.
 
-A common method to automate ontology matching is to use lexical methods, in particular matching
-on primary or alternative labels that have been assigned to concepts, sometimes in combination with
-lexical normalization. These can often provide very high recall, but low precision, due to lexical ambiguity.
+Semantic entity matching is the process of associating a term or identifier A in one semantic space 
+to one or more terms or identifiers B in another, where A and B refer to the same or related real-world concepts.
+A common method to automate semantic entity matching is to use lexical methods, in particular matching
+on primary or alternative labels (synonyms) that have been assigned to concepts, sometimes in combination with
+lexical normalization. These methods can often provide very high recall, but low precision, due to lexical ambiguity.
 Examples are provided in @tbl:example-matches, including a false match between an aeroplane part and an
 insect part due to sharing the same name (wing) based on analogous function.
 
@@ -150,48 +174,47 @@ Table: Example of entity matching problem
 {#tbl:example-matches}
 
 An example of this approach is the LOOM algorithm used in the Bioportal ontology
-resource, which provides very high recall, including NNN mappings across over a thousand vocabularies.
+resource [@pubmed:20351849], which provides very high recall mappings across over a thousand ontologies and other controlled vocabularies.
 
 A number of approaches can give higher precision mappings, many of these make use of other relationships
 or properties in the ontology. The Ontology Alignment Evaluation Initiative (OAEI) provides a yearly
 evaluation of different methods for ontology matching. One of the top-performing methods in OAEI is the LogMap
 tool, which makes use of logical axioms in the ontology to assist in mapping.
 
-A number of tools such as LogMap been used to build or link ontologies and knowledge bases. However,
-these approaches are usually used in conjunction with manual curation of mappings, which can be
-resource intensive.
-
 Deep learning approaches and in particular Language Models (LMs) have been applied to ontology matching tasks.
-Some methods make use of embedding distance OntoEmma, e.g [Wang
-et al., 2018], DeepAlignment [Kolyvakis et al., 2018],
-VeeAlign [Iyer et al., 2020]. More recently the Truveta Mapper [@doi:10.48550/arXiv.2301.09767] 
+Some methods make use of embedding distance OntoEmma [@doi:10.48550/arXiv.1806.07976], 
+DeepAlignment [@doi:10.18653/v1/N18-1072],
+VeeAlign [@doi:10.48550/arXiv.2010.11721]. 
+More recently the Truveta Mapper [@doi:10.48550/arXiv.2301.09767] 
 treats matching as a Translation task and involves pre-training on ontology structures.
 
 The most recent development in LMs are so-called Large Language Models (LLMs), exemplified by ChatGPT,
 which involved billions of parameters and pre-training on instruction-prompting tasks. The resulting
 models have generalizable abilities to perform a wide range of tasks, including question answering,
-information extraction. However, one challenge with LLMs is the problem of *hallucination*.
+information extraction. However, one challenge with LLMs is the problem of *hallucination*. An hallucination describes a situation where an AI model “fabricates” information that does not directly correspond to the provided input.
 
-One possibility is using GPT to generate mappings de-novo. However, the problem of hallucination makes this
-highly unreliable, in particular, due to the propensity for LLMs to hallucinate database or ontology identifiers
+Given their performance on any tasks related to the understanding and generation natural language, it seems
+obvious to employ LLMs directly as a powerful, scalable alternative to
+current state-of-the-art (SOTA) methods for entity matching.
+One possibility is using LLMs like the ones employed by ChatGPT to generate mappings de-novo. However, the problem of hallucination makes this unreliable, in particular, due to the propensity for LLMs to hallucinate database or ontology identifiers
 when these are requested.
 
-We devised an alternative approach called *MapperGPT* that does not use GPT to generate mappings de-novo, but instead works in
-concert with existing high-recall methods such as LOOM. We use GPT to refine and predict relationships
-(predicates) as a post-processing step. We use an in-context knowledge-driven semantic approach, in
-which examples of different mapping categories are provided, and information about the two concepts in a mapping
-is provided.
+We devised an alternative approach called *MapperGPT* that does not use GPT models to generate mappings de-novo, but instead works in
+concert with existing high-recall methods such as LOOM [@pubmed:20351849]. We use a GPT model to refine and predict relationships
+(predicates) as a post-processing step,
+essentially for the purpose of isolating and removing false positive mappings. 
+We use an in-context knowledge-driven semantic approach, in
+which examples of different mapping categories and information about the two concepts in a mapping is provided to the model to determine an appropriate mapping relationship. We use the Simple Standard for Sharing Ontological Mapping (SSSOM) [@doi:10.1093/database/baac035] for sharing and comparing entity mappings across systems.
 
 We evaluated this on a series of alignment tasks from different domains, including anatomy, developmental
 biology, and renal diseases. We devised a collection of tasks that are designed to be particularly challenging
-for lexical methods. We show that when used in combination with high-recall methods such as LOOM or LexMatch,
+for lexical methods. We show that when used in combination with high-recall methods such as LOOM or OAK LexMatch [@doi:10.5281/zenodo.8310471],
 MapperGPT can provide a substantial improvement in accuracy beating SOTA methods such as LogMap.
 
 Our contributions are as follows:
 
-- creation of a series of new matching tasks expressed using the SSSOM standard
-- An algorithm and tool MapperGPT that uses GPT to predict relationships between concepts
-
+- The creation of a series of new matching tasks expressed using the SSSOM standard
+- An algorithm and tool, *MapperGPT*, that uses a GPT model to predict relationships between concepts
 
 
 ## Methods
@@ -292,7 +315,7 @@ The result object can be exported to SSSOM format.
 
 ### Example
 
-As an example, two concepts from the fruitfly and zebra fish anatomy ontologies are candidate matches
+As an example, two concepts from the Drosophila (fruitfly) and zebrafish anatomy ontologies [@doi:10.1186/2041-1480-4-32, @doi:10.1186/2041-1480-5-12] are candidate matches
 due to sharing a lexical element (the "PC" abbreviation). This is a false positive match in reality,
 as the concept are entirely different.
 
@@ -317,7 +340,7 @@ relationship: start stage unknown
 relationship: end stage adult
 ```
 
-The payload for this using gpt-3.5-turbo is:
+The response for this using gpt-3.5-turbo (August 2023) is:
 
 ```yaml
 category: DIFFERENT
@@ -345,32 +368,39 @@ similarities and differences may prove informative.
 
 ### Implementation
 
-We use the OAK library to connect to a variety of ontologies in OBO and Bioportal.
-The overall framework is implemented in OntoGPT.
-
-The input is an SSSOM file. The output is SSSOM with predicate_id filled with predicted value:
+We use the Ontology Access Kit (OAK) library [@doi:10.5281/zenodo.8310471] to connect to a variety of ontologies in the Open Biological and Biomedical Ontology (OBO) Library [@doi:10.1093/database/baab069] and Bioportal [@pubmed:19483092]. 
+OAK generally enables accessing ontologies, but we also make use of its ability to extract subsets of ontologies, 
+perform lexical matching using OAK LexMatch, extract mappings from ontologies and ontology portals such as Bioportal, and
+add labels to mapping tables which typically only include the mapped identifiers, for better readability. We make use of ROBOT [@doi:10.1186/s12859-019-3002-3] for converting between different ontology formats.
+The overall mapping framework is implemented in OntoGPT [@doi:10.5281/zenodo.8278168] (https://github.com/monarch-initiative/ontogpt) in a method called `categorize-mappings`, where the input is a SSSOM mapping file (usually generated by a lexical matching tool) and 
+the output is a SSSOM mapping file with `predicate_id` filled with predicted value. Example:
 
 ```bash
 ontogpt categorize-mappings --model gpt-4 -i foo.sssom.tsv -o bar.sssom.tsv
 ```
 
+The entire pipeline is implemented as a fully reproducible `Makefile` (https://github.com/cmungall/gpt-mapping-manuscript/blob/main/Makefile).
+
 ### Generation of test sets
 
-To evaluate the method, we created a collection of test sets from biological domains.
+To evaluate the method, we created a collection of test sets from the biological and biomedical domains.
 We chose to devise new test sets as we wanted to base these on up-to-date, precise,
-validated mappings derived from ontologies such as Mondo, CL, and Uberon.
+validated mappings derived from ontologies such as Mondo [@doi:10.1101/2022.04.13.22273750], Cell Ontology (CL) [@doi:10.1186/s13326-016-0088-7], and the Uberon Anatomy Ontology [@doi:10.1186/gb-2012-13-1-r5].
 
 To generate anatomy test sets, we generated pairwise mappings between species-specific anatomy ontologies,
-using the Uberon and CL mappings as the gold standard. i.e. if a pair of concepts are transitively linked
-via Uberon or CL, then they are considered a match. We used the same method for developmental stages.
+using the Uberon and CL mappings as the gold standard. 
+If a pair of concepts are transitively linked
+via Uberon or CL, then they are considered a match. 
+For example, UBERON:0000924 (ectoderm) is mapped to FBbt:00000111 (ectoderm (fruitfly)) and ZFA:0000016 (ectoderm (zebrafish)), so we assume that FBbt:00000111 is an exact match to ZFA:0000016.
+We used the same method for linking species-specifc developmental stage terms.
 
 We also generated a renal disease test set by taking all heritable renal diseases from Mondo, all
 renal diseases from NCIT, and generating a test set based on validated curated mappings between
 Mondo and NCIT.
 
-TODO: more test sets
 
-TODO: table showing sizes
+Table: Breakdown of the existing test sets.
+{#tbl:main_results_testsetsize}
 
 ### Tool evaluation
 
