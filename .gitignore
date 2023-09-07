@@ -46,3 +46,6 @@ Thumbs.db
 
 ## Text Editors
 .vscode
+logmap-log.out
+results/logmap/
+*.tmp
