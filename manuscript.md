@@ -26,8 +26,8 @@ header-includes: |
   <meta name="dc.date" content="2023-09-07" />
   <meta name="citation_publication_date" content="2023-09-07" />
   <meta property="article:published_time" content="2023-09-07" />
-  <meta name="dc.modified" content="2023-09-07T18:37:08+00:00" />
-  <meta property="article:modified_time" content="2023-09-07T18:37:08+00:00" />
+  <meta name="dc.modified" content="2023-09-07T18:40:51+00:00" />
+  <meta property="article:modified_time" content="2023-09-07T18:40:51+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -47,9 +47,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://cmungall.github.io/gpt-mapping-manuscript/" />
   <meta name="citation_pdf_url" content="https://cmungall.github.io/gpt-mapping-manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://cmungall.github.io/gpt-mapping-manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://cmungall.github.io/gpt-mapping-manuscript/v/d7808b4793d09ac834a51081f72b3657b2f50539/" />
-  <meta name="manubot_html_url_versioned" content="https://cmungall.github.io/gpt-mapping-manuscript/v/d7808b4793d09ac834a51081f72b3657b2f50539/" />
-  <meta name="manubot_pdf_url_versioned" content="https://cmungall.github.io/gpt-mapping-manuscript/v/d7808b4793d09ac834a51081f72b3657b2f50539/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://cmungall.github.io/gpt-mapping-manuscript/v/3bc3995865d9bbfc6839cff44c09320fc499746a/" />
+  <meta name="manubot_html_url_versioned" content="https://cmungall.github.io/gpt-mapping-manuscript/v/3bc3995865d9bbfc6839cff44c09320fc499746a/" />
+  <meta name="manubot_pdf_url_versioned" content="https://cmungall.github.io/gpt-mapping-manuscript/v/3bc3995865d9bbfc6839cff44c09320fc499746a/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -71,9 +71,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://cmungall.github.io/gpt-mapping-manuscript/v/d7808b4793d09ac834a51081f72b3657b2f50539/))
+([permalink](https://cmungall.github.io/gpt-mapping-manuscript/v/3bc3995865d9bbfc6839cff44c09320fc499746a/))
 was automatically generated
-from [cmungall/gpt-mapping-manuscript@d7808b4](https://github.com/cmungall/gpt-mapping-manuscript/tree/d7808b4793d09ac834a51081f72b3657b2f50539)
+from [cmungall/gpt-mapping-manuscript@3bc3995](https://github.com/cmungall/gpt-mapping-manuscript/tree/3bc3995865d9bbfc6839cff44c09320fc499746a)
 on September 7, 2023.
 </em></small>
 
