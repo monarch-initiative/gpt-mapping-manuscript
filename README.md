@@ -1,8 +1,8 @@
 # Output directory containing the formatted manuscript
 
-The [`gh-pages`](https://github.com/cmungall/gpt-mapping-manuscript/tree/gh-pages) branch hosts the contents of this directory at <https://cmungall.github.io/gpt-mapping-manuscript/>.
-The permalink for this webpage version is <https://cmungall.github.io/gpt-mapping-manuscript/v/72eee5ea397ecfd8f3fa39452e788e31c030e755/>.
-To redirect to the permalink for the latest manuscript version at anytime, use the link <https://cmungall.github.io/gpt-mapping-manuscript/v/freeze/>.
+The [`gh-pages`](https://github.com/monarch-initiative/gpt-mapping-manuscript/tree/gh-pages) branch hosts the contents of this directory at <https://monarch-initiative.github.io/gpt-mapping-manuscript/>.
+The permalink for this webpage version is <https://monarch-initiative.github.io/gpt-mapping-manuscript/v/24d851cd9dabd9abcd7cfd08eeef345a552bca43/>.
+To redirect to the permalink for the latest manuscript version at anytime, use the link <https://monarch-initiative.github.io/gpt-mapping-manuscript/v/freeze/>.
 
 ## Files
 
@@ -35,4 +35,4 @@ Verifying timestamps with the `ots verify` command requires running a local bitc
 ## Source
 
 The manuscripts in this directory were built from
-[`72eee5ea397ecfd8f3fa39452e788e31c030e755`](https://github.com/cmungall/gpt-mapping-manuscript/commit/72eee5ea397ecfd8f3fa39452e788e31c030e755).
+[`24d851cd9dabd9abcd7cfd08eeef345a552bca43`](https://github.com/monarch-initiative/gpt-mapping-manuscript/commit/24d851cd9dabd9abcd7cfd08eeef345a552bca43).
