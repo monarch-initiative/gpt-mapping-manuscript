@@ -11,6 +11,7 @@ lang: en-US
 date-meta: '2023-09-08'
 author-meta:
 - Nicolas Matentzoglu
+- Harshad Hegde
 - Hyeongsik Kim
 - Chris Mungall
 header-includes: |
@@ -27,8 +28,8 @@ header-includes: |
   <meta name="dc.date" content="2023-09-08" />
   <meta name="citation_publication_date" content="2023-09-08" />
   <meta property="article:published_time" content="2023-09-08" />
-  <meta name="dc.modified" content="2023-09-08T09:37:39+00:00" />
-  <meta property="article:modified_time" content="2023-09-08T09:37:39+00:00" />
+  <meta name="dc.modified" content="2023-09-08T16:05:06+00:00" />
+  <meta property="article:modified_time" content="2023-09-08T16:05:06+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -38,21 +39,24 @@ header-includes: |
   <meta name="citation_author" content="Nicolas Matentzoglu" />
   <meta name="citation_author_institution" content="Semanticly, Athens, Greece" />
   <meta name="citation_author_orcid" content="0000-0002-7356-1779" />
+  <meta name="citation_author" content="Harshad Hegde" />
+  <meta name="citation_author_institution" content="Environmental Genomics and Systems Biology Division, Lawrence Berkeley National Laboratory, Berkeley, CA, 94720" />
+  <meta name="citation_author_orcid" content="0000-0002-2411-565X" />
   <meta name="citation_author" content="Hyeongsik Kim" />
   <meta name="citation_author_institution" content="Robert Bosch LLC" />
   <meta name="citation_author_orcid" content="0000-0002-3002-9838" />
   <meta name="citation_author" content="Chris Mungall" />
   <meta name="citation_author_institution" content="Environmental Genomics and Systems Biology Division, Lawrence Berkeley National Laboratory, Berkeley, CA, 94720" />
   <meta name="citation_author_orcid" content="0000-0002-6601-2165" />
-  <link rel="canonical" href="https://cmungall.github.io/gpt-mapping-manuscript/" />
-  <meta property="og:url" content="https://cmungall.github.io/gpt-mapping-manuscript/" />
-  <meta property="twitter:url" content="https://cmungall.github.io/gpt-mapping-manuscript/" />
-  <meta name="citation_fulltext_html_url" content="https://cmungall.github.io/gpt-mapping-manuscript/" />
-  <meta name="citation_pdf_url" content="https://cmungall.github.io/gpt-mapping-manuscript/manuscript.pdf" />
-  <link rel="alternate" type="application/pdf" href="https://cmungall.github.io/gpt-mapping-manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://cmungall.github.io/gpt-mapping-manuscript/v/72eee5ea397ecfd8f3fa39452e788e31c030e755/" />
-  <meta name="manubot_html_url_versioned" content="https://cmungall.github.io/gpt-mapping-manuscript/v/72eee5ea397ecfd8f3fa39452e788e31c030e755/" />
-  <meta name="manubot_pdf_url_versioned" content="https://cmungall.github.io/gpt-mapping-manuscript/v/72eee5ea397ecfd8f3fa39452e788e31c030e755/manuscript.pdf" />
+  <link rel="canonical" href="https://monarch-initiative.github.io/gpt-mapping-manuscript/" />
+  <meta property="og:url" content="https://monarch-initiative.github.io/gpt-mapping-manuscript/" />
+  <meta property="twitter:url" content="https://monarch-initiative.github.io/gpt-mapping-manuscript/" />
+  <meta name="citation_fulltext_html_url" content="https://monarch-initiative.github.io/gpt-mapping-manuscript/" />
+  <meta name="citation_pdf_url" content="https://monarch-initiative.github.io/gpt-mapping-manuscript/manuscript.pdf" />
+  <link rel="alternate" type="application/pdf" href="https://monarch-initiative.github.io/gpt-mapping-manuscript/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://monarch-initiative.github.io/gpt-mapping-manuscript/v/24d851cd9dabd9abcd7cfd08eeef345a552bca43/" />
+  <meta name="manubot_html_url_versioned" content="https://monarch-initiative.github.io/gpt-mapping-manuscript/v/24d851cd9dabd9abcd7cfd08eeef345a552bca43/" />
+  <meta name="manubot_pdf_url_versioned" content="https://monarch-initiative.github.io/gpt-mapping-manuscript/v/24d851cd9dabd9abcd7cfd08eeef345a552bca43/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -74,9 +78,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://cmungall.github.io/gpt-mapping-manuscript/v/72eee5ea397ecfd8f3fa39452e788e31c030e755/))
+([permalink](https://monarch-initiative.github.io/gpt-mapping-manuscript/v/24d851cd9dabd9abcd7cfd08eeef345a552bca43/))
 was automatically generated
-from [cmungall/gpt-mapping-manuscript@72eee5e](https://github.com/cmungall/gpt-mapping-manuscript/tree/72eee5ea397ecfd8f3fa39452e788e31c030e755)
+from [monarch-initiative/gpt-mapping-manuscript@24d851c](https://github.com/monarch-initiative/gpt-mapping-manuscript/tree/24d851cd9dabd9abcd7cfd08eeef345a552bca43)
 on September 8, 2023.
 </em></small>
 
@@ -96,6 +100,17 @@ on September 8, 2023.
   <small>
      Semanticly, Athens, Greece
      · Funded by NIH NHGRI 7RM1HG010860-02
+  </small>
+
++ **Harshad Hegde**
+  <br>
+    ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
+    [0000-0002-2411-565X](https://orcid.org/0000-0002-2411-565X)
+    · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
+    [hrshdhgd](https://github.com/hrshdhgd)
+    <br>
+  <small>
+     Environmental Genomics and Systems Biology Division, Lawrence Berkeley National Laboratory, Berkeley, CA, 94720
   </small>
 
 + **Hyeongsik Kim**
@@ -122,7 +137,7 @@ on September 8, 2023.
 
 
 ::: {#correspondence}
-✉ — Correspondence possible via [GitHub Issues](https://github.com/cmungall/gpt-mapping-manuscript/issues)
+✉ — Correspondence possible via [GitHub Issues](https://github.com/monarch-initiative/gpt-mapping-manuscript/issues)
 or email to
 Chris Mungall \<cjmungall@lbl.gov\>.
 

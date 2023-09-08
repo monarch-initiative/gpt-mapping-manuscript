@@ -12,8 +12,10 @@ exactMatch
 fbbt
 fruitfly
 generalizable
-GPT
+gpt
 Harshad
+Hegde
+hrshdhgd
 hsapdv
 Hyeongsik
 lexmatch
