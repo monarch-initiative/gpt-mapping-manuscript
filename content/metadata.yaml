@@ -12,15 +12,23 @@ lang: en-US
 authors:
   - github: matentzn
     name: Nicolas Matentzoglu
-    initials: JD
+    initials: NM
     orcid: 0000-0002-7356-1779
     email: nicolas.matentzoglu@gmail.com
     affiliations:
       - Semanticly, Athens, Greece
     funders:
       - NIH NHGRI 7RM1HG010860-02
+  - github: hrshdhgd
+    name: Harshad Hegde
+    initials: HH
+    orcid: 0000-0002-2411-565X
+    email: hhegde@lbl.gov
+    affiliations:
+      - Environmental Genomics and Systems Biology Division, Lawrence Berkeley National Laboratory, Berkeley, CA, 94720
   - github: yy20716
     name: Hyeongsik Kim
+    initials: HK
     orcid: 0000-0002-3002-9838
     email: Hyeongsik.Kim@us.bosch.com
     affiliations:
