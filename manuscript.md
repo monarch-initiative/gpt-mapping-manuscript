@@ -10,7 +10,8 @@ keywords:
 lang: en-US
 date-meta: '2023-09-08'
 author-meta:
-- John Doe
+- Nicolas Matentzoglu
+- Hyeongsik Kim
 - Chris Mungall
 header-includes: |
   <!--
@@ -26,18 +27,20 @@ header-includes: |
   <meta name="dc.date" content="2023-09-08" />
   <meta name="citation_publication_date" content="2023-09-08" />
   <meta property="article:published_time" content="2023-09-08" />
-  <meta name="dc.modified" content="2023-09-08T07:17:51+00:00" />
-  <meta property="article:modified_time" content="2023-09-08T07:17:51+00:00" />
+  <meta name="dc.modified" content="2023-09-08T09:37:39+00:00" />
+  <meta property="article:modified_time" content="2023-09-08T09:37:39+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
   <meta name="dc.publisher" content="Manubot" />
   <meta name="citation_journal_title" content="Manubot" />
   <meta name="citation_technical_report_institution" content="Manubot" />
-  <meta name="citation_author" content="John Doe" />
-  <meta name="citation_author_institution" content="Department of Something, University of Whatever" />
-  <meta name="citation_author_orcid" content="XXXX-XXXX-XXXX-XXXX" />
-  <meta name="twitter:creator" content="@johndoe" />
+  <meta name="citation_author" content="Nicolas Matentzoglu" />
+  <meta name="citation_author_institution" content="Semanticly, Athens, Greece" />
+  <meta name="citation_author_orcid" content="0000-0002-7356-1779" />
+  <meta name="citation_author" content="Hyeongsik Kim" />
+  <meta name="citation_author_institution" content="Robert Bosch LLC" />
+  <meta name="citation_author_orcid" content="0000-0002-3002-9838" />
   <meta name="citation_author" content="Chris Mungall" />
   <meta name="citation_author_institution" content="Environmental Genomics and Systems Biology Division, Lawrence Berkeley National Laboratory, Berkeley, CA, 94720" />
   <meta name="citation_author_orcid" content="0000-0002-6601-2165" />
@@ -47,9 +50,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://cmungall.github.io/gpt-mapping-manuscript/" />
   <meta name="citation_pdf_url" content="https://cmungall.github.io/gpt-mapping-manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://cmungall.github.io/gpt-mapping-manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://cmungall.github.io/gpt-mapping-manuscript/v/4c7a4aae4e44c35fbdb77736ef249be6049205e5/" />
-  <meta name="manubot_html_url_versioned" content="https://cmungall.github.io/gpt-mapping-manuscript/v/4c7a4aae4e44c35fbdb77736ef249be6049205e5/" />
-  <meta name="manubot_pdf_url_versioned" content="https://cmungall.github.io/gpt-mapping-manuscript/v/4c7a4aae4e44c35fbdb77736ef249be6049205e5/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://cmungall.github.io/gpt-mapping-manuscript/v/72eee5ea397ecfd8f3fa39452e788e31c030e755/" />
+  <meta name="manubot_html_url_versioned" content="https://cmungall.github.io/gpt-mapping-manuscript/v/72eee5ea397ecfd8f3fa39452e788e31c030e755/" />
+  <meta name="manubot_pdf_url_versioned" content="https://cmungall.github.io/gpt-mapping-manuscript/v/72eee5ea397ecfd8f3fa39452e788e31c030e755/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -71,9 +74,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://cmungall.github.io/gpt-mapping-manuscript/v/4c7a4aae4e44c35fbdb77736ef249be6049205e5/))
+([permalink](https://cmungall.github.io/gpt-mapping-manuscript/v/72eee5ea397ecfd8f3fa39452e788e31c030e755/))
 was automatically generated
-from [cmungall/gpt-mapping-manuscript@4c7a4aa](https://github.com/cmungall/gpt-mapping-manuscript/tree/4c7a4aae4e44c35fbdb77736ef249be6049205e5)
+from [cmungall/gpt-mapping-manuscript@72eee5e](https://github.com/cmungall/gpt-mapping-manuscript/tree/72eee5ea397ecfd8f3fa39452e788e31c030e755)
 on September 8, 2023.
 </em></small>
 
@@ -83,20 +86,27 @@ on September 8, 2023.
 
 
 
-+ **John Doe**
++ **Nicolas Matentzoglu**
   <br>
     ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
-    [XXXX-XXXX-XXXX-XXXX](https://orcid.org/XXXX-XXXX-XXXX-XXXX)
+    [0000-0002-7356-1779](https://orcid.org/0000-0002-7356-1779)
     · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
-    [johndoe](https://github.com/johndoe)
-    · ![Twitter icon](images/twitter.svg){.inline_icon width=16 height=16}
-    [johndoe](https://twitter.com/johndoe)
-    · ![Mastodon icon](images/mastodon.svg){.inline_icon width=16 height=16}
-    [\@johndoe@mastodon.social](https://mastodon.social/@johndoe)
+    [matentzn](https://github.com/matentzn)
     <br>
   <small>
-     Department of Something, University of Whatever
-     · Funded by Grant XXXXXXXX
+     Semanticly, Athens, Greece
+     · Funded by NIH NHGRI 7RM1HG010860-02
+  </small>
+
++ **Hyeongsik Kim**
+  <br>
+    ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
+    [0000-0002-3002-9838](https://orcid.org/0000-0002-3002-9838)
+    · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
+    [yy20716](https://github.com/yy20716)
+    <br>
+  <small>
+     Robert Bosch LLC
   </small>
 
 + **Chris Mungall**
