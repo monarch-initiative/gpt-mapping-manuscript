@@ -8,7 +8,7 @@ keywords:
 - Ontologies
 - SSSOM
 lang: en-US
-date-meta: '2023-09-08'
+date-meta: '2023-09-20'
 author-meta:
 - Nicolas Matentzoglu
 - Harshad Hegde
@@ -25,11 +25,11 @@ header-includes: |
   <meta name="citation_title" content="MapperGPT: Large Language Models for Linking and Mapping Entities" />
   <meta property="og:title" content="MapperGPT: Large Language Models for Linking and Mapping Entities" />
   <meta property="twitter:title" content="MapperGPT: Large Language Models for Linking and Mapping Entities" />
-  <meta name="dc.date" content="2023-09-08" />
-  <meta name="citation_publication_date" content="2023-09-08" />
-  <meta property="article:published_time" content="2023-09-08" />
-  <meta name="dc.modified" content="2023-09-08T16:05:06+00:00" />
-  <meta property="article:modified_time" content="2023-09-08T16:05:06+00:00" />
+  <meta name="dc.date" content="2023-09-20" />
+  <meta name="citation_publication_date" content="2023-09-20" />
+  <meta property="article:published_time" content="2023-09-20" />
+  <meta name="dc.modified" content="2023-09-20T13:39:09+00:00" />
+  <meta property="article:modified_time" content="2023-09-20T13:39:09+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -54,9 +54,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://monarch-initiative.github.io/gpt-mapping-manuscript/" />
   <meta name="citation_pdf_url" content="https://monarch-initiative.github.io/gpt-mapping-manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://monarch-initiative.github.io/gpt-mapping-manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://monarch-initiative.github.io/gpt-mapping-manuscript/v/24d851cd9dabd9abcd7cfd08eeef345a552bca43/" />
-  <meta name="manubot_html_url_versioned" content="https://monarch-initiative.github.io/gpt-mapping-manuscript/v/24d851cd9dabd9abcd7cfd08eeef345a552bca43/" />
-  <meta name="manubot_pdf_url_versioned" content="https://monarch-initiative.github.io/gpt-mapping-manuscript/v/24d851cd9dabd9abcd7cfd08eeef345a552bca43/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://monarch-initiative.github.io/gpt-mapping-manuscript/v/4c1db59ac7a17e678f05b1f75ecf5582c8e56b37/" />
+  <meta name="manubot_html_url_versioned" content="https://monarch-initiative.github.io/gpt-mapping-manuscript/v/4c1db59ac7a17e678f05b1f75ecf5582c8e56b37/" />
+  <meta name="manubot_pdf_url_versioned" content="https://monarch-initiative.github.io/gpt-mapping-manuscript/v/4c1db59ac7a17e678f05b1f75ecf5582c8e56b37/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -78,10 +78,10 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://monarch-initiative.github.io/gpt-mapping-manuscript/v/24d851cd9dabd9abcd7cfd08eeef345a552bca43/))
+([permalink](https://monarch-initiative.github.io/gpt-mapping-manuscript/v/4c1db59ac7a17e678f05b1f75ecf5582c8e56b37/))
 was automatically generated
-from [monarch-initiative/gpt-mapping-manuscript@24d851c](https://github.com/monarch-initiative/gpt-mapping-manuscript/tree/24d851cd9dabd9abcd7cfd08eeef345a552bca43)
-on September 8, 2023.
+from [monarch-initiative/gpt-mapping-manuscript@4c1db59](https://github.com/monarch-initiative/gpt-mapping-manuscript/tree/4c1db59ac7a17e678f05b1f75ecf5582c8e56b37)
+on September 20, 2023.
 </em></small>
 
 
@@ -216,7 +216,7 @@ treats matching as a Translation task and involves pre-training on ontology stru
 The most recent development in LMs are so-called Large Language Models (LLMs), exemplified by ChatGPT,
 which involved billions of parameters and pre-training on instruction-prompting tasks. The resulting
 models have generalizable abilities to perform a wide range of tasks, including question answering,
-information extraction. However, one challenge with LLMs is the problem of *hallucination*. An hallucination describes a situation where an AI model “fabricates” information that does not directly correspond to the provided input.
+information extraction. However, one challenge with LLMs is the problem of *hallucination*. An hallucination describes a situation where an AI model “fabricates” information that does not directly correspond to the provided input. He et al (2023) [@doi:10.48550/arXiv.2309.07172] have noted the need for investigating LLM's for the Ontology Matching problem, and determined that their use is "promising", while some challenges (like prompt tuning and overall framework design) still need to be addressed.
 
 Given their performance on any tasks related to the understanding and generation natural language, it seems
 obvious to employ LLMs directly as a powerful, scalable alternative to

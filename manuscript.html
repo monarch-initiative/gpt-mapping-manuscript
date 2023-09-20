@@ -8,7 +8,7 @@
   <meta name="author" content="Harshad Hegde" />
   <meta name="author" content="Hyeongsik Kim" />
   <meta name="author" content="Chris Mungall" />
-  <meta name="dcterms.date" content="2023-09-08" />
+  <meta name="dcterms.date" content="2023-09-20" />
   <meta name="keywords" content="GPT, Large Language Models, OWL, Mapping, Ontologies, SSSOM" />
   <title>MapperGPT: Large Language Models for Linking and Mapping Entities</title>
   <style>
@@ -116,11 +116,11 @@
   <meta name="citation_title" content="MapperGPT: Large Language Models for Linking and Mapping Entities" />
   <meta property="og:title" content="MapperGPT: Large Language Models for Linking and Mapping Entities" />
   <meta property="twitter:title" content="MapperGPT: Large Language Models for Linking and Mapping Entities" />
-  <meta name="dc.date" content="2023-09-08" />
-  <meta name="citation_publication_date" content="2023-09-08" />
-  <meta property="article:published_time" content="2023-09-08" />
-  <meta name="dc.modified" content="2023-09-08T16:05:06+00:00" />
-  <meta property="article:modified_time" content="2023-09-08T16:05:06+00:00" />
+  <meta name="dc.date" content="2023-09-20" />
+  <meta name="citation_publication_date" content="2023-09-20" />
+  <meta property="article:published_time" content="2023-09-20" />
+  <meta name="dc.modified" content="2023-09-20T13:39:09+00:00" />
+  <meta property="article:modified_time" content="2023-09-20T13:39:09+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -145,9 +145,9 @@
   <meta name="citation_fulltext_html_url" content="https://monarch-initiative.github.io/gpt-mapping-manuscript/" />
   <meta name="citation_pdf_url" content="https://monarch-initiative.github.io/gpt-mapping-manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://monarch-initiative.github.io/gpt-mapping-manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://monarch-initiative.github.io/gpt-mapping-manuscript/v/24d851cd9dabd9abcd7cfd08eeef345a552bca43/" />
-  <meta name="manubot_html_url_versioned" content="https://monarch-initiative.github.io/gpt-mapping-manuscript/v/24d851cd9dabd9abcd7cfd08eeef345a552bca43/" />
-  <meta name="manubot_pdf_url_versioned" content="https://monarch-initiative.github.io/gpt-mapping-manuscript/v/24d851cd9dabd9abcd7cfd08eeef345a552bca43/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://monarch-initiative.github.io/gpt-mapping-manuscript/v/4c1db59ac7a17e678f05b1f75ecf5582c8e56b37/" />
+  <meta name="manubot_html_url_versioned" content="https://monarch-initiative.github.io/gpt-mapping-manuscript/v/4c1db59ac7a17e678f05b1f75ecf5582c8e56b37/" />
+  <meta name="manubot_pdf_url_versioned" content="https://monarch-initiative.github.io/gpt-mapping-manuscript/v/4c1db59ac7a17e678f05b1f75ecf5582c8e56b37/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -164,10 +164,10 @@
 </header>
 <p><small><em>
 This manuscript
-(<a href="https://monarch-initiative.github.io/gpt-mapping-manuscript/v/24d851cd9dabd9abcd7cfd08eeef345a552bca43/">permalink</a>)
+(<a href="https://monarch-initiative.github.io/gpt-mapping-manuscript/v/4c1db59ac7a17e678f05b1f75ecf5582c8e56b37/">permalink</a>)
 was automatically generated
-from <a href="https://github.com/monarch-initiative/gpt-mapping-manuscript/tree/24d851cd9dabd9abcd7cfd08eeef345a552bca43">monarch-initiative/gpt-mapping-manuscript@24d851c</a>
-on September 8, 2023.
+from <a href="https://github.com/monarch-initiative/gpt-mapping-manuscript/tree/4c1db59ac7a17e678f05b1f75ecf5582c8e56b37">monarch-initiative/gpt-mapping-manuscript@4c1db59</a>
+on September 20, 2023.
 </em></small></p>
 <h2 id="authors">Authors</h2>
 <ul>
@@ -315,7 +315,7 @@ treats matching as a Translation task and involves pre-training on ontology stru
 <p>The most recent development in LMs are so-called Large Language Models (LLMs), exemplified by ChatGPT,
 which involved billions of parameters and pre-training on instruction-prompting tasks. The resulting
 models have generalizable abilities to perform a wide range of tasks, including question answering,
-information extraction. However, one challenge with LLMs is the problem of <em>hallucination</em>. An hallucination describes a situation where an AI model “fabricates” information that does not directly correspond to the provided input.</p>
+information extraction. However, one challenge with LLMs is the problem of <em>hallucination</em>. An hallucination describes a situation where an AI model “fabricates” information that does not directly correspond to the provided input. He et al (2023) <span class="citation" data-cites="XjyUJzbQ">[<a href="#ref-XjyUJzbQ" role="doc-biblioref">5</a>]</span> have noted the need for investigating LLM’s for the Ontology Matching problem, and determined that their use is “promising”, while some challenges (like prompt tuning and overall framework design) still need to be addressed.</p>
 <p>Given their performance on any tasks related to the understanding and generation natural language, it seems
 obvious to employ LLMs directly as a powerful, scalable alternative to
 current state-of-the-art (SOTA) methods for entity matching.
@@ -326,10 +326,10 @@ concert with existing high-recall methods such as LOOM <span class="citation" da
 (predicates) as a post-processing step,
 essentially for the purpose of isolating and removing false positive mappings.
 We use an in-context knowledge-driven semantic approach, in
-which examples of different mapping categories and information about the two concepts in a mapping is provided to the model to determine an appropriate mapping relationship. We use the Simple Standard for Sharing Ontological Mapping (SSSOM) <span class="citation" data-cites="L8zxtZyX">[<a href="#ref-L8zxtZyX" role="doc-biblioref">5</a>]</span> for sharing and comparing entity mappings across systems.</p>
+which examples of different mapping categories and information about the two concepts in a mapping is provided to the model to determine an appropriate mapping relationship. We use the Simple Standard for Sharing Ontological Mapping (SSSOM) <span class="citation" data-cites="L8zxtZyX">[<a href="#ref-L8zxtZyX" role="doc-biblioref">6</a>]</span> for sharing and comparing entity mappings across systems.</p>
 <p>We evaluated this on a series of alignment tasks from different domains, including anatomy, developmental
 biology, and renal diseases. We devised a collection of tasks that are designed to be particularly challenging
-for lexical methods. We show that when used in combination with high-recall methods such as LOOM or OAK LexMatch <span class="citation" data-cites="1FvOl9pKQ">[<a href="#ref-1FvOl9pKQ" role="doc-biblioref">6</a>]</span>,
+for lexical methods. We show that when used in combination with high-recall methods such as LOOM or OAK LexMatch <span class="citation" data-cites="1FvOl9pKQ">[<a href="#ref-1FvOl9pKQ" role="doc-biblioref">7</a>]</span>,
 MapperGPT can provide a substantial improvement in accuracy beating SOTA methods such as LogMap.</p>
 <p>Our contributions are as follows:</p>
 <ul>
@@ -409,7 +409,7 @@ models, <code>gpt-3.5-turbo</code> and <code>gpt-4</code>.</p>
 the key data model elements: category, confidence, similarities, differences.</p>
 <p>The result object can be exported to SSSOM format.</p>
 <h3 id="example">Example</h3>
-<p>As an example, two concepts from the Drosophila (fruitfly) and zebrafish anatomy ontologies <span class="citation" data-cites="zOOkRFbn">[<a href="#ref-6q8oZk5m" role="doc-biblioref">8</a>]</span> are candidate matches
+<p>As an example, two concepts from the Drosophila (fruitfly) and zebrafish anatomy ontologies <span class="citation" data-cites="zOOkRFbn">[<a href="#ref-6q8oZk5m" role="doc-biblioref">9</a>]</span> are candidate matches
 due to sharing a lexical element (the “PC” abbreviation). This is a false positive match in reality,
 as the concept are entirely different.</p>
 <p>The two concept descriptions are generated from respective ontologies as follows:</p>
@@ -447,18 +447,18 @@ as the concept are entirely different.</p>
 <p>The consumer may typically only make use of the <em>predicate</em> slot, but the list of
 similarities and differences may prove informative.</p>
 <h3 id="implementation">Implementation</h3>
-<p>We use the Ontology Access Kit (OAK) library <span class="citation" data-cites="1FvOl9pKQ">[<a href="#ref-1FvOl9pKQ" role="doc-biblioref">6</a>]</span> to connect to a variety of ontologies in the Open Biological and Biomedical Ontology (OBO) Library <span class="citation" data-cites="VALxug8S">[<a href="#ref-VALxug8S" role="doc-biblioref">9</a>]</span> and Bioportal <span class="citation" data-cites="pubmed:19483092">[<a href="#ref-pubmed:19483092" role="doc-biblioref"><strong>pubmed:19483092?</strong></a>]</span>.
+<p>We use the Ontology Access Kit (OAK) library <span class="citation" data-cites="1FvOl9pKQ">[<a href="#ref-1FvOl9pKQ" role="doc-biblioref">7</a>]</span> to connect to a variety of ontologies in the Open Biological and Biomedical Ontology (OBO) Library <span class="citation" data-cites="VALxug8S">[<a href="#ref-VALxug8S" role="doc-biblioref">10</a>]</span> and Bioportal <span class="citation" data-cites="pubmed:19483092">[<a href="#ref-pubmed:19483092" role="doc-biblioref"><strong>pubmed:19483092?</strong></a>]</span>.
 OAK generally enables accessing ontologies, but we also make use of its ability to extract subsets of ontologies,
 perform lexical matching using OAK LexMatch, extract mappings from ontologies and ontology portals such as Bioportal, and
-add labels to mapping tables which typically only include the mapped identifiers, for better readability. We make use of ROBOT <span class="citation" data-cites="lx9tkgKe">[<a href="#ref-lx9tkgKe" role="doc-biblioref">10</a>]</span> for converting between different ontology formats.
-The overall mapping framework is implemented in OntoGPT <span class="citation" data-cites="JqI3gPgB">[<a href="#ref-JqI3gPgB" role="doc-biblioref">11</a>]</span> (https://github.com/monarch-initiative/ontogpt) in a method called <code>categorize-mappings</code>, where the input is a SSSOM mapping file (usually generated by a lexical matching tool) and
+add labels to mapping tables which typically only include the mapped identifiers, for better readability. We make use of ROBOT <span class="citation" data-cites="lx9tkgKe">[<a href="#ref-lx9tkgKe" role="doc-biblioref">11</a>]</span> for converting between different ontology formats.
+The overall mapping framework is implemented in OntoGPT <span class="citation" data-cites="JqI3gPgB">[<a href="#ref-JqI3gPgB" role="doc-biblioref">12</a>]</span> (https://github.com/monarch-initiative/ontogpt) in a method called <code>categorize-mappings</code>, where the input is a SSSOM mapping file (usually generated by a lexical matching tool) and
 the output is a SSSOM mapping file with <code>predicate_id</code> filled with predicted value. Example:</p>
 <div class="sourceCode" id="cb7"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="ex">ontogpt</span> categorize-mappings <span class="at">--model</span> gpt-4 <span class="at">-i</span> foo.sssom.tsv <span class="at">-o</span> bar.sssom.tsv</span></code></pre></div>
 <p>The entire pipeline is implemented as a fully reproducible <code>Makefile</code> (https://github.com/cmungall/gpt-mapping-manuscript/blob/main/Makefile).</p>
 <h3 id="generation-of-test-sets">Generation of test sets</h3>
 <p>To evaluate the method, we created a collection of test sets from the biological and biomedical domains.
 We chose to devise new test sets as we wanted to base these on up-to-date, precise,
-validated mappings derived from ontologies such as Mondo <span class="citation" data-cites="pZyZllZn">[<a href="#ref-pZyZllZn" role="doc-biblioref">12</a>]</span>, Cell Ontology (CL) <span class="citation" data-cites="17U3pGEjv">[<a href="#ref-17U3pGEjv" role="doc-biblioref">13</a>]</span>, and the Uberon Anatomy Ontology <span class="citation" data-cites="TOC8jpgh">[<a href="#ref-TOC8jpgh" role="doc-biblioref">14</a>]</span>.</p>
+validated mappings derived from ontologies such as Mondo <span class="citation" data-cites="pZyZllZn">[<a href="#ref-pZyZllZn" role="doc-biblioref">13</a>]</span>, Cell Ontology (CL) <span class="citation" data-cites="17U3pGEjv">[<a href="#ref-17U3pGEjv" role="doc-biblioref">14</a>]</span>, and the Uberon Anatomy Ontology <span class="citation" data-cites="TOC8jpgh">[<a href="#ref-TOC8jpgh" role="doc-biblioref">15</a>]</span>.</p>
 <p>To generate anatomy test sets, we generated pairwise mappings between species-specific anatomy ontologies,
 using the Uberon and CL mappings as the gold standard.
 If a pair of concepts are transitively linked
@@ -764,35 +764,38 @@ Technologies, Volume 1 (Long Papers)</em> (2018) <a href="https://doi.org/gspf3s
 <div id="ref-tg0x6kt1" class="csl-entry" role="doc-biblioentry">
 <div class="csl-left-margin">4. </div><div class="csl-right-inline"><strong>Truveta Mapper: A Zero-shot Ontology Alignment Framework</strong> <div class="csl-block">Mariyam Amir, Murchana Baruah, Mahsa Eslamialishah, Sina Ehsani, Alireza Bahramali, Sadra Naddaf-Sh, Saman Zarandioon</div> <em>arXiv</em> (2023) <a href="https://doi.org/gr934s">https://doi.org/gr934s</a> <div class="csl-block">DOI: <a href="https://doi.org/10.48550/arxiv.2301.09767">10.48550/arxiv.2301.09767</a></div></div>
 </div>
+<div id="ref-XjyUJzbQ" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">5. </div><div class="csl-right-inline"><strong>Exploring Large Language Models for Ontology Alignment</strong> <div class="csl-block">Yuan He, Jiaoyan Chen, Hang Dong, Ian Horrocks</div> <em>arXiv</em> (2023) <a href="https://doi.org/gsrw7k">https://doi.org/gsrw7k</a> <div class="csl-block">DOI: <a href="https://doi.org/10.48550/arxiv.2309.07172">10.48550/arxiv.2309.07172</a></div></div>
+</div>
 <div id="ref-L8zxtZyX" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">5. </div><div class="csl-right-inline"><strong>A Simple Standard for Sharing Ontological Mappings (SSSOM)</strong> <div class="csl-block">Nicolas Matentzoglu, James P Balhoff, Susan M Bello, Chris Bizon, Matthew Brush, Tiffany J Callahan, Christopher G Chute, William D Duncan, Chris T Evelo, Davera Gabriel, … Christopher J Mungall</div> <em>Database</em> (2022-01-01) <a href="https://doi.org/gspf3p">https://doi.org/gspf3p</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1093/database/baac035">10.1093/database/baac035</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/35616100">35616100</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9216545">PMC9216545</a></div></div>
+<div class="csl-left-margin">6. </div><div class="csl-right-inline"><strong>A Simple Standard for Sharing Ontological Mappings (SSSOM)</strong> <div class="csl-block">Nicolas Matentzoglu, James P Balhoff, Susan M Bello, Chris Bizon, Matthew Brush, Tiffany J Callahan, Christopher G Chute, William D Duncan, Chris T Evelo, Davera Gabriel, … Christopher J Mungall</div> <em>Database</em> (2022-01-01) <a href="https://doi.org/gspf3p">https://doi.org/gspf3p</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1093/database/baac035">10.1093/database/baac035</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/35616100">35616100</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9216545">PMC9216545</a></div></div>
 </div>
 <div id="ref-1FvOl9pKQ" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">6. </div><div class="csl-right-inline"><strong>INCATools/ontology-access-kit: v0.5.19-rc1</strong> <div class="csl-block">Chris Mungall, Harshad, Patrick Kalita, Charles Tapley Hoyt, Sujay Patil, Marcin P Joachimiak, Joe Flack, David Linke, Nomi Harris, Harry Caufield, … Tiago Lubiana</div> <em>Zenodo</em> (2023-09-02) <a href="https://doi.org/gspf3x">https://doi.org/gspf3x</a> <div class="csl-block">DOI: <a href="https://doi.org/10.5281/zenodo.8310471">10.5281/zenodo.8310471</a></div></div>
+<div class="csl-left-margin">7. </div><div class="csl-right-inline"><strong>INCATools/ontology-access-kit: v0.5.19-rc1</strong> <div class="csl-block">Chris Mungall, Harshad, Patrick Kalita, Charles Tapley Hoyt, Sujay Patil, Marcin P Joachimiak, Joe Flack, David Linke, Nomi Harris, Harry Caufield, … Tiago Lubiana</div> <em>Zenodo</em> (2023-09-02) <a href="https://doi.org/gspf3x">https://doi.org/gspf3x</a> <div class="csl-block">DOI: <a href="https://doi.org/10.5281/zenodo.8310471">10.5281/zenodo.8310471</a></div></div>
 </div>
 <div id="ref-zOOkRFbn" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">7. </div><div class="csl-right-inline"><strong>The Drosophila anatomy ontology</strong> <div class="csl-block">Marta Costa, Simon Reeve, Gary Grumbling, David Osumi-Sutherland</div> <em>Journal of Biomedical Semantics</em> (2013-10-18) <a href="https://doi.org/gspf3q">https://doi.org/gspf3q</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1186/2041-1480-4-32">10.1186/2041-1480-4-32</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/24139062">24139062</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4015547">PMC4015547</a></div></div>
+<div class="csl-left-margin">8. </div><div class="csl-right-inline"><strong>The Drosophila anatomy ontology</strong> <div class="csl-block">Marta Costa, Simon Reeve, Gary Grumbling, David Osumi-Sutherland</div> <em>Journal of Biomedical Semantics</em> (2013-10-18) <a href="https://doi.org/gspf3q">https://doi.org/gspf3q</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1186/2041-1480-4-32">10.1186/2041-1480-4-32</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/24139062">24139062</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4015547">PMC4015547</a></div></div>
 </div>
 <div id="ref-6q8oZk5m" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">8. </div><div class="csl-right-inline"><strong>The zebrafish anatomy and stage ontologies: representing the anatomy and development of Danio rerio</strong> <div class="csl-block">Ceri E Van Slyke, Yvonne M Bradford, Monte Westerfield, Melissa A Haendel</div> <em>Journal of Biomedical Semantics</em> (2014) <a href="https://doi.org/gspf3r">https://doi.org/gspf3r</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1186/2041-1480-5-12">10.1186/2041-1480-5-12</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/24568621">24568621</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3944782">PMC3944782</a></div></div>
+<div class="csl-left-margin">9. </div><div class="csl-right-inline"><strong>The zebrafish anatomy and stage ontologies: representing the anatomy and development of Danio rerio</strong> <div class="csl-block">Ceri E Van Slyke, Yvonne M Bradford, Monte Westerfield, Melissa A Haendel</div> <em>Journal of Biomedical Semantics</em> (2014) <a href="https://doi.org/gspf3r">https://doi.org/gspf3r</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1186/2041-1480-5-12">10.1186/2041-1480-5-12</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/24568621">24568621</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3944782">PMC3944782</a></div></div>
 </div>
 <div id="ref-VALxug8S" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">9. </div><div class="csl-right-inline"><strong>OBO Foundry in 2021: operationalizing open data principles to evaluate ontologies</strong> <div class="csl-block">Rebecca Jackson, Nicolas Matentzoglu, James A Overton, Randi Vita, James P Balhoff, Pier Luigi Buttigieg, Seth Carbon, Melanie Courtot, Alexander D Diehl, Damion M Dooley, … Bjoern Peters</div> <em>Database</em> (2021-10-01) <a href="https://doi.org/gspf3n">https://doi.org/gspf3n</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1093/database/baab069">10.1093/database/baab069</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/34697637">34697637</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8546234">PMC8546234</a></div></div>
+<div class="csl-left-margin">10. </div><div class="csl-right-inline"><strong>OBO Foundry in 2021: operationalizing open data principles to evaluate ontologies</strong> <div class="csl-block">Rebecca Jackson, Nicolas Matentzoglu, James A Overton, Randi Vita, James P Balhoff, Pier Luigi Buttigieg, Seth Carbon, Melanie Courtot, Alexander D Diehl, Damion M Dooley, … Bjoern Peters</div> <em>Database</em> (2021-10-01) <a href="https://doi.org/gspf3n">https://doi.org/gspf3n</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1093/database/baab069">10.1093/database/baab069</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/34697637">34697637</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8546234">PMC8546234</a></div></div>
 </div>
 <div id="ref-lx9tkgKe" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">10. </div><div class="csl-right-inline"><strong>ROBOT: A Tool for Automating Ontology Workflows</strong> <div class="csl-block">Rebecca C Jackson, James P Balhoff, Eric Douglass, Nomi L Harris, Christopher J Mungall, James A Overton</div> <em>BMC Bioinformatics</em> (2019-07-29) <a href="https://doi.org/ggkjnc">https://doi.org/ggkjnc</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1186/s12859-019-3002-3">10.1186/s12859-019-3002-3</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/31357927">31357927</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6664714">PMC6664714</a></div></div>
+<div class="csl-left-margin">11. </div><div class="csl-right-inline"><strong>ROBOT: A Tool for Automating Ontology Workflows</strong> <div class="csl-block">Rebecca C Jackson, James P Balhoff, Eric Douglass, Nomi L Harris, Christopher J Mungall, James A Overton</div> <em>BMC Bioinformatics</em> (2019-07-29) <a href="https://doi.org/ggkjnc">https://doi.org/ggkjnc</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1186/s12859-019-3002-3">10.1186/s12859-019-3002-3</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/31357927">31357927</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6664714">PMC6664714</a></div></div>
 </div>
 <div id="ref-JqI3gPgB" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">11. </div><div class="csl-right-inline"><strong>OntoGPT</strong> <div class="csl-block">JHarry Caufield, Harshad Hegde, Vincent Emonet, Nomi L Harris, Marcin P Joachimiak, Nicolas Matentzoglu, HyeongSik Kim, Sierra AT Moxon, Justin T Reese, Melissa A Haendel, … Christopher J Mungall</div> <em>Zenodo</em> (2023-08-24) <a href="https://doi.org/gspf3w">https://doi.org/gspf3w</a> <div class="csl-block">DOI: <a href="https://doi.org/10.5281/zenodo.8278168">10.5281/zenodo.8278168</a></div></div>
+<div class="csl-left-margin">12. </div><div class="csl-right-inline"><strong>OntoGPT</strong> <div class="csl-block">JHarry Caufield, Harshad Hegde, Vincent Emonet, Nomi L Harris, Marcin P Joachimiak, Nicolas Matentzoglu, HyeongSik Kim, Sierra AT Moxon, Justin T Reese, Melissa A Haendel, … Christopher J Mungall</div> <em>Zenodo</em> (2023-08-24) <a href="https://doi.org/gspf3w">https://doi.org/gspf3w</a> <div class="csl-block">DOI: <a href="https://doi.org/10.5281/zenodo.8278168">10.5281/zenodo.8278168</a></div></div>
 </div>
 <div id="ref-pZyZllZn" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">12. </div><div class="csl-right-inline"><strong>Mondo: Unifying diseases for the world, by the world</strong> <div class="csl-block">Nicole A Vasilevsky, Nicolas A Matentzoglu, Sabrina Toro, Joseph E Flack IV, Harshad Hegde, Deepak R Unni, Gioconda F Alyea, Joanna S Amberger, Larry Babb, James P Balhoff, … Melissa A Haendel</div> <em>Cold Spring Harbor Laboratory</em> (2022-04-16) <a href="https://doi.org/gqx27c">https://doi.org/gqx27c</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1101/2022.04.13.22273750">10.1101/2022.04.13.22273750</a></div></div>
+<div class="csl-left-margin">13. </div><div class="csl-right-inline"><strong>Mondo: Unifying diseases for the world, by the world</strong> <div class="csl-block">Nicole A Vasilevsky, Nicolas A Matentzoglu, Sabrina Toro, Joseph E Flack IV, Harshad Hegde, Deepak R Unni, Gioconda F Alyea, Joanna S Amberger, Larry Babb, James P Balhoff, … Melissa A Haendel</div> <em>Cold Spring Harbor Laboratory</em> (2022-04-16) <a href="https://doi.org/gqx27c">https://doi.org/gqx27c</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1101/2022.04.13.22273750">10.1101/2022.04.13.22273750</a></div></div>
 </div>
 <div id="ref-17U3pGEjv" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">13. </div><div class="csl-right-inline"><strong>The Cell Ontology 2016: enhanced content, modularization, and ontology interoperability</strong> <div class="csl-block">Alexander D Diehl, Terrence F Meehan, Yvonne M Bradford, Matthew H Brush, Wasila M Dahdul, David S Dougall, Yongqun He, David Osumi-Sutherland, Alan Ruttenberg, Sirarat Sarntivijai, … Christopher J Mungall</div> <em>Journal of Biomedical Semantics</em> (2016-07-04) <a href="https://doi.org/gg99b9">https://doi.org/gg99b9</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1186/s13326-016-0088-7">10.1186/s13326-016-0088-7</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/27377652">27377652</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4932724">PMC4932724</a></div></div>
+<div class="csl-left-margin">14. </div><div class="csl-right-inline"><strong>The Cell Ontology 2016: enhanced content, modularization, and ontology interoperability</strong> <div class="csl-block">Alexander D Diehl, Terrence F Meehan, Yvonne M Bradford, Matthew H Brush, Wasila M Dahdul, David S Dougall, Yongqun He, David Osumi-Sutherland, Alan Ruttenberg, Sirarat Sarntivijai, … Christopher J Mungall</div> <em>Journal of Biomedical Semantics</em> (2016-07-04) <a href="https://doi.org/gg99b9">https://doi.org/gg99b9</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1186/s13326-016-0088-7">10.1186/s13326-016-0088-7</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/27377652">27377652</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4932724">PMC4932724</a></div></div>
 </div>
 <div id="ref-TOC8jpgh" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">14. </div><div class="csl-right-inline"><strong>Uberon, an integrative multi-species anatomy ontology</strong> <div class="csl-block">Christopher J Mungall, Carlo Torniai, Georgios V Gkoutos, Suzanna E Lewis, Melissa A Haendel</div> <em>Genome Biology</em> (2012) <a href="https://doi.org/fxx6qr">https://doi.org/fxx6qr</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1186/gb-2012-13-1-r5">10.1186/gb-2012-13-1-r5</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/22293552">22293552</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3334586">PMC3334586</a></div></div>
+<div class="csl-left-margin">15. </div><div class="csl-right-inline"><strong>Uberon, an integrative multi-species anatomy ontology</strong> <div class="csl-block">Christopher J Mungall, Carlo Torniai, Georgios V Gkoutos, Suzanna E Lewis, Melissa A Haendel</div> <em>Genome Biology</em> (2012) <a href="https://doi.org/fxx6qr">https://doi.org/fxx6qr</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1186/gb-2012-13-1-r5">10.1186/gb-2012-13-1-r5</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/22293552">22293552</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3334586">PMC3334586</a></div></div>
 </div>
 </div>
 <!-- default theme -->
