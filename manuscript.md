@@ -12,6 +12,8 @@ date-meta: '2023-09-20'
 author-meta:
 - Nicolas Matentzoglu
 - Harshad Hegde
+- J. Harry Caufield
+- Justin Reese
 - Hyeongsik Kim
 - Chris Mungall
 header-includes: |
@@ -28,8 +30,8 @@ header-includes: |
   <meta name="dc.date" content="2023-09-20" />
   <meta name="citation_publication_date" content="2023-09-20" />
   <meta property="article:published_time" content="2023-09-20" />
-  <meta name="dc.modified" content="2023-09-20T14:00:09+00:00" />
-  <meta property="article:modified_time" content="2023-09-20T14:00:09+00:00" />
+  <meta name="dc.modified" content="2023-09-20T16:32:57+00:00" />
+  <meta property="article:modified_time" content="2023-09-20T16:32:57+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -42,6 +44,12 @@ header-includes: |
   <meta name="citation_author" content="Harshad Hegde" />
   <meta name="citation_author_institution" content="Environmental Genomics and Systems Biology Division, Lawrence Berkeley National Laboratory, Berkeley, CA, 94720" />
   <meta name="citation_author_orcid" content="0000-0002-2411-565X" />
+  <meta name="citation_author" content="J. Harry Caufield" />
+  <meta name="citation_author_institution" content="Environmental Genomics and Systems Biology Division, Lawrence Berkeley National Laboratory, Berkeley, CA, 94720" />
+  <meta name="citation_author_orcid" content="https://orcid.org/0000-0001-5705-7831" />
+  <meta name="citation_author" content="Justin Reese" />
+  <meta name="citation_author_institution" content="Environmental Genomics and Systems Biology Division, Lawrence Berkeley National Laboratory, Berkeley, CA, 94720" />
+  <meta name="citation_author_orcid" content="https://orcid.org/0000-0002-2170-2250" />
   <meta name="citation_author" content="Hyeongsik Kim" />
   <meta name="citation_author_institution" content="Robert Bosch LLC" />
   <meta name="citation_author_orcid" content="0000-0002-3002-9838" />
@@ -54,9 +62,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://monarch-initiative.github.io/gpt-mapping-manuscript/" />
   <meta name="citation_pdf_url" content="https://monarch-initiative.github.io/gpt-mapping-manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://monarch-initiative.github.io/gpt-mapping-manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://monarch-initiative.github.io/gpt-mapping-manuscript/v/0cd7cf64a8b4cacc09f17cd4400dd352f35b4ae0/" />
-  <meta name="manubot_html_url_versioned" content="https://monarch-initiative.github.io/gpt-mapping-manuscript/v/0cd7cf64a8b4cacc09f17cd4400dd352f35b4ae0/" />
-  <meta name="manubot_pdf_url_versioned" content="https://monarch-initiative.github.io/gpt-mapping-manuscript/v/0cd7cf64a8b4cacc09f17cd4400dd352f35b4ae0/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://monarch-initiative.github.io/gpt-mapping-manuscript/v/47f23d36e8d8edc158097e92dda08af27c37b11c/" />
+  <meta name="manubot_html_url_versioned" content="https://monarch-initiative.github.io/gpt-mapping-manuscript/v/47f23d36e8d8edc158097e92dda08af27c37b11c/" />
+  <meta name="manubot_pdf_url_versioned" content="https://monarch-initiative.github.io/gpt-mapping-manuscript/v/47f23d36e8d8edc158097e92dda08af27c37b11c/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -78,9 +86,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://monarch-initiative.github.io/gpt-mapping-manuscript/v/0cd7cf64a8b4cacc09f17cd4400dd352f35b4ae0/))
+([permalink](https://monarch-initiative.github.io/gpt-mapping-manuscript/v/47f23d36e8d8edc158097e92dda08af27c37b11c/))
 was automatically generated
-from [monarch-initiative/gpt-mapping-manuscript@0cd7cf6](https://github.com/monarch-initiative/gpt-mapping-manuscript/tree/0cd7cf64a8b4cacc09f17cd4400dd352f35b4ae0)
+from [monarch-initiative/gpt-mapping-manuscript@47f23d3](https://github.com/monarch-initiative/gpt-mapping-manuscript/tree/47f23d36e8d8edc158097e92dda08af27c37b11c)
 on September 20, 2023.
 </em></small>
 
@@ -113,6 +121,30 @@ on September 20, 2023.
      Environmental Genomics and Systems Biology Division, Lawrence Berkeley National Laboratory, Berkeley, CA, 94720
   </small>
 
++ **J. Harry Caufield**
+  <br>
+    ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
+    [https://orcid.org/0000-0001-5705-7831](https://orcid.org/https://orcid.org/0000-0001-5705-7831)
+    · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
+    [caufieldjh](https://github.com/caufieldjh)
+    <br>
+  <small>
+     Environmental Genomics and Systems Biology Division, Lawrence Berkeley National Laboratory, Berkeley, CA, 94720
+     · Funded by Grant Director, Office of Science, Office of Basic Energy Sciences of the U.S. Department of Energy Contract No. DE-AC02-05CH11231
+  </small>
+
++ **Justin Reese**
+  ^[✉](#correspondence)^<br>
+    ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
+    [https://orcid.org/0000-0002-2170-2250](https://orcid.org/https://orcid.org/0000-0002-2170-2250)
+    · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
+    [justaddcoffee](https://github.com/justaddcoffee)
+    <br>
+  <small>
+     Environmental Genomics and Systems Biology Division, Lawrence Berkeley National Laboratory, Berkeley, CA, 94720
+     · Funded by Grant Director, Office of Science, Office of Basic Energy Sciences of the U.S. Department of Energy Contract No. DE-AC02-05CH11231
+  </small>
+
 + **Hyeongsik Kim**
   <br>
     ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
@@ -139,6 +171,7 @@ on September 20, 2023.
 ::: {#correspondence}
 ✉ — Correspondence possible via [GitHub Issues](https://github.com/monarch-initiative/gpt-mapping-manuscript/issues)
 or email to
+Justin Reese \<justaddcoffee@gmail.com\>, 
 Chris Mungall \<cjmungall@lbl.gov\>.
 
 
@@ -538,6 +571,9 @@ In this task, the previous SOTA achieves slight gain in precision over GPT based
 
 ## Discussion
 
+In all the presented challenges, GPT4 beats all other systems, including the SOTA ontology matching system LogMap.
+One potential advantage LLMs already exhibit compared to SOTA matching tools is that its background
+
 ### Study limitations
 
 The anatomy task is particularly challenging for traditional methods as the curated mappings
@@ -567,7 +603,7 @@ reasoning, lexical methods, rule-based methods, and LLMs.
 
 ## Conclusions
 
-We are in the very early stages of exploring the use of LLM's for semantic mapping problems, but given the performance that even current LLM's already exhibit on complex matching problems, it is likely that this field is going to move fast. One very strong advantage LLMs already exhibit compared to SOTA matching tools is a much more straight forward
+We are in the  early stages of exploring the use of LLM's for semantic mapping problems, but given the performance that even current LLM's already exhibit on complex matching problems, it is likely that this field is going to move fast.
 
 ## References {.page_break_before}
 
