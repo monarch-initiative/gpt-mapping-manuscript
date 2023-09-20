@@ -46,6 +46,14 @@ authors:
     corresponding: true
     funders:
       - Grant Director, Office of Science, Office of Basic Energy Sciences of the U.S. Department of Energy Contract No. DE-AC02-05CH11231
+  - github: sierra-moxon
+    name: Sierra Moxon
+    initials: sm
+    orcid: https://orcid.org/0000-0002-8719-7760
+    email: sierra.taylor@gmail.com
+    affiliations:
+      - Environmental Genomics and Systems Biology Division, Lawrence Berkeley National Laboratory, Berkeley, CA, 94720
+    corresponding: true
   - github: yy20716
     name: Hyeongsik Kim
     initials: HK
