@@ -14,6 +14,7 @@ author-meta:
 - Harshad Hegde
 - J. Harry Caufield
 - Justin Reese
+- Sierra Moxon
 - Hyeongsik Kim
 - Chris Mungall
 header-includes: |
@@ -30,8 +31,8 @@ header-includes: |
   <meta name="dc.date" content="2023-09-20" />
   <meta name="citation_publication_date" content="2023-09-20" />
   <meta property="article:published_time" content="2023-09-20" />
-  <meta name="dc.modified" content="2023-09-20T16:32:57+00:00" />
-  <meta property="article:modified_time" content="2023-09-20T16:32:57+00:00" />
+  <meta name="dc.modified" content="2023-09-20T16:34:35+00:00" />
+  <meta property="article:modified_time" content="2023-09-20T16:34:35+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -50,6 +51,9 @@ header-includes: |
   <meta name="citation_author" content="Justin Reese" />
   <meta name="citation_author_institution" content="Environmental Genomics and Systems Biology Division, Lawrence Berkeley National Laboratory, Berkeley, CA, 94720" />
   <meta name="citation_author_orcid" content="https://orcid.org/0000-0002-2170-2250" />
+  <meta name="citation_author" content="Sierra Moxon" />
+  <meta name="citation_author_institution" content="Environmental Genomics and Systems Biology Division, Lawrence Berkeley National Laboratory, Berkeley, CA, 94720" />
+  <meta name="citation_author_orcid" content="https://orcid.org/0000-0002-8719-7760" />
   <meta name="citation_author" content="Hyeongsik Kim" />
   <meta name="citation_author_institution" content="Robert Bosch LLC" />
   <meta name="citation_author_orcid" content="0000-0002-3002-9838" />
@@ -62,9 +66,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://monarch-initiative.github.io/gpt-mapping-manuscript/" />
   <meta name="citation_pdf_url" content="https://monarch-initiative.github.io/gpt-mapping-manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://monarch-initiative.github.io/gpt-mapping-manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://monarch-initiative.github.io/gpt-mapping-manuscript/v/47f23d36e8d8edc158097e92dda08af27c37b11c/" />
-  <meta name="manubot_html_url_versioned" content="https://monarch-initiative.github.io/gpt-mapping-manuscript/v/47f23d36e8d8edc158097e92dda08af27c37b11c/" />
-  <meta name="manubot_pdf_url_versioned" content="https://monarch-initiative.github.io/gpt-mapping-manuscript/v/47f23d36e8d8edc158097e92dda08af27c37b11c/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://monarch-initiative.github.io/gpt-mapping-manuscript/v/557c1a5e9bde3776f67c0203d4e7779a2928479b/" />
+  <meta name="manubot_html_url_versioned" content="https://monarch-initiative.github.io/gpt-mapping-manuscript/v/557c1a5e9bde3776f67c0203d4e7779a2928479b/" />
+  <meta name="manubot_pdf_url_versioned" content="https://monarch-initiative.github.io/gpt-mapping-manuscript/v/557c1a5e9bde3776f67c0203d4e7779a2928479b/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -86,9 +90,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://monarch-initiative.github.io/gpt-mapping-manuscript/v/47f23d36e8d8edc158097e92dda08af27c37b11c/))
+([permalink](https://monarch-initiative.github.io/gpt-mapping-manuscript/v/557c1a5e9bde3776f67c0203d4e7779a2928479b/))
 was automatically generated
-from [monarch-initiative/gpt-mapping-manuscript@47f23d3](https://github.com/monarch-initiative/gpt-mapping-manuscript/tree/47f23d36e8d8edc158097e92dda08af27c37b11c)
+from [monarch-initiative/gpt-mapping-manuscript@557c1a5](https://github.com/monarch-initiative/gpt-mapping-manuscript/tree/557c1a5e9bde3776f67c0203d4e7779a2928479b)
 on September 20, 2023.
 </em></small>
 
@@ -145,6 +149,17 @@ on September 20, 2023.
      · Funded by Grant Director, Office of Science, Office of Basic Energy Sciences of the U.S. Department of Energy Contract No. DE-AC02-05CH11231
   </small>
 
++ **Sierra Moxon**
+  ^[✉](#correspondence)^<br>
+    ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
+    [https://orcid.org/0000-0002-8719-7760](https://orcid.org/https://orcid.org/0000-0002-8719-7760)
+    · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
+    [sierra-moxon](https://github.com/sierra-moxon)
+    <br>
+  <small>
+     Environmental Genomics and Systems Biology Division, Lawrence Berkeley National Laboratory, Berkeley, CA, 94720
+  </small>
+
 + **Hyeongsik Kim**
   <br>
     ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
@@ -172,6 +187,7 @@ on September 20, 2023.
 ✉ — Correspondence possible via [GitHub Issues](https://github.com/monarch-initiative/gpt-mapping-manuscript/issues)
 or email to
 Justin Reese \<justaddcoffee@gmail.com\>, 
+Sierra Moxon \<sierra.taylor@gmail.com\>, 
 Chris Mungall \<cjmungall@lbl.gov\>.
 
 
