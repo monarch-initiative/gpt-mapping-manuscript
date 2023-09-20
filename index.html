@@ -4,13 +4,11 @@
   <meta charset="utf-8" />
   <meta name="generator" content="pandoc" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
-  <meta name="author" content="Nicolas Matentzoglu" />
-  <meta name="author" content="Harshad Hegde" />
-  <meta name="author" content="Hyeongsik Kim" />
+  <meta name="author" content="John Doe" />
   <meta name="author" content="Chris Mungall" />
-  <meta name="dcterms.date" content="2023-09-20" />
-  <meta name="keywords" content="GPT, Large Language Models, OWL, Mapping, Ontologies, SSSOM" />
-  <title>MapperGPT: Large Language Models for Linking and Mapping Entities</title>
+  <meta name="dcterms.date" content="2023-05-24" />
+  <meta name="keywords" content="GPT, Large Language Models, OWL, Reasoning, Ontologies" />
+  <title>Reasoning over ontologies using Large Language Models</title>
   <style>
     code{white-space: pre-wrap;}
     span.smallcaps{font-variant: small-caps;}
@@ -23,69 +21,6 @@
       margin: 0 0.8em 0.2em -1.6em;
       vertical-align: middle;
     }
-    pre > code.sourceCode { white-space: pre; position: relative; }
-    pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
-    pre > code.sourceCode > span:empty { height: 1.2em; }
-    .sourceCode { overflow: visible; }
-    code.sourceCode > span { color: inherit; text-decoration: inherit; }
-    div.sourceCode { margin: 1em 0; }
-    pre.sourceCode { margin: 0; }
-    @media screen {
-    div.sourceCode { overflow: auto; }
-    }
-    @media print {
-    pre > code.sourceCode { white-space: pre-wrap; }
-    pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
-    }
-    pre.numberSource code
-      { counter-reset: source-line 0; }
-    pre.numberSource code > span
-      { position: relative; left: -4em; counter-increment: source-line; }
-    pre.numberSource code > span > a:first-child::before
-      { content: counter(source-line);
-        position: relative; left: -1em; text-align: right; vertical-align: baseline;
-        border: none; display: inline-block;
-        -webkit-touch-callout: none; -webkit-user-select: none;
-        -khtml-user-select: none; -moz-user-select: none;
-        -ms-user-select: none; user-select: none;
-        padding: 0 4px; width: 4em;
-        color: #aaaaaa;
-      }
-    pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
-    div.sourceCode
-      {   }
-    @media screen {
-    pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
-    }
-    code span.al { color: #ff0000; font-weight: bold; } /* Alert */
-    code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
-    code span.at { color: #7d9029; } /* Attribute */
-    code span.bn { color: #40a070; } /* BaseN */
-    code span.bu { color: #008000; } /* BuiltIn */
-    code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
-    code span.ch { color: #4070a0; } /* Char */
-    code span.cn { color: #880000; } /* Constant */
-    code span.co { color: #60a0b0; font-style: italic; } /* Comment */
-    code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
-    code span.do { color: #ba2121; font-style: italic; } /* Documentation */
-    code span.dt { color: #902000; } /* DataType */
-    code span.dv { color: #40a070; } /* DecVal */
-    code span.er { color: #ff0000; font-weight: bold; } /* Error */
-    code span.ex { } /* Extension */
-    code span.fl { color: #40a070; } /* Float */
-    code span.fu { color: #06287e; } /* Function */
-    code span.im { color: #008000; font-weight: bold; } /* Import */
-    code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
-    code span.kw { color: #007020; font-weight: bold; } /* Keyword */
-    code span.op { color: #666666; } /* Operator */
-    code span.ot { color: #007020; } /* Other */
-    code span.pp { color: #bc7a00; } /* Preprocessor */
-    code span.sc { color: #4070a0; } /* SpecialChar */
-    code span.ss { color: #bb6688; } /* SpecialString */
-    code span.st { color: #4070a0; } /* String */
-    code span.va { color: #19177c; } /* Variable */
-    code span.vs { color: #4070a0; } /* VerbatimString */
-    code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
     div.csl-bib-body { }
     div.csl-entry {
       clear: both;
@@ -112,42 +47,28 @@
   -->
   <meta name="dc.format" content="text/html" />
   <meta property="og:type" content="article" />
-  <meta name="dc.title" content="MapperGPT: Large Language Models for Linking and Mapping Entities" />
-  <meta name="citation_title" content="MapperGPT: Large Language Models for Linking and Mapping Entities" />
-  <meta property="og:title" content="MapperGPT: Large Language Models for Linking and Mapping Entities" />
-  <meta property="twitter:title" content="MapperGPT: Large Language Models for Linking and Mapping Entities" />
-  <meta name="dc.date" content="2023-09-20" />
-  <meta name="citation_publication_date" content="2023-09-20" />
-  <meta property="article:published_time" content="2023-09-20" />
-  <meta name="dc.modified" content="2023-09-20T13:48:36+00:00" />
-  <meta property="article:modified_time" content="2023-09-20T13:48:36+00:00" />
+  <meta name="dc.title" content="Reasoning over ontologies using Large Language Models" />
+  <meta name="citation_title" content="Reasoning over ontologies using Large Language Models" />
+  <meta property="og:title" content="Reasoning over ontologies using Large Language Models" />
+  <meta property="twitter:title" content="Reasoning over ontologies using Large Language Models" />
+  <meta name="dc.date" content="2023-05-24" />
+  <meta name="citation_publication_date" content="2023-05-24" />
+  <meta property="article:published_time" content="2023-05-24" />
+  <meta name="dc.modified" content="2023-05-24T00:06:28+00:00" />
+  <meta property="article:modified_time" content="2023-05-24T00:06:28+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
   <meta name="dc.publisher" content="Manubot" />
   <meta name="citation_journal_title" content="Manubot" />
   <meta name="citation_technical_report_institution" content="Manubot" />
-  <meta name="citation_author" content="Nicolas Matentzoglu" />
-  <meta name="citation_author_institution" content="Semanticly, Athens, Greece" />
-  <meta name="citation_author_orcid" content="0000-0002-7356-1779" />
-  <meta name="citation_author" content="Harshad Hegde" />
-  <meta name="citation_author_institution" content="Environmental Genomics and Systems Biology Division, Lawrence Berkeley National Laboratory, Berkeley, CA, 94720" />
-  <meta name="citation_author_orcid" content="0000-0002-2411-565X" />
-  <meta name="citation_author" content="Hyeongsik Kim" />
-  <meta name="citation_author_institution" content="Robert Bosch LLC" />
-  <meta name="citation_author_orcid" content="0000-0002-3002-9838" />
+  <meta name="citation_author" content="John Doe" />
+  <meta name="citation_author_institution" content="Department of Something, University of Whatever" />
+  <meta name="citation_author_orcid" content="XXXX-XXXX-XXXX-XXXX" />
+  <meta name="twitter:creator" content="@johndoe" />
   <meta name="citation_author" content="Chris Mungall" />
   <meta name="citation_author_institution" content="Environmental Genomics and Systems Biology Division, Lawrence Berkeley National Laboratory, Berkeley, CA, 94720" />
   <meta name="citation_author_orcid" content="0000-0002-6601-2165" />
-  <link rel="canonical" href="https://monarch-initiative.github.io/gpt-mapping-manuscript/" />
-  <meta property="og:url" content="https://monarch-initiative.github.io/gpt-mapping-manuscript/" />
-  <meta property="twitter:url" content="https://monarch-initiative.github.io/gpt-mapping-manuscript/" />
-  <meta name="citation_fulltext_html_url" content="https://monarch-initiative.github.io/gpt-mapping-manuscript/" />
-  <meta name="citation_pdf_url" content="https://monarch-initiative.github.io/gpt-mapping-manuscript/manuscript.pdf" />
-  <link rel="alternate" type="application/pdf" href="https://monarch-initiative.github.io/gpt-mapping-manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://monarch-initiative.github.io/gpt-mapping-manuscript/v/557976b1d7099cc0aaa7acead2ef6ef4f8d2ef23/" />
-  <meta name="manubot_html_url_versioned" content="https://monarch-initiative.github.io/gpt-mapping-manuscript/v/557976b1d7099cc0aaa7acead2ef6ef4f8d2ef23/" />
-  <meta name="manubot_pdf_url_versioned" content="https://monarch-initiative.github.io/gpt-mapping-manuscript/v/557976b1d7099cc0aaa7acead2ef6ef4f8d2ef23/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -160,47 +81,29 @@
 </head>
 <body>
 <header id="title-block-header">
-<h1 class="title">MapperGPT: Large Language Models for Linking and Mapping Entities</h1>
+<h1 class="title">Reasoning over ontologies using Large Language Models</h1>
 </header>
 <p><small><em>
 This manuscript
-(<a href="https://monarch-initiative.github.io/gpt-mapping-manuscript/v/557976b1d7099cc0aaa7acead2ef6ef4f8d2ef23/">permalink</a>)
 was automatically generated
-from <a href="https://github.com/monarch-initiative/gpt-mapping-manuscript/tree/557976b1d7099cc0aaa7acead2ef6ef4f8d2ef23">monarch-initiative/gpt-mapping-manuscript@557976b</a>
-on September 20, 2023.
+on May 24, 2023.
 </em></small></p>
 <h2 id="authors">Authors</h2>
 <ul>
-<li><p><strong>Nicolas Matentzoglu</strong>
+<li><p><strong>John Doe</strong>
 <br>
 <img src="images/orcid.svg" class="inline_icon" width="16" height="16" alt="ORCID icon" />
-<a href="https://orcid.org/0000-0002-7356-1779">0000-0002-7356-1779</a>
+<a href="https://orcid.org/XXXX-XXXX-XXXX-XXXX">XXXX-XXXX-XXXX-XXXX</a>
 · <img src="images/github.svg" class="inline_icon" width="16" height="16" alt="GitHub icon" />
-<a href="https://github.com/matentzn">matentzn</a>
+<a href="https://github.com/johndoe">johndoe</a>
+· <img src="images/twitter.svg" class="inline_icon" width="16" height="16" alt="Twitter icon" />
+<a href="https://twitter.com/johndoe">johndoe</a>
+· <img src="images/mastodon.svg" class="inline_icon" width="16" height="16" alt="Mastodon icon" />
+<a href="https://mastodon.social/@johndoe">@johndoe@mastodon.social</a>
 <br>
 <small>
-Semanticly, Athens, Greece
-· Funded by NIH NHGRI 7RM1HG010860-02
-</small></p></li>
-<li><p><strong>Harshad Hegde</strong>
-<br>
-<img src="images/orcid.svg" class="inline_icon" width="16" height="16" alt="ORCID icon" />
-<a href="https://orcid.org/0000-0002-2411-565X">0000-0002-2411-565X</a>
-· <img src="images/github.svg" class="inline_icon" width="16" height="16" alt="GitHub icon" />
-<a href="https://github.com/hrshdhgd">hrshdhgd</a>
-<br>
-<small>
-Environmental Genomics and Systems Biology Division, Lawrence Berkeley National Laboratory, Berkeley, CA, 94720
-</small></p></li>
-<li><p><strong>Hyeongsik Kim</strong>
-<br>
-<img src="images/orcid.svg" class="inline_icon" width="16" height="16" alt="ORCID icon" />
-<a href="https://orcid.org/0000-0002-3002-9838">0000-0002-3002-9838</a>
-· <img src="images/github.svg" class="inline_icon" width="16" height="16" alt="GitHub icon" />
-<a href="https://github.com/yy20716">yy20716</a>
-<br>
-<small>
-Robert Bosch LLC
+Department of Something, University of Whatever
+· Funded by Grant XXXXXXXX
 </small></p></li>
 <li><p><strong>Chris Mungall</strong>
 <sup><a href="#correspondence">✉</a></sup><br>
@@ -214,588 +117,40 @@ Environmental Genomics and Systems Biology Division, Lawrence Berkeley National 
 </small></p></li>
 </ul>
 <div id="correspondence">
-<p>✉ — Correspondence possible via <a href="https://github.com/monarch-initiative/gpt-mapping-manuscript/issues">GitHub Issues</a>
+<p>✉ — Correspondence possible via GitHub Issues
 or email to
 Chris Mungall &lt;cjmungall@lbl.gov&gt;.</p>
 </div>
 <h2 class="page_break_before" id="abstract">Abstract</h2>
-<p>Aligning terminological resources, including ontologies, controlled vocabularies and taxonomies, is a critical part of data integration in many domains such as healthcare, chemistry and biomedical research.</p>
-<p>Entity mapping is the process of determining correspondences between entities across these resources, such as gene identifiers, disease concepts or chemical entity identifiers. Many tools have been developed to compute such mappings based on common structural features and lexical information such as labels and synonyms. Lexical approaches in particular often provide very high recall, but low precision, due to lexical ambiguity.</p>
-<p>Large Language Models (LLMs), such as the ones employed by ChatGPT, have generalizable abilities to perform a wide range of tasks, including question answering and
-information extraction.</p>
-<p>Here we present <em>MapperGPT</em>, an approach based on LLMs to refine and predict mapping relationships
-as a post-processing step, that works in
-concert with existing high-recall methods that are based on lexical and structural heuristics.</p>
-<p>We evaluated <em>MapperGPT</em> on a series of alignment tasks from different domains, including anatomy, developmental
-biology, and renal diseases.
-We devised a collection of tasks that are designed to be particularly challenging
-for lexical methods. We show that when used in combination with high-recall methods
-<em>MapperGPT</em> can provide a substantial improvement in accuracy beating state of the art methods such as LogMap.</p>
+<p>Reasoning is a core component of human intelligence, and a key goal of AI research.
+Reasoning has traditionally been the domain of symbolic AI, but recent advances in deep learning
+and in particular Large Language Models (LLMs) such as GPT-3 seem to suggest that LLMs have
+some latent reasoning ability.</p>
+<p>To investigate this, we created a GPT-based reasoning agent that is intended to perform ontological reason using
+a few-shot learning approach, using instruction prompting and in-context examples.
+We also created a series of benchmarks to test ontological reasoning ability in LLMs and other systems.</p>
+<p>Our results indicate that GPT is a poor reasoner, and is only able to perform ontological reasoning
+on some of the simplest tasks. Even on these simple tasks, results are highly variable, with performance
+degrading as the size of the ontology and the complexity of the explanation increases. In the cases
+where it does successfully perform the task, this seems to essentially be an advanced pattern-based form
+of lookup.</p>
+<p>Our results indicate that a maximalist approach to using LLMs may be limiting, and that to be
+successful AI should use hybrid strategies.</p>
 <h2 id="introduction">Introduction</h2>
-<p>Tackling global challenges, including rare disease and climate change, requires the integration of a large number of disparate data sources.
-Due to the decentralised nature of data standardisation,
-where different data providers inevitably employ
-different controlled vocabularies and ontologies to standardise their data,
-it becomes crucial to integrate such “semantic spaces” (i.e. data spaces that are described using divergent sets of ontologies).</p>
-<p>Linking entities across often huge semantic spaces at scale is crucial.
-For example, integrating genetic associations for disease provided by a disease data resource such as the Online Mendelian Inheritance in Man (OMIM) with the phenotypic associations to the same disease provided by Orphanet
-requires mapping different disease identifiers that refer to the exact same real-world disease concept.
-Manually mapping thousands of disease concepts for two semantic spaces is potentially doable manually,
-but in the real world, dozens of resources providing information about the same data type (disease, genes, environment, organisms) need to be integrated,
-which makes a purely manual approach infeasible.</p>
-<p>Semantic entity matching is the process of associating a term or identifier A in one semantic space
-to one or more terms or identifiers B in another, where A and B refer to the same or related real-world concepts.
-A common method to automate semantic entity matching is to use lexical methods, in particular matching
-on primary or alternative labels (synonyms) that have been assigned to concepts, sometimes in combination with
-lexical normalization. These methods can often provide very high recall, but low precision, due to lexical ambiguity.
-Examples are provided in <a href="#tbl:example-matches">1</a>, including a false match between an aeroplane part and an
-insect part due to sharing the same name (wing) based on analogous function.</p>
-<div id="tbl:example-matches" class="tablenos">
-<table id="tbl:example-matches">
-<caption><span>Table 1:</span> Example of entity matching problem
-</caption>
-<colgroup>
-<col style="width: 18%" />
-<col style="width: 11%" />
-<col style="width: 21%" />
-<col style="width: 17%" />
-<col style="width: 14%" />
-<col style="width: 15%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Resource A</th>
-<th>Concept A</th>
-<th>Resource B</th>
-<th>Concept B</th>
-<th>Predicted</th>
-<th>True Predicate</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>UK Auto Ontology</td>
-<td>Car</td>
-<td>Industrial Ontology</td>
-<td>Automobile</td>
-<td>n/a</td>
-<td><code>exactMatch</code></td>
-</tr>
-<tr class="even">
-<td>Train Ontology</td>
-<td>Car</td>
-<td>Industrial Ontology</td>
-<td>RailwayCarriage</td>
-<td>n/a</td>
-<td><code>closeMatch</code></td>
-</tr>
-<tr class="odd">
-<td>Fly ontology</td>
-<td>Wing</td>
-<td>Industrial ontology</td>
-<td>Wing</td>
-<td><code>exactMatch</code></td>
-<td><code>differentFrom</code></td>
-</tr>
-</tbody>
-</table>
-</div>
-<p>An example of this approach is the LOOM algorithm used in the Bioportal ontology
-resource <span class="citation" data-cites="pubmed:20351849">[<a href="#ref-pubmed:20351849" role="doc-biblioref"><strong>pubmed:20351849?</strong></a>]</span>, which provides very high recall mappings across over a thousand ontologies and other controlled vocabularies.</p>
-<p>A number of approaches can give higher precision mappings, many of these make use of other relationships
-or properties in the ontology. The Ontology Alignment Evaluation Initiative (OAEI) provides a yearly
-evaluation of different methods for ontology matching. One of the top-performing methods in OAEI is the LogMap
-tool, which makes use of logical axioms in the ontology to assist in mapping.</p>
-<p>Deep learning approaches and in particular Language Models (LMs) have been applied to ontology matching tasks.
-Some methods make use of embedding distance OntoEmma <span class="citation" data-cites="n4UAhcM7">[<a href="#ref-n4UAhcM7" role="doc-biblioref">1</a>]</span>,
-DeepAlignment <span class="citation" data-cites="cceBVzJY">[<a href="#ref-cceBVzJY" role="doc-biblioref">2</a>]</span>,
-VeeAlign <span class="citation" data-cites="5vYPsOHA">[<a href="#ref-5vYPsOHA" role="doc-biblioref">3</a>]</span>.
-More recently the Truveta Mapper <span class="citation" data-cites="tg0x6kt1">[<a href="#ref-tg0x6kt1" role="doc-biblioref">4</a>]</span>
-treats matching as a Translation task and involves pre-training on ontology structures.</p>
-<p>The most recent development in LMs are so-called Large Language Models (LLMs), exemplified by ChatGPT,
-which involved billions of parameters and pre-training on instruction-prompting tasks. The resulting
-models have generalizable abilities to perform a wide range of tasks, including question answering,
-information extraction. However, one challenge with LLMs is the problem of <em>hallucination</em>. An hallucination describes a situation where an AI model “fabricates” information that does not directly correspond to the provided input. He et al (2023) <span class="citation" data-cites="XjyUJzbQ">[<a href="#ref-XjyUJzbQ" role="doc-biblioref">5</a>]</span> have noted the need for investigating LLM’s for the Ontology Matching problem, and determined that their use is “promising”, while some challenges (like prompt tuning and overall framework design) still need to be addressed.</p>
-<p>Given their performance on any tasks related to the understanding and generation natural language, it seems
-obvious to employ LLMs directly as a powerful, scalable alternative to
-current state-of-the-art (SOTA) methods for entity matching.
-One possibility is using LLMs like the ones employed by ChatGPT to generate mappings de-novo. However, the problem of hallucination makes this unreliable, in particular, due to the propensity for LLMs to hallucinate database or ontology identifiers
-when these are requested.</p>
-<p>We devised an alternative approach called <em>MapperGPT</em> that does not use GPT models to generate mappings de-novo, but instead works in
-concert with existing high-recall methods such as LOOM <span class="citation" data-cites="pubmed:20351849">[<a href="#ref-pubmed:20351849" role="doc-biblioref"><strong>pubmed:20351849?</strong></a>]</span>. We use a GPT model to refine and predict relationships
-(predicates) as a post-processing step,
-essentially for the purpose of isolating and removing false positive mappings.
-We use an in-context knowledge-driven semantic approach, in
-which examples of different mapping categories and information about the two concepts in a mapping is provided to the model to determine an appropriate mapping relationship. We use the Simple Standard for Sharing Ontological Mapping (SSSOM) <span class="citation" data-cites="L8zxtZyX">[<a href="#ref-L8zxtZyX" role="doc-biblioref">6</a>]</span> for sharing and comparing entity mappings across systems.</p>
-<p>We evaluated this on a series of alignment tasks from different domains, including anatomy, developmental
-biology, and renal diseases. We devised a collection of tasks that are designed to be particularly challenging
-for lexical methods. We show that when used in combination with high-recall methods such as LOOM or OAK LexMatch <span class="citation" data-cites="1FvOl9pKQ">[<a href="#ref-1FvOl9pKQ" role="doc-biblioref">7</a>]</span>,
-MapperGPT can provide a substantial improvement in accuracy beating SOTA methods such as LogMap.</p>
-<p>Our contributions are as follows:</p>
-<ul>
-<li>The creation of a series of new matching tasks expressed using the SSSOM standard</li>
-<li>An algorithm and tool, <em>MapperGPT</em>, that uses a GPT model to predict relationships between concepts</li>
-</ul>
+<p>Citation by DOI <span class="citation" data-cites="IhliSZDo">[<a href="#ref-IhliSZDo" role="doc-biblioref">1</a>]</span>.</p>
 <h2 id="methods">Methods</h2>
-<h3 id="algorithm">Algorithm</h3>
-<p>Our method MapperGPT takes as input two ontologies <em>O1</em> and <em>O2</em> and a set of candidate mappings <em>M</em>.
-These mappings are assumed to be have been generated from an existing high-recall method such as LOOM.</p>
-<pre><code>M&#39; = {}
-For m in M:
-  prompt = GeneratePrompt(m.a, m.b, O1, O2)
-  response = CompletePrompt(prompt, model)
-  m&#39; = Parse(response)
-  add m&#39; to M&#39;
-return M&#39;</code></pre>
-<h3 id="prompt-generation">Prompt generation</h3>
-<p>The method <code>GeneratePrompt</code> generates a prompt according to the following template:</p>
-<pre><code>What is the relationship between the two specified concepts?
-
-Give your answer in the form:
-
-category: &lt;one of: EXACT_MATCH, BROADER_THAN, NARROWER_THAN, RELATED_TO, DIFFERENT&gt;
-confidence: &lt;one of: LOW, HIGH, MEDIUM&gt;
-similarities: &lt;semicolon-separated list of similarities&gt;
-differences: &lt;semicolon-separated list of differences&gt;
-
-Make use of all provided information, including the concept names, definitions, and relationships.
-
-Examples:
-
-{{ examples }}
-
-Here are the two concepts:
-
-{{ Describe(conceptA) }}
-{{ Describe(conceptB) }}</code></pre>
-<p>The use of examples makes this a few-shot learning approach.</p>
-<p>Examples are provided in-context in the following form:</p>
-<pre><code>[Concept A]
-id: FOO:125
-name: wing
-def: part of a bird that is flapped to enable flight
-is_a: Limb
-relationship: part_of Bird
-relationship: has_part Feather
-
-[Concept B]
-id: BAR:458
-name: wing
-relationship: part_of Aeroplane
-
-category: DIFFERENT
-confidence: HIGH
-similarities: function
-differences: A is an anatomical part; B is a part of a vehicle</code></pre>
-<p>For each candidate mapping between concepts A and B, we generate a description of each concept,
-incorporating key elements: name, synonyms, definition, relationships.</p>
-<p>The <code>Describe</code> function will generate a textual description of an ontology or database concept, showing the
-following properties:</p>
-<ul>
-<li>name</li>
-<li>synonyms</li>
-<li>definition</li>
-<li>parents (superclasses)</li>
-<li>other relationships</li>
-</ul>
-<h3 id="prompt-completion">Prompt Completion</h3>
-<p>The prompt is then passed to a GPT model, which generates a response.
-In principle the method should work with any instruction-based model, either
-local or remotely accessed via an API. In practice we have only
-evaluated this against the OpenAI API and the two leading instruction-based
-models, <code>gpt-3.5-turbo</code> and <code>gpt-4</code>.</p>
-<h3 id="response-parsing">Response Parsing</h3>
-<p>The response is parsed to retrieve
-the key data model elements: category, confidence, similarities, differences.</p>
-<p>The result object can be exported to SSSOM format.</p>
-<h3 id="example">Example</h3>
-<p>As an example, two concepts from the Drosophila (fruitfly) and zebrafish anatomy ontologies <span class="citation" data-cites="zOOkRFbn">[<a href="#ref-6q8oZk5m" role="doc-biblioref">9</a>]</span> are candidate matches
-due to sharing a lexical element (the “PC” abbreviation). This is a false positive match in reality,
-as the concept are entirely different.</p>
-<p>The two concept descriptions are generated from respective ontologies as follows:</p>
-<div class="sourceCode" id="cb4"><pre class="sourceCode yaml"><code class="sourceCode yaml"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="kw">[</span><span class="at">Concept A</span><span class="kw">]</span></span>
-<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a><span class="fu">id</span><span class="kw">:</span><span class="at"> FBbt:00001906</span></span>
-<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a><span class="fu">name</span><span class="kw">:</span><span class="at"> embryonic/larval Malpighian tubule Type I cell</span></span>
-<span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a><span class="fu">def</span><span class="kw">:</span><span class="at"> Type I cell of the embryonic/larval Malpighian tubules.</span></span>
-<span id="cb4-5"><a href="#cb4-5" aria-hidden="true" tabindex="-1"></a><span class="fu">synonyms</span><span class="kw">:</span><span class="at">  PC ;  embryonic/larval Malpighian tubule Type I cell ;  larval Malpighian tubule Type I cell ;  larval Malpighian tubule principal cell ; </span></span>
-<span id="cb4-6"><a href="#cb4-6" aria-hidden="true" tabindex="-1"></a><span class="fu">is_a</span><span class="kw">:</span><span class="at">  embryonic/larval specialized Malpighian tubule cell ;  Malpighian tubule Type I cell ; </span></span>
-<span id="cb4-7"><a href="#cb4-7" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-8"><a href="#cb4-8" aria-hidden="true" tabindex="-1"></a><span class="kw">[</span><span class="at">Concept B</span><span class="kw">]</span></span>
-<span id="cb4-9"><a href="#cb4-9" aria-hidden="true" tabindex="-1"></a><span class="fu">id</span><span class="kw">:</span><span class="at"> ZFA:0000320</span></span>
-<span id="cb4-10"><a href="#cb4-10" aria-hidden="true" tabindex="-1"></a><span class="fu">name</span><span class="kw">:</span><span class="at"> caudal commissure</span></span>
-<span id="cb4-11"><a href="#cb4-11" aria-hidden="true" tabindex="-1"></a><span class="fu">def</span><span class="kw">:</span><span class="at"> Diencephalic tract which is located in the vicinity of the dorsal diencephalon and mesencephalon and connects the pretectal nuclei. From Neuroanatomy of the Zebrafish Brain.</span></span>
-<span id="cb4-12"><a href="#cb4-12" aria-hidden="true" tabindex="-1"></a><span class="fu">synonyms</span><span class="kw">:</span><span class="at">  PC ;  caudal commissure ;  posterior commissure ; </span></span>
-<span id="cb4-13"><a href="#cb4-13" aria-hidden="true" tabindex="-1"></a><span class="fu">is_a</span><span class="kw">:</span><span class="at">  diencephalic white matter ; </span></span>
-<span id="cb4-14"><a href="#cb4-14" aria-hidden="true" tabindex="-1"></a><span class="fu">relationship</span><span class="kw">:</span><span class="at"> part of synencephalon</span></span>
-<span id="cb4-15"><a href="#cb4-15" aria-hidden="true" tabindex="-1"></a><span class="fu">relationship</span><span class="kw">:</span><span class="at"> start stage unknown</span></span>
-<span id="cb4-16"><a href="#cb4-16" aria-hidden="true" tabindex="-1"></a><span class="fu">relationship</span><span class="kw">:</span><span class="at"> end stage adult</span></span></code></pre></div>
-<p>The response for this using gpt-3.5-turbo (August 2023) is:</p>
-<div class="sourceCode" id="cb5"><pre class="sourceCode yaml"><code class="sourceCode yaml"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="fu">category</span><span class="kw">:</span><span class="at"> DIFFERENT</span></span>
-<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a><span class="fu">confidence</span><span class="kw">:</span><span class="at"> HIGH</span></span>
-<span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a><span class="fu">similarities</span><span class="kw">:</span><span class="at"> NONE</span></span>
-<span id="cb5-4"><a href="#cb5-4" aria-hidden="true" tabindex="-1"></a><span class="fu">differences</span><span class="kw">:</span><span class="at"> A is a type of cell in the embryonic/larval Malpighian tubules; B is a diencephalic tract in the zebrafish brain.</span></span>
-<span id="cb5-5"><a href="#cb5-5" aria-hidden="true" tabindex="-1"></a><span class="fu">subject</span><span class="kw">:</span><span class="at"> FBbt:00001906</span></span>
-<span id="cb5-6"><a href="#cb5-6" aria-hidden="true" tabindex="-1"></a><span class="fu">object</span><span class="kw">:</span><span class="at"> ZFA:0000320</span></span></code></pre></div>
-<p>This is then parsed to a YAML object:</p>
-<div class="sourceCode" id="cb6"><pre class="sourceCode yaml"><code class="sourceCode yaml"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="fu">predicate</span><span class="kw">:</span><span class="at"> DIFFERENT</span></span>
-<span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a><span class="fu">confidence</span><span class="kw">:</span><span class="at"> HIGH</span></span>
-<span id="cb6-3"><a href="#cb6-3" aria-hidden="true" tabindex="-1"></a><span class="fu">similarities</span><span class="kw">:</span></span>
-<span id="cb6-4"><a href="#cb6-4" aria-hidden="true" tabindex="-1"></a><span class="at">  </span><span class="kw">-</span><span class="at"> NONE</span></span>
-<span id="cb6-5"><a href="#cb6-5" aria-hidden="true" tabindex="-1"></a><span class="fu">differences</span><span class="kw">:</span></span>
-<span id="cb6-6"><a href="#cb6-6" aria-hidden="true" tabindex="-1"></a><span class="at">  </span><span class="kw">-</span><span class="at"> A is a type of cell in the embryonic/larval Malpighian tubules</span></span>
-<span id="cb6-7"><a href="#cb6-7" aria-hidden="true" tabindex="-1"></a><span class="at">  </span><span class="kw">-</span><span class="at"> B is a diencephalic tract in the zebrafish brain.</span></span></code></pre></div>
-<p>The consumer may typically only make use of the <em>predicate</em> slot, but the list of
-similarities and differences may prove informative.</p>
-<h3 id="implementation">Implementation</h3>
-<p>We use the Ontology Access Kit (OAK) library <span class="citation" data-cites="1FvOl9pKQ">[<a href="#ref-1FvOl9pKQ" role="doc-biblioref">7</a>]</span> to connect to a variety of ontologies in the Open Biological and Biomedical Ontology (OBO) Library <span class="citation" data-cites="VALxug8S">[<a href="#ref-VALxug8S" role="doc-biblioref">10</a>]</span> and Bioportal <span class="citation" data-cites="pubmed:19483092">[<a href="#ref-pubmed:19483092" role="doc-biblioref"><strong>pubmed:19483092?</strong></a>]</span>.
-OAK generally enables accessing ontologies, but we also make use of its ability to extract subsets of ontologies,
-perform lexical matching using OAK LexMatch, extract mappings from ontologies and ontology portals such as Bioportal, and
-add labels to mapping tables which typically only include the mapped identifiers, for better readability. We make use of ROBOT <span class="citation" data-cites="lx9tkgKe">[<a href="#ref-lx9tkgKe" role="doc-biblioref">11</a>]</span> for converting between different ontology formats.
-The overall mapping framework is implemented in OntoGPT <span class="citation" data-cites="JqI3gPgB">[<a href="#ref-JqI3gPgB" role="doc-biblioref">12</a>]</span> (https://github.com/monarch-initiative/ontogpt) in a method called <code>categorize-mappings</code>, where the input is a SSSOM mapping file (usually generated by a lexical matching tool) and
-the output is a SSSOM mapping file with <code>predicate_id</code> filled with predicted value. Example:</p>
-<div class="sourceCode" id="cb7"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="ex">ontogpt</span> categorize-mappings <span class="at">--model</span> gpt-4 <span class="at">-i</span> foo.sssom.tsv <span class="at">-o</span> bar.sssom.tsv</span></code></pre></div>
-<p>The entire pipeline is implemented as a fully reproducible <code>Makefile</code> (https://github.com/cmungall/gpt-mapping-manuscript/blob/main/Makefile).</p>
-<h3 id="generation-of-test-sets">Generation of test sets</h3>
-<p>To evaluate the method, we created a collection of test sets from the biological and biomedical domains.
-We chose to devise new test sets as we wanted to base these on up-to-date, precise,
-validated mappings derived from ontologies such as Mondo <span class="citation" data-cites="pZyZllZn">[<a href="#ref-pZyZllZn" role="doc-biblioref">13</a>]</span>, Cell Ontology (CL) <span class="citation" data-cites="17U3pGEjv">[<a href="#ref-17U3pGEjv" role="doc-biblioref">14</a>]</span>, and the Uberon Anatomy Ontology <span class="citation" data-cites="TOC8jpgh">[<a href="#ref-TOC8jpgh" role="doc-biblioref">15</a>]</span>.</p>
-<p>To generate anatomy test sets, we generated pairwise mappings between species-specific anatomy ontologies,
-using the Uberon and CL mappings as the gold standard.
-If a pair of concepts are transitively linked
-via Uberon or CL, then they are considered a match.
-For example, UBERON:0000924 (ectoderm) is mapped to FBbt:00000111 (ectoderm (fruitfly)) and ZFA:0000016 (ectoderm (zebrafish)), so we assume that FBbt:00000111 is an exact match to ZFA:0000016.
-We used the same method for linking species-specifc developmental stage terms.</p>
-<p>We also generated a renal disease test set by taking all heritable renal diseases from Mondo, all
-renal diseases from NCIT, and generating a test set based on validated curated mappings between
-Mondo and NCIT.</p>
-<p>Table: Breakdown of the existing test sets.
-{#tbl:main_results_testsetsize}</p>
-<h3 id="tool-evaluation">Tool evaluation</h3>
-<p>We evaluate MapperGPT with two models: gpt-3.5-turbo and gpt-4. MapperGPT is capable of providing
-refined predicates from SKOS but for this task we only take exactMatch as a predicted mapping,
-and discard all others.</p>
-<p>We also evaluated against the OAK lexmatch tool, as a high-recall baseline. Although lexmatch
-allows for customizable rules, we ran this without any prior knowledge of the domains, and
-considered any lexical match to be a predicted match.</p>
-<p>We selected LogMap, which is one of the top-performing mappers in the OAEI.
-We convert LogMap results to SSSOM [doi@10.1093/database/baac035]. (Harshad to write)</p>
-<p>LogMap produces a score with each mapping, so we scanned all scores to determine the optimal score threshold
-in terms of accuracy (F1) (note this gives LogMap an advantage over our method, which does not produce a score).</p>
+<p>..</p>
 <h2 id="results">Results</h2>
-<h3 id="mappergpt-with-gpt4-improves-on-state-of-the-art-across-all-tasks">MapperGPT with GPT4 improves on state of the art across all tasks</h3>
-<p>On all tasks combined, summarized in <a href="#tbl:combined-results">2</a>, MapperGPT with GPT4 has an accuracy of 0.647, which is a considerable
-improvement over the SOTA, demonstrating the validity of the approach.</p>
-<div id="tbl:combined-results" class="tablenos">
-<table id="tbl:combined-results">
-<caption><span>Table 2:</span> Combined results over all tasks
-</caption>
-<thead>
-<tr class="header">
-<th style="text-align: left;">method</th>
-<th style="text-align: left;">f1</th>
-<th style="text-align: left;">P</th>
-<th style="text-align: left;">R</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="text-align: left;">lexmatch</td>
-<td style="text-align: left;">0.340</td>
-<td style="text-align: left;">0.210</td>
-<td style="text-align: left;"><strong>0.881</strong></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">logmap</td>
-<td style="text-align: left;">0.527</td>
-<td style="text-align: left;">0.458</td>
-<td style="text-align: left;">0.619</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">gpt3</td>
-<td style="text-align: left;">0.490</td>
-<td style="text-align: left;">0.500</td>
-<td style="text-align: left;">0.481</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">gpt4</td>
-<td style="text-align: left;"><strong>0.672</strong></td>
-<td style="text-align: left;"><strong>0.601</strong></td>
-<td style="text-align: left;">0.762</td>
-</tr>
-</tbody>
-</table>
-</div>
-<p>LogMap returns a score rather than a binary answer - we took
-the best performing cutoff. The distribution of F1 scores with
-different thresholds are show in <a href="#fig:logmap-scatter-plot-combined">1</a>.</p>
-<div id="fig:logmap-scatter-plot-combined" class="fignos">
-<figure>
-<img src="images/logmap-scatter-plot-combined.png" style="height:3in" alt="Figure 1: LogMap Results" />
-<figcaption aria-hidden="true"><span>Figure 1:</span> <strong>LogMap Results</strong></figcaption>
-</figure>
-</div>
-<h3 id="anatomy-task-results">Anatomy Task Results</h3>
-<p>We assessed methods against an anatomy ontology matching task
-containing all vetted mappings between the Fly anatomy ontology (FBbt) and the Zebra fish anatomy ontology (ZFA).</p>
-<div id="tbl:main_results_fbbt_zfa" class="tablenos">
-<table id="tbl:main_results_fbbt_zfa">
-<caption><span>Table 3:</span> Results of <em>Drosophila</em> to <em>Danio rerio</em> anatomy matching
-</caption>
-<thead>
-<tr class="header">
-<th style="text-align: left;">method</th>
-<th style="text-align: left;">f1</th>
-<th style="text-align: left;">P</th>
-<th style="text-align: left;">R</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="text-align: left;">lexmatch</td>
-<td style="text-align: left;">0.349</td>
-<td style="text-align: left;">0.219</td>
-<td style="text-align: left;"><strong>0.847</strong></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">logmap</td>
-<td style="text-align: left;">0.486</td>
-<td style="text-align: left;">0.404</td>
-<td style="text-align: left;">0.611</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">gpt3</td>
-<td style="text-align: left;">0.511</td>
-<td style="text-align: left;"><strong>0.557</strong></td>
-<td style="text-align: left;">0.472</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">gpt4</td>
-<td style="text-align: left;"><strong>0.644</strong></td>
-<td style="text-align: left;">0.543</td>
-<td style="text-align: left;">0.792</td>
-</tr>
-</tbody>
-</table>
-</div>
-<p>In this task, GPT-4 scored highest in both accuracy and precision.</p>
-<div id="fig:logmap-scatter-plot-fbbt-zfa" class="fignos">
-<figure>
-<img src="images/logmap-scatter-plot-fbbt-zfa.png" style="height:3in" alt="Figure 2: LogMap Results" />
-<figcaption aria-hidden="true"><span>Figure 2:</span> <strong>LogMap Results</strong></figcaption>
-</figure>
-</div>
-<p>We also assessed Fly to Worm:</p>
-<div id="tbl:main_results_fbbt_wbbt" class="tablenos">
-<table id="tbl:main_results_fbbt_wbbt">
-<caption><span>Table 4:</span> Results of <em>Drosophila</em> to <em>C elegans</em> anatomy matching
-</caption>
-<thead>
-<tr class="header">
-<th style="text-align: left;">method</th>
-<th style="text-align: left;">f1</th>
-<th style="text-align: left;">P</th>
-<th style="text-align: left;">R</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="text-align: left;">lexmatch</td>
-<td style="text-align: left;">0.257</td>
-<td style="text-align: left;">0.152</td>
-<td style="text-align: left;"><strong>0.854</strong></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">logmap</td>
-<td style="text-align: left;">0.520</td>
-<td style="text-align: left;">0.441</td>
-<td style="text-align: left;">0.634</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">gpt3</td>
-<td style="text-align: left;">0.427</td>
-<td style="text-align: left;">0.471</td>
-<td style="text-align: left;">0.390</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">gpt4</td>
-<td style="text-align: left;"><strong>0.660</strong></td>
-<td style="text-align: left;"><strong>0.585</strong></td>
-<td style="text-align: left;">0.756</td>
-</tr>
-</tbody>
-</table>
-</div>
-<div id="fig:logmap-scatter-plot-fbbt-wbbt" class="fignos">
-<figure>
-<img src="images/logmap-scatter-plot-fbbt-wbbt.png" style="height:3in" alt="Figure 3: LogMap Results" />
-<figcaption aria-hidden="true"><span>Figure 3:</span> <strong>LogMap Results</strong></figcaption>
-</figure>
-</div>
-<h3 id="developmental-stage-ontology-task-results">Developmental Stage ontology task results</h3>
-<div id="tbl:main_results_hsapdv_mmusdv" class="tablenos">
-<table id="tbl:main_results_hsapdv_mmusdv">
-<caption><span>Table 5:</span> Results of human developmental stages (HsapDv) vs mouse developmental stages (MmusDv)
-</caption>
-<thead>
-<tr class="header">
-<th style="text-align: left;">method</th>
-<th style="text-align: left;">f1</th>
-<th style="text-align: left;">P</th>
-<th style="text-align: left;">R</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="text-align: left;">lexmatch</td>
-<td style="text-align: left;">0.606</td>
-<td style="text-align: left;">0.455</td>
-<td style="text-align: left;"><strong>0.909</strong></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">logmap</td>
-<td style="text-align: left;">0.531</td>
-<td style="text-align: left;">0.405</td>
-<td style="text-align: left;">0.773</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">gpt3</td>
-<td style="text-align: left;">0.556</td>
-<td style="text-align: left;">0.714</td>
-<td style="text-align: left;">0.455</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">gpt4</td>
-<td style="text-align: left;"><strong>0.647</strong></td>
-<td style="text-align: left;"><strong>0.917</strong></td>
-<td style="text-align: left;">0.500</td>
-</tr>
-</tbody>
-</table>
-</div>
-<div id="fig:logmap-scatter-plot-hsapdv-mmusdv" class="fignos">
-<figure>
-<img src="images/logmap-scatter-plot-hsapdv-mmusdv.png" style="height:3in" alt="Figure 4: LogMap Results" />
-<figcaption aria-hidden="true"><span>Figure 4:</span> <strong>LogMap Results</strong></figcaption>
-</figure>
-</div>
-<h3 id="disease-matching-task-results">Disease matching task results</h3>
-<p>We evaluated methods against a disease ontology matching task, which was to match
-all heritable renal diseases from Mondo to all renal diseases from NCIT.</p>
-<div id="tbl:main_results_mondo_ncit_renal_subset" class="tablenos">
-<table id="tbl:main_results_mondo_ncit_renal_subset">
-<caption><span>Table 6:</span> Results of MONDO vs NCIT (renal subset)
-</caption>
-<thead>
-<tr class="header">
-<th style="text-align: left;">method</th>
-<th style="text-align: left;">f1</th>
-<th style="text-align: left;">P</th>
-<th style="text-align: left;">R</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="text-align: left;">lexmatch</td>
-<td style="text-align: left;">0.352</td>
-<td style="text-align: left;">0.214</td>
-<td style="text-align: left;"><strong>1.000</strong></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">logmap</td>
-<td style="text-align: left;">0.721</td>
-<td style="text-align: left;">0.611</td>
-<td style="text-align: left;">0.880</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">gpt3</td>
-<td style="text-align: left;">0.486</td>
-<td style="text-align: left;">0.378</td>
-<td style="text-align: left;">0.680</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">gpt4</td>
-<td style="text-align: left;"><strong>0.793</strong></td>
-<td style="text-align: left;"><strong>0.697</strong></td>
-<td style="text-align: left;">0.920</td>
-</tr>
-</tbody>
-</table>
-</div>
-<div id="fig:logmap-scatter-plot-mondo-ncit-renal-subset" class="fignos">
-<figure>
-<img src="images/logmap-scatter-plot-mondo-ncit-renal-subset.png" style="height:3in" alt="Figure 5: LogMap Results" />
-<figcaption aria-hidden="true"><span>Figure 5:</span> <strong>LogMap Results</strong></figcaption>
-</figure>
-</div>
-<p>In this task, the previous SOTA achieves slight gain in precision over GPT based methods.</p>
+<p>blah</p>
 <h2 id="discussion">Discussion</h2>
-<h3 id="study-limitations">Study limitations</h3>
-<p>The anatomy task is particularly challenging for traditional methods as the curated mappings
-are quite conservative - e.g</p>
-<p>Malpighian tubule &lt;-&gt; renal tubule</p>
-<h3 id="narrative-explanations-of-results">Narrative explanations of results</h3>
-<p>Unlike traditional ontology mapping tools, MapperGPT can provide narrative explanations
-of why two concepts are predicted to be related in a certain way.</p>
-<p>We did not perform a qualitative evaluation of the explanations</p>
-<h3 id="limitations-of-the-method">Limitations of the method</h3>
-<p>Our best results were achieved using GPT-4. However, at this time, GPT-4 is expensive to run,
-so we do recommend its use in cases where simpler lexical methods
-should suffice. We are exploring use of open models that can be executed locally.</p>
-<h3 id="future-work">Future Work</h3>
-<p>We are planning to integrate MapperGPT into our Boomer pipeline to make BoomerGPT,
-a hybrid neuro-symbolic mapping tool that integrates probabilistic inference, description logic
-reasoning, lexical methods, rule-based methods, and LLMs.</p>
+<p>blah</p>
 <h2 id="conclusions">Conclusions</h2>
-<p>We are in the very early stages of exploring the use of LLM’s for semantic mapping problems, but given the performance that even current LLM’s already exhibit on complex matching problems, it is likely that this field is going to move fast. One very strong advantage LLMs already exhibit compared to SOTA matching tools is a much more straight forward</p>
+<p>blah</p>
 <h2 class="page_break_before" id="references">References</h2>
 <!-- Explicitly insert bibliography here -->
 <div id="refs" class="references csl-bib-body" role="doc-bibliography">
-<div id="ref-n4UAhcM7" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">1. </div><div class="csl-right-inline"><strong>Ontology Alignment in the Biomedical Domain Using Entity Definitions and Context</strong> <div class="csl-block">Lucy Lu Wang, Chandra Bhagavatula, Mark Neumann, Kyle Lo, Chris Wilhelm, Waleed Ammar</div> <em>arXiv</em> (2018) <a href="https://doi.org/gspf3t">https://doi.org/gspf3t</a> <div class="csl-block">DOI: <a href="https://doi.org/10.48550/arxiv.1806.07976">10.48550/arxiv.1806.07976</a></div></div>
-</div>
-<div id="ref-cceBVzJY" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">2. </div><div class="csl-right-inline"><strong>DeepAlignment: Unsupervised Ontology Matching with Refined Word Vectors</strong> <div class="csl-block">Prodromos Kolyvakis, Alexandros Kalousis, Dimitris Kiritsis</div> <em>Proceedings of the 2018 Conference of the North American Chapter of
-the Association for Computational Linguistics: Human Language
-Technologies, Volume 1 (Long Papers)</em> (2018) <a href="https://doi.org/gspf3s">https://doi.org/gspf3s</a> <div class="csl-block">DOI: <a href="https://doi.org/10.18653/v1/n18-1072">10.18653/v1/n18-1072</a></div></div>
-</div>
-<div id="ref-5vYPsOHA" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">3. </div><div class="csl-right-inline"><strong>Multifaceted Context Representation using Dual Attention for Ontology Alignment</strong> <div class="csl-block">Vivek Iyer, Arvind Agarwal, Harshit Kumar</div> <em>arXiv</em> (2020) <a href="https://doi.org/gspf3v">https://doi.org/gspf3v</a> <div class="csl-block">DOI: <a href="https://doi.org/10.48550/arxiv.2010.11721">10.48550/arxiv.2010.11721</a></div></div>
-</div>
-<div id="ref-tg0x6kt1" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">4. </div><div class="csl-right-inline"><strong>Truveta Mapper: A Zero-shot Ontology Alignment Framework</strong> <div class="csl-block">Mariyam Amir, Murchana Baruah, Mahsa Eslamialishah, Sina Ehsani, Alireza Bahramali, Sadra Naddaf-Sh, Saman Zarandioon</div> <em>arXiv</em> (2023) <a href="https://doi.org/gr934s">https://doi.org/gr934s</a> <div class="csl-block">DOI: <a href="https://doi.org/10.48550/arxiv.2301.09767">10.48550/arxiv.2301.09767</a></div></div>
-</div>
-<div id="ref-XjyUJzbQ" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">5. </div><div class="csl-right-inline"><strong>Exploring Large Language Models for Ontology Alignment</strong> <div class="csl-block">Yuan He, Jiaoyan Chen, Hang Dong, Ian Horrocks</div> <em>arXiv</em> (2023) <a href="https://doi.org/gsrw7k">https://doi.org/gsrw7k</a> <div class="csl-block">DOI: <a href="https://doi.org/10.48550/arxiv.2309.07172">10.48550/arxiv.2309.07172</a></div></div>
-</div>
-<div id="ref-L8zxtZyX" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">6. </div><div class="csl-right-inline"><strong>A Simple Standard for Sharing Ontological Mappings (SSSOM)</strong> <div class="csl-block">Nicolas Matentzoglu, James P Balhoff, Susan M Bello, Chris Bizon, Matthew Brush, Tiffany J Callahan, Christopher G Chute, William D Duncan, Chris T Evelo, Davera Gabriel, … Christopher J Mungall</div> <em>Database</em> (2022-01-01) <a href="https://doi.org/gspf3p">https://doi.org/gspf3p</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1093/database/baac035">10.1093/database/baac035</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/35616100">35616100</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9216545">PMC9216545</a></div></div>
-</div>
-<div id="ref-1FvOl9pKQ" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">7. </div><div class="csl-right-inline"><strong>INCATools/ontology-access-kit: v0.5.19-rc1</strong> <div class="csl-block">Chris Mungall, Harshad, Patrick Kalita, Charles Tapley Hoyt, Sujay Patil, Marcin P Joachimiak, Joe Flack, David Linke, Nomi Harris, Harry Caufield, … Tiago Lubiana</div> <em>Zenodo</em> (2023-09-02) <a href="https://doi.org/gspf3x">https://doi.org/gspf3x</a> <div class="csl-block">DOI: <a href="https://doi.org/10.5281/zenodo.8310471">10.5281/zenodo.8310471</a></div></div>
-</div>
-<div id="ref-zOOkRFbn" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">8. </div><div class="csl-right-inline"><strong>The Drosophila anatomy ontology</strong> <div class="csl-block">Marta Costa, Simon Reeve, Gary Grumbling, David Osumi-Sutherland</div> <em>Journal of Biomedical Semantics</em> (2013-10-18) <a href="https://doi.org/gspf3q">https://doi.org/gspf3q</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1186/2041-1480-4-32">10.1186/2041-1480-4-32</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/24139062">24139062</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4015547">PMC4015547</a></div></div>
-</div>
-<div id="ref-6q8oZk5m" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">9. </div><div class="csl-right-inline"><strong>The zebrafish anatomy and stage ontologies: representing the anatomy and development of Danio rerio</strong> <div class="csl-block">Ceri E Van Slyke, Yvonne M Bradford, Monte Westerfield, Melissa A Haendel</div> <em>Journal of Biomedical Semantics</em> (2014) <a href="https://doi.org/gspf3r">https://doi.org/gspf3r</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1186/2041-1480-5-12">10.1186/2041-1480-5-12</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/24568621">24568621</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3944782">PMC3944782</a></div></div>
-</div>
-<div id="ref-VALxug8S" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">10. </div><div class="csl-right-inline"><strong>OBO Foundry in 2021: operationalizing open data principles to evaluate ontologies</strong> <div class="csl-block">Rebecca Jackson, Nicolas Matentzoglu, James A Overton, Randi Vita, James P Balhoff, Pier Luigi Buttigieg, Seth Carbon, Melanie Courtot, Alexander D Diehl, Damion M Dooley, … Bjoern Peters</div> <em>Database</em> (2021-10-01) <a href="https://doi.org/gspf3n">https://doi.org/gspf3n</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1093/database/baab069">10.1093/database/baab069</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/34697637">34697637</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8546234">PMC8546234</a></div></div>
-</div>
-<div id="ref-lx9tkgKe" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">11. </div><div class="csl-right-inline"><strong>ROBOT: A Tool for Automating Ontology Workflows</strong> <div class="csl-block">Rebecca C Jackson, James P Balhoff, Eric Douglass, Nomi L Harris, Christopher J Mungall, James A Overton</div> <em>BMC Bioinformatics</em> (2019-07-29) <a href="https://doi.org/ggkjnc">https://doi.org/ggkjnc</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1186/s12859-019-3002-3">10.1186/s12859-019-3002-3</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/31357927">31357927</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6664714">PMC6664714</a></div></div>
-</div>
-<div id="ref-JqI3gPgB" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">12. </div><div class="csl-right-inline"><strong>OntoGPT</strong> <div class="csl-block">JHarry Caufield, Harshad Hegde, Vincent Emonet, Nomi L Harris, Marcin P Joachimiak, Nicolas Matentzoglu, HyeongSik Kim, Sierra AT Moxon, Justin T Reese, Melissa A Haendel, … Christopher J Mungall</div> <em>Zenodo</em> (2023-08-24) <a href="https://doi.org/gspf3w">https://doi.org/gspf3w</a> <div class="csl-block">DOI: <a href="https://doi.org/10.5281/zenodo.8278168">10.5281/zenodo.8278168</a></div></div>
-</div>
-<div id="ref-pZyZllZn" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">13. </div><div class="csl-right-inline"><strong>Mondo: Unifying diseases for the world, by the world</strong> <div class="csl-block">Nicole A Vasilevsky, Nicolas A Matentzoglu, Sabrina Toro, Joseph E Flack IV, Harshad Hegde, Deepak R Unni, Gioconda F Alyea, Joanna S Amberger, Larry Babb, James P Balhoff, … Melissa A Haendel</div> <em>Cold Spring Harbor Laboratory</em> (2022-04-16) <a href="https://doi.org/gqx27c">https://doi.org/gqx27c</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1101/2022.04.13.22273750">10.1101/2022.04.13.22273750</a></div></div>
-</div>
-<div id="ref-17U3pGEjv" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">14. </div><div class="csl-right-inline"><strong>The Cell Ontology 2016: enhanced content, modularization, and ontology interoperability</strong> <div class="csl-block">Alexander D Diehl, Terrence F Meehan, Yvonne M Bradford, Matthew H Brush, Wasila M Dahdul, David S Dougall, Yongqun He, David Osumi-Sutherland, Alan Ruttenberg, Sirarat Sarntivijai, … Christopher J Mungall</div> <em>Journal of Biomedical Semantics</em> (2016-07-04) <a href="https://doi.org/gg99b9">https://doi.org/gg99b9</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1186/s13326-016-0088-7">10.1186/s13326-016-0088-7</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/27377652">27377652</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4932724">PMC4932724</a></div></div>
-</div>
-<div id="ref-TOC8jpgh" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">15. </div><div class="csl-right-inline"><strong>Uberon, an integrative multi-species anatomy ontology</strong> <div class="csl-block">Christopher J Mungall, Carlo Torniai, Georgios V Gkoutos, Suzanna E Lewis, Melissa A Haendel</div> <em>Genome Biology</em> (2012) <a href="https://doi.org/fxx6qr">https://doi.org/fxx6qr</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1186/gb-2012-13-1-r5">10.1186/gb-2012-13-1-r5</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/22293552">22293552</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3334586">PMC3334586</a></div></div>
+<div id="ref-IhliSZDo" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">1. </div><div class="csl-right-inline"><strong>Sci-Hub provides access to nearly all scholarly literature</strong> <div class="csl-block">Daniel S Himmelstein, Ariel Rodriguez Romero, Jacob G Levernier, Thomas Anthony Munro, Stephen Reid McLaughlin, Bastian Greshake Tzovaras, Casey S Greene</div> <em>eLife</em> (2018-03-01) <a href="https://doi.org/ckcj">https://doi.org/ckcj</a> <div class="csl-block">DOI: <a href="https://doi.org/10.7554/elife.32822">10.7554/elife.32822</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/29424689">29424689</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5832410">PMC5832410</a></div></div>
 </div>
 </div>
 <!-- default theme -->

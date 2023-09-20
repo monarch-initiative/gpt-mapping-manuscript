@@ -1,7 +1,7 @@
 # Output directory containing the formatted manuscript
 
 The [`gh-pages`](https://github.com/monarch-initiative/gpt-mapping-manuscript/tree/gh-pages) branch hosts the contents of this directory at <https://monarch-initiative.github.io/gpt-mapping-manuscript/>.
-The permalink for this webpage version is <https://monarch-initiative.github.io/gpt-mapping-manuscript/v/557976b1d7099cc0aaa7acead2ef6ef4f8d2ef23/>.
+The permalink for this webpage version is <https://monarch-initiative.github.io/gpt-mapping-manuscript/v/0cd7cf64a8b4cacc09f17cd4400dd352f35b4ae0/>.
 To redirect to the permalink for the latest manuscript version at anytime, use the link <https://monarch-initiative.github.io/gpt-mapping-manuscript/v/freeze/>.
 
 ## Files
@@ -35,4 +35,4 @@ Verifying timestamps with the `ots verify` command requires running a local bitc
 ## Source
 
 The manuscripts in this directory were built from
-[`557976b1d7099cc0aaa7acead2ef6ef4f8d2ef23`](https://github.com/monarch-initiative/gpt-mapping-manuscript/commit/557976b1d7099cc0aaa7acead2ef6ef4f8d2ef23).
+[`0cd7cf64a8b4cacc09f17cd4400dd352f35b4ae0`](https://github.com/monarch-initiative/gpt-mapping-manuscript/commit/0cd7cf64a8b4cacc09f17cd4400dd352f35b4ae0).
