@@ -26,6 +26,26 @@ authors:
     email: hhegde@lbl.gov
     affiliations:
       - Environmental Genomics and Systems Biology Division, Lawrence Berkeley National Laboratory, Berkeley, CA, 94720
+  - github: caufieldjh
+    name: J. Harry Caufield
+    initials: jhc
+    orcid: https://orcid.org/0000-0001-5705-7831
+    email: jhc@lbl.gov
+    affiliations:
+      - Environmental Genomics and Systems Biology Division, Lawrence Berkeley National Laboratory, Berkeley, CA, 94720
+    corresponding: false
+    funders:
+          - Grant Director, Office of Science, Office of Basic Energy Sciences of the U.S. Department of Energy Contract No. DE-AC02-05CH11231
+  - github: justaddcoffee
+    name: Justin Reese
+    initials: jr
+    orcid: https://orcid.org/0000-0002-2170-2250
+    email: justaddcoffee@gmail.com
+    affiliations:
+      - Environmental Genomics and Systems Biology Division, Lawrence Berkeley National Laboratory, Berkeley, CA, 94720
+    corresponding: true
+    funders:
+      - Grant Director, Office of Science, Office of Basic Energy Sciences of the U.S. Department of Energy Contract No. DE-AC02-05CH11231
   - github: yy20716
     name: Hyeongsik Kim
     initials: HK
@@ -41,3 +61,4 @@ authors:
     affiliations:
       - Environmental Genomics and Systems Biology Division, Lawrence Berkeley National Laboratory, Berkeley, CA, 94720
     corresponding: true
+  
