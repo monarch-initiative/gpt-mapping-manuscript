@@ -16,7 +16,7 @@ gpt
 Harshad
 Hegde
 hrshdhgd
-hsapdv
+HsapDv
 Hyeongsik
 lexmatch
 LLC
@@ -29,9 +29,9 @@ MapperGPT
 matentzn
 Matentzoglu
 MmusDv
-mondo
+Mondo
 Mungall
-NCIT
+ncit
 neuro
 NHGRI
 novo

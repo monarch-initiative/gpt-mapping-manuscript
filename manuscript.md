@@ -28,8 +28,8 @@ header-includes: |
   <meta name="dc.date" content="2023-09-20" />
   <meta name="citation_publication_date" content="2023-09-20" />
   <meta property="article:published_time" content="2023-09-20" />
-  <meta name="dc.modified" content="2023-09-20T13:39:09+00:00" />
-  <meta property="article:modified_time" content="2023-09-20T13:39:09+00:00" />
+  <meta name="dc.modified" content="2023-09-20T13:48:36+00:00" />
+  <meta property="article:modified_time" content="2023-09-20T13:48:36+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -54,9 +54,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://monarch-initiative.github.io/gpt-mapping-manuscript/" />
   <meta name="citation_pdf_url" content="https://monarch-initiative.github.io/gpt-mapping-manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://monarch-initiative.github.io/gpt-mapping-manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://monarch-initiative.github.io/gpt-mapping-manuscript/v/4c1db59ac7a17e678f05b1f75ecf5582c8e56b37/" />
-  <meta name="manubot_html_url_versioned" content="https://monarch-initiative.github.io/gpt-mapping-manuscript/v/4c1db59ac7a17e678f05b1f75ecf5582c8e56b37/" />
-  <meta name="manubot_pdf_url_versioned" content="https://monarch-initiative.github.io/gpt-mapping-manuscript/v/4c1db59ac7a17e678f05b1f75ecf5582c8e56b37/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://monarch-initiative.github.io/gpt-mapping-manuscript/v/557976b1d7099cc0aaa7acead2ef6ef4f8d2ef23/" />
+  <meta name="manubot_html_url_versioned" content="https://monarch-initiative.github.io/gpt-mapping-manuscript/v/557976b1d7099cc0aaa7acead2ef6ef4f8d2ef23/" />
+  <meta name="manubot_pdf_url_versioned" content="https://monarch-initiative.github.io/gpt-mapping-manuscript/v/557976b1d7099cc0aaa7acead2ef6ef4f8d2ef23/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -78,9 +78,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://monarch-initiative.github.io/gpt-mapping-manuscript/v/4c1db59ac7a17e678f05b1f75ecf5582c8e56b37/))
+([permalink](https://monarch-initiative.github.io/gpt-mapping-manuscript/v/557976b1d7099cc0aaa7acead2ef6ef4f8d2ef23/))
 was automatically generated
-from [monarch-initiative/gpt-mapping-manuscript@4c1db59](https://github.com/monarch-initiative/gpt-mapping-manuscript/tree/4c1db59ac7a17e678f05b1f75ecf5582c8e56b37)
+from [monarch-initiative/gpt-mapping-manuscript@557976b](https://github.com/monarch-initiative/gpt-mapping-manuscript/tree/557976b1d7099cc0aaa7acead2ef6ef4f8d2ef23)
 on September 20, 2023.
 </em></small>
 
@@ -567,8 +567,7 @@ reasoning, lexical methods, rule-based methods, and LLMs.
 
 ## Conclusions
 
-blah
-
+We are in the very early stages of exploring the use of LLM's for semantic mapping problems, but given the performance that even current LLM's already exhibit on complex matching problems, it is likely that this field is going to move fast. One very strong advantage LLMs already exhibit compared to SOTA matching tools is a much more straight forward
 
 ## References {.page_break_before}
 
