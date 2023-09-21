@@ -8,7 +8,7 @@ keywords:
 - Ontologies
 - SSSOM
 lang: en-US
-date-meta: '2023-09-20'
+date-meta: '2023-09-21'
 author-meta:
 - Nicolas Matentzoglu
 - Harshad Hegde
@@ -16,6 +16,7 @@ author-meta:
 - Justin Reese
 - Sierra Moxon
 - Hyeongsik Kim
+- Nomi L. Harris
 - Chris Mungall
 header-includes: |
   <!--
@@ -28,11 +29,11 @@ header-includes: |
   <meta name="citation_title" content="MapperGPT: Large Language Models for Linking and Mapping Entities" />
   <meta property="og:title" content="MapperGPT: Large Language Models for Linking and Mapping Entities" />
   <meta property="twitter:title" content="MapperGPT: Large Language Models for Linking and Mapping Entities" />
-  <meta name="dc.date" content="2023-09-20" />
-  <meta name="citation_publication_date" content="2023-09-20" />
-  <meta property="article:published_time" content="2023-09-20" />
-  <meta name="dc.modified" content="2023-09-20T16:34:35+00:00" />
-  <meta property="article:modified_time" content="2023-09-20T16:34:35+00:00" />
+  <meta name="dc.date" content="2023-09-21" />
+  <meta name="citation_publication_date" content="2023-09-21" />
+  <meta property="article:published_time" content="2023-09-21" />
+  <meta name="dc.modified" content="2023-09-21T20:34:19+00:00" />
+  <meta property="article:modified_time" content="2023-09-21T20:34:19+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -57,6 +58,9 @@ header-includes: |
   <meta name="citation_author" content="Hyeongsik Kim" />
   <meta name="citation_author_institution" content="Robert Bosch LLC" />
   <meta name="citation_author_orcid" content="0000-0002-3002-9838" />
+  <meta name="citation_author" content="Nomi L. Harris" />
+  <meta name="citation_author_institution" content="Environmental Genomics and Systems Biology Division, Lawrence Berkeley National Laboratory, Berkeley, CA, 94720" />
+  <meta name="citation_author_orcid" content="0000-0001-6315-3707" />
   <meta name="citation_author" content="Chris Mungall" />
   <meta name="citation_author_institution" content="Environmental Genomics and Systems Biology Division, Lawrence Berkeley National Laboratory, Berkeley, CA, 94720" />
   <meta name="citation_author_orcid" content="0000-0002-6601-2165" />
@@ -66,9 +70,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://monarch-initiative.github.io/gpt-mapping-manuscript/" />
   <meta name="citation_pdf_url" content="https://monarch-initiative.github.io/gpt-mapping-manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://monarch-initiative.github.io/gpt-mapping-manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://monarch-initiative.github.io/gpt-mapping-manuscript/v/557c1a5e9bde3776f67c0203d4e7779a2928479b/" />
-  <meta name="manubot_html_url_versioned" content="https://monarch-initiative.github.io/gpt-mapping-manuscript/v/557c1a5e9bde3776f67c0203d4e7779a2928479b/" />
-  <meta name="manubot_pdf_url_versioned" content="https://monarch-initiative.github.io/gpt-mapping-manuscript/v/557c1a5e9bde3776f67c0203d4e7779a2928479b/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://monarch-initiative.github.io/gpt-mapping-manuscript/v/d6f96bec97cd398d90948e45bc0b01d45d9bc603/" />
+  <meta name="manubot_html_url_versioned" content="https://monarch-initiative.github.io/gpt-mapping-manuscript/v/d6f96bec97cd398d90948e45bc0b01d45d9bc603/" />
+  <meta name="manubot_pdf_url_versioned" content="https://monarch-initiative.github.io/gpt-mapping-manuscript/v/d6f96bec97cd398d90948e45bc0b01d45d9bc603/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -90,10 +94,10 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://monarch-initiative.github.io/gpt-mapping-manuscript/v/557c1a5e9bde3776f67c0203d4e7779a2928479b/))
+([permalink](https://monarch-initiative.github.io/gpt-mapping-manuscript/v/d6f96bec97cd398d90948e45bc0b01d45d9bc603/))
 was automatically generated
-from [monarch-initiative/gpt-mapping-manuscript@557c1a5](https://github.com/monarch-initiative/gpt-mapping-manuscript/tree/557c1a5e9bde3776f67c0203d4e7779a2928479b)
-on September 20, 2023.
+from [monarch-initiative/gpt-mapping-manuscript@d6f96be](https://github.com/monarch-initiative/gpt-mapping-manuscript/tree/d6f96bec97cd398d90948e45bc0b01d45d9bc603)
+on September 21, 2023.
 </em></small>
 
 
@@ -123,6 +127,7 @@ on September 20, 2023.
     <br>
   <small>
      Environmental Genomics and Systems Biology Division, Lawrence Berkeley National Laboratory, Berkeley, CA, 94720
+     · Funded by Director, Office of Science, Office of Basic Energy Sciences of the U.S. Department of Energy Contract No. DE-AC02-05CH11231
   </small>
 
 + **J. Harry Caufield**
@@ -134,7 +139,7 @@ on September 20, 2023.
     <br>
   <small>
      Environmental Genomics and Systems Biology Division, Lawrence Berkeley National Laboratory, Berkeley, CA, 94720
-     · Funded by Grant Director, Office of Science, Office of Basic Energy Sciences of the U.S. Department of Energy Contract No. DE-AC02-05CH11231
+     · Funded by Director, Office of Science, Office of Basic Energy Sciences of the U.S. Department of Energy Contract No. DE-AC02-05CH11231
   </small>
 
 + **Justin Reese**
@@ -146,7 +151,7 @@ on September 20, 2023.
     <br>
   <small>
      Environmental Genomics and Systems Biology Division, Lawrence Berkeley National Laboratory, Berkeley, CA, 94720
-     · Funded by Grant Director, Office of Science, Office of Basic Energy Sciences of the U.S. Department of Energy Contract No. DE-AC02-05CH11231
+     · Funded by Director, Office of Science, Office of Basic Energy Sciences of the U.S. Department of Energy Contract No. DE-AC02-05CH11231
   </small>
 
 + **Sierra Moxon**
@@ -158,6 +163,7 @@ on September 20, 2023.
     <br>
   <small>
      Environmental Genomics and Systems Biology Division, Lawrence Berkeley National Laboratory, Berkeley, CA, 94720
+     · Funded by Director, Office of Science, Office of Basic Energy Sciences of the U.S. Department of Energy Contract No. DE-AC02-05CH11231
   </small>
 
 + **Hyeongsik Kim**
@@ -171,6 +177,18 @@ on September 20, 2023.
      Robert Bosch LLC
   </small>
 
++ **Nomi L. Harris**
+  <br>
+    ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
+    [0000-0001-6315-3707](https://orcid.org/0000-0001-6315-3707)
+    · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
+    [nomiharris](https://github.com/nomiharris)
+    <br>
+  <small>
+     Environmental Genomics and Systems Biology Division, Lawrence Berkeley National Laboratory, Berkeley, CA, 94720
+     · Funded by Director, Office of Science, Office of Basic Energy Sciences of the U.S. Department of Energy Contract No. DE-AC02-05CH11231
+  </small>
+
 + **Chris Mungall**
   ^[✉](#correspondence)^<br>
     ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
@@ -180,6 +198,7 @@ on September 20, 2023.
     <br>
   <small>
      Environmental Genomics and Systems Biology Division, Lawrence Berkeley National Laboratory, Berkeley, CA, 94720
+     · Funded by Director, Office of Science, Office of Basic Energy Sciences of the U.S. Department of Energy Contract No. DE-AC02-05CH11231
   </small>
 
 

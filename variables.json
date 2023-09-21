@@ -10,7 +10,7 @@
       "SSSOM"
     ],
     "lang": "en-US",
-    "date-meta": "2023-09-20",
+    "date-meta": "2023-09-21",
     "author-meta": [
       "Nicolas Matentzoglu",
       "Harshad Hegde",
@@ -18,9 +18,10 @@
       "Justin Reese",
       "Sierra Moxon",
       "Hyeongsik Kim",
+      "Nomi L. Harris",
       "Chris Mungall"
     ],
-    "header-includes": "<!--\nManubot generated metadata rendered from header-includes-template.html.\nSuggest improvements at https://github.com/manubot/manubot/blob/main/manubot/process/header-includes-template.html\n-->\n<meta name=\"dc.format\" content=\"text/html\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta name=\"dc.title\" content=\"MapperGPT: Large Language Models for Linking and Mapping Entities\" />\n<meta name=\"citation_title\" content=\"MapperGPT: Large Language Models for Linking and Mapping Entities\" />\n<meta property=\"og:title\" content=\"MapperGPT: Large Language Models for Linking and Mapping Entities\" />\n<meta property=\"twitter:title\" content=\"MapperGPT: Large Language Models for Linking and Mapping Entities\" />\n<meta name=\"dc.date\" content=\"2023-09-20\" />\n<meta name=\"citation_publication_date\" content=\"2023-09-20\" />\n<meta property=\"article:published_time\" content=\"2023-09-20\" />\n<meta name=\"dc.modified\" content=\"2023-09-20T16:34:35+00:00\" />\n<meta property=\"article:modified_time\" content=\"2023-09-20T16:34:35+00:00\" />\n<meta name=\"dc.language\" content=\"en-US\" />\n<meta name=\"citation_language\" content=\"en-US\" />\n<meta name=\"dc.relation.ispartof\" content=\"Manubot\" />\n<meta name=\"dc.publisher\" content=\"Manubot\" />\n<meta name=\"citation_journal_title\" content=\"Manubot\" />\n<meta name=\"citation_technical_report_institution\" content=\"Manubot\" />\n<meta name=\"citation_author\" content=\"Nicolas Matentzoglu\" />\n<meta name=\"citation_author_institution\" content=\"Semanticly, Athens, Greece\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-7356-1779\" />\n<meta name=\"citation_author\" content=\"Harshad Hegde\" />\n<meta name=\"citation_author_institution\" content=\"Environmental Genomics and Systems Biology Division, Lawrence Berkeley National Laboratory, Berkeley, CA, 94720\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-2411-565X\" />\n<meta name=\"citation_author\" content=\"J. Harry Caufield\" />\n<meta name=\"citation_author_institution\" content=\"Environmental Genomics and Systems Biology Division, Lawrence Berkeley National Laboratory, Berkeley, CA, 94720\" />\n<meta name=\"citation_author_orcid\" content=\"https://orcid.org/0000-0001-5705-7831\" />\n<meta name=\"citation_author\" content=\"Justin Reese\" />\n<meta name=\"citation_author_institution\" content=\"Environmental Genomics and Systems Biology Division, Lawrence Berkeley National Laboratory, Berkeley, CA, 94720\" />\n<meta name=\"citation_author_orcid\" content=\"https://orcid.org/0000-0002-2170-2250\" />\n<meta name=\"citation_author\" content=\"Sierra Moxon\" />\n<meta name=\"citation_author_institution\" content=\"Environmental Genomics and Systems Biology Division, Lawrence Berkeley National Laboratory, Berkeley, CA, 94720\" />\n<meta name=\"citation_author_orcid\" content=\"https://orcid.org/0000-0002-8719-7760\" />\n<meta name=\"citation_author\" content=\"Hyeongsik Kim\" />\n<meta name=\"citation_author_institution\" content=\"Robert Bosch LLC\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-3002-9838\" />\n<meta name=\"citation_author\" content=\"Chris Mungall\" />\n<meta name=\"citation_author_institution\" content=\"Environmental Genomics and Systems Biology Division, Lawrence Berkeley National Laboratory, Berkeley, CA, 94720\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-6601-2165\" />\n<link rel=\"canonical\" href=\"https://monarch-initiative.github.io/gpt-mapping-manuscript/\" />\n<meta property=\"og:url\" content=\"https://monarch-initiative.github.io/gpt-mapping-manuscript/\" />\n<meta property=\"twitter:url\" content=\"https://monarch-initiative.github.io/gpt-mapping-manuscript/\" />\n<meta name=\"citation_fulltext_html_url\" content=\"https://monarch-initiative.github.io/gpt-mapping-manuscript/\" />\n<meta name=\"citation_pdf_url\" content=\"https://monarch-initiative.github.io/gpt-mapping-manuscript/manuscript.pdf\" />\n<link rel=\"alternate\" type=\"application/pdf\" href=\"https://monarch-initiative.github.io/gpt-mapping-manuscript/manuscript.pdf\" />\n<link rel=\"alternate\" type=\"text/html\" href=\"https://monarch-initiative.github.io/gpt-mapping-manuscript/v/557c1a5e9bde3776f67c0203d4e7779a2928479b/\" />\n<meta name=\"manubot_html_url_versioned\" content=\"https://monarch-initiative.github.io/gpt-mapping-manuscript/v/557c1a5e9bde3776f67c0203d4e7779a2928479b/\" />\n<meta name=\"manubot_pdf_url_versioned\" content=\"https://monarch-initiative.github.io/gpt-mapping-manuscript/v/557c1a5e9bde3776f67c0203d4e7779a2928479b/manuscript.pdf\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"twitter:card\" content=\"summary_large_image\" />\n<link rel=\"icon\" type=\"image/png\" sizes=\"192x192\" href=\"https://manubot.org/favicon-192x192.png\" />\n<link rel=\"mask-icon\" href=\"https://manubot.org/safari-pinned-tab.svg\" color=\"#ad1457\" />\n<meta name=\"theme-color\" content=\"#ad1457\" />\n<!-- end Manubot generated metadata -->\n",
+    "header-includes": "<!--\nManubot generated metadata rendered from header-includes-template.html.\nSuggest improvements at https://github.com/manubot/manubot/blob/main/manubot/process/header-includes-template.html\n-->\n<meta name=\"dc.format\" content=\"text/html\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta name=\"dc.title\" content=\"MapperGPT: Large Language Models for Linking and Mapping Entities\" />\n<meta name=\"citation_title\" content=\"MapperGPT: Large Language Models for Linking and Mapping Entities\" />\n<meta property=\"og:title\" content=\"MapperGPT: Large Language Models for Linking and Mapping Entities\" />\n<meta property=\"twitter:title\" content=\"MapperGPT: Large Language Models for Linking and Mapping Entities\" />\n<meta name=\"dc.date\" content=\"2023-09-21\" />\n<meta name=\"citation_publication_date\" content=\"2023-09-21\" />\n<meta property=\"article:published_time\" content=\"2023-09-21\" />\n<meta name=\"dc.modified\" content=\"2023-09-21T20:34:19+00:00\" />\n<meta property=\"article:modified_time\" content=\"2023-09-21T20:34:19+00:00\" />\n<meta name=\"dc.language\" content=\"en-US\" />\n<meta name=\"citation_language\" content=\"en-US\" />\n<meta name=\"dc.relation.ispartof\" content=\"Manubot\" />\n<meta name=\"dc.publisher\" content=\"Manubot\" />\n<meta name=\"citation_journal_title\" content=\"Manubot\" />\n<meta name=\"citation_technical_report_institution\" content=\"Manubot\" />\n<meta name=\"citation_author\" content=\"Nicolas Matentzoglu\" />\n<meta name=\"citation_author_institution\" content=\"Semanticly, Athens, Greece\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-7356-1779\" />\n<meta name=\"citation_author\" content=\"Harshad Hegde\" />\n<meta name=\"citation_author_institution\" content=\"Environmental Genomics and Systems Biology Division, Lawrence Berkeley National Laboratory, Berkeley, CA, 94720\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-2411-565X\" />\n<meta name=\"citation_author\" content=\"J. Harry Caufield\" />\n<meta name=\"citation_author_institution\" content=\"Environmental Genomics and Systems Biology Division, Lawrence Berkeley National Laboratory, Berkeley, CA, 94720\" />\n<meta name=\"citation_author_orcid\" content=\"https://orcid.org/0000-0001-5705-7831\" />\n<meta name=\"citation_author\" content=\"Justin Reese\" />\n<meta name=\"citation_author_institution\" content=\"Environmental Genomics and Systems Biology Division, Lawrence Berkeley National Laboratory, Berkeley, CA, 94720\" />\n<meta name=\"citation_author_orcid\" content=\"https://orcid.org/0000-0002-2170-2250\" />\n<meta name=\"citation_author\" content=\"Sierra Moxon\" />\n<meta name=\"citation_author_institution\" content=\"Environmental Genomics and Systems Biology Division, Lawrence Berkeley National Laboratory, Berkeley, CA, 94720\" />\n<meta name=\"citation_author_orcid\" content=\"https://orcid.org/0000-0002-8719-7760\" />\n<meta name=\"citation_author\" content=\"Hyeongsik Kim\" />\n<meta name=\"citation_author_institution\" content=\"Robert Bosch LLC\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-3002-9838\" />\n<meta name=\"citation_author\" content=\"Nomi L. Harris\" />\n<meta name=\"citation_author_institution\" content=\"Environmental Genomics and Systems Biology Division, Lawrence Berkeley National Laboratory, Berkeley, CA, 94720\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0001-6315-3707\" />\n<meta name=\"citation_author\" content=\"Chris Mungall\" />\n<meta name=\"citation_author_institution\" content=\"Environmental Genomics and Systems Biology Division, Lawrence Berkeley National Laboratory, Berkeley, CA, 94720\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-6601-2165\" />\n<link rel=\"canonical\" href=\"https://monarch-initiative.github.io/gpt-mapping-manuscript/\" />\n<meta property=\"og:url\" content=\"https://monarch-initiative.github.io/gpt-mapping-manuscript/\" />\n<meta property=\"twitter:url\" content=\"https://monarch-initiative.github.io/gpt-mapping-manuscript/\" />\n<meta name=\"citation_fulltext_html_url\" content=\"https://monarch-initiative.github.io/gpt-mapping-manuscript/\" />\n<meta name=\"citation_pdf_url\" content=\"https://monarch-initiative.github.io/gpt-mapping-manuscript/manuscript.pdf\" />\n<link rel=\"alternate\" type=\"application/pdf\" href=\"https://monarch-initiative.github.io/gpt-mapping-manuscript/manuscript.pdf\" />\n<link rel=\"alternate\" type=\"text/html\" href=\"https://monarch-initiative.github.io/gpt-mapping-manuscript/v/d6f96bec97cd398d90948e45bc0b01d45d9bc603/\" />\n<meta name=\"manubot_html_url_versioned\" content=\"https://monarch-initiative.github.io/gpt-mapping-manuscript/v/d6f96bec97cd398d90948e45bc0b01d45d9bc603/\" />\n<meta name=\"manubot_pdf_url_versioned\" content=\"https://monarch-initiative.github.io/gpt-mapping-manuscript/v/d6f96bec97cd398d90948e45bc0b01d45d9bc603/manuscript.pdf\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"twitter:card\" content=\"summary_large_image\" />\n<link rel=\"icon\" type=\"image/png\" sizes=\"192x192\" href=\"https://manubot.org/favicon-192x192.png\" />\n<link rel=\"mask-icon\" href=\"https://manubot.org/safari-pinned-tab.svg\" color=\"#ad1457\" />\n<meta name=\"theme-color\" content=\"#ad1457\" />\n<!-- end Manubot generated metadata -->\n",
     "bibliography": [
       "content/manual-references.json"
     ],
@@ -30,10 +31,10 @@
     "manubot-clear-requests-cache": false
   },
   "manubot": {
-    "date": "2023-09-20",
-    "date_long": "September 20, 2023",
-    "generated": "2023-09-20T16:34:35+00:00",
-    "generated_date_long": "September 20, 2023",
+    "date": "2023-09-21",
+    "date_long": "September 21, 2023",
+    "generated": "2023-09-21T20:34:19+00:00",
+    "generated_date_long": "September 21, 2023",
     "randomize_author_order": false,
     "authors": [
       {
@@ -61,6 +62,9 @@
         "affiliations": [
           "Environmental Genomics and Systems Biology Division, Lawrence Berkeley National Laboratory, Berkeley, CA, 94720"
         ],
+        "funders": [
+          "Director, Office of Science, Office of Basic Energy Sciences of the U.S. Department of Energy Contract No. DE-AC02-05CH11231"
+        ],
         "affiliation_numbers": [
           2
         ]
@@ -76,7 +80,7 @@
         ],
         "corresponding": false,
         "funders": [
-          "Grant Director, Office of Science, Office of Basic Energy Sciences of the U.S. Department of Energy Contract No. DE-AC02-05CH11231"
+          "Director, Office of Science, Office of Basic Energy Sciences of the U.S. Department of Energy Contract No. DE-AC02-05CH11231"
         ],
         "affiliation_numbers": [
           2
@@ -93,7 +97,7 @@
         ],
         "corresponding": true,
         "funders": [
-          "Grant Director, Office of Science, Office of Basic Energy Sciences of the U.S. Department of Energy Contract No. DE-AC02-05CH11231"
+          "Director, Office of Science, Office of Basic Energy Sciences of the U.S. Department of Energy Contract No. DE-AC02-05CH11231"
         ],
         "affiliation_numbers": [
           2
@@ -109,6 +113,9 @@
           "Environmental Genomics and Systems Biology Division, Lawrence Berkeley National Laboratory, Berkeley, CA, 94720"
         ],
         "corresponding": true,
+        "funders": [
+          "Director, Office of Science, Office of Basic Energy Sciences of the U.S. Department of Energy Contract No. DE-AC02-05CH11231"
+        ],
         "affiliation_numbers": [
           2
         ]
@@ -127,6 +134,23 @@
         ]
       },
       {
+        "github": "nomiharris",
+        "name": "Nomi L. Harris",
+        "initials": "NLH",
+        "orcid": "0000-0001-6315-3707",
+        "email": "nlharris@lbl.gov",
+        "affiliations": [
+          "Environmental Genomics and Systems Biology Division, Lawrence Berkeley National Laboratory, Berkeley, CA, 94720"
+        ],
+        "corresponding": false,
+        "funders": [
+          "Director, Office of Science, Office of Basic Energy Sciences of the U.S. Department of Energy Contract No. DE-AC02-05CH11231"
+        ],
+        "affiliation_numbers": [
+          2
+        ]
+      },
+      {
         "github": "cmungall",
         "name": "Chris Mungall",
         "initials": "CM",
@@ -136,6 +160,9 @@
           "Environmental Genomics and Systems Biology Division, Lawrence Berkeley National Laboratory, Berkeley, CA, 94720"
         ],
         "corresponding": true,
+        "funders": [
+          "Director, Office of Science, Office of Basic Energy Sciences of the U.S. Department of Energy Contract No. DE-AC02-05CH11231"
+        ],
         "affiliation_numbers": [
           2
         ]
@@ -160,15 +187,15 @@
       "repo_slug": "monarch-initiative/gpt-mapping-manuscript",
       "repo_owner": "monarch-initiative",
       "repo_name": "gpt-mapping-manuscript",
-      "commit": "557c1a5e9bde3776f67c0203d4e7779a2928479b",
-      "triggering_commit": "557c1a5e9bde3776f67c0203d4e7779a2928479b",
-      "build_url": "https://github.com/monarch-initiative/gpt-mapping-manuscript/commit/557c1a5e9bde3776f67c0203d4e7779a2928479b/checks",
-      "job_url": "https://github.com/monarch-initiative/gpt-mapping-manuscript/actions/runs/6251467337"
+      "commit": "d6f96bec97cd398d90948e45bc0b01d45d9bc603",
+      "triggering_commit": "d6f96bec97cd398d90948e45bc0b01d45d9bc603",
+      "build_url": "https://github.com/monarch-initiative/gpt-mapping-manuscript/commit/d6f96bec97cd398d90948e45bc0b01d45d9bc603/checks",
+      "job_url": "https://github.com/monarch-initiative/gpt-mapping-manuscript/actions/runs/6266780612"
     },
     "html_url": "https://monarch-initiative.github.io/gpt-mapping-manuscript/",
     "pdf_url": "https://monarch-initiative.github.io/gpt-mapping-manuscript/manuscript.pdf",
-    "html_url_versioned": "https://monarch-initiative.github.io/gpt-mapping-manuscript/v/557c1a5e9bde3776f67c0203d4e7779a2928479b/",
-    "pdf_url_versioned": "https://monarch-initiative.github.io/gpt-mapping-manuscript/v/557c1a5e9bde3776f67c0203d4e7779a2928479b/manuscript.pdf",
+    "html_url_versioned": "https://monarch-initiative.github.io/gpt-mapping-manuscript/v/d6f96bec97cd398d90948e45bc0b01d45d9bc603/",
+    "pdf_url_versioned": "https://monarch-initiative.github.io/gpt-mapping-manuscript/v/d6f96bec97cd398d90948e45bc0b01d45d9bc603/manuscript.pdf",
     "manubot_version": "0.5.5",
     "rootstock_commit": null,
     "manuscript_stats": {

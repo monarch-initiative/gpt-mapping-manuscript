@@ -11,10 +11,10 @@ Drosophila
 ectoderm
 elegans
 exactMatch
-FBbt
+fbbt
 fruitfly
 generalizable
-gpt
+GPT
 Harshad
 Hegde
 hrshdhgd
@@ -32,12 +32,14 @@ MapperGPT
 matentzn
 Matentzoglu
 mmusdv
-Mondo
+mondo
 moxon
 Mungall
 NCIT
 neuro
 NHGRI
+Nomi
+nomiharris
 novo
 OAEI
 OBO
@@ -66,4 +68,4 @@ wbbt
 YAML
 yy
 zebrafish
-ZFA
+zfa
