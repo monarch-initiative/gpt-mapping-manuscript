@@ -26,6 +26,8 @@ authors:
     email: hhegde@lbl.gov
     affiliations:
       - Environmental Genomics and Systems Biology Division, Lawrence Berkeley National Laboratory, Berkeley, CA, 94720
+    funders:
+      - Director, Office of Science, Office of Basic Energy Sciences of the U.S. Department of Energy Contract No. DE-AC02-05CH11231
   - github: caufieldjh
     name: J. Harry Caufield
     initials: jhc
@@ -35,7 +37,7 @@ authors:
       - Environmental Genomics and Systems Biology Division, Lawrence Berkeley National Laboratory, Berkeley, CA, 94720
     corresponding: false
     funders:
-          - Grant Director, Office of Science, Office of Basic Energy Sciences of the U.S. Department of Energy Contract No. DE-AC02-05CH11231
+      - Director, Office of Science, Office of Basic Energy Sciences of the U.S. Department of Energy Contract No. DE-AC02-05CH11231
   - github: justaddcoffee
     name: Justin Reese
     initials: jr
@@ -45,7 +47,7 @@ authors:
       - Environmental Genomics and Systems Biology Division, Lawrence Berkeley National Laboratory, Berkeley, CA, 94720
     corresponding: true
     funders:
-      - Grant Director, Office of Science, Office of Basic Energy Sciences of the U.S. Department of Energy Contract No. DE-AC02-05CH11231
+      - Director, Office of Science, Office of Basic Energy Sciences of the U.S. Department of Energy Contract No. DE-AC02-05CH11231
   - github: sierra-moxon
     name: Sierra Moxon
     initials: sm
@@ -54,6 +56,8 @@ authors:
     affiliations:
       - Environmental Genomics and Systems Biology Division, Lawrence Berkeley National Laboratory, Berkeley, CA, 94720
     corresponding: true
+    funders:
+      - Director, Office of Science, Office of Basic Energy Sciences of the U.S. Department of Energy Contract No. DE-AC02-05CH11231
   - github: yy20716
     name: Hyeongsik Kim
     initials: HK
@@ -61,6 +65,16 @@ authors:
     email: Hyeongsik.Kim@us.bosch.com
     affiliations:
       - Robert Bosch LLC
+  - github: nomiharris
+    name: Nomi L. Harris
+    initials: NLH
+    orcid: 0000-0001-6315-3707
+    email: nlharris@lbl.gov
+    affiliations:
+      - Environmental Genomics and Systems Biology Division, Lawrence Berkeley National Laboratory, Berkeley, CA, 94720
+    corresponding: false
+    funders:
+      - Director, Office of Science, Office of Basic Energy Sciences of the U.S. Department of Energy Contract No. DE-AC02-05CH11231
   - github: cmungall
     name: Chris Mungall
     initials: CM
@@ -69,4 +83,6 @@ authors:
     affiliations:
       - Environmental Genomics and Systems Biology Division, Lawrence Berkeley National Laboratory, Berkeley, CA, 94720
     corresponding: true
+    funders:
+      - Director, Office of Science, Office of Basic Energy Sciences of the U.S. Department of Energy Contract No. DE-AC02-05CH11231
   
