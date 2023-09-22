@@ -8,7 +8,7 @@ keywords:
 - Ontologies
 - SSSOM
 lang: en-US
-date-meta: '2023-09-21'
+date-meta: '2023-09-22'
 author-meta:
 - Nicolas Matentzoglu
 - Harshad Hegde
@@ -29,11 +29,11 @@ header-includes: |
   <meta name="citation_title" content="MapperGPT: Large Language Models for Linking and Mapping Entities" />
   <meta property="og:title" content="MapperGPT: Large Language Models for Linking and Mapping Entities" />
   <meta property="twitter:title" content="MapperGPT: Large Language Models for Linking and Mapping Entities" />
-  <meta name="dc.date" content="2023-09-21" />
-  <meta name="citation_publication_date" content="2023-09-21" />
-  <meta property="article:published_time" content="2023-09-21" />
-  <meta name="dc.modified" content="2023-09-21T20:34:19+00:00" />
-  <meta property="article:modified_time" content="2023-09-21T20:34:19+00:00" />
+  <meta name="dc.date" content="2023-09-22" />
+  <meta name="citation_publication_date" content="2023-09-22" />
+  <meta property="article:published_time" content="2023-09-22" />
+  <meta name="dc.modified" content="2023-09-22T22:15:48+00:00" />
+  <meta property="article:modified_time" content="2023-09-22T22:15:48+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -70,9 +70,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://monarch-initiative.github.io/gpt-mapping-manuscript/" />
   <meta name="citation_pdf_url" content="https://monarch-initiative.github.io/gpt-mapping-manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://monarch-initiative.github.io/gpt-mapping-manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://monarch-initiative.github.io/gpt-mapping-manuscript/v/d6f96bec97cd398d90948e45bc0b01d45d9bc603/" />
-  <meta name="manubot_html_url_versioned" content="https://monarch-initiative.github.io/gpt-mapping-manuscript/v/d6f96bec97cd398d90948e45bc0b01d45d9bc603/" />
-  <meta name="manubot_pdf_url_versioned" content="https://monarch-initiative.github.io/gpt-mapping-manuscript/v/d6f96bec97cd398d90948e45bc0b01d45d9bc603/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://monarch-initiative.github.io/gpt-mapping-manuscript/v/b322d32c1fffd69fa057300eccfe73c50ac3c04f/" />
+  <meta name="manubot_html_url_versioned" content="https://monarch-initiative.github.io/gpt-mapping-manuscript/v/b322d32c1fffd69fa057300eccfe73c50ac3c04f/" />
+  <meta name="manubot_pdf_url_versioned" content="https://monarch-initiative.github.io/gpt-mapping-manuscript/v/b322d32c1fffd69fa057300eccfe73c50ac3c04f/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -94,10 +94,10 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://monarch-initiative.github.io/gpt-mapping-manuscript/v/d6f96bec97cd398d90948e45bc0b01d45d9bc603/))
+([permalink](https://monarch-initiative.github.io/gpt-mapping-manuscript/v/b322d32c1fffd69fa057300eccfe73c50ac3c04f/))
 was automatically generated
-from [monarch-initiative/gpt-mapping-manuscript@d6f96be](https://github.com/monarch-initiative/gpt-mapping-manuscript/tree/d6f96bec97cd398d90948e45bc0b01d45d9bc603)
-on September 21, 2023.
+from [monarch-initiative/gpt-mapping-manuscript@b322d32](https://github.com/monarch-initiative/gpt-mapping-manuscript/tree/b322d32c1fffd69fa057300eccfe73c50ac3c04f)
+on September 22, 2023.
 </em></small>
 
 
@@ -182,7 +182,7 @@ on September 21, 2023.
     ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
     [0000-0001-6315-3707](https://orcid.org/0000-0001-6315-3707)
     · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
-    [nomiharris](https://github.com/nomiharris)
+    [nlharris](https://github.com/nlharris)
     <br>
   <small>
      Environmental Genomics and Systems Biology Division, Lawrence Berkeley National Laboratory, Berkeley, CA, 94720
