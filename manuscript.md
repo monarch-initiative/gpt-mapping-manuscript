@@ -8,7 +8,7 @@ keywords:
 - Ontologies
 - SSSOM
 lang: en-US
-date-meta: '2023-09-22'
+date-meta: '2023-09-29'
 author-meta:
 - Nicolas Matentzoglu
 - Harshad Hegde
@@ -29,11 +29,11 @@ header-includes: |
   <meta name="citation_title" content="MapperGPT: Large Language Models for Linking and Mapping Entities" />
   <meta property="og:title" content="MapperGPT: Large Language Models for Linking and Mapping Entities" />
   <meta property="twitter:title" content="MapperGPT: Large Language Models for Linking and Mapping Entities" />
-  <meta name="dc.date" content="2023-09-22" />
-  <meta name="citation_publication_date" content="2023-09-22" />
-  <meta property="article:published_time" content="2023-09-22" />
-  <meta name="dc.modified" content="2023-09-22T22:15:48+00:00" />
-  <meta property="article:modified_time" content="2023-09-22T22:15:48+00:00" />
+  <meta name="dc.date" content="2023-09-29" />
+  <meta name="citation_publication_date" content="2023-09-29" />
+  <meta property="article:published_time" content="2023-09-29" />
+  <meta name="dc.modified" content="2023-09-29T11:53:59+00:00" />
+  <meta property="article:modified_time" content="2023-09-29T11:53:59+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -70,9 +70,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://monarch-initiative.github.io/gpt-mapping-manuscript/" />
   <meta name="citation_pdf_url" content="https://monarch-initiative.github.io/gpt-mapping-manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://monarch-initiative.github.io/gpt-mapping-manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://monarch-initiative.github.io/gpt-mapping-manuscript/v/b322d32c1fffd69fa057300eccfe73c50ac3c04f/" />
-  <meta name="manubot_html_url_versioned" content="https://monarch-initiative.github.io/gpt-mapping-manuscript/v/b322d32c1fffd69fa057300eccfe73c50ac3c04f/" />
-  <meta name="manubot_pdf_url_versioned" content="https://monarch-initiative.github.io/gpt-mapping-manuscript/v/b322d32c1fffd69fa057300eccfe73c50ac3c04f/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://monarch-initiative.github.io/gpt-mapping-manuscript/v/2d711b14f4bc30674e5e0c54ba8d4e18ad78258e/" />
+  <meta name="manubot_html_url_versioned" content="https://monarch-initiative.github.io/gpt-mapping-manuscript/v/2d711b14f4bc30674e5e0c54ba8d4e18ad78258e/" />
+  <meta name="manubot_pdf_url_versioned" content="https://monarch-initiative.github.io/gpt-mapping-manuscript/v/2d711b14f4bc30674e5e0c54ba8d4e18ad78258e/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -94,10 +94,10 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://monarch-initiative.github.io/gpt-mapping-manuscript/v/b322d32c1fffd69fa057300eccfe73c50ac3c04f/))
+([permalink](https://monarch-initiative.github.io/gpt-mapping-manuscript/v/2d711b14f4bc30674e5e0c54ba8d4e18ad78258e/))
 was automatically generated
-from [monarch-initiative/gpt-mapping-manuscript@b322d32](https://github.com/monarch-initiative/gpt-mapping-manuscript/tree/b322d32c1fffd69fa057300eccfe73c50ac3c04f)
-on September 22, 2023.
+from [monarch-initiative/gpt-mapping-manuscript@2d711b1](https://github.com/monarch-initiative/gpt-mapping-manuscript/tree/2d711b14f4bc30674e5e0c54ba8d4e18ad78258e)
+on September 29, 2023.
 </em></small>
 
 
