@@ -146,6 +146,11 @@ $(DATADIR)/curated-mondo-ncit-renal-subset.sssom.tsv: subsets/mondo-rare-renal.o
 #$(DATADIR)/curated-mondo-ncit-renal-subset.sssom.tsv:
 #	runoak -i sqlite:obo:mondo mappings .desc//p=i 'kidney disease' .and .desc//p=i 'hereditary disease' -O sssom -o $@
 
+###############################################
+############ Reports as Pivot table ###########
+###############################################
+$(RESULTDIR)/report_pivot_table.md:
+	python util/reports.py -o $@
 
 ###############################################
 ############ Ontologies #######################
